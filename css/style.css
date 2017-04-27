@@ -140,7 +140,7 @@ img.img-head {
   content: '';
   display: block;
   position: absolute; 
-  background:#039445;
+  background:#117A65;
   width:4px;
   height: 100%;
   top: 0;
@@ -1159,7 +1159,7 @@ ul.product-qty {
     width: 100%;
     height: 114px;
     display: block;
-    background: url(../images/sh.jpg)no-repeat ;
+    background-color:#1ABC9C;
     padding: 3em 0;
     background-size: cover;
 }
