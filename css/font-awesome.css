@@ -202,7 +202,9 @@
   content: "\f006";
 }
 .fa-user:before {
+  /*Elena 28/04/17 : se modifica el color del fondo del icono de login*/
   content: "\f007";
+  color: #117A65;
 }
 .fa-film:before {
   content: "\f008";
@@ -462,7 +464,9 @@
   content: "\f060";
 }
 .fa-arrow-right:before {
+  /*Elena 28/04/17 : se modifica el color del fondo del icono de registro*/
   content: "\f061";
+  color: #117A65;
 }
 .fa-arrow-up:before {
   content: "\f062";
@@ -536,7 +540,9 @@
   content: "\f079";
 }
 .fa-shopping-cart:before {
+  /* /*Elena 28/04/17 : se modifica el color del fondo del icono de carrito de la compra*/
   content: "\f07a";
+  color: #117A65;
 }
 .fa-folder:before {
   content: "\f07b";

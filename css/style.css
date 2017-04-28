@@ -184,16 +184,19 @@ img.img-head {
 	position:relative;
 }
 .logo h1 a{
+    /*Elena 28/04/17 : se modifica el color de la fuente del título principal de la página*/
     text-decoration:none;
-    color: #000;
+    color: #117A65;
 }
 .logo h1 span {
+    /*Elena 28/04/17 : se modifica el color de la fuente del subtítulo principal de la página*/
     font-size: 12px;
     display: block;
     letter-spacing: 4px;
     text-transform: uppercase;
     font-family: 'Noto Sans', sans-serif;
     padding-top: 4px;
+    color: #1ABC9C;
 }
 .logo h1  b {
     font-size: 8px;
@@ -452,6 +455,7 @@ span.fa.fa-shopping-cart.my-cart-icon {
     color: #039445;
 }
 .badge {
+    /* /*Elena 28/04/17 : se modifica el color del fondo del icono de contador de productos añadidos al carrito*/
     display: inline-block;
     width: 18px;
     height: 18px;
@@ -463,7 +467,7 @@ span.fa.fa-shopping-cart.my-cart-icon {
     text-align: center;
     white-space: nowrap;
     vertical-align: baseline;
-    background-color: #FAB005;
+    background-color: #1ABC9C;
     border-radius: 10px;
 }
 
@@ -501,15 +505,17 @@ span.fa.fa-shopping-cart.my-cart-icon {
     background: rgba(255, 255, 255, 0.45);
 }
 .search-form input[type='submit']{
-	    width: 40px;
+    /*Elena 28/04/17 : se modifica el color del fondo de el icono de búsqueda*/
+    width: 40px;
     height: 41px;
     outline: none;
     border: 1px solid #fff;
-    background: url(../images/can.png) no-repeat 6px 7px #FCCD1E;
+    background: url(../images/can.png) no-repeat 6px 7px #1ABC9C;
     display: inline-block;
 }
 .search-form input[type='submit']:hover {
-    background: url(../images/can.png) no-repeat 6px 7px #039445;
+    /*Elena 28/04/17 : se modifica el color del efecto hover sobre el icono de búsqueda*/
+    background: url(../images/can.png) no-repeat 6px 7px #117A65;
         transition: 0.5s all;
     -webkit-transition: 0.5s all;
     -moz-transition: 0.5s all;
@@ -548,10 +554,11 @@ span.fa.fa-shopping-cart.my-cart-icon {
     position: relative;
 }
 .ser-t b{
+    /*Elena 28/04/2017: Se modifica el color del subrayado decorativo de los títulos de la página*/
 	width: 100%;
     height: 2px;
     display: block;
-    background: #039445;
+    background: #117A65;
     margin-bottom: 3px;
 }
 .ser-t b.line{
@@ -568,9 +575,10 @@ span.fa.fa-shopping-cart.my-cart-icon {
     left: 42%;  
 }
 .ser-t  span i{
+    /*Elena 28/04/2017: Se modifica el color del subrayado decorativo de los títulos de la página*/
 	width: 20px;height: 20px;
     display: block;
-    border: 2px solid #039445;
+    border: 2px solid #1ABC9C;
     -webkit-transform: rotate(45deg) translate3d(0, 0, 0);
     -moz-transform: rotate(45deg) translate3d(0, 0, 0);
     -ms-transform: rotate(45deg) translate3d(0, 0, 0);
@@ -619,7 +627,9 @@ ul.nav.tabs {
 
 /*----*/
 .mid-1 h6 {
+    /*Elena 28/04/17: Se modifica el texto de cada producto para que este centrado dentro de su caja*/
     font-size: 1.2em;
+    text-align: center;
 }
 .mid-1 h6 a {
     color: #000000;
@@ -654,8 +664,9 @@ ul.nav.tabs {
 	text-align:center;
 }
 .col-m {
+    /*Se modifica el color del borde de la presentación de los productos*/
     padding: 1em;
-    border: 1px solid #B2B2B2;
+    border: 1px solid #1ABC9C;
 }
 .offer-img{
 	position:relative;
@@ -700,23 +711,25 @@ div#my-cart-empty-message {
 }
 /*--cart--*/
 .my-cart-b {
-    background: none;
-    text-decoration: none;
-    color: #029241;
-    font-size: 1em;
-    border: 2px solid #039445;
-    border-radius: 50px;
-    padding: 0.5em 1em;
-    outline: none;
+/*Elena 28/04/2017: Se modifica el color  de la del borde y el texto del botón*/
+background: none;
+text-decoration: none;
+color: #117A65;
+font-size: 1em;
+border: 2px solid #1ABC9C;
+border-radius: 50px;
+padding: 0.5em 1em;
+outline: none;
 }
 a:focus {
-    outline: thin dotted;
-    outline: none;
-    outline-offset: -2px;
+outline: thin dotted;
+outline: none;
+outline-offset: -2px;
 }
 
 /* Sweep To Bottom */
 .my-cart-b{
+
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: translateZ(0);
@@ -732,6 +745,7 @@ a:focus {
   transition-duration: 0.3s;
 }
 .my-cart-b:before {
+    /*Elena 28/04/2017: Se modifica el color  de la animación que se produce al hacer hover sobre el botón y del borde del botón*/
   content: "";
   position: absolute;
   z-index: -1;
@@ -739,7 +753,7 @@ a:focus {
   left: 0;
   right: 0;
   bottom: 0;
-  background: #039445;
+  background: #117A65;
   -webkit-transform: scaleY(0);
   transform: scaleY(0);
   -webkit-transform-origin: 50% 0;
@@ -751,12 +765,13 @@ a:focus {
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
     border-radius: 50px;
-	border: 2px solid #039445;
+	border: 2px solid #1ABC9C;
 }
 .my-cart-b:hover, .my-cart-b:focus, .my-cart-b:active {
+    /*Elena 28/04/2017: Se modifica el color  de la animación que se produce al hacer hover sobre el botón y del borde del botón*/
 	color: white;
     background: none;
-    border: 2px solid #039445;
+    border: 2px solid #117A65;
     outline: none !important;
 }
 .my-cart-b:hover:before, .my-cart-b:focus:before, .my-cart-b:active:before {
@@ -938,7 +953,7 @@ ul.product-qty {
     position: absolute;
     top: 77px;
     left: 20%;
-    border: 4px double #fff;
+    border: 4px double #48018e;
     text-align: center;
     transform: rotate(-45deg);
     width: 210px;
@@ -949,24 +964,31 @@ ul.product-qty {
 	margin: 3.5em 0 0;
 }
 .big-sale h3,.big-sa h3,.big-sale2 h3,.big-sale3 h3{
-	color:#fff;
+    /*Elena 28/04/17: Cambio color y negrita al span imagenes home para que sea legible con respecto a las imágenes de fondo*/
+	color:#4d1a7a;
 	font-size:3em;
 	margin-bottom: 0.3em;
+    font-weight: bold;
 }
 .big-sa h3{
 	margin-bottom: 0.2em;
 }
 .big-sale h3 span,.big-sa h3 span,.big-sale2 h3 span,.big-sale3 h3 span{
-	color:#FAB005;
+    /*Elena 28/04/17: Cambio color span imagenes home para que sea legible con respecto a las imágenes de fondo*/
+	color:#4bd9fc;
 }
 .big-sale p,.big-sa p,.big-sale2 p,.big-sale3 p{
-	color:#fff;
+    /*Elena:28/04/17: Cambio color letra sobre las imágenes del home para que sean legibles*/
+	color:#3d3b3d;
 	font-size:1em;
 	line-height:2em;
+    font-weight: bold;
 }
 .big-sa h6{
-	color:#fff;
-	font-size:1em;
+    /*Elena 28/04/17: Cambio color span imagenes home para que sea legible con respecto a las imágenes de fondo*/
+    font-weight: bold;
+	color: #fffaa0;
+	font-size:1.4em;
 	text-transform:uppercase;
 	letter-spacing:2px;
 }
@@ -1155,11 +1177,12 @@ ul.product-qty {
 /*-- //footer --*/
 /*--product--*/
 .banner-top{
+    /*Elena 28/04/2017: se modifica el color de fondo del banner donde se situan las migas de pan*/
 	text-align: center;
     width: 100%;
     height: 114px;
     display: block;
-    background-color:#1ABC9C;
+    background-color:#117A65;
     padding: 3em 0;
     background-size: cover;
 }
@@ -1176,7 +1199,9 @@ ul.product-qty {
 	float:right;
 }
 .banner-top h4 a{
-	color:#FAB005;
+    /*Elena 28/04/2017: Se modifica el color de las migas de pan y se añade negrita al elemento padre*/
+	color:#1ABC9C;
+    font-weight: bold;
 }
 .banner-top h4 label{
 	margin:0 0.4em;
@@ -1800,13 +1825,14 @@ a#myTabDrop1 {
     margin-bottom: 2em;
 }
 .form-w3agile h3{
-    color: #029241;
+    color: #117A65;
     font-size: 2.5em;
     text-align: center;
     margin-bottom: 1.5em;
 }
 .form-w3agile input[type="submit"] {
-    background: #fdb515;
+    /*Elena 28/04/17: Se modifica el color de fondo sobre un botón de tipo submit */
+    background: #1ABC9C;
     color: #FFFFFF;
     text-align: center;
     padding: 10px 0;
@@ -1818,7 +1844,8 @@ a#myTabDrop1 {
     margin-bottom:30px;
 }
 .form-w3agile  input[type="submit"]:hover{
-	background:#029241;
+    /*Elena 28/04/17: Se modifica el color de fondo al hacer hover sobre un botón de tipo submit */
+	background:#117A65;
 	transition:0.5s all;
 	-webkit-transition:0.5s all;
 	-moz-transition:0.5s all;
