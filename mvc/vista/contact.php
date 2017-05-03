@@ -49,7 +49,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 <!--- start-rate---->
 <script src="js/jstarbox.js"></script>
 <link rel="stylesheet" href="css/jstarbox.css" type="text/css"
-	media="screen" charset="utf-8" />
+	  media="screen" charset="utf-8" />
 <script type="text/javascript">
 	jQuery(function() {
 		jQuery('.starbox')
@@ -94,21 +94,20 @@ function hideURLbar(){ window.scrollTo(0,1); }
 
 </head>
 <body>
+<?php $val = Validacion::getInstance(); ?>
 	<div class="header">
 
 		<div class="container">
 
 			<div class="logo">
 				<h1>
-					<a href="index.html">Cereal-Break<span>The Best Snack</span></a>
+					<a href="index.php">Cereal-Break<span>The Best Snack</span></a>
 				</h1>
 			</div>
 			<div class="head-t">
 				<ul class="card">
-					<li><a href="login.html"><i class="fa fa-user"
-							aria-hidden="true"></i>Login</a></li>
-					<li><a href="register.html"><i class="fa fa-arrow-right"
-							aria-hidden="true"></i>Registro</a></li>
+					<li><a href="?pagina=login" ><i class="fa fa-user" aria-hidden="true"></i>Login</a></li>
+					<li><a href="?pagina=register" ><i class="fa fa-arrow-right" aria-hidden="true"></i>Registro</a></li>
 				</ul>
 			</div>
 			<div class="header-ri"></div>
@@ -128,18 +127,14 @@ function hideURLbar(){ window.scrollTo(0,1); }
 					</div>
 					<div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
 						<ul class="nav navbar-nav ">
-							<li><a href="index.html" class="hyper "><span>Home</span></a></li>
-
-							<li><a href="productos.html" class="hyper"><span>Productos</span></a>
-
+							<li><a href="?pagina=menu" class="hyper "><span>Home</span></a></li>
+							<li><a href="?pagina=productos" class="hyper"><span>Productos</span></a>
 							</li>
-
-							<li><a href="packs.html" class="hyper"><span>Packs
+							<li><a href="?pagina=packs" class="hyper"><span>Packs
 										especiales</span></a></li>
-
-							<li><a href="aboutus.html" class="hyper"> <span>Sobre
+							<li><a href="?pagina=aboutus" class="hyper"> <span>Sobre
 										nosotros</span></a></li>
-							<li class="active"><a href="contact.html" class="hyper"><span>Contáctanos</span></a></li>
+							<li class="active"><a href="?pagina=contact" class="hyper"><span>Contáctanos</span></a></li>
 						</ul>
 					</div>
 				</nav>
@@ -159,7 +154,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 		<div class="container">
 			<h3>Contacto</h3>
 			<h4>
-				<a href="index.html">Home</a><label>/</label>Contact
+				<a href="index.php">Home</a><label>/</label>Contact
 			</h4>
 			<div class="clearfix"></div>
 		</div>
@@ -174,30 +169,43 @@ function hideURLbar(){ window.scrollTo(0,1); }
 			</div>
 			<div class="form-w3agile">
 				<form action="" method="post">
+					<div>
+						<label class=" {{class-usuario}}" for="usuario">Usuario</label>
+						<input type="text" id="usuario" name="usuario"
+							   value='<?php echo $val->restoreValue('usuario'); ?>' >
+						<span>{{war-usuario}}</span>
+					</div>
+					<div>
+						<label class=" {{class-password}}" for="password">Password</label>
+						<input type="password" id="password" name="password"
+							   value='<?php echo $val->restoreValue('password'); ?>' >
+						<span>{{war-password}}</span>
+					</div>
+					<div>
+						<label class=" {{class-nombre}}" for="nombre">Nombre</label>
+						<input type="text" id="nom" name="nombre"
+							   value='<?php echo $val->restoreValue('nombre'); ?>' >
+						<span>{{war-nombre}}</span>
+					</div>
+					<div>
+						<label class=" {{class-apellido}}" for="apellido">Apellido</label>
+						<input type="apellido" id="apellido" name="apellido"
+							   value='<?php echo $val->restoreValue('apellido'); ?>' >
+						<span>{{war-apellido}}</span>
+					</div>
+					<div>
+						<label class=" {{class-email}}" for="email">Email</label>
+						<input type="email" id="email" name="email"
+							   value='<?php echo $val->restoreValue('email'); ?>' >
+						<span>{{war-email}}</span>
+					</div>
+			</div>
 
-					<div class="input-group">
-						<input type="text" class="form-control" placeholder="Nombre" aria-describedby="basic-addon1">
-					</div>
-					<div class="input-group">
-						<input type="text" class="form-control" size="40" placeholder="apellidos" aria-describedby="basic-addon2">
-					</div>
-					<div class="input-group">
-						<input type="email" class="form-control" size="70" placeholder="email" aria-describedby="basic-addon2">
-					</div>
-					<div class="input-group">
-						<select>
-							<option>--Seleccione una opción--</option>
-							<option>Información general</option>
-							<option>Reclamaciones</option>
-						</select>
-					</div>
-					<div class="input-group">
-						<textarea rows="10" cols="70">Escribe aquí tus comentarios</textarea>
-					</div>
-
-			<input type="submit" value="Enviar">
-
-</form>
+			<br>
+			<div>
+				<button type="submit" name="registro">Registro </i></button>
+			</div>
+			</form>
 			</div>
 	</div>
 		</div>
@@ -209,7 +217,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 			<div class="clearfix"></div>
 			<div class="footer-bottom">
 				<h2>
-					<a href="index.html">
+					<a href="?pagina=menu">
 						</b>Cereal-Break<span></span></a>
 				</h2>
 

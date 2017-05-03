@@ -7,7 +7,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE html>
 <html>
 <head>
-<title>Big store a Ecommerce Online Shopping Category Flat Bootstrap Responsive Website Template | Login :: w3layouts</title>
+<title>Registro</title>
 <!-- for-mobile-apps -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -35,7 +35,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 	});
 </script>
 <!-- start-smoth-scrolling -->
-<link href="css/font-awesome.css" rel="stylesheet"> 
+<link href="css/font-awesome.css" rel="stylesheet">
 <link href='//fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 <link href='//fonts.googleapis.com/css?family=Noto+Sans:400,700' rel='stylesheet' type='text/css'>
 <!--- start-rate---->
@@ -70,13 +70,13 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 		<div class="container">
 			<div class="logo">
 				<h1>
-					<a href="index.html">Cereal-Break<span>The Best Snack</span></a>
+					<a href="menu.php">Cereal-Break<span>The Best Snack</span></a>
 				</h1>
 			</div>
 			<div class="head-t">
 				<ul class="card">
-					<li><a href="login.html" ><i class="fa fa-user" aria-hidden="true"></i>Login</a></li>
-					<li><a href="register.html" ><i class="fa fa-arrow-right" aria-hidden="true"></i>Registro</a></li>
+					<li><a href="login.php" ><i class="fa fa-user" aria-hidden="true"></i>Login</a></li>
+					<li><a href="register.php" ><i class="fa fa-arrow-right" aria-hidden="true"></i>Registro</a></li>
 				</ul>	
 			</div>
 			<div class="header-ri"></div>
@@ -93,14 +93,14 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 					</div>
 					<div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
 						<ul class="nav navbar-nav ">
-							<li class=" active"><a href="index.html" class="hyper "><span>Home</span></a></li>
-							<li class="dropdown "><a href="productos.html" class="hyper"><span>Productos</span></a>
+							<li><a href="?pagina=menu" class="hyper "><span>Home</span></a></li>
+							<li><a href="?pagina=productos" class="hyper"><span>Productos</span></a>
 							</li>
-							<li class="dropdown"><a href="packs.html" class="hyper"><span>Packs
+							<li><a href="?pagina=packs" class="hyper"><span>Packs
 										especiales</span></a></li>
-							<li><a href="aboutus.html" class="hyper"> <span>Sobre
+							<li><a href="?pagina=aboutus" class="hyper"> <span>Sobre
 										nosotros</span></a></li>
-							<li><a href="contact.html" class="hyper"><span>Contáctanos</span></a></li>
+							<li><a href="?pagina=contact" class="hyper"><span>Contáctanos</span></a></li>
 						</ul>
 					</div>
 				</nav>
@@ -113,22 +113,28 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 		</div>
 	</div>
   <!---->
- <!--banner-->
+
+     <!--banner-->
 <div class="banner-top">
 	<div class="container">
-		<h3 >Login</h3>
-		<h4><a href="index.html">Home</a><label>/</label>Login</h4>
+		<h3 >Registro</h3>
+		<h4><a href="?pagina=menu">Home</a><label>/</label>Registro</h4>
 		<div class="clearfix"> </div>
 	</div>
 </div>
+
 <!--login-->
 
 	<div class="login">
-	
 		<div class="main-agileits">
-				<div class="form-w3agile">
-					<h3>Login</h3>
+				<div class="form-w3agile form1">
+					<h3>Registro</h3>
 					<form action="#" method="post">
+						<div class="key">
+							<i class="fa fa-user" aria-hidden="true"></i>
+							<input  type="text" value="Username" name="Username" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Username';}" required="">
+							<div class="clearfix"></div>
+						</div>
 						<div class="key">
 							<i class="fa fa-envelope" aria-hidden="true"></i>
 							<input  type="text" value="Email" name="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" required="">
@@ -139,14 +145,15 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 							<input  type="password" value="Password" name="Password" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Password';}" required="">
 							<div class="clearfix"></div>
 						</div>
-						<input type="submit" value="Login">
+						<div class="key">
+							<i class="fa fa-lock" aria-hidden="true"></i>
+							<input  type="password" value="Confirm Password" name="Confirm Password" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Confirm Password';}" required="">
+							<div class="clearfix"></div>
+						</div>
+						<input type="submit" value="Registrarse">
 					</form>
 				</div>
-				<div class="forg">
-					<a href="#" class="forg-left">Olvidé la contraseña</a>
-					<a href="register.html" class="forg-right">Registrarse</a>
-				<div class="clearfix"></div>
-				</div>
+				
 			</div>
 		</div>
 <!--footer-->
@@ -155,7 +162,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 		<div class="clearfix"></div>
 		<div class="footer-bottom">
 			<h2>
-				<a href="index.html">
+				<a href="menu.php">
 					</b>Cereal-Break<span></span></a>
 			</h2>
 

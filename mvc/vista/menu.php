@@ -48,7 +48,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 <!--- start-rate---->
 <script src="js/jstarbox.js"></script>
 <link rel="stylesheet" href="css/jstarbox.css" type="text/css"
-	media="screen" charset="utf-8" />
+	  media="screen" charset="utf-8" />
 <script type="text/javascript">
 	jQuery(function() {
 		jQuery('.starbox')
@@ -97,13 +97,13 @@ function hideURLbar(){ window.scrollTo(0,1); }
 		<div class="container">
 			<div class="logo">
 				<h1>
-					<a href="index.html">Cereal-Break<span>Experience</span></a>
+					<a href="menu.php">Cereal-Break<span>Experience</span></a>
 				</h1>
 			</div>
 			<div class="head-t">
 				<ul class="card">
-					<li><a href="login.html" ><i class="fa fa-user" aria-hidden="true"></i>Login</a></li>
-					<li><a href="register.html" ><i class="fa fa-arrow-right" aria-hidden="true"></i>Registro</a></li>
+					<li><a href="?pagina=login" ><i class="fa fa-user" aria-hidden="true"></i>Login</a></li>
+					<li><a href="?pagina=register" ><i class="fa fa-arrow-right" aria-hidden="true"></i>Registro</a></li>
 				</ul>	
 			</div>
 			<div class="header-ri"></div>
@@ -120,14 +120,14 @@ function hideURLbar(){ window.scrollTo(0,1); }
 					</div>
 					<div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
 						<ul class="nav navbar-nav ">
-							<li class=" active"><a href="index.html" class="hyper "><span>Home</span></a></li>
-							<li class="dropdown "><a href="productos.html" class="hyper"><span>Productos</span></a>
+							<li class=" active"><a href="?pagina=menu" class="hyper "><span>Home</span></a></li>
+							<li><a href="?pagina=productos" class="hyper"><span>Productos</span></a>
 							</li>
-							<li class="dropdown"><a href="packs.html" class="hyper"><span>Packs
+							<li><a href="?pagina=packs" class="hyper"><span>Packs
 										especiales</span></a></li>
-							<li><a href="aboutus.html" class="hyper"> <span>Sobre
+							<li><a href="?pagina=aboutus" class="hyper"> <span>Sobre
 										nosotros</span></a></li>
-							<li><a href="contact.html" class="hyper"><span>Contáctanos</span></a></li>
+							<li><a href="?pagina=contact" class="hyper"><span>Contáctanos</span></a></li>
 						</ul>
 					</div>
 				</nav>
@@ -143,8 +143,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 	<div data-vide-bg="video/video5">
 		<div class="container">
 			<div class="banner-info">
-				<h3>It is a long established fact that a reader will be
-					distracted by the readable</h3>
+				<h3>Tomaté un descanso y prueba nuestros deliciosos cereales</h3>
 				<div class="search-form">
 					<form action="#" method="post">
 						<input type="text" placeholder="Search..." name="Search...">
@@ -169,8 +168,8 @@ function hideURLbar(){ window.scrollTo(0,1); }
 
 			<div class="col-md-4 m-w3ls">
 				<div class="col-md1 ">
-					<a href="productos.html"> <img src="images/cer1.jpg"
-						class="img-responsive img" alt="">
+					<a href="productos.php"> <img src="images/cer1.jpg"
+												  class="img-responsive img" alt="">
 						<div class="big-sa">
 
 							<h3>
@@ -184,7 +183,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 			<div class="col-md-4 m-w3ls1">
 				<div class="col-md ">
 					<a href="hold.html"> <img src="images/lr.jpg"
-						class="img-responsive img" alt="">
+											  class="img-responsive img" alt="">
 						<div class="big-sale">
 							<div class="big-sale1">
 								<h3>
@@ -198,8 +197,8 @@ function hideURLbar(){ window.scrollTo(0,1); }
 			</div>
 			<div class="col-md-4 m-w3ls">
 				<div class="col-md2 ">
-					<a href="productos.html"> <img src="images/sirope.jpg"
-						class="img-responsive img1" alt="">
+					<a href="productos.php"> <img src="images/sirope.jpg"
+												  class="img-responsive img1" alt="">
 						<div class="big-sale2">
 							<h3>
 								#<span>toppings</span>
@@ -210,7 +209,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 				</div>
 				<div class="col-md3 ">
 					<a href="hold.html"> <img src="images/pack.jpg"
-						class="img-responsive img1" alt="">
+											  class="img-responsive img1" alt="">
 						<div class="big-sale3">
 							<h3>
 								+<span>Vendidos</span>
@@ -229,7 +228,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 			<div class="clearfix"></div>
 			<div class="footer-bottom">
 				<h2>
-					<a href="index.html">
+					<a href="menu.php">
 					</b>Cereal-Break<span></span></a>
 				</h2>
 

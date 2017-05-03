@@ -49,7 +49,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 <!--- start-rate---->
 <script src="js/jstarbox.js"></script>
 <link rel="stylesheet" href="css/jstarbox.css" type="text/css"
-	media="screen" charset="utf-8" />
+	  media="screen" charset="utf-8" />
 <script type="text/javascript">
 	jQuery(function() {
 		jQuery('.starbox')
@@ -67,16 +67,6 @@ function hideURLbar(){ window.scrollTo(0,1); }
 																.hasClass('clickonce') ? 'once'
 																: true,
 												ghosting : starbox
-														.hasClass('ghosting'),
-												autoUpdateAverage : starbox
-														.hasClass('autoupdate'),
-												buttons : starbox
-														.hasClass('smooth') ? false
-														: starbox
-																.attr('data-button-count') || 5,
-												stars : starbox
-														.attr('data-star-count') || 5
-											})
 									.bind(
 											'starbox-value-changed',
 											function(event, value) {
@@ -100,15 +90,13 @@ function hideURLbar(){ window.scrollTo(0,1); }
 
 			<div class="logo">
 				<h1>
-					<a href="index.html">Cereal-Break<span>Experience</span></a>
+					<a href="menu.php">Cereal-Break<span>Experience</span></a>
 				</h1>
 			</div>
 			<div class="head-t">
 				<ul class="card">
-					<li><a href="login.html"><i class="fa fa-user"
-							aria-hidden="true"></i>Login</a></li>
-					<li><a href="register.html"><i class="fa fa-arrow-right"
-							aria-hidden="true"></i>Registro</a></li>
+					<li><a href="?pagina=login" ><i class="fa fa-user" aria-hidden="true"></i>Login</a></li>
+					<li><a href="?pagina=register" ><i class="fa fa-arrow-right" aria-hidden="true"></i>Registro</a></li>
 				</ul>
 			</div>
 			<div class="header-ri"></div>
@@ -128,18 +116,14 @@ function hideURLbar(){ window.scrollTo(0,1); }
 					</div>
 					<div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
 						<ul class="nav navbar-nav ">
-							<li><a href="index.html" class="hyper "><span>Home</span></a></li>
-
-							<li class="active"><a href="productos.html" class="hyper"><span>Productos</span></a>
-
+							<li><a href="?pagina=menu" class="hyper "><span>Home</span></a></li>
+							<li class="active"><a href="?pagina=productos" class="hyper"><span>Productos</span></a>
 							</li>
-
-							<li><a href="packs.html" class="hyper"><span>Packs
+							<li><a href="?pagina=packs" class="hyper"><span>Packs
 										especiales</span></a></li>
-
-							<li><a href="aboutus.html" class="hyper"> <span>Sobre
+							<li><a href="?pagina=aboutus" class="hyper"> <span>Sobre
 										nosotros</span></a></li>
-							<li><a href="contact.html" class="hyper"><span>Contáctanos</span></a></li>
+							<li><a href="?pagina=contact" class="hyper"><span>Contáctanos</span></a></li>
 						</ul>
 					</div>
 				</nav>
@@ -158,7 +142,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 		<div class="container">
 			<h3>Productos</h3>
 			<h4>
-				<a href="index.html">Home</a><label>/</label>Contact
+				<a href="menu.php">Home</a><label>/</label>Contact
 			</h4>
 			<div class="clearfix"></div>
 		</div>
@@ -200,7 +184,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 									<label>4,00€</label><em class="item_price">3,00€</em>
 								</p>
 								<div class="block">
-									<div class="starbox small ghosting"></div>
+
 								</div>
 								<div class="clearfix"></div>
 							</div>
@@ -230,7 +214,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 									<label>$5.00</label><em class="item_price">$4.50</em>
 								</p>
 								<div class="block">
-									<div class="starbox small ghosting"></div>
+
 								</div>
 								<div class="clearfix"></div>
 							</div>
@@ -260,7 +244,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 									<label>$4.00</label><em class="item_price">$3.50</em>
 								</p>
 								<div class="block">
-									<div class="starbox small ghosting"></div>
+
 								</div>
 								<div class="clearfix"></div>
 							</div>
@@ -290,7 +274,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 									<label>$1.00</label><em class="item_price">$0.80</em>
 								</p>
 								<div class="block">
-									<div class="starbox small ghosting"></div>
+
 								</div>
 								<div class="clearfix"></div>
 							</div>
@@ -321,7 +305,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 									<label>$7.00</label><em class="item_price">$6.00</em>
 								</p>
 								<div class="block">
-									<div class="starbox small ghosting"></div>
+
 								</div>
 								<div class="clearfix"></div>
 							</div>
@@ -351,7 +335,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 									<label>$5.00</label><em class="item_price">$4.50</em>
 								</p>
 								<div class="block">
-									<div class="starbox small ghosting"></div>
+
 								</div>
 								<div class="clearfix"></div>
 							</div>
@@ -381,7 +365,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 									<label>$4.00</label><em class="item_price">$3.50</em>
 								</p>
 								<div class="block">
-									<div class="starbox small ghosting"></div>
+
 								</div>
 								<div class="clearfix"></div>
 							</div>
@@ -411,7 +395,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 									<label>$1.00</label><em class="item_price">$0.80</em>
 								</p>
 								<div class="block">
-									<div class="starbox small ghosting"></div>
+
 								</div>
 								<div class="clearfix"></div>
 							</div>
@@ -441,7 +425,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 									<label>$7.00</label><em class="item_price">$6.00</em>
 								</p>
 								<div class="block">
-									<div class="starbox small ghosting"></div>
+
 								</div>
 								<div class="clearfix"></div>
 							</div>
@@ -471,7 +455,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 									<label>$5.00</label><em class="item_price">$4.50</em>
 								</p>
 								<div class="block">
-									<div class="starbox small ghosting"></div>
+
 								</div>
 								<div class="clearfix"></div>
 							</div>
@@ -501,7 +485,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 									<label>$4.00</label><em class="item_price">$3.50</em>
 								</p>
 								<div class="block">
-									<div class="starbox small ghosting"></div>
+
 								</div>
 								<div class="clearfix"></div>
 							</div>
@@ -531,7 +515,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 									<label>$1.00</label><em class="item_price">$0.80</em>
 								</p>
 								<div class="block">
-									<div class="starbox small ghosting"></div>
+
 								</div>
 								<div class="clearfix"></div>
 							</div>
@@ -554,7 +538,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 			<div class="clearfix"></div>
 			<div class="footer-bottom">
 				<h2>
-					<a href="index.html">
+					<a href="menu.php">
 						</b>Cereal-Break<span></span></a>
 				</h2>
 

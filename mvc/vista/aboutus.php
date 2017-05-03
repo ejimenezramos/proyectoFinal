@@ -49,7 +49,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 <!--- start-rate---->
 <script src="js/jstarbox.js"></script>
 <link rel="stylesheet" href="css/jstarbox.css" type="text/css"
-	media="screen" charset="utf-8" />
+	  media="screen" charset="utf-8" />
 <script type="text/javascript">
 	jQuery(function() {
 		jQuery('.starbox')
@@ -100,15 +100,13 @@ function hideURLbar(){ window.scrollTo(0,1); }
 
 			<div class="logo">
 				<h1>
-					<a href="index.html">Cereal-Break<span>The Best Snack</span></a>
+					<a href="menu.php">Cereal-Break<span>The Best Snack</span></a>
 				</h1>
 			</div>
 			<div class="head-t">
 				<ul class="card">
-					<li><a href="login.html"><i class="fa fa-user"
-							aria-hidden="true"></i>Login</a></li>
-					<li><a href="register.html"><i class="fa fa-arrow-right"
-							aria-hidden="true"></i>Registro</a></li>
+					<li><a href="?pagina=login" ><i class="fa fa-user" aria-hidden="true"></i>Login</a></li>
+					<li><a href="?pagina=register" ><i class="fa fa-arrow-right" aria-hidden="true"></i>Registro</a></li>
 				</ul>
 			</div>
 			<div class="header-ri"></div>
@@ -130,19 +128,14 @@ function hideURLbar(){ window.scrollTo(0,1); }
 					</div>
 					<div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
 						<ul class="nav navbar-nav ">
-							<li><a href="index.html" class="hyper "><span>Home</span></a></li>
-
-							<li><a href="productos.html" class="hyper"><span>Productos</span></a>
-
+							<li><a href="?pagina=menu" class="hyper "><span>Home</span></a></li>
+							<li><a href="?pagina=productos" class="hyper"><span>Productos</span></a>
 							</li>
-
-							<li><a href="packs.html" class="hyper"><span>Packs
+							<li><a href="?pagina=packs" class="hyper"><span>Packs
 										especiales</span></a></li>
-
-							<li class="active"><a href="aboutus.html" class="hyper">
-									<span>Sobre nosotros</span>
-							</a></li>
-							<li><a href="contact.html" class="hyper"><span>Contáctanos</span></a></li>
+							<li class="active"><a href="?pagina=aboutus" class="hyper"> <span>Sobre
+										nosotros</span></a></li>
+							<li><a href="?pagina=contact" class="hyper"><span>Contáctanos</span></a></li>
 						</ul>
 					</div>
 				</nav>
@@ -162,7 +155,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 		<div class="container">
 			<h3>Sobre nosotros</h3>
 			<h4>
-				<a href="index.html">Home</a><label>/</label>Codes
+				<a href="menu.php">Home</a><label>/</label>Codes
 			</h4>
 			<div class="clearfix"></div>
 		</div>
@@ -934,7 +927,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 			<div class="clearfix"></div>
 			<div class="footer-bottom">
 				<h2>
-					<a href="index.html">
+					<a href="menu.php">
 						</b>Cereal-Break<span></span></a>
 				</h2>
 
