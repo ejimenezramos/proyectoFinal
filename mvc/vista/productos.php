@@ -26,6 +26,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 <link href="css/style.css" rel='stylesheet' type='text/css' />
 <!-- js -->
 <script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/productos.js"></script>
 <!-- //js -->
 <!-- start-smoth-scrolling -->
 <script type="text/javascript" src="js/move-top.js"></script>
@@ -46,41 +47,6 @@ function hideURLbar(){ window.scrollTo(0,1); }
 	rel='stylesheet' type='text/css'>
 <link href='//fonts.googleapis.com/css?family=Noto+Sans:400,700'
 	rel='stylesheet' type='text/css'>
-<!--- start-rate---->
-<script src="js/jstarbox.js"></script>
-<link rel="stylesheet" href="css/jstarbox.css" type="text/css"
-	  media="screen" charset="utf-8" />
-<script type="text/javascript">
-	jQuery(function() {
-		jQuery('.starbox')
-				.each(
-						function() {
-							var starbox = jQuery(this);
-							starbox
-									.starbox(
-											{
-												average : starbox
-														.attr('data-start-value'),
-												changeable : starbox
-														.hasClass('unchangeable') ? false
-														: starbox
-																.hasClass('clickonce') ? 'once'
-																: true,
-												ghosting : starbox
-									.bind(
-											'starbox-value-changed',
-											function(event, value) {
-												if (starbox.hasClass('random')) {
-													var val = Math.random();
-													starbox.next().text(
-															' ' + val);
-													return val;
-												}
-											})
-						});
-	});
-</script>
-<!---//End-rate---->
 
 </head>
 <body>
@@ -155,12 +121,12 @@ function hideURLbar(){ window.scrollTo(0,1); }
 				<h4>Selecciona un producto</h4>
 			</div>
 			<div class="spec">
-				<select id="productos">
+				<select id="prod" name="productos">
 					<label>Productos</label>
-					<option value="cereales">--Todos los productos--</option>
-					<option value="cereales">Cereales</option>
-					<option value="leche">Leche</option>
-					<option value="toppings">Toppings</option>
+					<option id="todos" value="0">--Todos los productos--</option>
+					<option id="cereales" value="1">Cereales</option>
+					<option id="leche" value="2">Leche</option>
+					<option id="toppings" value="3">Toppings</option>
 				</select>
 				<div>
 					<b></b> <span><i></i></span> <b class="line"></b>
@@ -1176,4 +1142,5 @@ function hideURLbar(){ window.scrollTo(0,1); }
 	</div>
 
 </body>
+
 </html>

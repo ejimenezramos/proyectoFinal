@@ -169,41 +169,44 @@ function hideURLbar(){ window.scrollTo(0,1); }
 			</div>
 			<div class="form-w3agile">
 				<form action="" method="post">
-					<div>
-						<label class=" {{class-usuario}}" for="usuario">Usuario</label>
-						<input type="text" id="usuario" name="usuario"
-							   value='<?php echo $val->restoreValue('usuario'); ?>' >
-						<span>{{war-usuario}}</span>
-					</div>
-					<div>
-						<label class=" {{class-password}}" for="password">Password</label>
-						<input type="password" id="password" name="password"
-							   value='<?php echo $val->restoreValue('password'); ?>' >
-						<span>{{war-password}}</span>
-					</div>
-					<div>
-						<label class=" {{class-nombre}}" for="nombre">Nombre</label>
-						<input type="text" id="nom" name="nombre"
+				<div class="input-group formaterrors">{{errores}}</div>
+					<div class="input-group">
+						<label for="nombre">Nombre</label>
+						<input type="text" id="nombre" name="nombre" required="required" maxlength="20" oninvalid="this.value='';setCustomValidity('El campo nombre sólo admite hasta 20 caracteres no numéricos')" pattern="^\D{1,20}$"
 							   value='<?php echo $val->restoreValue('nombre'); ?>' >
-						<span>{{war-nombre}}</span>
+						<div><span class="has-warning">{{war-nombre}}</span></div>
 					</div>
-					<div>
-						<label class=" {{class-apellido}}" for="apellido">Apellido</label>
-						<input type="apellido" id="apellido" name="apellido"
+					<div class="input-group">
+						<label for="apellido">Apellido</label>
+						<input type="text" id="apellido" name="apellido"
 							   value='<?php echo $val->restoreValue('apellido'); ?>' >
-						<span>{{war-apellido}}</span>
+						<div><span class="has-warning">{{war-apellido}}</span></div>
 					</div>
-					<div>
-						<label class=" {{class-email}}" for="email">Email</label>
+					<div class="input-group">
+						<label for="email">Email</label>
 						<input type="email" id="email" name="email"
 							   value='<?php echo $val->restoreValue('email'); ?>' >
-						<span>{{war-email}}</span>
+						<div><span class="has-warning">{{war-email}}</span></div>
+					</div>
+					<div class="input-group">
+						<div><label for="consulta">Tipo de consulta</label></div>
+						<select name="consulta" value="consulta" >
+							<option value="info"  <?php echo $val->restoreSelectInd('consulta','info');?> >Información</option>
+							<option value="reclamacion"  <?php echo $val->restoreSelectInd('consulta','reclamacion');?>>Reclamaciones</option>
+							<option value="presupuesto"  <?php echo $val->restoreSelectInd('consulta','presupuesto');?>>Presupuesto grandes empresas</option>
+						</select>
+						<div><span class="has-warning">{{war-consulta}}</span></div>
+					</div>
+					<div class="input-group">
+						<label for="area">Escribe aquí cualquier comentario</label><br>
+						<textarea cols="60" rows="10" name="area" ><?php echo $val->restoreValue('area'); ?></textarea>
+						<div><span class="has-warning">{{war-area}}</span></div>
 					</div>
 			</div>
 
 			<br>
 			<div>
-				<button type="submit" name="registro">Registro </i></button>
+				<button type="submit" name="enviar">Enviar</button>
 			</div>
 			</form>
 			</div>
@@ -217,7 +220,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 			<div class="clearfix"></div>
 			<div class="footer-bottom">
 				<h2>
-					<a href="?pagina=menu">
+					<a href="index.php">
 						</b>Cereal-Break<span></span></a>
 				</h2>
 

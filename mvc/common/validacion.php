@@ -66,33 +66,33 @@ class Validacion extends padre {
     public function getStrRule($rule) {
         switch ($rule) {
 // solo hay una posible coincidencia, pero ya añadiremeos más
-            case 'alpha_space': return 'Solo puede contener letras (a-z) y espacios en blanco';
+            case 'alpha_space': return ' *Solo puede contener letras (a-z) y espacios en blanco';
                 break;
             case 'numeric':
-                return 'Solo puede contener 3 dígitos'
+                return ' *Solo puede contener 3 dígitos'
                         . '';
                 break;
             case 'foto' : return $this->_errorFoto;
                 break;
             case 'contraseña':
-                return 'Las contraseñas no coinciden';
+                return ' *Las contraseñas no coinciden';
                 break;
             case 'email':
-                return 'El email debe contener @ y .es/.com';
+                return ' *El email debe contener @ y .es/.com';
                 break;
             case 'duplicate':
-                return 'El dni ya existe en la base de datos';
+                return ' *El dni ya existe en la base de datos';
                 break;
             case 'dni':
-                return 'El formato del dni deben ser 8 dígitos y una letra';
+                return ' *El formato del dni deben ser 8 dígitos y una letra';
                 break;
             case 'alphanum_space':
-                return 'sólo caracteres alfanuméricos por favor';
+                return ' *sólo caracteres alfanuméricos por favor';
                   case 'repeated':
-                return 'El teléfono 2 no puede sere igual que el uno';
+                return ' *El teléfono 2 no puede sere igual que el uno';
                       break;
                     case 'tel':
-                return 'El formato teléfono debe tener 9 números';
+                return ' *El formato teléfono debe tener 9 números';
                       break;
                   
                   

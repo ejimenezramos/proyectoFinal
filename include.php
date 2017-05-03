@@ -20,6 +20,6 @@ foreach ($Regex as $key => $item)
 $Directory = new RecursiveDirectoryIterator(dirname(__FILE__));
 $Iterator = new RecursiveIteratorIterator($Directory);
 $Regex = new RegexIterator($Iterator, '/^.+\.php$/i', RecursiveRegexIterator::GET_MATCH);
-foreach ($Regex as $key => $item)
-    if (!contains('index', $key) && !contains('include', $key) && !contains('vista', $key))
+foreach($Regex as $key => $item)
+    if (!contains('index', $key) && !contains('include', $key) && !contains('vista', $key) && !contains('requests', $key))
         require_once $key;

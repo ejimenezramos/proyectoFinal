@@ -116,7 +116,7 @@ textarea {
   margin: 0;
   font: inherit;
   color: inherit;
-  border: 1px solid #117A65;
+  border: 1px solid #1ABC9C;
 }
 button {
   overflow: visible;
@@ -1649,10 +1649,12 @@ legend {
   border: 0;
   border-bottom: 1px solid #e5e5e5;
 }
+/*Elena 03/05/17 Añadimos padding para crear un espacio entre los labels del formulario de contacto y los input*/
 label {
   display: inline-block;
   margin-bottom: 5px;
   font-weight: bold;
+padding-right: 1em;
 }
 input[type="search"] {
   -webkit-box-sizing: border-box;
