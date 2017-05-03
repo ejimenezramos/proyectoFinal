@@ -171,21 +171,27 @@ function hideURLbar(){ window.scrollTo(0,1); }
 				<form action="" method="post">
 				<div class="input-group formaterrors">{{errores}}</div>
 					<div class="input-group">
-						<label for="nombre">Nombre</label>
+						<label for="nombre"><span class="has-warning">*</span> Nombre</label>
 						<input type="text" id="nombre" name="nombre" required="required" maxlength="20" oninvalid="this.value='';setCustomValidity('El campo nombre sólo admite hasta 20 caracteres no numéricos')" pattern="^\D{1,20}$"
 							   value='<?php echo $val->restoreValue('nombre'); ?>' >
 						<div><span class="has-warning">{{war-nombre}}</span></div>
 					</div>
 					<div class="input-group">
-						<label for="apellido">Apellido</label>
-						<input type="text" id="apellido" name="apellido"
+						<label for="apellido"><span class="has-warning">*</span> Apellido 1</label>
+						<input type="text" id="apellido" name="apellido" required="required" oninvalid="this.value='';setCustomValidity('El campo apellidos sólo admite hasta 20 caracteres no numéricos')" pattern="^\D{1,20}$"
 							   value='<?php echo $val->restoreValue('apellido'); ?>' >
 						<div><span class="has-warning">{{war-apellido}}</span></div>
 					</div>
 					<div class="input-group">
-						<label for="email">Email</label>
+						<label for="apellido2">Apellido 2</label>
+						<input type="text" id="apellido2" name="apellido2" oninvalid="this.value='';setCustomValidity('El campo apellidos sólo admite hasta 20 caracteres no numéricos')" pattern="^\D{1,20}$"
+							   value='<?php echo $val->restoreValue('apellido2'); ?>' >
+						<div><span class="has-warning">{{war-apellido2}}</span></div>
+					</div>
+					<div class="input-group">
+						<label for="email"><span class="has-warning">*</span>Email</label>
 						<input type="email" id="email" name="email"
-							   value='<?php echo $val->restoreValue('email'); ?>' >
+							   value='<?php echo $val->restoreValue('email'); ?>' required="required" oninvalid="this.value='';setCustomValidity('El campo email debe cumplir el siguiente formato: example@example.com')">
 						<div><span class="has-warning">{{war-email}}</span></div>
 					</div>
 					<div class="input-group">
