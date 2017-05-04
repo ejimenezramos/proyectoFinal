@@ -317,8 +317,16 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+/*PABLO: nueva clase para aplicar un opacity solo a las imagenes del home*/
+.img-home{
+  display: block;
+  max-width: 100%;
+  height: auto;
   opacity: 0.6;
 }
+
 .img-rounded {
   border-radius: 6px;
 }
@@ -1654,7 +1662,7 @@ label {
   display: inline-block;
   margin-bottom: 5px;
   font-weight: bold;
-  padding-right: 1em;
+padding-right: 1em;
 }
 input[type="search"] {
   -webkit-box-sizing: border-box;

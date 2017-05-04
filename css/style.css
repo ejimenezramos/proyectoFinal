@@ -1015,6 +1015,10 @@ ul.product-qty {
 .content-mid {
     padding: 6em 0;
 }
+/*PABLO: clase para dar tamaño al contenedor del texto del main del menu*/
+.content-mid2 {
+    padding: 3em 0;
+}
 /*--content-mid--*/
 .product {
 	padding:8em 0 6em;
