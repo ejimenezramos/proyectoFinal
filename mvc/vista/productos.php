@@ -26,7 +26,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 <link href="css/style.css" rel='stylesheet' type='text/css' />
 <!-- js -->
 <script src="js/jquery-1.11.1.min.js"></script>
-<script src="js/productos.js"></script>
+<script src="js/jquery.productos.js"></script>
 <!-- //js -->
 <!-- start-smoth-scrolling -->
 <script type="text/javascript" src="js/move-top.js"></script>
@@ -166,7 +166,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 				<div class="col-md-3 pro-1">
 					<div class="col-m">
 						<a href="#" data-toggle="modal" data-target="#myModal2"
-							class="offer-img"> <img src="images/of25.png"
+							class="offer-img"> <img src="images/lucky.jpg"
 							class="img-responsive" alt="">
 						</a>
 						<div class="mid-1">

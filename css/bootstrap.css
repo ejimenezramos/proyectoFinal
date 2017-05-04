@@ -1654,7 +1654,7 @@ label {
   display: inline-block;
   margin-bottom: 5px;
   font-weight: bold;
-padding-right: 1em;
+  padding-right: 1em;
 }
 input[type="search"] {
   -webkit-box-sizing: border-box;

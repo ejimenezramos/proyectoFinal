@@ -26,6 +26,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 <link href="css/style.css" rel='stylesheet' type='text/css' />
 <!-- js -->
 <script src="js/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="js/contacto.js"></script>
 <!-- //js -->
 <!-- start-smoth-scrolling -->
 <script type="text/javascript" src="js/move-top.js"></script>
@@ -168,7 +169,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 				<h4>Introduce tus datos en el formulario</h4>
 			</div>
 			<div class="form-w3agile">
-				<form action="" method="post">
+				<form action="" method="post" onsubmit="return validarDatos()">
 				<div class="input-group formaterrors">{{errores}}</div>
 					<div class="input-group">
 						<label for="nombre"><span class="has-warning">*</span> Nombre</label>
@@ -195,24 +196,26 @@ function hideURLbar(){ window.scrollTo(0,1); }
 						<div><span class="has-warning">{{war-email}}</span></div>
 					</div>
 					<div class="input-group">
-						<div><label for="consulta">Tipo de consulta</label></div>
-						<select name="consulta" value="consulta" >
+						<label for="consulta">Tipo de consulta</label>
+						<select name="consulta" value="consulta">
+							<option value="seleccion"  <?php echo $val->restoreSelectInd('consulta','seleccion');?> >--Selecciona un tipo de consulta--</option>
 							<option value="info"  <?php echo $val->restoreSelectInd('consulta','info');?> >Información</option>
 							<option value="reclamacion"  <?php echo $val->restoreSelectInd('consulta','reclamacion');?>>Reclamaciones</option>
 							<option value="presupuesto"  <?php echo $val->restoreSelectInd('consulta','presupuesto');?>>Presupuesto grandes empresas</option>
 						</select>
+
 						<div><span class="has-warning">{{war-consulta}}</span></div>
 					</div>
 					<div class="input-group">
 						<label for="area">Escribe aquí cualquier comentario</label><br>
-						<textarea cols="60" rows="10" name="area" ><?php echo $val->restoreValue('area'); ?></textarea>
+						<textarea required="required" oninvalid="setCustomValidity('El área de texto debe tener contenido')"" cols="60" rows="10" name="area" ><?php echo $val->restoreValue('area'); ?></textarea>
 						<div><span class="has-warning">{{war-area}}</span></div>
 					</div>
 			</div>
 
 			<br>
 			<div>
-				<button type="submit" name="enviar">Enviar</button>
+				<input value="enviar" type="submit" name="enviar">
 			</div>
 			</form>
 			</div>
