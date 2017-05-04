@@ -101,7 +101,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 
 			<div class="logo">
 				<h1>
-					<a href="index.php">Cereal-Break<span>The Best Snack</span></a>
+					<a href="?pagina=home">Cereal-Break<span>Experience</span></a>
 				</h1>
 			</div>
 			<div class="head-t">
@@ -127,7 +127,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 					</div>
 					<div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
 						<ul class="nav navbar-nav ">
-							<li><a href="?pagina=menu" class="hyper "><span>Home</span></a></li>
+							<li><a href="?pagina=home" class="hyper "><span>Home</span></a></li>
 							<li><a href="?pagina=productos" class="hyper"><span>Productos</span></a>
 							</li>
 							<li><a href="?pagina=packs" class="hyper"><span>Packs
@@ -154,7 +154,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 		<div class="container">
 			<h3>Contacto</h3>
 			<h4>
-				<a href="index.php">Home</a><label>/</label>Contact
+				<a href="?pagina=home">Home</a><label>/</label>Contact
 			</h4>
 			<div class="clearfix"></div>
 		</div>

@@ -1,7 +1,7 @@
 <?php
 
 // General
-define('VISTA_PORDEFECTO', 'menu');
+define('VISTA_PORDEFECTO', 'home');
 // Directorios
 define('PAGE_PATH', dirname(__FILE__));
 define('VISTAS_PATH', PAGE_PATH . '/mvc/vista/');
