@@ -7,7 +7,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE html>
 <html>
 <head>
-<title>Cereal-Break | | Experience</title>
+<title>Cereal-Mix</title>
 <!-- for-mobile-apps -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -97,7 +97,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 		<div class="container">
 			<div class="logo">
 				<h1>
-					<a href="?pagina=home">Cereal-Break<span>Experience</span></a>
+					<a href="menu.php">Cereal-Break<span>Experience</span></a>
 				</h1>
 			</div>
 			<div class="head-t">
@@ -120,7 +120,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 					</div>
 					<div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
 						<ul class="nav navbar-nav ">
-							<li class=" active"><a href="?pagina=home" class="hyper "><span>Home</span></a></li>
+							<li class=" active"><a href="?pagina=menu" class="hyper "><span>Home</span></a></li>
 							<li><a href="?pagina=productos" class="hyper"><span>Productos</span></a>
 							</li>
 							<li><a href="?pagina=packs" class="hyper"><span>Packs
@@ -162,20 +162,19 @@ function hideURLbar(){ window.scrollTo(0,1); }
 	<script src="js/jquery.vide.min.js"></script>
 
 
-	<!--content-->
+	<!--content 1-->
 	<div class="content-mid">
 		<div class="container">
 
 			<div class="col-md-4 m-w3ls">
 				<div class="col-md1 ">
 					<a href="productos.php"> <img src="images/cer1.jpg"
-												  class="img-responsive img" alt="">
+												  class="img-home img" alt="">
 						<div class="big-sa">
-
 							<h3>
 								Frutas<span>exp</span>
 							</h3>
-							<p>Prueba nuestros nuevos sabores frutales</p>
+							<!-- <p>Prueba nuestros nuevos sabores frutales</p>-->
 						</div>
 					</a>
 				</div>
@@ -183,13 +182,13 @@ function hideURLbar(){ window.scrollTo(0,1); }
 			<div class="col-md-4 m-w3ls1">
 				<div class="col-md ">
 					<a href="hold.html"> <img src="images/lr.jpg"
-											  class="img-responsive img" alt="">
+											  class="img-home  img" alt="">
 						<div class="big-sale">
 							<div class="big-sale1">
 								<h3>
 									Color<span>Milk</span>
 								</h3>
-								<p>Colorea tu desayuno de una manera diferente</p>
+								<!--  <p>Colorea tu desayuno de una manera diferente</p>-->
 							</div>
 						</div>
 					</a>
@@ -198,23 +197,22 @@ function hideURLbar(){ window.scrollTo(0,1); }
 			<div class="col-md-4 m-w3ls">
 				<div class="col-md2 ">
 					<a href="productos.php"> <img src="images/sirope.jpg"
-												  class="img-responsive img1" alt="">
+												  class="img-home  img1" alt="">
 						<div class="big-sale2">
 							<h3>
 								#<span>toppings</span>
 							</h3>
-							<p>Añadele un topping</p>
 						</div>
 					</a>
 				</div>
 				<div class="col-md3 ">
 					<a href="hold.html"> <img src="images/pack.jpg"
-											  class="img-responsive img1" alt="">
+											  class="img-home  img1" alt="">
 						<div class="big-sale3">
 							<h3>
 								+<span>Vendidos</span>
 							</h3>
-							<p>Dejate asesorar por nuestros seguidores</p>
+							<!--<p>Dejate asesorar por nuestros seguidores</p>-->
 						</div>
 					</a>
 				</div>
@@ -222,13 +220,49 @@ function hideURLbar(){ window.scrollTo(0,1); }
 			<div class="clearfix"></div>
 		</div>
 	</div>
+	
+<!-- content 2  PABLO: nuevo contenedor para los textos-->
+	<div class="content-mid2">
+		<div class="container">
+
+			<div class="col-md-4 m-w3ls">
+				<div class="col-md1 ">
+					<a href="productos.php"> 
+						<p>Prueba nuestros nuevos sabores frutales</p>
+					</a>
+				</div>
+			</div>
+			<div class="col-md-4 m-w3ls1">
+				<div class="col-md ">
+					<a href="hold.html"> 
+						<p>Colorea tu desayuno de una manera diferente</p>
+					</a>
+				</div>
+			</div>
+			<div class="col-md-4 m-w3ls">
+				<div class="col-md2 ">
+					<a href="productos.php"> 
+							<p>Añadele un topping</p>
+					</a>
+					<a href="hold.html"> 		
+							<p>Dejate asesorar por nuestros seguidores</p>
+					</a>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+	
+	
+	
+	
 	<!--footer-->
 	<div class="footer">
 		<div class="container">
 			<div class="clearfix"></div>
 			<div class="footer-bottom">
 				<h2>
-					<a href="home.php">
+					<a href="menu.php">
 					</b>Cereal-Break<span></span></a>
 				</h2>
 
