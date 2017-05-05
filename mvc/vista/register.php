@@ -70,13 +70,13 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 		<div class="container">
 			<div class="logo">
 				<h1>
-					<a href="?pagina=home">Cereal-Break<span>The Best Snack</span></a>
+					<a href="?pagina=home">Cereal-Break<span>Experience</span></a>
 				</h1>
 			</div>
 			<div class="head-t">
 				<ul class="card">
-					<li><a href="login.php" ><i class="fa fa-user" aria-hidden="true"></i>Login</a></li>
-					<li><a href="register.php" ><i class="fa fa-arrow-right" aria-hidden="true"></i>Registro</a></li>
+					<li><a href="?pagina=login" ><i class="fa fa-user" aria-hidden="true"></i>Login</a></li>
+					<li class="active"><a href="?pagina=register" ><i class="fa fa-arrow-right" aria-hidden="true"></i>Registro</a></li>
 				</ul>	
 			</div>
 			<div class="header-ri"></div>
@@ -93,10 +93,10 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 					</div>
 					<div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
 						<ul class="nav navbar-nav ">
-							<li><a href="?pagina=home" class="hyper "><span>Home</span></a></li>
-							<li><a href="?pagina=productos" class="hyper"><span>Productos</span></a>
+							<li class="active"><a href="?pagina=home" class="hyper "><span>Home</span></a></li>
+							<li class="dropdown "><a href="?pagina=productos"" class="hyper"><span>Productos</span></a>
 							</li>
-							<li><a href="?pagina=packs" class="hyper"><span>Packs
+							<li class="dropdown"><a href="?pagina=packs"" class="hyper"><span>Packs
 										especiales</span></a></li>
 							<li><a href="?pagina=aboutus" class="hyper"> <span>Sobre
 										nosotros</span></a></li>
