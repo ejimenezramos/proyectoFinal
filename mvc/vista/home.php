@@ -7,7 +7,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE html>
 <html>
 <head>
-<title>Cereal-Break ||</title>
+<title>Cereal-Mix</title>
 <!-- for-mobile-apps -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -97,7 +97,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 		<div class="container">
 			<div class="logo">
 				<h1>
-					<a href="home.php">Cereal-Break<span>Experience</span></a>
+					<a href="?pagina=home">Cereal-Break<span>Experience</span></a>
 				</h1>
 			</div>
 			<div class="head-t">
@@ -165,7 +165,6 @@ function hideURLbar(){ window.scrollTo(0,1); }
 	<!--content 1-->
 	<div class="content-mid">
 		<div class="container">
-
 			<div class="col-md-4 m-w3ls">
 				<div class="col-md1 ">
 					<a href="productos.php"> <img src="images/cer1.jpg"
@@ -178,6 +177,9 @@ function hideURLbar(){ window.scrollTo(0,1); }
 						</div>
 					</a>
 				</div>
+				<div class="col-md1 content-mid2">
+					<p>Prueba nuestros nuevos sabores frutales</p>
+				</div>
 			</div>
 			<div class="col-md-4 m-w3ls1">
 				<div class="col-md ">
@@ -188,10 +190,12 @@ function hideURLbar(){ window.scrollTo(0,1); }
 								<h3>
 									Color<span>Milk</span>
 								</h3>
-								<!--  <p>Colorea tu desayuno de una manera diferente</p>-->
 							</div>
 						</div>
 					</a>
+				</div>
+				<div class="col-md1 content-mid2">
+					<p>Colorea tu desayuno de una manera diferente</p>
 				</div>
 			</div>
 			<div class="col-md-4 m-w3ls">
@@ -212,17 +216,20 @@ function hideURLbar(){ window.scrollTo(0,1); }
 							<h3>
 								+<span>Vendidos</span>
 							</h3>
-							<!--<p>Dejate asesorar por nuestros seguidores</p>-->
 						</div>
 					</a>
+				</div>
+				<div class="col-md1 content-mid2">
+					<p>Dejate asesorar por nuestros seguidores</p>
 				</div>
 			</div>
 			<div class="clearfix"></div>
 		</div>
 	</div>
 	
+	
 <!-- content 2  PABLO: nuevo contenedor para los textos-->
-	<div class="content-mid2">
+	<!--  <div class="content-mid2">
 		<div class="container">
 
 			<div class="col-md-4 m-w3ls">
@@ -251,7 +258,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 			</div>
 			<div class="clearfix"></div>
 		</div>
-	</div>
+	</div>-->
 	
 	
 	
