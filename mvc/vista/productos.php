@@ -136,13 +136,13 @@ function hideURLbar(){ window.scrollTo(0,1); }
 				<div class="col-md-3 pro-1">
 					<div class="col-m">
 						<a href="#" data-toggle="modal" data-target="#myModal1"
-							class="offer-img"> <img src="images/frootloops.jpg"
+							class="offer-img"> <img src="images/boxcheerios.png"
 							class="img-responsive" alt="">
 						</a>
 						<div class="mid-1">
 							<div class="women">
 								<h6>
-									<a href="single.html">Froot Loops</a>(250 g)
+									<a href="single.html">Cheerios</a>(250 g)
 								</h6>
 							</div>
 							<div class="mid-2">
@@ -166,13 +166,13 @@ function hideURLbar(){ window.scrollTo(0,1); }
 				<div class="col-md-3 pro-1">
 					<div class="col-m">
 						<a href="#" data-toggle="modal" data-target="#myModal2"
-							class="offer-img"> <img src="images/lucky.jpg"
+							class="offer-img"> <img src="images/boxreeses.png"
 							class="img-responsive" alt="">
 						</a>
 						<div class="mid-1">
 							<div class="women">
 								<h6>
-									<a href="single.html"> Peach Halves</a>(250 g)
+									<a href="single.html"> Cocoa Puffs</a>(250 g)
 								</h6>
 							</div>
 							<div class="mid-2">
@@ -196,13 +196,13 @@ function hideURLbar(){ window.scrollTo(0,1); }
 				<div class="col-md-3 pro-1">
 					<div class="col-m">
 						<a href="#" data-toggle="modal" data-target="#myModal3"
-							class="offer-img"> <img src="images/of26.png"
+							class="offer-img"> <img src="images/boxcinnamon.png"
 							class="img-responsive" alt="">
 						</a>
 						<div class="mid-1">
 							<div class="women">
 								<h6>
-									<a href="single.html">Banana</a>(1 kg)
+									<a href="single.html">Cinnamon Crunch</a>(1 kg)
 								</h6>
 							</div>
 							<div class="mid-2">
@@ -226,7 +226,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 				<div class="col-md-3 pro-1">
 					<div class="col-m">
 						<a href="#" data-toggle="modal" data-target="#myModal4"
-							class="offer-img"> <img src="images/of27.png"
+							class="offer-img"> <img src="images/boxfroot.png"
 							class="img-responsive" alt="">
 						</a>
 						<div class="mid-1">
@@ -257,7 +257,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 				<div class="col-md-3 pro-1">
 					<div class="col-m">
 						<a href="#" data-toggle="modal" data-target="#myModal5"
-							class="offer-img"> <img src="images/of28.png"
+							class="offer-img"> <img src="images/boxlucky.png"
 							class="img-responsive" alt="">
 						</a>
 						<div class="mid-1">
@@ -287,7 +287,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 				<div class="col-md-3 pro-1">
 					<div class="col-m">
 						<a href="#" data-toggle="modal" data-target="#myModal6"
-							class="offer-img"> <img src="images/of29.png"
+							class="offer-img"> <img src="images/boxtrix.png"
 							class="img-responsive" alt="">
 						</a>
 						<div class="mid-1">
