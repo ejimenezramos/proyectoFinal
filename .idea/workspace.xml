@@ -31,12 +31,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="register.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="register.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mvc/vista/register.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="181" column="13" selection-start-line="181" selection-start-column="13" selection-end-line="181" selection-end-column="13" />
+            <state relative-caret-position="829">
+              <caret line="177" column="22" selection-start-line="177" selection-start-column="22" selection-end-line="177" selection-end-column="22" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="registro.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/registro.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+              <folding>
+                <element signature="n#!!doc;n#validate#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -114,10 +126,10 @@
         <option value="$PROJECT_DIR$/mvc/vista/login.php" />
         <option value="$PROJECT_DIR$/js/Registro.js" />
         <option value="$PROJECT_DIR$/css/font-awesome.css" />
-        <option value="$PROJECT_DIR$/js/registro.js" />
         <option value="$PROJECT_DIR$/mvc/vista/register.php" />
         <option value="$PROJECT_DIR$/mvc/vista/home.php" />
         <option value="$PROJECT_DIR$/mvc/vista/menu.php" />
+        <option value="$PROJECT_DIR$/js/registro.js" />
       </list>
     </option>
   </component>
@@ -324,15 +336,15 @@
       <workItem from="1493906380367" duration="1008000" />
       <workItem from="1493967639379" duration="1878000" />
       <workItem from="1493995638692" duration="4356000" />
-      <workItem from="1494232078051" duration="13941000" />
+      <workItem from="1494232078051" duration="14413000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47283000" />
+    <option name="totallyTimeSpent" value="47755000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="1" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24304539" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -585,16 +597,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/registro.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#50#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mvc/vista/aboutus.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="183">
@@ -653,9 +655,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mvc/vista/register.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="181" column="13" selection-start-line="181" selection-start-column="13" selection-end-line="181" selection-end-column="13" />
+        <state relative-caret-position="829">
+          <caret line="177" column="22" selection-start-line="177" selection-start-column="22" selection-end-line="177" selection-end-column="22" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/registro.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+          <folding>
+            <element signature="n#!!doc;n#validate#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
