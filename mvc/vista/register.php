@@ -133,12 +133,12 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 					<form action="#" method="post" id="registro">
 						<div class="key">
 							<i class="fa fa-user" aria-hidden="true"></i>
-							<input  type="text" value="nombre" name="nombre" id="nombre" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'nombre';}" required="required" maxlength="20" oninvalid="this.value='';setCustomValidity('El campo nombre sólo admite hasta 20 caracteres no numéricos')" pattern="^\D{1,20}$">
+							<input  type="text" placeholder="Nombre" name="nombre" id="nombre" required="required" maxlength="20" oninvalid="this.value='';setCustomValidity('El campo nombre sólo admite hasta 20 caracteres no numéricos')" pattern="[a-zA-Z\s]{1,20}">
 							<div class="clearfix"></div>
 						</div>
 						<div class="key">
 							<i class="fa fa-user" aria-hidden="true"></i>
-							<input  type="text" value="apellidos" name="apellidos" id="apellidos" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'apellidos';}" required="required"maxlength="20" oninvalid="this.value='';setCustomValidity('El campo apellidos sólo admite hasta 30 caracteres no numéricos')" pattern="^\D{1,30}$">
+							<input  type="text" value="apellidos" name="apellidos" id="apellidos" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'apellidos';}" required="required"maxlength="20" oninvalid="this.value='';setCustomValidity('El campo apellidos sólo admite hasta 30 caracteres no numéricos')" pattern="[a-zA-Z\s]{1,30}">
 
 							<div class="clearfix"></div>
 						</div>

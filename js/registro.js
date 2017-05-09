@@ -1,12 +1,20 @@
 
 $(document).ready(function(){
     $("#registro").submit(function(){
-       $("#registro").find($("#dni")).map(function(){
-
-       })
+   alert( $("#dni").val());
 
     });
 });
+/*$(document).ready(function(){
+    $("#registro").find($("input")).change(function () {
+
+                alert("si ha cambiado");
+            });
+
+
+        });*/
+
+
 /**
  * Created by elena.jimenez on 08/05/2017.
  */

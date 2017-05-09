@@ -527,20 +527,21 @@ span.fa.fa-shopping-cart.my-cart-icon {
     -o-transition: 0.5s all;
     -ms-transition: 0.5s all;
 }
+/*Elena y Moha: Cambiamos el color del placeholder para que sea visible en el formulario de blanco a gris.*/
  ::-webkit-input-placeholder{
-	color:#fff;
+	color:#999;
 }
 
 :-moz-placeholder { /* Firefox 18- */
-   color: #fff; 
+   color: #999;
 }
 
 ::-moz-placeholder {  /* Firefox 19+ */
-   color: #fff;  
+   color: #999;
 }
 
 :-ms-input-placeholder {  
-   color: #fff;  
+   color: #999;
 }
 /*-- //to-top --*/
 .spec {
