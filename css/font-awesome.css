@@ -1656,6 +1656,7 @@
 }
 .fa-birthday-cake:before {
   content: "\f1fd";
+  color: #117A65;
 }
 .fa-area-chart:before {
   content: "\f1fe";

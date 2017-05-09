@@ -143,7 +143,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 							<div class="clearfix"></div>
 						</div>
 						<div class="key">
-							<i class="fa fa-user" aria-hidden="true"></i>
+							<i class="fa fa-birthday-cake" aria-hidden="true"></i>
 							<input  type="text" value="fecha de nacimiento" id="fechanac" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'fecha de nacimiento';}" name="fechanac" required="required" maxlength="20" oninvalid="this.value='';setCustomValidity('El campo fecha de nacimiento debe cumplir el siguiente formato: 01/01/1998')" pattern="^([0][1-9]|[12][0-9]|3[01])(\/|-)([0][1-9]|[1][0-2])(\/|-)([1][9])([9][0-8]|[5678][0-9])$" >
 
 							<div class="clearfix"></div>
