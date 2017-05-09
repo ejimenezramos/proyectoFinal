@@ -284,6 +284,7 @@
 }
 .fa-lock:before {
   content: "\f023";
+  color: #117A65;
 }
 .fa-flag:before {
   content: "\f024";
@@ -806,6 +807,7 @@
 }
 .fa-envelope:before {
   content: "\f0e0";
+  color: #117A65;
 }
 .fa-linkedin:before {
   content: "\f0e1";
@@ -935,6 +937,7 @@
 .fa-mobile-phone:before,
 .fa-mobile:before {
   content: "\f10b";
+  color: #117A65;
 }
 .fa-circle-o:before {
   content: "\f10c";

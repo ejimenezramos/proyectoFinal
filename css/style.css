@@ -1015,7 +1015,7 @@ ul.product-qty {
 .content-mid {
     padding: 6em 0;
 }
-/*PABLO: clase para dar tamaño al contenedor del texto del main del menu*/
+/*PABLO: clase para dar tamaï¿½o al contenedor del texto del main del menu*/
 .content-mid2 {
     padding: 3em 0;
 }
@@ -1863,11 +1863,11 @@ a#myTabDrop1 {
 }
 .forg a {
     text-decoration: none;
-    color: #029241;
+    color: #1ABC9C;
     font-size:1em;
 }
 .forg a:hover{
-	color:#fdb515;
+	color:#117A65;
 }
 .forg-left{
 	float:left;
