@@ -130,32 +130,32 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 		<div class="main-agileits">
 				<div class="form-w3agile form1">
 					<h3>Registro</h3>
-					<form action="#" method="post" onsubmit="return validate()" id="registro">
+					<form action="#" method="post" id="registro">
 						<div class="key">
 							<i class="fa fa-user" aria-hidden="true"></i>
-							<input  type="text" value="nombre" name="nombre" id="nombre" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'nombre';}" required="required" maxlength="20" oninvalid="this.value='';setCustomValidity('El campo nombre sólo admite hasta 20 caracteres no numéricos')" pattern="^\D{1,20}$" oninput="checkField()">
+							<input  type="text" value="nombre" name="nombre" id="nombre" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'nombre';}" required="required" maxlength="20" oninvalid="this.value='';setCustomValidity('El campo nombre sólo admite hasta 20 caracteres no numéricos')" pattern="^\D{1,20}$">
 							<div class="clearfix"></div>
 						</div>
 						<div class="key">
 							<i class="fa fa-user" aria-hidden="true"></i>
-							<input  type="text" value="apellidos" name="apellidos" id="apellidos" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'apellidos';}" required="required"maxlength="20" oninvalid="this.value='';setCustomValidity('El campo apellidos sólo admite hasta 30 caracteres no numéricos')" pattern="^\D{1,30}$" oninput="checkField()">
+							<input  type="text" value="apellidos" name="apellidos" id="apellidos" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'apellidos';}" required="required"maxlength="20" oninvalid="this.value='';setCustomValidity('El campo apellidos sólo admite hasta 30 caracteres no numéricos')" pattern="^\D{1,30}$">
 
 							<div class="clearfix"></div>
 						</div>
 						<div class="key">
 							<i class="fa fa-user" aria-hidden="true"></i>
-							<input  type="text" value="fecha de nacimiento" id="fechanac" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'fecha de nacimiento';}" name="fechanac" required="required" maxlength="20" oninvalid="this.value='';setCustomValidity('El campo fecha de nacimiento debe cumplir el siguiente formato: 01/01/1998')" pattern="^([0][1-9]|[12][0-9]|3[01])(\/|-)([0][1-9]|[1][0-2])(\/|-)([1][9])([9][0-8]|[5678][0-9])$" oninput="checkField()">
+							<input  type="text" value="fecha de nacimiento" id="fechanac" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'fecha de nacimiento';}" name="fechanac" required="required" maxlength="20" oninvalid="this.value='';setCustomValidity('El campo fecha de nacimiento debe cumplir el siguiente formato: 01/01/1998')" pattern="^([0][1-9]|[12][0-9]|3[01])(\/|-)([0][1-9]|[1][0-2])(\/|-)([1][9])([9][0-8]|[5678][0-9])$" >
 
 							<div class="clearfix"></div>
 						</div>
 						<div class="key">
 							<i class="fa fa-user" aria-hidden="true"></i>
-							<input  type="text" value="dni" name="dni" id="dni" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'dni';}" required="required" oninvalid="this.value='';setCustomValidity('El DNI introducido debe cumplimentarse en el siguiente formato, Ej. 123454678X y la letra y el número deben ser correctos)"  oninput="checkField()">
+							<input  type="text" value="dni" name="dni" id="dni" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'dni';}" required="required" oninvalid="this.value='';setCustomValidity('El DNI introducido debe cumplimentarse en el siguiente formato, Ej. 123454678X y la letra y el número deben ser correctos)">
 							<div class="clearfix"></div>
 						</div>
 						<div class="key">
 							<i class="fa fa-mobile-phone" aria-hidden="true"></i>
-							<input  type="text" value="movil" name="movil" id="movil" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'movil';}" required="required" pattern="(6|7)\d{2}[-]?\d{3}[-]?\d{3}" maxlength="9" oninvalid="this.value=''; setCustomValidity('El teléfono introducido debe respetar el siguiente formato: Ej.654455574 / 777-444-444 ')" oninput="checkValor()">
+							<input  type="text" value="movil" name="movil" id="movil" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'movil';}" required="required" pattern="(6|7)\d{2}[-]?\d{3}[-]?\d{3}" maxlength="9" oninvalid="this.value=''; setCustomValidity('El teléfono introducido debe respetar el siguiente formato: Ej.654455574 / 777-444-444 ')">
 							<div class="clearfix"></div>
 						</div>
 						<div class="key">
