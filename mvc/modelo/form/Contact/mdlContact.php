@@ -26,7 +26,7 @@ class mdlContact extends padre {
             if ($val->isValid()) {
 // Guardamos los datos en session
                 $_SESSION[self::PAGE] = $val->getOks();
-                $data = $_SESSION['contacto'];
+                $data = $_SESSION['contact'];
                 $datos = Usuario::insertDB($data);
                 if ($datos) {
                     $_SESSION['info'] = 'registed';
