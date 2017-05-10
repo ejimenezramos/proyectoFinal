@@ -20,7 +20,30 @@
     <favorites_list name="paco" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="registro.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/registro.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="register.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mvc/vista/register.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="147" column="182" selection-start-line="147" selection-start-column="93" selection-end-line="147" selection-end-column="182" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -48,18 +71,18 @@
         <option value="$PROJECT_DIR$/mvc/vista/aboutus.php" />
         <option value="$PROJECT_DIR$/mvc/vista/packs.php" />
         <option value="$PROJECT_DIR$/config.php" />
-        <option value="$PROJECT_DIR$/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/js/contacto.js" />
         <option value="$PROJECT_DIR$/mvc/vista/contact.php" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/js/Registro.js" />
         <option value="$PROJECT_DIR$/mvc/vista/home.php" />
         <option value="$PROJECT_DIR$/mvc/vista/menu.php" />
-        <option value="$PROJECT_DIR$/js/registro.js" />
         <option value="$PROJECT_DIR$/mvc/vista/productos.php" />
         <option value="$PROJECT_DIR$/mvc/vista/login.php" />
-        <option value="$PROJECT_DIR$/mvc/vista/register.php" />
         <option value="$PROJECT_DIR$/css/font-awesome.css" />
+        <option value="$PROJECT_DIR$/css/bootstrap.css" />
+        <option value="$PROJECT_DIR$/mvc/vista/register.php" />
+        <option value="$PROJECT_DIR$/js/registro.js" />
       </list>
     </option>
   </component>
@@ -71,10 +94,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
+    <option name="x" value="-1928" />
     <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -101,8 +124,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -121,8 +142,70 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="proyectoFinal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="proyectoFinal" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvc" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vista" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="proyectoFinal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="proyectoFinal" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvc" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="proyectoFinal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="proyectoFinal" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="proyectoFinal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="proyectoFinal" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -182,6 +265,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="773c24a4-52bd-4d25-b22b-0000bce0fb4f" name="Default" comment="" />
@@ -200,19 +286,22 @@
       <workItem from="1494340194439" duration="1873000" />
       <workItem from="1494346003697" duration="67000" />
       <workItem from="1494351358540" duration="3940000" />
+      <workItem from="1494400899845" duration="3579000" />
+      <workItem from="1494415836099" duration="3239000" />
+      <workItem from="1494424405349" duration="5204000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61242000" />
+    <option name="totallyTimeSpent" value="73264000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <frame x="-1928" y="-8" width="1936" height="1056" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18081991" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12864584" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -249,7 +338,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3009">
           <caret line="177" column="22" selection-start-line="177" selection-start-column="22" selection-end-line="177" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -257,7 +345,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -265,7 +355,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3077">
           <caret line="181" column="164" selection-start-line="181" selection-start-column="163" selection-end-line="181" selection-end-column="164" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -273,7 +362,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2397">
           <caret line="141" column="41" selection-start-line="141" selection-start-column="40" selection-end-line="141" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -281,7 +369,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2346">
           <caret line="138" column="49" selection-start-line="138" selection-start-column="48" selection-end-line="138" selection-end-column="49" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -289,7 +376,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -297,7 +383,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1615">
           <caret line="95" column="39" selection-start-line="95" selection-start-column="39" selection-end-line="95" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -305,7 +390,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -313,7 +397,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -321,7 +404,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -330,7 +412,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -347,7 +428,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -444,25 +524,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/include.php" />
     <entry file="file://$PROJECT_DIR$/requests/compruebaProductos.php" />
-    <entry file="file://$PROJECT_DIR$/mvc/modelo/form/Home/mdlMenu.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="48" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/modelo/form/Home/mdlMenu.php" />
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/jquery.productos.js" />
-    <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="112" column="6" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -480,7 +546,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="183">
           <caret line="654" column="37" selection-start-line="654" selection-start-column="36" selection-end-line="654" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -495,7 +560,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3077">
           <caret line="181" column="164" selection-start-line="181" selection-start-column="163" selection-end-line="181" selection-end-column="164" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -504,7 +568,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2346">
           <caret line="138" column="49" selection-start-line="138" selection-start-column="48" selection-end-line="138" selection-end-column="49" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -512,7 +575,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="231" column="38" selection-start-line="231" selection-start-column="36" selection-end-line="231" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -520,7 +582,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -528,7 +589,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="116">
           <caret line="1568" column="19" selection-start-line="1568" selection-start-column="19" selection-end-line="1568" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -536,7 +596,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="1656" column="1" selection-start-line="1656" selection-start-column="1" selection-end-line="1656" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -544,23 +603,39 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="146" column="45" selection-start-line="146" selection-start-column="45" selection-end-line="146" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/registro.js">
+    <entry file="file://$PROJECT_DIR$/js/jquery.productos.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="753">
+          <caret line="1777" column="1" selection-start-line="1777" selection-start-column="1" selection-end-line="1777" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mvc/vista/register.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="151" column="48" selection-start-line="151" selection-start-column="48" selection-end-line="151" selection-end-column="48" />
+        <state relative-caret-position="459">
+          <caret line="147" column="182" selection-start-line="147" selection-start-column="93" selection-end-line="147" selection-end-column="182" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/registro.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

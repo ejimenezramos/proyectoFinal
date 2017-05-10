@@ -1750,6 +1750,7 @@ input[type="search"] {
 }
 input[type="date"] {
   line-height: 34px;
+  border: none;
 }
 .form-group {
   margin-bottom: 15px;

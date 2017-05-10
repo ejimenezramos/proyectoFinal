@@ -133,44 +133,44 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 					<form action="#" method="post" id="registro">
 						<div class="key">
 							<i class="fa fa-user" aria-hidden="true"></i>
-							<input  type="text" placeholder="Nombre" name="nombre" id="nombre" required="required" maxlength="20" oninvalid="this.value='';setCustomValidity('El campo nombre sólo admite hasta 20 caracteres no numéricos')" pattern="[a-zA-Z\s]{1,20}">
+							<input  type="text" placeholder="Nombre" name="nombre" id="nombre" required="required" maxlength="20" oninvalid="this.value='';setCustomValidity('El campo nombre es obligatorio y sólo admite letras y espacios en blanco (20 caracteres)')" pattern="[a-zA-Z\s]{1,20}"><p id="errornombre"></p>
 							<div class="clearfix"></div>
 						</div>
 						<div class="key">
 							<i class="fa fa-user" aria-hidden="true"></i>
-							<input  type="text" value="apellidos" name="apellidos" id="apellidos" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'apellidos';}" required="required"maxlength="20" oninvalid="this.value='';setCustomValidity('El campo apellidos sólo admite hasta 30 caracteres no numéricos')" pattern="[a-zA-Z\s]{1,30}">
+							<input  type="text" placeholder="Apellidos" name="apellidos" id="apellidos"  required="required" maxlength="20" oninvalid="this.value='';setCustomValidity('El campo apellidos es obligatorio y sólo admite letras y espacios en blanco (30 caracteres)'" pattern="[a-zA-Z\s]{1,30}">
 
 							<div class="clearfix"></div>
 						</div>
 						<div class="key">
 							<i class="fa fa-birthday-cake" aria-hidden="true"></i>
-							<input  type="text" value="fecha de nacimiento" id="fechanac" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'fecha de nacimiento';}" name="fechanac" required="required" maxlength="20" oninvalid="this.value='';setCustomValidity('El campo fecha de nacimiento debe cumplir el siguiente formato: 01/01/1998')" pattern="^([0][1-9]|[12][0-9]|3[01])(\/|-)([0][1-9]|[1][0-2])(\/|-)([1][9])([9][0-8]|[5678][0-9])$" >
-
+							<input  type="date" placeholder="Fecha de nacimiento" id="fechanac"  name="fechanac" required="required"  oninvalid="this.value='';setCustomValidity('La fecha de nacimiento es obligatoria y debes ser mayor edad')" >
+							<!--expresión regular por si es necesaria para la fecha pattern="^([0][1-9]|[12][0-9]|3[01])(\/|-)([0][1-9]|[1][0-2])(\/|-)([1][9])([9][0-8]|[5678][0-9])$"-->
 							<div class="clearfix"></div>
 						</div>
 						<div class="key">
 							<i class="fa fa-user" aria-hidden="true"></i>
-							<input  type="text" value="dni" name="dni" id="dni" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'dni';}" required="required" oninvalid="this.value='';setCustomValidity('El DNI introducido debe cumplimentarse en el siguiente formato, Ej. 123454678X y la letra y el número deben ser correctos)">
+							<input  type="text" placeholder="Dni" name="dni" id="dni" required="required" oninvalid="this.value='';setCustomValidity('El campo DNI es obligatorio y el formato debe ser el correcto, Ej.12345678-X)" pattern="\d{8}[\-]{1}\w{1}">
 							<div class="clearfix"></div>
 						</div>
 						<div class="key">
 							<i class="fa fa-mobile-phone" aria-hidden="true"></i>
-							<input  type="text" value="movil" name="movil" id="movil" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'movil';}" required="required" pattern="(6|7)\d{2}[-]?\d{3}[-]?\d{3}" maxlength="9" oninvalid="this.value=''; setCustomValidity('El teléfono introducido debe respetar el siguiente formato: Ej.654455574 / 777-444-444 ')">
+							<input  type="text" placeholder="Móvil" name="movil" id="movil"  required="required" pattern="(6|7)\d{2}[-]?\d{3}[-]?\d{3}" maxlength="9" oninvalid="this.value=''; setCustomValidity('El campo teléfono móvil es obligatorio y el formato correcto es: Ej.654455574 / 777-444-444 ')">
 							<div class="clearfix"></div>
 						</div>
 						<div class="key">
 							<i class="fa fa-envelope" aria-hidden="true"></i>
-							<input  type="text" value="email" name="email" id="email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'email';}" oninvalid="this.value='';setCustomValidity('El formato email introducido no es correcto, Ej. example@example.com')"  required="required">
+							<input  type="text" placeholder="email@example.com" name="email" id="email"  oninvalid="this.value='';setCustomValidity('El campo email es obligatorio y el formato correcto es, Ej. example@example.com')"  required="required">
 							<div class="clearfix"></div>
 						</div>
 						<div class="key">
 							<i class="fa fa-lock" aria-hidden="true"></i>
-							<input  type="password" value="pass1" name="pass1" id="password" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'pass1';}" required="required">
+							<input  type="password" placeholder="Password" name="pass1" id="password"  required="required" minlength="6" oninvalid="this.value='';setCustomValidity('El campo contraseña es obligatorio, debe coincidir con el campo confirmación de contraseña y debe tener más de 6 caracteres alfanuméricos')">
 							<div class="clearfix"></div>
 						</div>
 						<div class="key">
 							<i class="fa fa-lock" aria-hidden="true"></i>
-							<input  type="password" value="pass2" name="pass2" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'pass2';}"  required="required">
+							<input  type="password" placeholder="Confirmar Password" name="pass2" required="required" minlength="6" oninvalid="this.value='';setCustomValidity('El campo confirmación de contraseña es obligatorio, debe coincidir con el campo contraseña y debe tener más de 6 caracteres alfanuméricos')">
 							<div class="clearfix"></div>
 						</div>
 						<input type="submit" value="Registrarse">
