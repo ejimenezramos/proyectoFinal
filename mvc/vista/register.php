@@ -164,6 +164,11 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 							<div class="clearfix"></div>
 						</div>
 						<div class="key">
+							<i class="fa fa-user" aria-hidden="true"></i>
+							<input  type="text" placeholder="Nombre usuario" name="usuario" id="usuario" required="required" maxlength="20" oninvalid="this.value='';setCustomValidity('El campo nombre es obligatorio y sólo admite letras y espacios en blanco (20 caracteres)')" pattern="[a-zA-Z\s]{1,20}">
+							<div class="clearfix"></div>
+						</div>
+						<div class="key">
 							<i class="fa fa-lock" aria-hidden="true"></i>
 							<input  type="password" placeholder="Password" name="pass1" id="password"  required="required" minlength="6" oninvalid="this.value='';setCustomValidity('El campo contraseña es obligatorio, debe coincidir con el campo confirmación de contraseña y debe tener más de 6 caracteres alfanuméricos')">
 							<div class="clearfix"></div>
