@@ -144,42 +144,50 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 
 							<div class="clearfix"></div>
 						</div>
+							<div class="has-warning"><p id="errorapellidos"></p></div>
 						<div class="key">
 							<i class="fa fa-birthday-cake" aria-hidden="true"></i>
 							<input  type="date" placeholder="Fecha de nacimiento" id="fechanac"  name="fechanac" required="required"  oninvalid="this.value='';setCustomValidity('La fecha de nacimiento es obligatoria y debes ser mayor edad')" >
 							<!--expresión regular por si es necesaria para la fecha pattern="^([0][1-9]|[12][0-9]|3[01])(\/|-)([0][1-9]|[1][0-2])(\/|-)([1][9])([9][0-8]|[5678][0-9])$"-->
 							<div class="clearfix"></div>
 						</div>
+							<div class="has-warning"><p id="errorfechanac"></p></div>
 						<div class="key">
 							<i class="fa fa-user" aria-hidden="true"></i>
-							<input  type="text" placeholder="Dni" name="dni" id="dni" required="required" oninvalid="this.value='';setCustomValidity('El campo DNI es obligatorio y el formato debe ser el correcto, Ej.12345678-X')" pattern="\d{8}[\-]{1}\w{1}">
+							<input  type="text" placeholder="Dni" name="dni" id="dni" required="required" pattern="\d{8}[\-]{1}\w{1}">
 							<div class="clearfix"></div>
 						</div>
+							<div class="has-warning"><p id="errordni"></p></div>
 						<div class="key">
 							<i class="fa fa-mobile-phone" aria-hidden="true"></i>
-							<input  type="text" placeholder="Móvil" name="movil" id="movil"  required="required" pattern="(6|7)\d{2}[-]?\d{3}[-]?\d{3}" maxlength="9" oninvalid="this.value=''; setCustomValidity('El campo teléfono móvil es obligatorio y el formato correcto es: Ej.654455574 / 777-444-444 ')">
+							<input  type="text" placeholder="Teléfono" name="telefono" id="telefono"  required="required" pattern="(6|7)\d{2}[-]?\d{3}[-]?\d{3}" maxlength="9" >
 							<div class="clearfix"></div>
 						</div>
+							<div class="has-warning"><p id="errortelefono"></p></div>
 						<div class="key">
 							<i class="fa fa-envelope" aria-hidden="true"></i>
-							<input  type="text" placeholder="email@example.com" name="email" id="email"  oninvalid="this.value='';setCustomValidity('El campo email es obligatorio y el formato correcto es, Ej. example@example.com')"  required="required">
+							<input  type="text" placeholder="email@example.com" name="email" id="email"  required="required">
 							<div class="clearfix"></div>
 						</div>
+							<div class="has-warning"><p id="erroremail"></p></div>
 						<div class="key">
 							<i class="fa fa-user" aria-hidden="true"></i>
-							<input  type="text" placeholder="Nombre de usuario" name="usuario" id="usuario" required="required" maxlength="20" oninvalid="this.value='';setCustomValidity('El campo nombre es obligatorio y sólo admite letras y espacios en blanco (20 caracteres)')" pattern="[a-zA-Z\s]{1,20}">
+							<input  type="text" placeholder="Nombre de usuario" name="usuario" id="usuario" required="required" maxlength="20" >
 							<div class="clearfix"></div>
 						</div>
+							<div class="has-warning"><p id="errorusuario"></p></div>
 						<div class="key">
 							<i class="fa fa-lock" aria-hidden="true"></i>
-							<input  type="password" placeholder="Password" name="pass1" id="password"  required="required" minlength="6" oninvalid="this.value='';setCustomValidity('El campo contraseña es obligatorio, debe coincidir con el campo confirmación de contraseña y debe tener más de 6 caracteres alfanuméricos')">
+							<input  type="password" placeholder="Password" name="pass1" id="password"  required="required" minlength="6">
 							<div class="clearfix"></div>
 						</div>
+							<div class="has-warning"><p id="errorpassword"></p></div>
 						<div class="key">
 							<i class="fa fa-lock" aria-hidden="true"></i>
-							<input  type="password" placeholder="Confirmar Password" name="pass2" required="required" minlength="6" oninvalid="this.value='';setCustomValidity('El campo confirmación de contraseña es obligatorio, debe coincidir con el campo contraseña y debe tener más de 6 caracteres alfanuméricos')">
+							<input  type="password" placeholder="Confirmar Password" id="password2" name="pass2" required="required" minlength="6" oninvalid="this.value='';setCustomValidity('El campo confirmación de contraseña es obligatorio, debe coincidir con el campo contraseña y debe tener más de 6 caracteres alfanuméricos')">
 							<div class="clearfix"></div>
 						</div>
+							<div class="has-warning"><p id="errorpassword2"></p></div>
 						<input type="submit" value="Registrarse">
 					</form>
 				</div>

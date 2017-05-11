@@ -15,19 +15,39 @@ $(document).ready(function () {
     });
 });
 $(document).ready(function () {
-    var pat= new RegExp("^[a-zA-Z]+(\s*[a-zA-Z]*)*[a-zA-Z]+$");
+    var pat = new RegExp("^[a-zA-Z]+(\s*[a-zA-Z]*)*[a-zA-Z]+$");
     $("#registro").find("input").change(function (event) {
-       if (pat.test(event.target.value)==false) {
+        switch (event.target.id) {
+            case "nombre":
+            case "apellidos":
+            if(pat.test(event.target.value) == false)
+            {
 
-            $("#error" + event.target.id).html("*El campo " + event.target.id + " tiene un error de formato");
+                $("#error" + event.target.id).html("*El campo " + event.target.id + " tiene un error de formato, no admite dígitos ni caracteres especiales");
+
+            }
+
+            else
+            {
+
+                $("#error" + event.target.id).html("");
+
+            }
+            break;
+            case "fechanac":
+                var fecha=new Date();
+                var date=event.target.value.split("-");
+                var year=date[0];
+                if((parseInt(fecha.getFullYear())-year)<18){
+                    $("#error" + event.target.id).html("Lo sentimos, no puedes efectuar la compra si no eres mayor de edad");
+                }
+                else{
+                    $("#error" + event.target.id).html("");
+                }
+
+
+
 
         }
-
-        else{
-
-            $("#error" + event.target.id).html("");
-
-        }
-
     })
 });
