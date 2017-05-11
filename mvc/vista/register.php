@@ -131,14 +131,16 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 				<div class="form-w3agile form1">
 					<h3>Registro</h3>
 					<form action="#" method="post" id="registro">
+						<div>
 						<div class="key">
 							<i class="fa fa-user" aria-hidden="true"></i>
-							<input  type="text" placeholder="Nombre" name="nombre" id="nombre" required="required" maxlength="20" oninvalid="this.value='';setCustomValidity('El campo nombre es obligatorio y sólo admite letras y espacios en blanco (20 caracteres)')" pattern="[a-zA-Z\s]{1,20}"><p id="errornombre"></p>
+							<input  type="text" placeholder="Nombre" name="nombre" id="nombre" required="required" maxlength="20" pattern="[a-zA-Z\s]{1,20}">
 							<div class="clearfix"></div>
 						</div>
+						<div class="has-warning"><p id="errornombre"></p></div>
 						<div class="key">
 							<i class="fa fa-user" aria-hidden="true"></i>
-							<input  type="text" placeholder="Apellidos" name="apellidos" id="apellidos"  required="required" maxlength="20" oninvalid="this.value='';setCustomValidity('El campo apellidos es obligatorio y sólo admite letras y espacios en blanco (30 caracteres)'" pattern="[a-zA-Z\s]{1,30}">
+							<input  type="text" placeholder="Apellidos" name="apellidos" id="apellidos"  required="required" maxlength="20" oninvalid="this.value='';setCustomValidity('El campo apellidos es obligatorio y sólo admite letras y espacios en blanco (30 caracteres)')" pattern="[a-zA-Z\s]{1,30}">
 
 							<div class="clearfix"></div>
 						</div>
@@ -150,7 +152,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 						</div>
 						<div class="key">
 							<i class="fa fa-user" aria-hidden="true"></i>
-							<input  type="text" placeholder="Dni" name="dni" id="dni" required="required" oninvalid="this.value='';setCustomValidity('El campo DNI es obligatorio y el formato debe ser el correcto, Ej.12345678-X)" pattern="\d{8}[\-]{1}\w{1}">
+							<input  type="text" placeholder="Dni" name="dni" id="dni" required="required" oninvalid="this.value='';setCustomValidity('El campo DNI es obligatorio y el formato debe ser el correcto, Ej.12345678-X')" pattern="\d{8}[\-]{1}\w{1}">
 							<div class="clearfix"></div>
 						</div>
 						<div class="key">

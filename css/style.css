@@ -7,7 +7,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
 /*clases para errores formulario paco*/
 .has-error {  border:solid 1px red; font-weight: bold; padding: 0.2em; }
-.has-warning { color: red; padding: 0.2em; }
+.has-warning {color: red;
+    font-size: 14px;
+    line-height: 1em;
+    margin: 1em 0 2em; }
 
 body{
 	margin:0;

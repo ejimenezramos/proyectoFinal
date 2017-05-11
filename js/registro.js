@@ -15,20 +15,19 @@ $(document).ready(function () {
     });
 });
 $(document).ready(function () {
-    $("#fechanac").change(function () {
-        var date = this.value.split("-");
-        var year = date[0];
-        var month = date[1];
-        var day = date[2];
-        var dateString = day + "/" + month + "/" + year;
-        alert(dateString);
-        if (dateString.match("^/([0][1-9]|[12][0-9]|3[01])(\/|-)([0][1-9]|[1][0-2])(\/|-)([1][9])([9][0-8]|[5678][0-9])$/")) {
-            alert("si cumple")
-        }
-        else {
-            alert("no cumple");
+    var pat= new RegExp("^[a-zA-Z]+(\s*[a-zA-Z]*)*[a-zA-Z]+$");
+    $("#registro").find("input").change(function (event) {
+       if (pat.test(event.target.value)==false) {
+
+            $("#error" + event.target.id).html("*El campo " + event.target.id + " tiene un error de formato");
+
         }
 
+        else{
 
-    });
+            $("#error" + event.target.id).html("");
+
+        }
+
+    })
 });
