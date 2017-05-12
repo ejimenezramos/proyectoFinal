@@ -152,8 +152,12 @@ $(document).ready(function () {
 
 $(document).ready(function () {
     $("#condiciones").click(function () {
-        if ($("#condiciones").checked == true)
-            $("#registrarse");
+         if($("#condiciones:checked")){
+             alert("si");
+         }
+        else{
+             alert("no");
+         }
 
     });
 });
