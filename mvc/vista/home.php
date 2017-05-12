@@ -23,6 +23,8 @@ function hideURLbar(){ window.scrollTo(0,1); }
 <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
 <!-- Custom Theme files -->
 <link href="css/style.css" rel='stylesheet' type='text/css' />
+<!-- PABLO: estilos del slider -->
+<link href="css/slider.css" rel='stylesheet' type='text/css' />
 <!-- js -->
 <script src="js/jquery-1.11.1.min.js"></script>
 <!-- //js -->
@@ -48,7 +50,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 <!--- start-rate---->
 <script src="js/jstarbox.js"></script>
 <link rel="stylesheet" href="css/jstarbox.css" type="text/css"
-	  media="screen" charset="utf-8" />
+	media="screen" charset="utf-8" />
 <script type="text/javascript">
 	jQuery(function() {
 		jQuery('.starbox')
@@ -102,9 +104,11 @@ function hideURLbar(){ window.scrollTo(0,1); }
 			</div>
 			<div class="head-t">
 				<ul class="card">
-					<li><a href="?pagina=login" ><i class="fa fa-user" aria-hidden="true"></i>Login</a></li>
-					<li><a href="?pagina=register" ><i class="fa fa-arrow-right" aria-hidden="true"></i>Registro</a></li>
-				</ul>	
+					<li><a href="?pagina=login"><i class="fa fa-user"
+							aria-hidden="true"></i>Login</a></li>
+					<li><a href="?pagina=register"><i class="fa fa-arrow-right"
+							aria-hidden="true"></i>Registro</a></li>
+				</ul>
 			</div>
 			<div class="header-ri"></div>
 			<div class="nav-top">
@@ -123,10 +127,8 @@ function hideURLbar(){ window.scrollTo(0,1); }
 							<li class=" active"><a href="?pagina=home" class="hyper "><span>Home</span></a></li>
 							<li><a href="?pagina=productos" class="hyper"><span>Productos</span></a>
 							</li>
-							<li><a href="?pagina=packs" class="hyper"><span>Packs
-										especiales</span></a></li>
-							<li><a href="?pagina=aboutus" class="hyper"> <span>Sobre
-										nosotros</span></a></li>
+							<li><a href="?pagina=packs" class="hyper"><span>Packs especiales</span></a></li>
+							<li><a href="?pagina=aboutus" class="hyper"> <span>Sobre nosotros</span></a></li>
 							<li><a href="?pagina=contact" class="hyper"><span>Contáctanos</span></a></li>
 						</ul>
 					</div>
@@ -139,19 +141,33 @@ function hideURLbar(){ window.scrollTo(0,1); }
 			</div>
 		</div>
 	</div>
-	<!---->
-	<div data-vide-bg="video/video5">
-		<div class="container">
-			<div class="banner-info">
-				<h3>Tomaté un descanso y prueba nuestros deliciosos cereales</h3>
-				<div class="search-form">
-					<form action="#" method="post">
-						<input type="text" placeholder="Search..." name="Search...">
-						<input type="submit" value=" ">
-					</form>
+	<!--PABLO: NUEVO SLIDER CON CSS-->
+	<div id="page">
+		<section>
+			<input type="radio" name="slider-select-element" id="element1"
+				checked="checked" /> <input type="radio"
+				name="slider-select-element" id="element2" /> <input type="radio"
+				name="slider-select-element" id="element3" />
+
+			<div id="slider-container">
+				<div id="slider-box">
+					<div class="slider-element">
+						<article class="element-red"></article>
+					</div>
+					<div class="slider-element">
+						<article class="element-green"></article>
+					</div>
+					<div class="slider-element">
+						<article class="element-blue"></article>
+					</div>
 				</div>
 			</div>
-		</div>
+
+			<div id="slider-arrows">
+				<label for="element1"></label> <label for="element2"></label> <label
+					for="element3"></label>
+			</div>
+		</section>
 	</div>
 
 	<script>
@@ -168,7 +184,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 			<div class="col-md-4 m-w3ls">
 				<div class="col-md1 ">
 					<a href="productos.php"> <img src="images/cer1.jpg"
-												  class="img-home img" alt="">
+						class="img-home img" alt="">
 						<div class="big-sa">
 							<h3>
 								Frutas<span>exp</span>
@@ -183,8 +199,8 @@ function hideURLbar(){ window.scrollTo(0,1); }
 			</div>
 			<div class="col-md-4 m-w3ls1">
 				<div class="col-md ">
-					<a href="hold.html"> <img src="images/lr.jpg"
-											  class="img-home  img" alt="">
+					<a href="hold.html"> <img src="images/lr.jpg" class="img-home  img"
+						alt="">
 						<div class="big-sale">
 							<div class="big-sale1">
 								<h3>
@@ -201,7 +217,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 			<div class="col-md-4 m-w3ls">
 				<div class="col-md2 ">
 					<a href="productos.php"> <img src="images/sirope.jpg"
-												  class="img-home  img1" alt="">
+						class="img-home  img1" alt="">
 						<div class="big-sale2">
 							<h3>
 								#<span>toppings</span>
@@ -212,7 +228,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 				</div>
 				<div class="col-md3 ">
 					<a href="hold.html"> <img src="images/pack.jpg"
-											  class="img-home  img1" alt="">
+						class="img-home  img1" alt="">
 						<div class="big-sale3">
 							<h3>
 								+<span>Vendidos</span>
@@ -227,51 +243,14 @@ function hideURLbar(){ window.scrollTo(0,1); }
 			<div class="clearfix"></div>
 		</div>
 	</div>
-	
-	
-<!-- content 2  PABLO: nuevo contenedor para los textos-->
-	<!--  <div class="content-mid2">
-		<div class="container">
 
-			<div class="col-md-4 m-w3ls">
-				<div class="col-md1 ">
-					<a href="productos.php"> 
-						<p>Prueba nuestros nuevos sabores frutales</p>
-					</a>
-				</div>
-			</div>
-			<div class="col-md-4 m-w3ls1">
-				<div class="col-md ">
-					<a href="hold.html"> 
-						<p>Colorea tu desayuno de una manera diferente</p>
-					</a>
-				</div>
-			</div>
-			<div class="col-md-4 m-w3ls">
-				<div class="col-md2 ">
-					<a href="productos.php"> 
-							<p>Añadele un topping</p>
-					</a>
-					<a href="hold.html"> 		
-							<p>Dejate asesorar por nuestros seguidores</p>
-					</a>
-				</div>
-			</div>
-			<div class="clearfix"></div>
-		</div>
-	</div>-->
-	
-	
-	
-	
 	<!--footer-->
 	<div class="footer">
 		<div class="container">
 			<div class="clearfix"></div>
 			<div class="footer-bottom">
 				<h2>
-					<a href="home.php">
-					</b>Cereal-Break<span></span></a>
+					<a href="home.php"> </b>Cereal-Break<span></span></a>
 				</h2>
 
 				<ul class="social-fo">
@@ -333,8 +312,8 @@ function hideURLbar(){ window.scrollTo(0,1); }
 			});
 		});
 	</script>
-	<a href="#" id="toTop" style="display: block;"> <span
-		id="toTopHover" style="opacity: 1;"> </span></a>
+	<a href="#" id="toTop" style="display: block;"> <span id="toTopHover"
+		style="opacity: 1;"> </span></a>
 	<!-- //smooth scrolling -->
 	<!-- for bootstrap working -->
 	<script src="js/bootstrap.js"></script>
@@ -404,18 +383,17 @@ function hideURLbar(){ window.scrollTo(0,1); }
 					</div>
 					<div class="col-md-7 span-1 ">
 						<h3>Moong(1 kg)</h3>
-						<p class="in-para">There are many variations of passages of
-							Lorem Ipsum.</p>
+						<p class="in-para">There are many variations of passages of Lorem
+							Ipsum.</p>
 						<div class="price_single">
 							<span class="reducedfrom "><del>$2.00</del>$1.50</span>
 
 							<div class="clearfix"></div>
 						</div>
 						<h4 class="quick">Quick Overview:</h4>
-						<p class="quick_desc">Nam liber tempor cum soluta nobis
-							eleifend option congue nihil imperdiet doming id quod mazim
-							placerat facer possim assum. Typi non habent claritatem insitam;
-							es</p>
+						<p class="quick_desc">Nam liber tempor cum soluta nobis eleifend
+							option congue nihil imperdiet doming id quod mazim placerat facer
+							possim assum. Typi non habent claritatem insitam; es</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-btn1 "
 								data-id="1" data-name="Moong" data-summary="summary 1"
@@ -447,18 +425,17 @@ function hideURLbar(){ window.scrollTo(0,1); }
 					</div>
 					<div class="col-md-7 span-1 ">
 						<h3>Sunflower Oil(5 kg)</h3>
-						<p class="in-para">There are many variations of passages of
-							Lorem Ipsum.</p>
+						<p class="in-para">There are many variations of passages of Lorem
+							Ipsum.</p>
 						<div class="price_single">
 							<span class="reducedfrom "><del>$10.00</del>$9.00</span>
 
 							<div class="clearfix"></div>
 						</div>
 						<h4 class="quick">Quick Overview:</h4>
-						<p class="quick_desc">Nam liber tempor cum soluta nobis
-							eleifend option congue nihil imperdiet doming id quod mazim
-							placerat facer possim assum. Typi non habent claritatem insitam;
-							es</p>
+						<p class="quick_desc">Nam liber tempor cum soluta nobis eleifend
+							option congue nihil imperdiet doming id quod mazim placerat facer
+							possim assum. Typi non habent claritatem insitam; es</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-btn1 "
 								data-id="2" data-name="Sunflower Oil" data-summary="summary 2"
@@ -490,18 +467,17 @@ function hideURLbar(){ window.scrollTo(0,1); }
 					</div>
 					<div class="col-md-7 span-1 ">
 						<h3>Kabuli Chana(1 kg)</h3>
-						<p class="in-para">There are many variations of passages of
-							Lorem Ipsum.</p>
+						<p class="in-para">There are many variations of passages of Lorem
+							Ipsum.</p>
 						<div class="price_single">
 							<span class="reducedfrom "><del>$3.00</del>$2.00</span>
 
 							<div class="clearfix"></div>
 						</div>
 						<h4 class="quick">Quick Overview:</h4>
-						<p class="quick_desc">Nam liber tempor cum soluta nobis
-							eleifend option congue nihil imperdiet doming id quod mazim
-							placerat facer possim assum. Typi non habent claritatem insitam;
-							es</p>
+						<p class="quick_desc">Nam liber tempor cum soluta nobis eleifend
+							option congue nihil imperdiet doming id quod mazim placerat facer
+							possim assum. Typi non habent claritatem insitam; es</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-btn1 "
 								data-id="3" data-name="Kabuli Chana" data-summary="summary 3"
@@ -533,18 +509,17 @@ function hideURLbar(){ window.scrollTo(0,1); }
 					</div>
 					<div class="col-md-7 span-1 ">
 						<h3>Soya Chunks(1 kg)</h3>
-						<p class="in-para">There are many variations of passages of
-							Lorem Ipsum.</p>
+						<p class="in-para">There are many variations of passages of Lorem
+							Ipsum.</p>
 						<div class="price_single">
 							<span class="reducedfrom "><del>$4.00</del>$3.50</span>
 
 							<div class="clearfix"></div>
 						</div>
 						<h4 class="quick">Quick Overview:</h4>
-						<p class="quick_desc">Nam liber tempor cum soluta nobis
-							eleifend option congue nihil imperdiet doming id quod mazim
-							placerat facer possim assum. Typi non habent claritatem insitam;
-							es</p>
+						<p class="quick_desc">Nam liber tempor cum soluta nobis eleifend
+							option congue nihil imperdiet doming id quod mazim placerat facer
+							possim assum. Typi non habent claritatem insitam; es</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-btn1 "
 								data-id="4" data-name="Soya Chunks" data-summary="summary 4"
@@ -576,18 +551,17 @@ function hideURLbar(){ window.scrollTo(0,1); }
 					</div>
 					<div class="col-md-7 span-1 ">
 						<h3>Lays(100 g)</h3>
-						<p class="in-para">There are many variations of passages of
-							Lorem Ipsum.</p>
+						<p class="in-para">There are many variations of passages of Lorem
+							Ipsum.</p>
 						<div class="price_single">
 							<span class="reducedfrom "><del>$1.00</del>$0.70</span>
 
 							<div class="clearfix"></div>
 						</div>
 						<h4 class="quick">Quick Overview:</h4>
-						<p class="quick_desc">Nam liber tempor cum soluta nobis
-							eleifend option congue nihil imperdiet doming id quod mazim
-							placerat facer possim assum. Typi non habent claritatem insitam;
-							es</p>
+						<p class="quick_desc">Nam liber tempor cum soluta nobis eleifend
+							option congue nihil imperdiet doming id quod mazim placerat facer
+							possim assum. Typi non habent claritatem insitam; es</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-btn1 "
 								data-id="5" data-name="Lays" data-summary="summary 5"
@@ -619,18 +593,17 @@ function hideURLbar(){ window.scrollTo(0,1); }
 					</div>
 					<div class="col-md-7 span-1 ">
 						<h3>Kurkure(100 g)</h3>
-						<p class="in-para">There are many variations of passages of
-							Lorem Ipsum.</p>
+						<p class="in-para">There are many variations of passages of Lorem
+							Ipsum.</p>
 						<div class="price_single">
 							<span class="reducedfrom "><del>$1.00</del>$0.70</span>
 
 							<div class="clearfix"></div>
 						</div>
 						<h4 class="quick">Quick Overview:</h4>
-						<p class="quick_desc">Nam liber tempor cum soluta nobis
-							eleifend option congue nihil imperdiet doming id quod mazim
-							placerat facer possim assum. Typi non habent claritatem insitam;
-							es</p>
+						<p class="quick_desc">Nam liber tempor cum soluta nobis eleifend
+							option congue nihil imperdiet doming id quod mazim placerat facer
+							possim assum. Typi non habent claritatem insitam; es</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-btn1 "
 								data-id="6" data-name="Kurkure" data-summary="summary 6"
@@ -662,18 +635,17 @@ function hideURLbar(){ window.scrollTo(0,1); }
 					</div>
 					<div class="col-md-7 span-1 ">
 						<h3>Popcorn(250 g)</h3>
-						<p class="in-para">There are many variations of passages of
-							Lorem Ipsum.</p>
+						<p class="in-para">There are many variations of passages of Lorem
+							Ipsum.</p>
 						<div class="price_single">
 							<span class="reducedfrom "><del>$2.00</del>$1.00</span>
 
 							<div class="clearfix"></div>
 						</div>
 						<h4 class="quick">Quick Overview:</h4>
-						<p class="quick_desc">Nam liber tempor cum soluta nobis
-							eleifend option congue nihil imperdiet doming id quod mazim
-							placerat facer possim assum. Typi non habent claritatem insitam;
-							es</p>
+						<p class="quick_desc">Nam liber tempor cum soluta nobis eleifend
+							option congue nihil imperdiet doming id quod mazim placerat facer
+							possim assum. Typi non habent claritatem insitam; es</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-btn1 "
 								data-id="7" data-name="Popcorn" data-summary="summary 7"
@@ -705,18 +677,17 @@ function hideURLbar(){ window.scrollTo(0,1); }
 					</div>
 					<div class="col-md-7 span-1 ">
 						<h3>Nuts(250 g)</h3>
-						<p class="in-para">There are many variations of passages of
-							Lorem Ipsum.</p>
+						<p class="in-para">There are many variations of passages of Lorem
+							Ipsum.</p>
 						<div class="price_single">
 							<span class="reducedfrom "><del>$4.00</del>$3.50</span>
 
 							<div class="clearfix"></div>
 						</div>
 						<h4 class="quick">Quick Overview:</h4>
-						<p class="quick_desc">Nam liber tempor cum soluta nobis
-							eleifend option congue nihil imperdiet doming id quod mazim
-							placerat facer possim assum. Typi non habent claritatem insitam;
-							es</p>
+						<p class="quick_desc">Nam liber tempor cum soluta nobis eleifend
+							option congue nihil imperdiet doming id quod mazim placerat facer
+							possim assum. Typi non habent claritatem insitam; es</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-btn1 "
 								data-id="8" data-name="Nuts" data-summary="summary 8"
@@ -748,18 +719,17 @@ function hideURLbar(){ window.scrollTo(0,1); }
 					</div>
 					<div class="col-md-7 span-1 ">
 						<h3>Banana(6 pcs)</h3>
-						<p class="in-para">There are many variations of passages of
-							Lorem Ipsum.</p>
+						<p class="in-para">There are many variations of passages of Lorem
+							Ipsum.</p>
 						<div class="price_single">
 							<span class="reducedfrom "><del>$2.00</del>$1.50</span>
 
 							<div class="clearfix"></div>
 						</div>
 						<h4 class="quick">Quick Overview:</h4>
-						<p class="quick_desc">Nam liber tempor cum soluta nobis
-							eleifend option congue nihil imperdiet doming id quod mazim
-							placerat facer possim assum. Typi non habent claritatem insitam;
-							es</p>
+						<p class="quick_desc">Nam liber tempor cum soluta nobis eleifend
+							option congue nihil imperdiet doming id quod mazim placerat facer
+							possim assum. Typi non habent claritatem insitam; es</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-btn1 "
 								data-id="9" data-name="Banana" data-summary="summary 9"
@@ -791,18 +761,17 @@ function hideURLbar(){ window.scrollTo(0,1); }
 					</div>
 					<div class="col-md-7 span-1 ">
 						<h3>Onion(1 kg)</h3>
-						<p class="in-para">There are many variations of passages of
-							Lorem Ipsum.</p>
+						<p class="in-para">There are many variations of passages of Lorem
+							Ipsum.</p>
 						<div class="price_single">
 							<span class="reducedfrom "><del>$1.00</del>$0.70</span>
 
 							<div class="clearfix"></div>
 						</div>
 						<h4 class="quick">Quick Overview:</h4>
-						<p class="quick_desc">Nam liber tempor cum soluta nobis
-							eleifend option congue nihil imperdiet doming id quod mazim
-							placerat facer possim assum. Typi non habent claritatem insitam;
-							es</p>
+						<p class="quick_desc">Nam liber tempor cum soluta nobis eleifend
+							option congue nihil imperdiet doming id quod mazim placerat facer
+							possim assum. Typi non habent claritatem insitam; es</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-btn1 "
 								data-id="10" data-name="Onion" data-summary="summary 10"
@@ -834,18 +803,17 @@ function hideURLbar(){ window.scrollTo(0,1); }
 					</div>
 					<div class="col-md-7 span-1 ">
 						<h3>Bitter Gourd(1 kg)</h3>
-						<p class="in-para">There are many variations of passages of
-							Lorem Ipsum.</p>
+						<p class="in-para">There are many variations of passages of Lorem
+							Ipsum.</p>
 						<div class="price_single">
 							<span class="reducedfrom "><del>$2.00</del>$1.00</span>
 
 							<div class="clearfix"></div>
 						</div>
 						<h4 class="quick">Quick Overview:</h4>
-						<p class="quick_desc">Nam liber tempor cum soluta nobis
-							eleifend option congue nihil imperdiet doming id quod mazim
-							placerat facer possim assum. Typi non habent claritatem insitam;
-							es</p>
+						<p class="quick_desc">Nam liber tempor cum soluta nobis eleifend
+							option congue nihil imperdiet doming id quod mazim placerat facer
+							possim assum. Typi non habent claritatem insitam; es</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-btn1 "
 								data-id="11" data-name="Bitter Gourd" data-summary="summary 11"
@@ -877,18 +845,17 @@ function hideURLbar(){ window.scrollTo(0,1); }
 					</div>
 					<div class="col-md-7 span-1 ">
 						<h3>Apples(1 kg)</h3>
-						<p class="in-para">There are many variations of passages of
-							Lorem Ipsum.</p>
+						<p class="in-para">There are many variations of passages of Lorem
+							Ipsum.</p>
 						<div class="price_single">
 							<span class="reducedfrom "><del>$4.00</del>$3.50</span>
 
 							<div class="clearfix"></div>
 						</div>
 						<h4 class="quick">Quick Overview:</h4>
-						<p class="quick_desc">Nam liber tempor cum soluta nobis
-							eleifend option congue nihil imperdiet doming id quod mazim
-							placerat facer possim assum. Typi non habent claritatem insitam;
-							es</p>
+						<p class="quick_desc">Nam liber tempor cum soluta nobis eleifend
+							option congue nihil imperdiet doming id quod mazim placerat facer
+							possim assum. Typi non habent claritatem insitam; es</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-btn1 "
 								data-id="12" data-name="Apples" data-summary="summary 12"
@@ -920,18 +887,17 @@ function hideURLbar(){ window.scrollTo(0,1); }
 					</div>
 					<div class="col-md-7 span-1 ">
 						<h3>Honey(500 g)</h3>
-						<p class="in-para">There are many variations of passages of
-							Lorem Ipsum.</p>
+						<p class="in-para">There are many variations of passages of Lorem
+							Ipsum.</p>
 						<div class="price_single">
 							<span class="reducedfrom "><del>$7.00</del>$6.00</span>
 
 							<div class="clearfix"></div>
 						</div>
 						<h4 class="quick">Quick Overview:</h4>
-						<p class="quick_desc">Nam liber tempor cum soluta nobis
-							eleifend option congue nihil imperdiet doming id quod mazim
-							placerat facer possim assum. Typi non habent claritatem insitam;
-							es</p>
+						<p class="quick_desc">Nam liber tempor cum soluta nobis eleifend
+							option congue nihil imperdiet doming id quod mazim placerat facer
+							possim assum. Typi non habent claritatem insitam; es</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-btn1 "
 								data-id="13" data-name="Honey" data-summary="summary 13"
@@ -963,18 +929,17 @@ function hideURLbar(){ window.scrollTo(0,1); }
 					</div>
 					<div class="col-md-7 span-1 ">
 						<h3>Chocos(250 g)</h3>
-						<p class="in-para">There are many variations of passages of
-							Lorem Ipsum.</p>
+						<p class="in-para">There are many variations of passages of Lorem
+							Ipsum.</p>
 						<div class="price_single">
 							<span class="reducedfrom "><del>$5.00</del>$4.50</span>
 
 							<div class="clearfix"></div>
 						</div>
 						<h4 class="quick">Quick Overview:</h4>
-						<p class="quick_desc">Nam liber tempor cum soluta nobis
-							eleifend option congue nihil imperdiet doming id quod mazim
-							placerat facer possim assum. Typi non habent claritatem insitam;
-							es</p>
+						<p class="quick_desc">Nam liber tempor cum soluta nobis eleifend
+							option congue nihil imperdiet doming id quod mazim placerat facer
+							possim assum. Typi non habent claritatem insitam; es</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-btn1 "
 								data-id="14" data-name="Chocos" data-summary="summary 14"
@@ -1006,18 +971,17 @@ function hideURLbar(){ window.scrollTo(0,1); }
 					</div>
 					<div class="col-md-7 span-1 ">
 						<h3>Oats(1 kg)</h3>
-						<p class="in-para">There are many variations of passages of
-							Lorem Ipsum.</p>
+						<p class="in-para">There are many variations of passages of Lorem
+							Ipsum.</p>
 						<div class="price_single">
 							<span class="reducedfrom "><del>$4.00</del>$3.50</span>
 
 							<div class="clearfix"></div>
 						</div>
 						<h4 class="quick">Quick Overview:</h4>
-						<p class="quick_desc">Nam liber tempor cum soluta nobis
-							eleifend option congue nihil imperdiet doming id quod mazim
-							placerat facer possim assum. Typi non habent claritatem insitam;
-							es</p>
+						<p class="quick_desc">Nam liber tempor cum soluta nobis eleifend
+							option congue nihil imperdiet doming id quod mazim placerat facer
+							possim assum. Typi non habent claritatem insitam; es</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-btn1 "
 								data-id="15" data-name="Oats" data-summary="summary 15"
@@ -1049,18 +1013,17 @@ function hideURLbar(){ window.scrollTo(0,1); }
 					</div>
 					<div class="col-md-7 span-1 ">
 						<h3>Bread(500 g)</h3>
-						<p class="in-para">There are many variations of passages of
-							Lorem Ipsum.</p>
+						<p class="in-para">There are many variations of passages of Lorem
+							Ipsum.</p>
 						<div class="price_single">
 							<span class="reducedfrom "><del>$1.00</del>$0.80</span>
 
 							<div class="clearfix"></div>
 						</div>
 						<h4 class="quick">Quick Overview:</h4>
-						<p class="quick_desc">Nam liber tempor cum soluta nobis
-							eleifend option congue nihil imperdiet doming id quod mazim
-							placerat facer possim assum. Typi non habent claritatem insitam;
-							es</p>
+						<p class="quick_desc">Nam liber tempor cum soluta nobis eleifend
+							option congue nihil imperdiet doming id quod mazim placerat facer
+							possim assum. Typi non habent claritatem insitam; es</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-btn1 "
 								data-id="16" data-name="Bread" data-summary="summary 16"
@@ -1092,18 +1055,17 @@ function hideURLbar(){ window.scrollTo(0,1); }
 					</div>
 					<div class="col-md-7 span-1 ">
 						<h3>Moisturiser(500 g)</h3>
-						<p class="in-para">There are many variations of passages of
-							Lorem Ipsum.</p>
+						<p class="in-para">There are many variations of passages of Lorem
+							Ipsum.</p>
 						<div class="price_single">
 							<span class="reducedfrom "><del>$1.00</del>$0.80</span>
 
 							<div class="clearfix"></div>
 						</div>
 						<h4 class="quick">Quick Overview:</h4>
-						<p class="quick_desc">Nam liber tempor cum soluta nobis
-							eleifend option congue nihil imperdiet doming id quod mazim
-							placerat facer possim assum. Typi non habent claritatem insitam;
-							es</p>
+						<p class="quick_desc">Nam liber tempor cum soluta nobis eleifend
+							option congue nihil imperdiet doming id quod mazim placerat facer
+							possim assum. Typi non habent claritatem insitam; es</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-btn1 "
 								data-id="17" data-name="Moisturiser" data-summary="summary 17"
@@ -1135,18 +1097,17 @@ function hideURLbar(){ window.scrollTo(0,1); }
 					</div>
 					<div class="col-md-7 span-1 ">
 						<h3>Lady Finger(250 g)</h3>
-						<p class="in-para">There are many variations of passages of
-							Lorem Ipsum.</p>
+						<p class="in-para">There are many variations of passages of Lorem
+							Ipsum.</p>
 						<div class="price_single">
 							<span class="reducedfrom "><del>$1.00</del>$0.80</span>
 
 							<div class="clearfix"></div>
 						</div>
 						<h4 class="quick">Quick Overview:</h4>
-						<p class="quick_desc">Nam liber tempor cum soluta nobis
-							eleifend option congue nihil imperdiet doming id quod mazim
-							placerat facer possim assum. Typi non habent claritatem insitam;
-							es</p>
+						<p class="quick_desc">Nam liber tempor cum soluta nobis eleifend
+							option congue nihil imperdiet doming id quod mazim placerat facer
+							possim assum. Typi non habent claritatem insitam; es</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-btn1 "
 								data-id="18" data-name="Lady Finger" data-summary="summary 18"
@@ -1178,18 +1139,17 @@ function hideURLbar(){ window.scrollTo(0,1); }
 					</div>
 					<div class="col-md-7 span-1 ">
 						<h3>Satin Ribbon Red(1 pc)</h3>
-						<p class="in-para">There are many variations of passages of
-							Lorem Ipsum.</p>
+						<p class="in-para">There are many variations of passages of Lorem
+							Ipsum.</p>
 						<div class="price_single">
 							<span class="reducedfrom "><del>$1.00</del>$0.80</span>
 
 							<div class="clearfix"></div>
 						</div>
 						<h4 class="quick">Quick Overview:</h4>
-						<p class="quick_desc">Nam liber tempor cum soluta nobis
-							eleifend option congue nihil imperdiet doming id quod mazim
-							placerat facer possim assum. Typi non habent claritatem insitam;
-							es</p>
+						<p class="quick_desc">Nam liber tempor cum soluta nobis eleifend
+							option congue nihil imperdiet doming id quod mazim placerat facer
+							possim assum. Typi non habent claritatem insitam; es</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-btn1 "
 								data-id="19" data-name="Satin Ribbon Red"
@@ -1221,18 +1181,17 @@ function hideURLbar(){ window.scrollTo(0,1); }
 					</div>
 					<div class="col-md-7 span-1 ">
 						<h3>Grapes(500 g)</h3>
-						<p class="in-para">There are many variations of passages of
-							Lorem Ipsum.</p>
+						<p class="in-para">There are many variations of passages of Lorem
+							Ipsum.</p>
 						<div class="price_single">
 							<span class="reducedfrom "><del>$1.00</del>$0.80</span>
 
 							<div class="clearfix"></div>
 						</div>
 						<h4 class="quick">Quick Overview:</h4>
-						<p class="quick_desc">Nam liber tempor cum soluta nobis
-							eleifend option congue nihil imperdiet doming id quod mazim
-							placerat facer possim assum. Typi non habent claritatem insitam;
-							es</p>
+						<p class="quick_desc">Nam liber tempor cum soluta nobis eleifend
+							option congue nihil imperdiet doming id quod mazim placerat facer
+							possim assum. Typi non habent claritatem insitam; es</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-btn1 "
 								data-id="20" data-name="Grapes" data-summary="summary 20"
@@ -1264,18 +1223,17 @@ function hideURLbar(){ window.scrollTo(0,1); }
 					</div>
 					<div class="col-md-7 span-1 ">
 						<h3>Clips(1 pack)</h3>
-						<p class="in-para">There are many variations of passages of
-							Lorem Ipsum.</p>
+						<p class="in-para">There are many variations of passages of Lorem
+							Ipsum.</p>
 						<div class="price_single">
 							<span class="reducedfrom "><del>$1.00</del>$0.80</span>
 
 							<div class="clearfix"></div>
 						</div>
 						<h4 class="quick">Quick Overview:</h4>
-						<p class="quick_desc">Nam liber tempor cum soluta nobis
-							eleifend option congue nihil imperdiet doming id quod mazim
-							placerat facer possim assum. Typi non habent claritatem insitam;
-							es</p>
+						<p class="quick_desc">Nam liber tempor cum soluta nobis eleifend
+							option congue nihil imperdiet doming id quod mazim placerat facer
+							possim assum. Typi non habent claritatem insitam; es</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-btn1 "
 								data-id="21" data-name="Clips" data-summary="summary 21"
@@ -1307,18 +1265,17 @@ function hideURLbar(){ window.scrollTo(0,1); }
 					</div>
 					<div class="col-md-7 span-1 ">
 						<h3>Conditioner</h3>
-						<p class="in-para">There are many variations of passages of
-							Lorem Ipsum.</p>
+						<p class="in-para">There are many variations of passages of Lorem
+							Ipsum.</p>
 						<div class="price_single">
 							<span class="reducedfrom "><del>$1.00</del>$0.80</span>
 
 							<div class="clearfix"></div>
 						</div>
 						<h4 class="quick">Quick Overview:</h4>
-						<p class="quick_desc">Nam liber tempor cum soluta nobis
-							eleifend option congue nihil imperdiet doming id quod mazim
-							placerat facer possim assum. Typi non habent claritatem insitam;
-							es</p>
+						<p class="quick_desc">Nam liber tempor cum soluta nobis eleifend
+							option congue nihil imperdiet doming id quod mazim placerat facer
+							possim assum. Typi non habent claritatem insitam; es</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-btn1 "
 								data-id="22" data-name="Conditioner" data-summary="summary 22"
@@ -1350,8 +1307,8 @@ function hideURLbar(){ window.scrollTo(0,1); }
 					</div>
 					<div class="col-md-7 span-1 ">
 						<h3>Cleaner(250 kg)</h3>
-						<p class="in-para">There are many variations of passages of
-							Lorem Ipsum.</p>
+						<p class="in-para">There are many variations of passages of Lorem
+							Ipsum.</p>
 						<div class="price_single"></div>
 						<div class="clearfix"></div>
 					</div>
@@ -1377,18 +1334,17 @@ function hideURLbar(){ window.scrollTo(0,1); }
 						</div>
 						<div class="col-md-7 span-1 ">
 							<h3>Gel(150 g)</h3>
-							<p class="in-para">There are many variations of passages of
-								Lorem Ipsum.</p>
+							<p class="in-para">There are many variations of passages of Lorem
+								Ipsum.</p>
 							<div class="price_single">
 								<span class="reducedfrom "><del>$1.00</del>$0.80</span>
 
 								<div class="clearfix"></div>
 							</div>
 							<h4 class="quick">Quick Overview:</h4>
-							<p class="quick_desc">Nam liber tempor cum soluta nobis
-								eleifend option congue nihil imperdiet doming id quod mazim
-								placerat facer possim assum. Typi non habent claritatem insitam;
-								es</p>
+							<p class="quick_desc">Nam liber tempor cum soluta nobis eleifend
+								option congue nihil imperdiet doming id quod mazim placerat
+								facer possim assum. Typi non habent claritatem insitam; es</p>
 							<div class="add-to">
 								<button class="btn btn-danger my-cart-btn my-cart-btn1 "
 									data-id="24" data-name="Gel" data-summary="summary 24"
@@ -1401,5 +1357,6 @@ function hideURLbar(){ window.scrollTo(0,1); }
 				</div>
 			</div>
 		</div>
+
 </body>
 </html>
