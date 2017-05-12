@@ -164,60 +164,48 @@ function hideURLbar(){ window.scrollTo(0,1); }
 	<!-- contact -->
 
 	<div class="contact">
-		<div class="container">
-			<div class="mb-60">
-				<h4>Introduce tus datos en el formulario</h4>
-			</div>
+		<div class="main-agileits">
 			<div class="form-w3agile">
-				<form action="" method="post" onsubmit="return validarDatos()">
-				<div class="input-group formaterrors">{{errores}}</div>
-					<div class="input-group">
-						<label for="nombre"><span class="has-warning">*</span> Nombre</label>
-						<input type="text" id="nombre" name="nombre" required="required" maxlength="20" oninvalid="this.value='';setCustomValidity('El campo nombre sólo admite hasta 20 caracteres no numéricos')" pattern="^\D{1,20}$"
-							   value='<?php echo $val->restoreValue('nombre'); ?>' >
-						<div><span class="has-warning">{{war-nombre}}</span></div>
+				<h3>Formulario de Contacto</h3>
+				<form action="#" method="post" id="registro">
+					<div class="key">
+						<i class="fa fa-user" aria-hidden="true"></i>
+						<input  type="text" placeholder="Nombre" name="nombre" id="nombre" required="required" maxlength="20" oninvalid="setCustomValidity('Este campo es obligatorios para el poder enviar el formulario de contacto')">
+						<div class="clearfix"></div>
 					</div>
-					<div class="input-group">
-						<label for="apellido"><span class="has-warning">*</span> Apellido 1</label>
-						<input type="text" id="apellido" name="apellido" required="required" oninvalid="this.value='';setCustomValidity('El campo apellidos sólo admite hasta 20 caracteres no numéricos')" pattern="^\D{1,20}$"
-							   value='<?php echo $val->restoreValue('apellido'); ?>' >
-						<div><span class="has-warning">{{war-apellido}}</span></div>
+					<div class="has-warning"><p id="errornombre"></p></div>
+					<div class="key">
+						<i class="fa fa-user" aria-hidden="true"></i>
+						<input  type="text" placeholder="Apellidos" name="apellidos" id="apellidos"  required="required" maxlength="20" oninvalid="setCustomValidity('Todos los campos son obligatorios para el registro')">
+						<div class="clearfix"></div>
 					</div>
-					<div class="input-group">
-						<label for="apellido2">Apellido 2</label>
-						<input type="text" id="apellido2" name="apellido2" oninvalid="this.value='';setCustomValidity('El campo apellidos sólo admite hasta 20 caracteres no numéricos')" pattern="^\D{1,20}$"
-							   value='<?php echo $val->restoreValue('apellido2'); ?>' >
-						<div><span class="has-warning">{{war-apellido2}}</span></div>
+					<div class="has-warning"><p id="errorapellidos"></p></div>
+					<div class="key">
+						<i class="fa fa-envelope" aria-hidden="true"></i>
+						<input  type="text" placeholder="email@example.com" name="email" id="email"  required="required" oninvalid="setCustomValidity('Todos los campos son obligatorios para el registro')">
+						<div class="clearfix"></div>
 					</div>
-					<div class="input-group">
-						<label for="email"><span class="has-warning">*</span>Email</label>
-						<input type="email" id="email" name="email"
-							   value='<?php echo $val->restoreValue('email'); ?>' required="required" oninvalid="this.value='';setCustomValidity('El campo email debe cumplir el siguiente formato: example@example.com')">
-						<div><span class="has-warning">{{war-email}}</span></div>
-					</div>
-					<div class="input-group">
-						<label for="consulta">Tipo de consulta</label>
-						<select name="consulta" value="consulta">
-							<option value="seleccion"  <?php echo $val->restoreSelectInd('consulta','seleccion');?> >--Selecciona un tipo de consulta--</option>
-							<option value="info"  <?php echo $val->restoreSelectInd('consulta','info');?> >Información</option>
-							<option value="reclamacion"  <?php echo $val->restoreSelectInd('consulta','reclamacion');?>>Reclamaciones</option>
-							<option value="presupuesto"  <?php echo $val->restoreSelectInd('consulta','presupuesto');?>>Presupuesto grandes empresas</option>
+					<div class="has-warning"><p id="erroremail"></p></div>
+					<div class="key">
+						<i class="fa fa-list" aria-hidden="true"></i>
+						<select class="consulta" name="consulta" id="consulta"  required="required" oninvalid="setCustomValidity('Todos los campos son obligatorios para el registro')">
+							<option value="0">--Selecciona una consulta</option>
+							<option value="1">Información general</option>
+							<option value="2">Problemas para loguearse</option>
+							<option value="3">Presupuestos para empresas</option>
+							<option value="4">Sugerencias</option>
 						</select>
-
-						<div><span class="has-warning">{{war-consulta}}</span></div>
+						<div class="clearfix"></div>
 					</div>
-					<div class="input-group">
-						<label for="area">Escribe aquí cualquier comentario</label><br>
-						<textarea required="required" oninvalid="setCustomValidity('El área de texto debe tener contenido')"" cols="60" rows="10" name="area" ><?php echo $val->restoreValue('area'); ?></textarea>
-						<div><span class="has-warning">{{war-area}}</span></div>
+					<div class="has-warning"><p id="errorconsulta"></p></div>
+					<div class="key">
+						<i class="fa fa-comments" aria-hidden="true"></i>
+						<textarea cols="60" rows="10" placeholder="Escribe aquí tu comentario" name="area" id="area"  required="required" oninvalid="setCustomValidity('Todos los campos son obligatorios para el registro')"></textarea>
+						<div class="clearfix"></div>
 					</div>
-			</div>
-
-			<br>
-			<div>
-				<input value="enviar" type="submit" name="enviar">
-			</div>
-			</form>
+					<div class="has-warning"><p id="errorarea"></p></div>
+				<input type="submit" value="Contactar">
+				</form>
 			</div>
 	</div>
 		</div>

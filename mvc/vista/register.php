@@ -22,7 +22,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 <link href="css/style.css" rel='stylesheet' type='text/css' />
 <!-- js -->
    <script src="js/jquery-1.11.1.min.js"></script>
-	<script type='text/javascript' src="js/registro.js"></script>
+	<script type='text/javascript' src="js/validaciones.js"></script>
 <!-- //js -->
 <!-- start-smoth-scrolling -->
 <script type="text/javascript" src="js/move-top.js"></script>
@@ -131,7 +131,6 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 				<div class="form-w3agile form1">
 					<h3>Registro</h3>
 					<form action="#" method="post" id="registro">
-						<div>
 						<div class="key">
 							<i class="fa fa-user" aria-hidden="true"></i>
 							<input  type="text" placeholder="Nombre" name="nombre" id="nombre" required="required" maxlength="20" oninvalid="setCustomValidity('Todos los campos son obligatorios para el registro')">
@@ -187,7 +186,12 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 							<div class="clearfix"></div>
 						</div>
 							<div class="has-warning"><p id="errorpassword2"></p></div>
-						<input type="submit" value="Registrarse">
+
+							<input class="forg-left" type="checkbox" id="condiciones" name="condiciones" required="required"  oninvalid="setCustomValidity('Por favor acepta los términos y condiciones')">
+							<div class="clearfix forg"><a class="comentarios" href="?pagina=terminos">Acepto los términos y condiciones</a></div>
+
+						<div class="has-warning"><p id="errorpassword2"></p></div>
+						<input class="form-" id="registrarse" type="submit" disabled="disabled" value="Registrarse">
 					</form>
 				</div>
 				

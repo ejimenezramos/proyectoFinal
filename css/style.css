@@ -11,6 +11,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     font-size: 14px;
     line-height: 1em;
     margin: 1em 0 2em; }
+/*Elena 12/05/17: Clase creada para el posicionamiento de los comentarios adjuntos a los input*/
+.comentarios{
+    font-size: 14px;
+    line-height: 1em;
+    margin: 0em 1em 2em ;
+
+}
 
 body{
 	margin:0;
@@ -1856,6 +1863,18 @@ a#myTabDrop1 {
     cursor: pointer;
     margin-bottom:30px;
 }
+/*Elena 12/05/17: Añado las clases haciendo referencia a disabled para mostrar claramente el botón deshabilitado*/
+.form-w3agile input[type="submit"]:disabled{
+
+    background: #999;
+
+}
+.form-w3agile input[type="submit"]:disabled:hover{
+
+    background: #1B242F;
+
+}
+
 .form-w3agile  input[type="submit"]:hover{
     /*Elena 28/04/17: Se modifica el color de fondo al hacer hover sobre un botón de tipo submit */
 	background:#117A65;

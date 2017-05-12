@@ -7,7 +7,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE html>
 <html>
 <head>
-<title>Big store a Ecommerce Online Shopping Category Flat Bootstrap Responsive Website Template | Login :: w3layouts</title>
+<title>Cereal-Break | Olvidé mi contraseña</title>
 <!-- for-mobile-apps -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -117,38 +117,29 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
  <!--banner-->
 <div class="banner-top">
 	<div class="container">
-		<h3 >Login</h3>
-		<h4><a href="?pagina=home">Home</a><label>/</label>Login</h4>
+		<h3 >Olvidé mi contraseña</h3>
+		<h4><a href="?pagina=home">Home</a><label>/</label>Olvidé la contraseña</h4>
 		<div class="clearfix"> </div>
 	</div>
 </div>
-<!--login-->
+<!--Olvido-->
 
 	<div class="login">
 	
 		<div class="main-agileits">
 				<div class="form-w3agile">
-					<h3>Login</h3>
-					<form action="#" method="post" id="login">
+					<h3>Olvidé la constraseña</h3>
+					<form action="#" method="post" id="olvido">
+						<div class="comentarios"><p>Introduce tu email para reestablecer la contraseña</p></div>
 						<div class="key">
-							<i class="fa fa-user" aria-hidden="true"></i>
-							<input  type="text" placeholder="Usuario" name="usuario" id="usuario" required="required" oninvalid="setCustomValidity('Este campo es obligatorio')">
+							<i class="fa fa-envelope" aria-hidden="true"></i>
+							<input  type="text" placeholder="Email" name="email" id="email" required="required" oninvalid="setCustomValidity('Este campo es obligatorio')">
 							<div class="clearfix"></div>
 						</div>
-						<div class="has-warning"><p id="errorusuario"></p></div>
-						<div class="key">
-							<i class="fa fa-lock" aria-hidden="true"></i>
-							<input  type="password" placeholder="Password" name="password" id="password" required="required" oninvalid="setCustomValidity('Este campo es obligatorio')" >
-							<div class="clearfix"></div>
-						</div>
-						<div class="has-warning"><p id="errorpassword"></p></div>
-						<input type="submit" value="Login">
+						<div class="has-warning"><p id="erroremail"></p></div>
+						<input type="submit" value="Reestablecer">
 					</form>
 				</div>
-				<div class="forg">
-					<a href="?pagina=olvido" class="forg-left">Olvidé la contraseña</a>
-					<a href="?pagina=register" class="forg-right">Registrarse</a>
-				<div class="clearfix"></div>
 				</div>
 			</div>
 		</div>

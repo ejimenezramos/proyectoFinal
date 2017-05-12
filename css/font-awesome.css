@@ -352,8 +352,10 @@
 .fa-align-justify:before {
   content: "\f039";
 }
+/*Elena: Cambio el color del icono de lista para los formularios*/
 .fa-list:before {
   content: "\f03a";
+  color: #117A65;
 }
 .fa-dedent:before,
 .fa-outdent:before {
