@@ -134,57 +134,56 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 						<div>
 						<div class="key">
 							<i class="fa fa-user" aria-hidden="true"></i>
-							<input  type="text" placeholder="Nombre" name="nombre" id="nombre" required="required" maxlength="20" pattern="[a-zA-Z\s]{1,20}">
+							<input  type="text" placeholder="Nombre" name="nombre" id="nombre" required="required" maxlength="20" oninvalid="setCustomValidity('Todos los campos son obligatorios para el registro')">
 							<div class="clearfix"></div>
 						</div>
 						<div class="has-warning"><p id="errornombre"></p></div>
 						<div class="key">
 							<i class="fa fa-user" aria-hidden="true"></i>
-							<input  type="text" placeholder="Apellidos" name="apellidos" id="apellidos"  required="required" maxlength="20" oninvalid="this.value='';setCustomValidity('El campo apellidos es obligatorio y sólo admite letras y espacios en blanco (30 caracteres)')" pattern="[a-zA-Z\s]{1,30}">
+							<input  type="text" placeholder="Apellidos" name="apellidos" id="apellidos"  required="required" maxlength="20" oninvalid="setCustomValidity('Todos los campos son obligatorios para el registro')">
 
 							<div class="clearfix"></div>
 						</div>
 							<div class="has-warning"><p id="errorapellidos"></p></div>
 						<div class="key">
 							<i class="fa fa-birthday-cake" aria-hidden="true"></i>
-							<input  type="date" placeholder="Fecha de nacimiento" id="fechanac"  name="fechanac" required="required"  oninvalid="this.value='';setCustomValidity('La fecha de nacimiento es obligatoria y debes ser mayor edad')" >
-							<!--expresión regular por si es necesaria para la fecha pattern="^([0][1-9]|[12][0-9]|3[01])(\/|-)([0][1-9]|[1][0-2])(\/|-)([1][9])([9][0-8]|[5678][0-9])$"-->
+							<input  type="date" placeholder="Fecha de nacimiento" id="fechanac"  name="fechanac" required="required" oninvalid="setCustomValidity('Todos los campos son obligatorios para el registro')">
 							<div class="clearfix"></div>
 						</div>
 							<div class="has-warning"><p id="errorfechanac"></p></div>
 						<div class="key">
 							<i class="fa fa-user" aria-hidden="true"></i>
-							<input  type="text" placeholder="Dni" name="dni" id="dni" required="required" pattern="\d{8}[\-]{1}\w{1}">
+							<input  type="text" placeholder="Dni" name="dni" id="dni" required="required" maxlength="10" oninvalid="setCustomValidity('Todos los campos son obligatorios para el registro')">
 							<div class="clearfix"></div>
 						</div>
 							<div class="has-warning"><p id="errordni"></p></div>
 						<div class="key">
 							<i class="fa fa-mobile-phone" aria-hidden="true"></i>
-							<input  type="text" placeholder="Teléfono" name="telefono" id="telefono"  required="required" pattern="(6|7)\d{2}[-]?\d{3}[-]?\d{3}" maxlength="9" >
+							<input  type="text" placeholder="Teléfono" name="telefono" id="telefono"  required="required"  maxlength="9" oninvalid="setCustomValidity('Todos los campos son obligatorios para el registro')">
 							<div class="clearfix"></div>
 						</div>
 							<div class="has-warning"><p id="errortelefono"></p></div>
 						<div class="key">
 							<i class="fa fa-envelope" aria-hidden="true"></i>
-							<input  type="text" placeholder="email@example.com" name="email" id="email"  required="required">
+							<input  type="text" placeholder="email@example.com" name="email" id="email"  required="required" oninvalid="setCustomValidity('Todos los campos son obligatorios para el registro')">
 							<div class="clearfix"></div>
 						</div>
 							<div class="has-warning"><p id="erroremail"></p></div>
 						<div class="key">
 							<i class="fa fa-user" aria-hidden="true"></i>
-							<input  type="text" placeholder="Nombre de usuario" name="usuario" id="usuario" required="required" maxlength="20" >
+							<input  type="text" placeholder="Nombre de usuario" name="usuario" id="usuario" required="required" maxlength="20" oninvalid="setCustomValidity('Todos los campos son obligatorios para el registro')">
 							<div class="clearfix"></div>
 						</div>
 							<div class="has-warning"><p id="errorusuario"></p></div>
 						<div class="key">
 							<i class="fa fa-lock" aria-hidden="true"></i>
-							<input  type="password" placeholder="Password" name="pass1" id="password"  required="required" minlength="6">
+							<input  type="password" placeholder="Password" name="pass1" id="password"  required="required"  oninvalid="setCustomValidity('Todos los campos son obligatorios para el registro')">
 							<div class="clearfix"></div>
 						</div>
 							<div class="has-warning"><p id="errorpassword"></p></div>
 						<div class="key">
 							<i class="fa fa-lock" aria-hidden="true"></i>
-							<input  type="password" placeholder="Confirmar Password" id="password2" name="pass2" required="required" minlength="6" oninvalid="this.value='';setCustomValidity('El campo confirmación de contraseña es obligatorio, debe coincidir con el campo contraseña y debe tener más de 6 caracteres alfanuméricos')">
+							<input  type="password" placeholder="Confirmar Password" id="password2" name="pass2" required="required"  oninvalid="setCustomValidity('Todos los campos son obligatorios para el registro')">
 							<div class="clearfix"></div>
 						</div>
 							<div class="has-warning"><p id="errorpassword2"></p></div>
