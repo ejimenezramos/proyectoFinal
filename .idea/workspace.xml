@@ -2,6 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="773c24a4-52bd-4d25-b22b-0000bce0fb4f" name="Default" comment="" />
+    <list default="true" id="773c24a4-52bd-4d25-b22b-0000bce0fb4f" name="Default" comment="" />
+    <list default="true" id="773c24a4-52bd-4d25-b22b-0000bce0fb4f" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/js/peticionesAJAX.js" afterPath="$PROJECT_DIR$/js/jquery.peticionesAJAX.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/requests/compruebaProductos.php" afterPath="$PROJECT_DIR$/requests/peticiones.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/jquery.productos.js" afterPath="$PROJECT_DIR$/js/jquery.productos.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/validaciones.js" afterPath="$PROJECT_DIR$/js/validaciones.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvc/vista/productos.php" afterPath="$PROJECT_DIR$/mvc/vista/productos.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvc/vista/register.php" afterPath="$PROJECT_DIR$/mvc/vista/register.php" />
+    </list>
     <ignored path="paco.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -21,11 +31,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="register.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mvc/vista/register.php">
+      <file leaf-file-name="home.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mvc/vista/home.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="3128">
               <caret line="184" column="77" selection-start-line="184" selection-start-column="77" selection-end-line="184" selection-end-column="77" />
+            <state relative-caret-position="173">
+              <caret line="100" column="67" selection-start-line="100" selection-start-column="67" selection-end-line="100" selection-end-column="67" />
+            <state relative-caret-position="1193">
+              <caret line="250" column="40" selection-start-line="250" selection-start-column="40" selection-end-line="250" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -36,6 +50,39 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="408">
               <caret line="24" column="43" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
+      <file leaf-file-name="bootstrap.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="302">
+              <caret line="335" column="14" selection-start-line="335" selection-start-column="14" selection-end-line="335" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="41" column="28" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
+              <folding />
+      <file leaf-file-name="validaciones.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/validaciones.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="385">
+              <caret line="198" column="31" selection-start-line="198" selection-start-column="31" selection-end-line="198" selection-end-column="31" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jquery.peticionesAJAX.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/jquery.peticionesAJAX.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -48,12 +95,25 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="177">
               <caret line="1108" column="77" selection-start-line="1108" selection-start-column="77" selection-end-line="1108" selection-end-column="77" />
+      <file leaf-file-name="peticiones.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/requests/peticiones.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -76,14 +136,12 @@
         <option value="$PROJECT_DIR$/mvc/common/validacion.php" />
         <option value="$PROJECT_DIR$/mvc/modelo/form/Contact/ContactParser.php" />
         <option value="$PROJECT_DIR$/js/productos.js" />
-        <option value="$PROJECT_DIR$/requests/compruebaProductos.php" />
         <option value="$PROJECT_DIR$/mvc/modelo/form/Home/mdlMenu.php" />
         <option value="$PROJECT_DIR$/mvc/vista/aboutus.php" />
         <option value="$PROJECT_DIR$/mvc/vista/packs.php" />
         <option value="$PROJECT_DIR$/config.php" />
         <option value="$PROJECT_DIR$/js/contacto.js" />
         <option value="$PROJECT_DIR$/js/Registro.js" />
-        <option value="$PROJECT_DIR$/mvc/vista/home.php" />
         <option value="$PROJECT_DIR$/mvc/vista/menu.php" />
         <option value="$PROJECT_DIR$/js/registro.js" />
         <option value="$PROJECT_DIR$/mvc/modelo/form/Olvido/mdlLogin.php" />
@@ -91,14 +149,23 @@
         <option value="$PROJECT_DIR$/css/font-awesome.css" />
         <option value="$PROJECT_DIR$/mvc/vista/terminos.php" />
         <option value="$PROJECT_DIR$/mvc/modelo/form/Terminos/mdlterminos.php" />
-        <option value="$PROJECT_DIR$/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/mvc/vista/login.php" />
         <option value="$PROJECT_DIR$/mvc/vista/contact.php" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/js/validaciones.js" />
         <option value="$PROJECT_DIR$/mvc/vista/register.php" />
         <option value="$PROJECT_DIR$/js/peticionesAJAX.js" />
         <option value="$PROJECT_DIR$/mvc/vista/productos.php" />
+        <option value="$PROJECT_DIR$/css/bootstrap.css" />
+        <option value="$PROJECT_DIR$/mvc/vista/home.php" />
+        <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/js/peticionesAJAX.js" />
+        <option value="$PROJECT_DIR$/mvc/vista/productos.php" />
+        <option value="$PROJECT_DIR$/requests/compruebaProductos.php" />
+        <option value="$PROJECT_DIR$/js/jquery.peticionesAJAX.js" />
+        <option value="$PROJECT_DIR$/mvc/vista/register.php" />
+        <option value="$PROJECT_DIR$/js/validaciones.js" />
+        <option value="$PROJECT_DIR$/requests/peticiones.php" />
       </list>
     </option>
   </component>
@@ -112,7 +179,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1382" />
+    <option name="width" value="1378" />
     <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -169,6 +236,20 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="requests" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="proyectoFinal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="proyectoFinal" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="mvc" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -190,14 +271,6 @@
               <option name="myItemId" value="mvc" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modelo" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="form" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -209,21 +282,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="mvc" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="proyectoFinal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="proyectoFinal" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -254,6 +313,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\proyectos_git\proyectoFinal\images" />
       <recent name="C:\wamp64\www\proyectoFinal\mvc\modelo\form" />
       <recent name="C:\wamp64\www\proyectoFinal\mvc\vista" />
     </key>
@@ -341,20 +401,25 @@
       <workItem from="1494839363501" duration="10964000" />
       <workItem from="1494851395738" duration="313000" />
       <workItem from="1494862095840" duration="10064000" />
+      <workItem from="1494865948222" duration="3424000" />
+      <workItem from="1494851395738" duration="7685000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="118742000" />
+    <option name="totallyTimeSpent" value="112109000" />
+    <option name="totallyTimeSpent" value="116050000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12445095" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2239354" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280757" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -365,7 +430,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32871974" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -530,7 +594,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/include.php" />
-    <entry file="file://$PROJECT_DIR$/requests/compruebaProductos.php" />
     <entry file="file://$PROJECT_DIR$/mvc/modelo/form/Home/mdlMenu.php" />
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -577,13 +640,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mvc/vista/home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-44">
-          <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mvc/modelo/form/Olvido/mdlolvido.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -603,6 +659,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="416">
           <caret line="354" column="64" selection-start-line="354" selection-start-column="64" selection-end-line="354" selection-end-column="64" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -621,14 +678,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="139" column="0" selection-start-line="139" selection-start-column="0" selection-end-line="139" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mvc/vista/login.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2074">
@@ -643,20 +692,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/validaciones.js">
+    <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1156">
           <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="false" />
           </folding>
+        <state relative-caret-position="286">
+          <caret line="1846" column="1" selection-start-line="1846" selection-start-column="1" selection-end-line="1846" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
+    <entry file="file://$PROJECT_DIR$/mvc/vista/home.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="1846" column="1" selection-start-line="1846" selection-start-column="1" selection-end-line="1846" selection-end-column="1" />
+        <state relative-caret-position="319">
+          <caret line="430" column="30" selection-start-line="430" selection-start-column="30" selection-end-line="430" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/vista/productos.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -665,14 +725,54 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3128">
           <caret line="184" column="77" selection-start-line="184" selection-start-column="77" selection-end-line="184" selection-end-column="77" />
+        <state relative-caret-position="1193">
+          <caret line="250" column="40" selection-start-line="250" selection-start-column="40" selection-end-line="250" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/peticionesAJAX.js">
+    <entry file="file://$PROJECT_DIR$/js/validaciones.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="24" column="43" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
+        <state relative-caret-position="476">
+          <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="335" column="14" selection-start-line="335" selection-start-column="14" selection-end-line="335" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/vista/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="100" column="67" selection-start-line="100" selection-start-column="67" selection-end-line="100" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="41" column="28" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
+          <folding />
+        <state relative-caret-position="385">
+          <caret line="198" column="31" selection-start-line="198" selection-start-column="31" selection-end-line="198" selection-end-column="31" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery.peticionesAJAX.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -683,6 +783,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="177">
           <caret line="1108" column="77" selection-start-line="1108" selection-start-column="77" selection-end-line="1108" selection-end-column="77" />
+    <entry file="file://$PROJECT_DIR$/requests/peticiones.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
           <folding />
         </state>
       </provider>

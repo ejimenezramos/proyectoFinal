@@ -333,6 +333,7 @@ img {
   height: auto;
   border:2px solid #1ABC9C;
   border-radius: 20px;
+  opacity: 0.7;
 }
 
 .img-rounded {

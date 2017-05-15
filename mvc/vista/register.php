@@ -182,76 +182,42 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 </div>
                 <div class="key">
                     <i class="fa fa-list" aria-hidden="true"></i>
-                    <select class="consulta" name="provincias" id="provincias"
+                    <select class="consulta" name="comunidades" id="comunidades"
                             oninvalid="setCustomValidity('Todos los campos son obligatorios para el registro')">
-                        <option value="0">--Selecciona una Provincia--</option>
-                        <option value="1">Álava</option>
-                        <option value="2">Albacete</option>
-                        <option value="3">Alicante</option>
-                        <option value="4">Almería</option>
-                        <option value="5">Asturias</option>
-                        <option value="6">Ávila</option>
-                        <option value="7">Badajoz</option>
-                        <option value="8">Barcelona</option>
-                        <option value="9">Burgos</option>
-                        <option value="10">Cáceres</option>
-                        <option value="11">Cádiz</option>
-                        <option value="12">Cantabria</option>
-                        <option value="13">Castellón</option>
-                        <option value="14">Ciudad Real</option>
-                        <option value="15">Córdoba</option>
-                        <option value="16">La Coruña</option>
-                        <option value="17">Cuenca</option>
-                        <option value="18">Gerona</option>
-                        <option value="19">Granada</option>
-                        <option value="20">Guadalajara</option>
-                        <option value="21">Guipúzcoa</option>
-                        <option value="22">Huelva</option>
-                        <option value="23">Huesca</option>
-                        <option value="24">Islas Baleares</option>
-                        <option value="25">Jaén</option>
-                        <option value="26">León</option>
-                        <option value="27">Lérida</option>
-                        <option value="28">Lugo</option>
-                        <option value="29">Madrid</option>
-                        <option value="30">Málaga</option>
-                        <option value="31">Murcia</option>
-                        <option value="32">Navarra</option>
-                        <option value="33">Ourense</option>
-                        <option value="34">Palencia</option>
-                        <option value="35">Las Palmas</option>
-                        <option value="36">Pontevedra</option>
-                        <option value="37">La Rioja</option>
-                        <option value="38">Salamanca</option>
-                        <option value="39">Segovia</option>
-                        <option value="40">Sevilla</option>
-                        <option value="41">Soria</option>
-                        <option value="42">Tarragona</option>
-                        <option value="43">Santa Cruz de Tenerife</option>
-                        <option value="44">Teruel</option>
-                        <option value="45">Toledo</option>
-                        <option value="46">Valencia</option>
-                        <option value="47">Valladolid</option>
-                        <option value="48">Vizcaya</option>
-                        <option value="49">Zamora</option>
-                        <option value="50">Zaragoza</option>
-                        <option value="51">Ceuta</option>
-                        <option value="52">Melilla</option>
+                        <option value="0">--Selecciona una Comunidad Autónoma--</option>
+                        <option value="1">Andalucía</option>
+                        <option value="2">Aragón</option>
+                        <option value="3">Asturias</option>
+                        <option value="4">Cantabria</option>
+                        <option value="5">Castilla y León</option>
+                        <option value="6">Castilla-La Mancha</option>
+                        <option value="7">Cataluña</option>
+                        <option value="8">Extremadura</option>
+                        <option value="9">Galicia</option>
+                        <option value="10">La Rioja</option>
+                        <option value="11">Islas Baleares</option>
+                        <option value="12">País Vasco</option>
+                        <option value="13">Canarias</option>
+                        <option value="14">Comunidad de Madrid</option>
+                        <option value="15">Región de Murcia</option>
+                        <option value="16">Comunidad Valenciana</option>
+                        <option value="17">Navarra</option>
+                        <option value="18">Ceuta</option>
+                        <option value="19">Melilla</option>
                     </select>
                     <div class="clearfix"></div>
                 </div>
-
+                <div class="has-warning"><p id="errorcomunidades"></p></div>
                 <div class="key">
                     <i class="fa fa-list" aria-hidden="true"></i>
-                    <select class="consulta" disabled="disabled" name="municipios" id="municipios"
+                    <select class="consulta" disabled="disabled" name="provincias" id="provincias"
                             oninvalid="setCustomValidity('Todos los campos son obligatorios para el registro')">
-                        <option value="a">--Selecciona un municipio--</option>
-                        <option value="b"></option>
-                        <option value="c"></option>
-                        <option value="d"></option>
+                        <option value="0">--Selecciona una provincia--</option>
+
                     </select>
                     <div class="clearfix"></div>
                 </div>
+                <div class="has-warning"><p id="errorprovincias"></p></div>
                 <div class="key">
                     <i class="fa fa-list" aria-hidden="true"></i>
                     <select class="consulta" disabled="disabled" name="tipoDireccion" id="tipoDireccion"
@@ -264,13 +230,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     <div class="clearfix"></div>
                 </div>
                 <div class="key">
-                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                    <i class="fa fa-home" aria-hidden="true"></i>
                     <input type="text" placeholder="Dirección" disabled="disabled" name="direccion" id="direccion"
                            oninvalid="setCustomValidity('Todos los campos son obligatorios para el registro')">
                     <div class="clearfix"></div>
                 </div>
+                <div class="has-warning"><p id="errordireccion"></p></div>
                 <div class="key">
-                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                    <i class="fa fa-home" aria-hidden="true"></i>
                     <input type="text" placeholder="Código Postal" disabled="disabled" name="cp" id="cp"
                            oninvalid="setCustomValidity('Todos los campos son obligatorios para el registro')">
                     <div class="clearfix"></div>

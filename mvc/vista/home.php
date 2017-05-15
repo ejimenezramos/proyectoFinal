@@ -95,21 +95,21 @@ function hideURLbar(){ window.scrollTo(0,1); }
 
 </head>
 <body>
-<!--<script type="text/javascript">-->
-<!--	$(window).load(function(){-->
-<!--		$(window).scroll(function() {-->
-<!--			var wintop = $(window).scrollTop(), docheight = $('article').height(), winheight = $(window).height();-->
-<!--			console.log(wintop);-->
-<!--			var totalScroll = (wintop/(docheight-winheight))*100;-->
-<!--			console.log("total scroll" + totalScroll);-->
-<!--			$(".KW_progressBar").css("width",totalScroll+"%");-->
-<!--		});-->
-<!--	});-->
-<!--</script>-->
-<!--<div class="KW_progressContainer">-->
-<!--	<div class="KW_progressBar">-->
-<!--	</div>-->
-<!--</div>-->
+<script type="text/javascript">
+	$(window).load(function(){
+		$(window).scroll(function() {
+			var wintop = $(window).scrollTop(), docheight = $('body').height(), winheight = $(window).height();
+			console.log(wintop);
+			var totalScroll = (wintop/(docheight-winheight))*100;
+			console.log("total scroll" + totalScroll);
+			$(".KW_progressBar").css("width",totalScroll+"%");
+		});
+	});
+</script>
+<div class="KW_progressContainer">
+	<div class="KW_progressBar">
+	</div>
+</div>
 
 	<div class="header">
 		<div class="container">
@@ -188,7 +188,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 			myIndex++;
 			if (myIndex > x.length) {myIndex = 1}
 			x[myIndex-1].style.display = "block";
-			setTimeout(carousel, 7000); // Change image every 2 seconds
+			setTimeout(carousel, 4000); // Cambia cada 4 segundos
 		}
 	</script>
 
@@ -207,31 +207,32 @@ function hideURLbar(){ window.scrollTo(0,1); }
 				<div class="col-md1 ">
 					<a href="?pagina=productos"> <img src="images/home_variedad.png"
 						class="img-home img" alt="">
+                        <div class="big-sa">
+                            <h3 class="home_tittle">
+                                #
+                                <span>Productos</span>
+                            </h3>
+                        </div>
 					</a>
 				</div>
 
 				<div class="col-md1 content-mid2">
-						<h3 class="home_tittle">
-							#
-							<span>Productos</span>
-						</h3>
 					<p>Descubre nuestra gran variedad de sabores, colores y texturas</p>
 				</div>
 			</div>
 			<div class="col-md-4 m-w3ls1">
 				<div class="col-md ">
-					<a href="?pagina=aboutus"> <img src="images/mouth2.jpeg" class="img-home  img"
+					<a href="?pagina=aboutus"> <img src="images/conocenos_home.jpeg" class="img-home  img"
 						alt="">
-
+                        <div class="big-sa">
+                            <h3 class="home_tittle">
+                                #
+                                <span>Conócenos</span>
+                            </h3>
+                        </div>
 					</a>
 				</div>
 				<div class="col-md1 content-mid2">
-
-					<h3 class="home_tittle">
-						#
-						<span>Experiencias</span>
-
-					</h3>
 					<p>Colorea tu desayuno de una manera diferente</p>
 				</div>
 			</div>
@@ -239,13 +240,15 @@ function hideURLbar(){ window.scrollTo(0,1); }
 				<div class="col-md3 ">
 					<a href="?pagina=packs"> <img src="images/pack_home.jpeg"
 						class="img-home  img1" alt="">
+                        <div class="big-sa">
+                            <h3 class="home_tittle">
+                                #
+                                <span>Packs</span>
+                            </h3>
+                        </div>
 					</a>
 				</div>
 				<div class="col-md1 content-mid2">
-					<h3 class="home_tittle">
-						+
-						<span>Packs</span>
-					</h3>
 					<p>Te ofrecemos las mejores combinaciones posibles para que tu experiencia sea completa</p>
 				</div>
 			</div>
