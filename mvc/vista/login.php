@@ -132,13 +132,13 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 					<form action="#" method="post" id="login">
 						<div class="key">
 							<i class="fa fa-user" aria-hidden="true"></i>
-							<input  type="text" placeholder="Usuario" name="usuario" id="usuario" required="required" oninvalid="setCustomValidity('Este campo es obligatorio')">
+							<input  type="text" placeholder="Usuario" name="usuario" id="usuario" oninvalid="setCustomValidity('Este campo es obligatorio')">
 							<div class="clearfix"></div>
 						</div>
 						<div class="has-warning"><p id="errorusuario"></p></div>
 						<div class="key">
 							<i class="fa fa-lock" aria-hidden="true"></i>
-							<input  type="password" placeholder="Password" name="password" id="password" required="required" oninvalid="setCustomValidity('Este campo es obligatorio')" >
+							<input  type="password" placeholder="Password" name="password" id="password"  oninvalid="setCustomValidity('Este campo es obligatorio')" >
 							<div class="clearfix"></div>
 						</div>
 						<div class="has-warning"><p id="errorpassword"></p></div>

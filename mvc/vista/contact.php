@@ -26,7 +26,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 <link href="css/style.css" rel='stylesheet' type='text/css' />
 <!-- js -->
 <script src="js/jquery-1.11.1.min.js"></script>
-	<script type="text/javascript" src="js/contacto.js"></script>
+	<script type="text/javascript" src="js/validaciones.js"></script>
 <!-- //js -->
 <!-- start-smoth-scrolling -->
 <script type="text/javascript" src="js/move-top.js"></script>
@@ -170,25 +170,25 @@ function hideURLbar(){ window.scrollTo(0,1); }
 				<form action="#" method="post" id="registro">
 					<div class="key">
 						<i class="fa fa-user" aria-hidden="true"></i>
-						<input  type="text" placeholder="Nombre" name="nombre" id="nombre" required="required" maxlength="20" oninvalid="setCustomValidity('Este campo es obligatorios para el poder enviar el formulario de contacto')">
+						<input  type="text" placeholder="Nombre" name="nombre" id="nombre" maxlength="20" oninvalid="setCustomValidity('Este campo es obligatorios para el poder enviar el formulario de contacto')">
 						<div class="clearfix"></div>
 					</div>
 					<div class="has-warning"><p id="errornombre"></p></div>
 					<div class="key">
 						<i class="fa fa-user" aria-hidden="true"></i>
-						<input  type="text" placeholder="Apellidos" name="apellidos" id="apellidos"  required="required" maxlength="20" oninvalid="setCustomValidity('Todos los campos son obligatorios para el registro')">
+						<input  type="text" placeholder="Apellidos" name="apellidos" id="apellidos" maxlength="20" oninvalid="setCustomValidity('Todos los campos son obligatorios para el registro')">
 						<div class="clearfix"></div>
 					</div>
 					<div class="has-warning"><p id="errorapellidos"></p></div>
 					<div class="key">
 						<i class="fa fa-envelope" aria-hidden="true"></i>
-						<input  type="text" placeholder="email@example.com" name="email" id="email"  required="required" oninvalid="setCustomValidity('Todos los campos son obligatorios para el registro')">
+						<input  type="text" placeholder="email@example.com" name="email" id="email" oninvalid="setCustomValidity('Todos los campos son obligatorios para el registro')">
 						<div class="clearfix"></div>
 					</div>
 					<div class="has-warning"><p id="erroremail"></p></div>
 					<div class="key">
 						<i class="fa fa-list" aria-hidden="true"></i>
-						<select class="consulta" name="consulta" id="consulta"  required="required" oninvalid="setCustomValidity('Todos los campos son obligatorios para el registro')">
+						<select class="consulta" name="consulta" id="consulta" oninvalid="setCustomValidity('Todos los campos son obligatorios para el registro')">
 							<option value="0">--Selecciona una consulta</option>
 							<option value="1">Información general</option>
 							<option value="2">Problemas para loguearse</option>
@@ -200,7 +200,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 					<div class="has-warning"><p id="errorconsulta"></p></div>
 					<div class="key">
 						<i class="fa fa-comments" aria-hidden="true"></i>
-						<textarea cols="60" rows="10" placeholder="Escribe aquí tu comentario" name="area" id="area"  required="required" oninvalid="setCustomValidity('Todos los campos son obligatorios para el registro')"></textarea>
+						<textarea cols="40" rows="10" placeholder="Escribe aquí tu comentario" name="area" id="area"  oninvalid="setCustomValidity('Todos los campos son obligatorios para el registro')"></textarea>
 						<div class="clearfix"></div>
 					</div>
 					<div class="has-warning"><p id="errorarea"></p></div>
