@@ -1837,6 +1837,14 @@ a#myTabDrop1 {
     float: left;
     background: none;
 }
+/*Elena 15/05/17:Cambio el color de fonfo del atributo disabled en los input del form, para que esten visiblemente deshabilitados*/
+.key input[type="text"]:disabled{
+  background-color: #f5f5f5;
+}
+/*Elena 15/05/17:Cambio el color de fonfo del atributo disabled en los input del form, para que esten visiblemente deshabilitados*/
+.key select[disabled="disabled"]{
+    background-color: #f5f5f5;
+}
 .key i{
 	    float: left;
     color: #999;

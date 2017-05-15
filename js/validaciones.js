@@ -2,10 +2,12 @@
 
 
 /***************DECLARACIÓN VARIABLES EXPRESIONES REGULARES****************/
+
 var patnombre = new RegExp("^[a-zA-Z]+(\s*[a-zA-Z]*)*[a-zA-Z]+$");
 var patttel = new RegExp("(6|7|9)\\d{8}");
 var patemail = new RegExp("^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$");
 var patusuario = new RegExp("^\\w+$");
+var patdni = new RegExp("^[XYZxyz]?[\\-\\s]?\\d{5,8}[\-\\s]?[A-Za-z]$");
 
 
 /***************VALIDACIONES SUBMIT****************/
@@ -19,7 +21,7 @@ $(document).ready(function () {
 $(document).ready(function () {
     $("#login").submit(function () {
         if ($("#login").find("input").val().length <= 0) {
-          alert("Todos los campos son obligatorios, por favor rellene los campos");
+            alert("Todos los campos son obligatorios, por favor rellene los campos");
         }
 
     });
@@ -59,23 +61,38 @@ $(document).ready(function () {
                     break;
                 case "dni":
                     var dniLetters = "TRWAGMYFPDXBNJZSQVHLCKET";
-                    if ($("#dni").val().indexOf("-") != -1) {
-                        var a = $("#dni").val().split("-");
-                        var dniNum = a[0];
-                        var dniLetter = a[1];
-                    }
-                    else {
-                        dniNum = $("#dni").val().slice(0, 8);
-                        dniLetter = $("#dni").val().slice(8);
-                    }
+                    var dniValueMayusculas = $("#dni").val().toUpperCase();
+                    if (patdni.test(dniValueMayusculas)) {
+                        if (dniValueMayusculas.indexOf(" " != -1) || dniValueMayusculas.indexOf("-" != -1)) {
+                            var noSpaces = dniValueMayusculas.replace(/ /g, "");
+                            dniValueMayusculas = noSpaces.replace(/-/g, "");
 
 
-                    if (dniLetters[dniNum % 23] === dniLetter) {
-                        $("#error" + id).html("");
+                            if (dniValueMayusculas.startsWith("X") || dniValueMayusculas.startsWith("Y") || dniValueMayusculas.startsWith("Z")) {
+
+                                var dniNum = dniValueMayusculas.substring(1, dniValueMayusculas.length - 1);
+
+                            }
+                            else {
+                                dniNum = dniValueMayusculas.substring(0, dniValueMayusculas.length - 1);
+
+                            }
+                            var dniLetter = dniValueMayusculas.substring(dniValueMayusculas.length - 1);
+                        }
+
+
+                        if (dniLetters[dniNum % 23] === dniLetter) {
+
+                            $("#error" + id).html("");
+                        }
+                        else {
+                            $("#error" + id).html("La letra del " + id + " no es correcta");
+                        }
                     }
                     else {
-                        $("#error" + id).html("El " + id + " El formato del campo " + id + " es: 12345678-B, la letra introducida debe ser correcta");
+                        $("#error" + id).html("El formato del campo " + id + " no es correcto.(Ej.12345678-B/12345678 B/ X12345678B /X 12345678-B / X12345678B)");
                     }
+
                     break;
                 case "telefono":
                     if (patttel.test(event.target.value)) {
@@ -161,14 +178,12 @@ $(document).ready(function () {
     /***************HABILITACIÓN BOTON REGISTRO AL ACEPTAR CONDICIONES****************/
 
     $(document).ready(function () {
-       $("#condiciones").on('click',function () {
-           if($(this).is(':checked')){
-               $("#registrarse").attr('disabled',false);
-           }
+        $("#condiciones").on('click', function () {
+            if ($(this).is(':checked')) {
+                $("#registrarse").attr('disabled', false);
+            }
 
-       })
-
-
+        })
 
 
     })
