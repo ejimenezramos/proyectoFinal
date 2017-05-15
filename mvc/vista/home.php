@@ -23,8 +23,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
 <!-- Custom Theme files -->
 <link href="css/style.css" rel='stylesheet' type='text/css' />
-<!-- PABLO: estilos del slider -->
-<link href="css/slider.css" rel='stylesheet' type='text/css' />
+	<link href="css/w3c.css" rel='stylesheet' type='text/css' />
 <!-- js -->
 <script src="js/jquery-1.11.1.min.js"></script>
 <!-- //js -->
@@ -141,34 +140,40 @@ function hideURLbar(){ window.scrollTo(0,1); }
 			</div>
 		</div>
 	</div>
-	<!--PABLO: NUEVO SLIDER CON CSS-->
-	<div id="page">
-		<section>
-			<input type="radio" name="slider-select-element" id="element1"
-				checked="checked" /> <input type="radio"
-				name="slider-select-element" id="element2" /> <input type="radio"
-				name="slider-select-element" id="element3" />
 
-			<div id="slider-container">
-				<div id="slider-box">
-					<div class="slider-element">
-						<article class="element-red"></article>
-					</div>
-					<div class="slider-element">
-						<article class="element-green"></article>
-					</div>
-					<div class="slider-element">
-						<article class="element-blue"></article>
-					</div>
-				</div>
-			</div>
 
-			<div id="slider-arrows">
-				<label for="element1"></label> <label for="element2"></label> <label
-					for="element3"></label>
+	<!--PABLO: Nuevo slider con javascript-->
+		<div class="banner-info2">
+			<div class="search-form">
+				<form action="#" method="post">
+					<input type="text" placeholder="¿Te podemos ayudar?" name="Search...">
+					<input type="submit" value=" ">
+				</form>
 			</div>
-		</section>
+		</div>
+	<div class="w3-content w3-section" style="max-width:85%">
+		<img class="mySlides" src="images/cereal1.jpg" style="width:100%;height: 30rem">
+		<img class="mySlides" src="images/cereal2.jpg" style="width:100%;height: 30rem">
+		<img class="mySlides" src="images/cereal3.jpg" style="width:100%;height: 30rem">
+
 	</div>
+
+	<script>
+		var myIndex = 0;
+		carousel();
+
+		function carousel() {
+			var i;
+			var x = document.getElementsByClassName("mySlides");
+			for (i = 0; i < x.length; i++) {
+				x[i].style.display = "none";
+			}
+			myIndex++;
+			if (myIndex > x.length) {myIndex = 1}
+			x[myIndex-1].style.display = "block";
+			setTimeout(carousel, 7000); // Change image every 2 seconds
+		}
+	</script>
 
 	<script>
 		window.jQuery
@@ -183,34 +188,29 @@ function hideURLbar(){ window.scrollTo(0,1); }
 		<div class="container">
 			<div class="col-md-4 m-w3ls">
 				<div class="col-md1 ">
-					<a href="productos.php"> <img src="images/cer1.jpg"
+					<a href="productos.php"> <img src="images/home_variedad.png"
 						class="img-home img" alt="">
-						<div class="big-sa">
-							<h3>
-								Frutas<span>exp</span>
-							</h3>
-							<!-- <p>Prueba nuestros nuevos sabores frutales</p>-->
-						</div>
 					</a>
 				</div>
+
 				<div class="col-md1 content-mid2">
-					<p>Prueba nuestros nuevos sabores frutales</p>
+						<h3>
+							Los mejores cereales
+						</h3>
+					<p>Descubre nuestra gran variedad de sabores, colores y texturas</p>
 				</div>
 			</div>
 			<div class="col-md-4 m-w3ls1">
 				<div class="col-md ">
 					<a href="hold.html"> <img src="images/lr.jpg" class="img-home  img"
 						alt="">
-						<div class="big-sale">
-							<div class="big-sale1">
-								<h3>
-									Color<span>Milk</span>
-								</h3>
-							</div>
-						</div>
+
 					</a>
 				</div>
 				<div class="col-md1 content-mid2">
+					<h3>
+						Color<span>Milk</span>
+					</h3>
 					<p>Colorea tu desayuno de una manera diferente</p>
 				</div>
 			</div>
