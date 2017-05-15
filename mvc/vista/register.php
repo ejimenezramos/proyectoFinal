@@ -27,6 +27,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <!-- js -->
     <script src="js/jquery-1.11.1.min.js"></script>
     <script type='text/javascript' src="js/validaciones.js"></script>
+    <script src="js/jquery.peticionesAJAX.js"></script>
     <!-- //js -->
     <!-- start-smoth-scrolling -->
     <script type="text/javascript" src="js/move-top.js"></script>
@@ -181,7 +182,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 </div>
                 <div class="key">
                     <i class="fa fa-list" aria-hidden="true"></i>
-                    <select class="consulta" name="tipoDireccion" id="tipoDireccion"
+                    <select class="consulta" name="provincias" id="provincias"
                             oninvalid="setCustomValidity('Todos los campos son obligatorios para el registro')">
                         <option value="0">--Selecciona una Provincia--</option>
                         <option value="1">Álava</option>
@@ -242,9 +243,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
                 <div class="key">
                     <i class="fa fa-list" aria-hidden="true"></i>
-                    <select class="consulta" disabled="disabled" name="tipoDireccion" id="tipoDireccion"
+                    <select class="consulta" disabled="disabled" name="municipios" id="municipios"
                             oninvalid="setCustomValidity('Todos los campos son obligatorios para el registro')">
-                        <option value="a">--Selecciona una población--</option>
+                        <option value="a">--Selecciona un municipio--</option>
                         <option value="b"></option>
                         <option value="c"></option>
                         <option value="d"></option>
