@@ -187,4 +187,48 @@ $(document).ready(function () {
 
 
     })
+
+});
+/***************HABILITACIÓN CAMPOS REGISTRO CUANDO SE SELEECIONE MUNICIPIO****************/
+
+$(document).ready(function () {
+    $("#provincias").on('change', function () {
+        if ($(this).val() == "0") {
+           $("#errorprovincias").html('Por favor, selecciona una provincia de la lista');
+            $("#tipoDireccion").attr('disabled', true);
+            $("#direccion").attr('disabled', true);
+            $("#cp").attr('disabled', true);
+        }
+        else {
+            $("#errorprovincias").html('');
+            $("#tipoDireccion").attr('disabled', false);
+        }
+
+
+    })
+
+
+});
+
+/***************HABILITACIÓN CAMPOS REGISTRO CUANDO SE SELEECIONE TIPO DE VÍA****************/
+
+$(document).ready(function () {
+    $("#tipoDireccion").on('change', function () {
+        if ($(this).val() == "0") {
+            $("#errortipoDireccion").html('Por favor, selecciona un tipo de vía de la lista');
+
+            $("#direccion").attr('disabled', true);
+            $("#cp").attr('disabled', true);
+        }
+        else {
+            $("#errortipoDireccion").html('');
+            $("#direccion").attr('disabled', false);
+            $("#cp").attr('disabled', false);
+        }
+
+
+    })
+
+
+
 });

@@ -4,21 +4,30 @@
 /****PETICIÓN AJAX PARA EL FILTRO POR CIUDAD REGISTRO CLIENTE****/
 /*Elena:petición AJAX para el filtro de provincias y municipios en la página registro*/
 $(document).ready(function(){
-    $("#provincias").change(function(){
-        if($("#provincias").val()==0){
-           $("#errorprovincias").html('Por favor seleccione una provincia de la lista');
-            $("#municipios").attr('disabled', true);
+    $("#comunidades").change(function(){
+        if($("#comunidades").val()==0){
+           $("#errorcomunidades").html('Por favor seleccione una Comunidad Autónoma de la lista');
+            $("#provincias").attr('disabled', true);
             $("#tipoDireccion").attr('disabled', true);
             $("#direccion").attr('disabled', true);
             $("#cp").attr('disabled', true);
         }else {
+            $("#errorcomunidades").html('');
             $.ajax({
                 method: "POST",
                 url: "./requests/peticiones.php",
-                data: {codigoProvincia: $("#provincias").val()}
+                data: {codigoComunidad: $("#comunidades").val()}
             })
                 .success(function (result) {
-                    $("#municipios").attr('disabled', false);
+                    $("#provincias").attr('disabled', false);
+
+                   var ob=JSON.parse(result);
+                    $("#provincias").html("<option value='0'>--Seleccione una provincia--</option>");
+                    for (i=0;i<ob.provincia.length;i++){
+                        $("#provincias").append("<option value="+ob.provincia[i]+">"+ob.provincia[i]+"</option>");
+
+                    }
+
                 })
                 .error(function (error) {
                     console.log(error);
