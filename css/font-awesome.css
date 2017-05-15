@@ -245,8 +245,10 @@
 .fa-trash-o:before {
   content: "\f014";
 }
+/*Elena: Cambio el color del icono de la casa para utilizarlo en el form de registro*/
 .fa-home:before {
   content: "\f015";
+  color: #117A65;
 }
 .fa-file-o:before {
   content: "\f016";
