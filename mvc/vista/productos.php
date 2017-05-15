@@ -26,7 +26,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 <link href="css/style.css" rel='stylesheet' type='text/css' />
 <!-- js -->
 <script src="js/jquery-1.11.1.min.js"></script>
-<script src="js/jquery.productos.js"></script>
+<script src="js/jquery.peticionesAJAX.js"></script>
 <!-- //js -->
 <!-- start-smoth-scrolling -->
 <script type="text/javascript" src="js/move-top.js"></script>
