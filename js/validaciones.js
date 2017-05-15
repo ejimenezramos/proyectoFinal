@@ -8,6 +8,7 @@ var patttel = new RegExp("(6|7|9)\\d{8}");
 var patemail = new RegExp("^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$");
 var patusuario = new RegExp("^\\w+$");
 var patdni = new RegExp("^[XYZxyz]?[\\-\\s]?\\d{5,8}[\-\\s]?[A-Za-z]$");
+var patdireccion= new RegExp("^\\w+$")
 
 
 /***************VALIDACIONES SUBMIT****************/
@@ -127,6 +128,9 @@ $(document).ready(function () {
                     else {
                         $("#error" + id).html("El " + id + " no coincide con el password inicial");
                     }
+                    breaK;
+                case "direccion":
+
 
 
             }
@@ -187,4 +191,44 @@ $(document).ready(function () {
 
 
     })
+});
+/***************HABILITACIÓN CAMPOS REGISTRO CUANDO SE SELEECIONE MUNICIPIO****************/
+
+$(document).ready(function () {
+    $("#municipios").on('change', function () {
+        if ($(this).val() == "0") {
+            alert("Por favor seleccione un municipio de la lista");
+            $("#tipoDireccion").attr('disabled', true);
+            $("#direccion").attr('disabled', true);
+            $("#cp").attr('disabled', true);
+        }
+        else {
+            $("#tipoDireccion").attr('disabled', false);
+        }
+
+
+    })
+
+
+});
+
+/***************HABILITACIÓN CAMPOS REGISTRO CUANDO SE SELEECIONE TIPO DE VÍA****************/
+
+$(document).ready(function () {
+    $("#tipoDireccion").on('change', function () {
+        if ($(this).val() == "0") {
+            alert("Por favor seleccione un municipio de la lista");
+
+            $("#direccion").attr('disabled', true);
+            $("#cp").attr('disabled', true);
+        }
+        else {
+            $("#direccion").attr('disabled', false);
+            $("#cp").attr('disabled', false);
+        }
+
+
+    })
+
+
 });

@@ -240,15 +240,15 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     </select>
                     <div class="clearfix"></div>
                 </div>
-
+                <div class="has-warning"><p id="errorprovincias"></p></div>
                 <div class="key">
                     <i class="fa fa-list" aria-hidden="true"></i>
                     <select class="consulta" disabled="disabled" name="municipios" id="municipios"
                             oninvalid="setCustomValidity('Todos los campos son obligatorios para el registro')">
-                        <option value="a">--Selecciona un municipio--</option>
-                        <option value="b"></option>
-                        <option value="c"></option>
-                        <option value="d"></option>
+                        <option value="0">--Selecciona un municipio--</option>
+                        <option value="1"></option>
+                        <option value="2"></option>
+                        <option value="3"></option>
                     </select>
                     <div class="clearfix"></div>
                 </div>
@@ -264,13 +264,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     <div class="clearfix"></div>
                 </div>
                 <div class="key">
-                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                    <i class="fa fa-home" aria-hidden="true"></i>
                     <input type="text" placeholder="Dirección" disabled="disabled" name="direccion" id="direccion"
                            oninvalid="setCustomValidity('Todos los campos son obligatorios para el registro')">
                     <div class="clearfix"></div>
                 </div>
+                <div class="has-warning"><p id="errordireccion"></p></div>
                 <div class="key">
-                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                    <i class="fa fa-home" aria-hidden="true"></i>
                     <input type="text" placeholder="Código Postal" disabled="disabled" name="cp" id="cp"
                            oninvalid="setCustomValidity('Todos los campos son obligatorios para el registro')">
                     <div class="clearfix"></div>

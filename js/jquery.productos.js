@@ -5,7 +5,7 @@ $(document).ready(function(){
     $("#prod").change(function(){
         $.ajax({
             method: "POST",
-            url: "./requests/compruebaProductos.php",
+            url: "./requests/peticiones.php",
             data: { codigoProducto: $("#prod").val() }
         })
             .success(function( result ) {
