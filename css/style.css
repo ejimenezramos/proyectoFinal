@@ -18,6 +18,32 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     margin: 0em 1em 2em ;
 
 }
+/*Pablo 15/05/17: Clases para la barra de progreso*/
+.KW_progressContainer {
+    left:0;
+    width: 100%;
+    height: 0.4em;
+    margin-top: 0px;
+    position: fixed;
+    top: 0px;
+    overflow: hidden;
+    background-color: white;
+    content: "";
+    display: table;
+    table-layout: fixed;
+}
+
+.KW_progressBar {
+    width: 0%;
+    float: left;
+    height: 100%;
+    z-index:99;
+    max-width: 100%;
+    background-color:#1ABC9C;
+    -webkit-transition: width .6s ease;
+    -o-transition: width .6s ease;
+    transition: width .6s ease;
+}
 
 body{
 	margin:0;
@@ -500,6 +526,10 @@ span.fa.fa-shopping-cart.my-cart-icon {
     margin:8em 0;
 	text-align:center;
 }
+.banner-info2 {
+    margin:1em 0;
+    text-align:center;
+}
 .banner-info h3 {
     color: #fff;
     font-size: 3em;
@@ -510,13 +540,14 @@ span.fa.fa-shopping-cart.my-cart-icon {
     width: 55%;
     margin: 0 auto;
 }
+/*Pablo 15/05/17: Cambio color de borde y contenido del search */
 .search-form input[type='text']{
 	width: 93%;
     padding: 10px;
     outline: none;
     font-size: 1em;
-    color: #fff;
-    border: 1px solid #FFF;
+    color: #1ABC9C;
+    border: 1px solid #1ABC9C;
     background: rgba(255, 255, 255, 0.45);
 }
 .search-form input[type='submit']{
@@ -524,7 +555,7 @@ span.fa.fa-shopping-cart.my-cart-icon {
     width: 40px;
     height: 41px;
     outline: none;
-    border: 1px solid #fff;
+    border: 1px solid #1ABC9C;
     background: url(../images/can.png) no-repeat 6px 7px #1ABC9C;
     display: inline-block;
 }
@@ -981,7 +1012,7 @@ ul.product-qty {
 }
 .big-sale h3,.big-sa h3,.big-sale2 h3,.big-sale3 h3{
     /*Elena 28/04/17: Cambio color y negrita al span imagenes home para que sea legible con respecto a las imágenes de fondo*/
-	color:#4d1a7a;
+	color:#3498DB;
 	font-size:3em;
 	margin-bottom: 0.3em;
     font-weight: bold;
@@ -991,7 +1022,7 @@ ul.product-qty {
 }
 .big-sale h3 span,.big-sa h3 span,.big-sale2 h3 span,.big-sale3 h3 span{
     /*Elena 28/04/17: Cambio color span imagenes home para que sea legible con respecto a las imágenes de fondo*/
-	color:#4bd9fc;
+	color:#BB8FCE;
 }
 .big-sale p,.big-sa p,.big-sale2 p,.big-sale3 p{
     /*Elena:28/04/17: Cambio color letra sobre las imágenes del home para que sean legibles*/
@@ -1012,7 +1043,8 @@ ul.product-qty {
     position: absolute;
     top: 0;
     width: 100%;
-    margin-top: 9em;
+    margin-top: 5em;
+    margin-left: 1em;
 }
 .big-sale2,.big-sale3{
     position: absolute;
@@ -3230,4 +3262,5 @@ h1.t-button {
 .grid_3 p, .page-header p {
     font-size: 13px;
 }
+
 }
