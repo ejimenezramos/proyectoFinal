@@ -229,6 +229,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     </select>
                     <div class="clearfix"></div>
                 </div>
+                <div class="has-warning"><p id="errortipoDireccion"></p></div>
                 <div class="key">
                     <i class="fa fa-home" aria-hidden="true"></i>
                     <input type="text" placeholder="Dirección" disabled="disabled" name="direccion" id="direccion"
@@ -238,12 +239,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 <div class="has-warning"><p id="errordireccion"></p></div>
                 <div class="key">
                     <i class="fa fa-home" aria-hidden="true"></i>
-                    <input type="text" placeholder="Código Postal" disabled="disabled" name="cp" id="cp"
+                    <input type="text" placeholder="Código Postal" disabled="disabled" name="cp" id="cp" maxlength="5"
                            oninvalid="setCustomValidity('Todos los campos son obligatorios para el registro')">
                     <div class="clearfix"></div>
                 </div>
-
-                <div class="has-warning"><p id="erroremail"></p></div>
+                <div class="has-warning"><p id="errorcp"></p></div>
                 <div class="key">
                     <i class="fa fa-user" aria-hidden="true"></i>
                     <input type="text" placeholder="Nombre de usuario" name="usuario" id="usuario" maxlength="20"

@@ -8,6 +8,8 @@ var patttel = new RegExp("(6|7|9)\\d{8}");
 var patemail = new RegExp("^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$");
 var patusuario = new RegExp("^\\w+$");
 var patdni = new RegExp("^[XYZxyz]?[\\-\\s]?\\d{5,8}[\-\\s]?[A-Za-z]$");
+var patdir =new RegExp("^[A-Za-z]+\\s?[A-Za-z]+\\s?[A-Za-z]+\\s?\\d+$");
+var patcp =new RegExp("^\\d{5}$");
 
 
 /***************VALIDACIONES SUBMIT****************/
@@ -15,6 +17,10 @@ $(document).ready(function () {
     $("#registro").submit(function () {
         if ($("#registro").find("input").val().length <= 0) {
             alert("Todos los campos son obligatorios, por favor rellene los campos");
+            return false;
+        }
+        else{
+            return true;
         }
     });
 });
@@ -116,7 +122,7 @@ $(document).ready(function () {
                         $("#error" + id).html("");
                     }
                     else {
-                        $("#error" + id).html("El " + id + " introducido debe contener sólo caracteres alfanuméricos");
+                        $("#error" + id).html("El campo " + id + " introducido debe contener sólo caracteres alfanuméricos");
                     }
                     break;
 
@@ -127,6 +133,24 @@ $(document).ready(function () {
                     else {
                         $("#error" + id).html("El " + id + " no coincide con el password inicial");
                     }
+                    break;
+                case "direccion":
+                    if(patdir.test(event.target.value)){
+                        $("#error" + id).html("");
+                    }
+                    else{
+                        $("#error" + id).html("El campo " + id + " sólo puede contener caracteres alfanuméricos y espacios, Ej. de la Castellana 25");
+                    }
+                    break;
+                case "cp":
+                    if(patcp.test(event.target.value)){
+                        $("#error" + id).html("");
+                    }
+                    else{
+                        $("#error" + id).html("El código postal debe estar compuesto de 5 dígitos");
+                    }
+
+
 
 
             }
@@ -213,9 +237,9 @@ $(document).ready(function () {
 /***************HABILITACIÓN CAMPOS REGISTRO CUANDO SE SELEECIONE TIPO DE VÍA****************/
 
 $(document).ready(function () {
-    $("#tipoDireccion").on('change', function () {
+    $("#tipoDireccion").on('change', function (event) {
         if ($(this).val() == "0") {
-            $("#errortipoDireccion").html('Por favor, selecciona un tipo de vía de la lista');
+            $("#error"+event.target.id).html('Por favor, selecciona un tipo de vía de la lista');
 
             $("#direccion").attr('disabled', true);
             $("#cp").attr('disabled', true);
