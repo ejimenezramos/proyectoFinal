@@ -15,7 +15,7 @@ $(document).ready(function(){
             $("#errorcomunidades").html('');
             $.ajax({
                 method: "POST",
-                url: "./requests/peticiones.php",
+                url: "./requests/peticionesFiltros.php",
                 data: {codigoComunidad: $("#comunidades").val()}
             })
                 .success(function (result) {
@@ -23,8 +23,8 @@ $(document).ready(function(){
 
                    var ob=JSON.parse(result);
                     $("#provincias").html("<option value='0'>--Seleccione una provincia--</option>");
-                    for (i=0;i<ob.provincia.length;i++){
-                        $("#provincias").append("<option value="+ob.provincia[i]+">"+ob.provincia[i]+"</option>");
+                    for (i=0;i<ob.provincias.length;i++){
+                        $("#provincias").append("<option value="+ob.provincias[i]+">"+ob.provincias[i]+"</option>");
 
                     }
 
