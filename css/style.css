@@ -45,6 +45,17 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     transition: width .6s ease;
 }
 
+
+/*Pablo 18/05/17 Clase para el padding de los titulos de packs*/
+.titulo_pack {
+    padding: 1.5em;
+}
+
+/*Pablo 18/05/17: clase para poner el borde al contenedor de los packs*/
+.borderpack{
+	border: 1px solid #1ABC9C;
+}
+
 body{
 	margin:0;
 	padding:0;
@@ -714,6 +725,10 @@ ul.nav.tabs {
     /*Se modifica el color del borde de la presentación de los productos*/
     padding: 1em;
     border: 1px solid #1ABC9C;
+}
+/*Pablo 18/05/17*/
+.col-m2{
+	padding:1em;
 }
 .offer-img{
 	position:relative;

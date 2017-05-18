@@ -130,10 +130,10 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 		<div class="product">
 			<div class="container">
 					<div class=" con-w3l agileinf">
-					<H3>Multipack: MADRE MIA WILLY</H3>
+					<H3 class="titulo_pack">Multipack: MADRE MIA WILLY</H3>
 						<div class="container borderpack">
 								<div class="col-md-3 pro-1">
-									<div class="col-m">
+									<div class="col-m2">
 									<a href="#" data-toggle="modal" data-target="#myModal1" class="offer-img">
 											<img src="images/boxtrix.png" class="img-responsive" alt="">
 										</a>
@@ -145,7 +145,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 									</div>
 								</div>
 								<div class="col-md-3 pro-1">
-									<div class="col-m">
+									<div class="col-m2">
 										<a href="#" data-toggle="modal" data-target="#myModal2" class="offer-img">
 											<img src="images/milkgreen.png" class="img-responsive" alt="">
 										</a>
@@ -157,7 +157,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 									</div>
 								</div>
 								<div class="col-md-3 pro-1">
-									<div class="col-m">
+									<div class="col-m2">
 										<a href="#" data-toggle="modal" data-target="#myModal3" class="offer-img">
 											<img src="images/packkinder.png" class="img-responsive" alt="">
 										</a>
