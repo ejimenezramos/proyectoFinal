@@ -8,22 +8,83 @@ var patttel = new RegExp("(6|7|9)\\d{8}");
 var patemail = new RegExp("^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$");
 var patusuario = new RegExp("^\\w+$");
 var patdni = new RegExp("^[XYZxyz]?[\\-\\s]?\\d{5,8}[\-\\s]?[A-Za-z]$");
-var patdir =new RegExp("^[A-Za-z]+\\s?[A-Za-z]+\\s?[A-Za-z]+\\s?\\d+$");
-var patcp =new RegExp("^\\d{5}$");
+var patdir = new RegExp("^[A-Za-z]+\\s?[A-Za-z]+\\s?[A-Za-z]+\\s?\\d+$");
+var patcp = new RegExp("^\\d{5}$");
+/*******PRUEBAS*********/
 
 
 /***************VALIDACIONES SUBMIT****************/
 $(document).ready(function () {
     $("#registro").submit(function () {
-        if ($("#registro").find("input").val().length <= 0) {
-            alert("Todos los campos son obligatorios, por favor rellene los campos");
-            return false;
-        }
-        else{
-            return true;
-        }
+        return comprobarNombre() && comprobarApellido() && comprobarFecha() && comprobarDni() && comprobarTelefono() && comprobarEmail() && comprobarDireccion() && comprobarCp() && comprobarUser() && comprobarPassword() && comprobarPassword2();
     });
 });
+
+function comprobarNombre() {
+    if ($("#nombre").val() === "") {
+        $("#errorsubmit").html('Por favor, rellena todos los campos');
+    }
+    else if (patnombre.test($("#nombre").val())) {
+        return true;
+    }
+    else {
+        $("#errorsubmit").html('Por favor, revisa los datos del formulario');
+        return false;
+    }
+}
+function comprobarApellido() {
+    if ($("#apellidos").val() === "") {
+        $("#errorsubmit").html('Por favor, rellena todos los campos');
+    }
+    else if (patnombre.test($("#apellidos").val())) {
+        return true;
+    }
+    else {
+        $("#errorsubmit").html('Por favor, revisa los datos del formulario');
+        return false;
+    }
+}
+function comprobarFecha() {
+    if ($("#fechanac").val() === "") {
+        $("#errorsubmit").html('Por favor, rellena todos los campos');
+    }
+    var fecha = new Date();
+    var date = event.target.value.split("-");
+    var year = date[0];
+    if ((parseInt(fecha.getFullYear()) - year) < 18) {
+        $("#errorsubmit").html('Por favor, revisa los datos del formulario');
+        return false;
+    }
+    else {
+        return true;
+    }
+}
+
+function comprobarDni() {
+    if ($("#dni").val() === "") {
+        $("#errorsubmit").html('Por favor, rellena todos los campos');
+    }
+    if (patdni.test($("#dni").val())) {
+        return true;
+    }
+    else {
+        $("#errorsubmit").html('Por favor, revisa los datos del formulario');
+        return false;
+    }
+}
+
+function comprobarTelefono() {
+    if ($("#telefono").val() === "") {
+        $("#errorsubmit").html('Por favor, rellena todos los campos');
+    }
+    if (pattel.test($("#telefono").val())) {
+        return true;
+    }
+    else {
+        $("#errorsubmit").html('Por favor, revisa los datos del formulario');
+        return false;
+    }
+}
 $(document).ready(function () {
     $("#login").submit(function () {
         if ($("#login").find("input").val().length <= 0) {
@@ -135,22 +196,20 @@ $(document).ready(function () {
                     }
                     break;
                 case "direccion":
-                    if(patdir.test(event.target.value)){
+                    if (patdir.test(event.target.value)) {
                         $("#error" + id).html("");
                     }
-                    else{
+                    else {
                         $("#error" + id).html("El campo " + id + " sólo puede contener caracteres alfanuméricos y espacios, Ej. de la Castellana 25");
                     }
                     break;
                 case "cp":
-                    if(patcp.test(event.target.value)){
+                    if (patcp.test(event.target.value)) {
                         $("#error" + id).html("");
                     }
-                    else{
+                    else {
                         $("#error" + id).html("El código postal debe estar compuesto de 5 dígitos");
                     }
-
-
 
 
             }
@@ -213,12 +272,23 @@ $(document).ready(function () {
     })
 
 });
+
+
+$(document).ready(function () {
+    if ($("#registro").is(':disabled') && $("#registro").on('click', function () {
+            alert("h");
+            $("#errorcondiciones").html('Acepta los términos y condiciones si quieres enviar el formulario, gracias');
+        }));
+
+
+})
+
 /***************HABILITACIÓN CAMPOS REGISTRO CUANDO SE SELEECIONE MUNICIPIO****************/
 
 $(document).ready(function () {
     $("#provincias").on('change', function () {
         if ($(this).val() == "0") {
-           $("#errorprovincias").html('Por favor, selecciona una provincia de la lista');
+            $("#errorprovincias").html('Por favor, selecciona una provincia de la lista');
             $("#tipoDireccion").attr('disabled', true);
             $("#direccion").attr('disabled', true);
             $("#cp").attr('disabled', true);
@@ -239,7 +309,7 @@ $(document).ready(function () {
 $(document).ready(function () {
     $("#tipoDireccion").on('change', function (event) {
         if ($(this).val() == "0") {
-            $("#error"+event.target.id).html('Por favor, selecciona un tipo de vía de la lista');
+            $("#error" + event.target.id).html('Por favor, selecciona un tipo de vía de la lista');
 
             $("#direccion").attr('disabled', true);
             $("#cp").attr('disabled', true);
@@ -252,7 +322,6 @@ $(document).ready(function () {
 
 
     })
-
 
 
 });

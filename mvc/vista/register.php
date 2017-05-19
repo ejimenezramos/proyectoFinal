@@ -273,6 +273,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 <div class="has-warning"><p id="errorcondiciones"></p></div>
                 <div class="has-warning"><p id="errorpassword2"></p></div>
                 <input class="form-" id="registrarse" type="submit" disabled="disabled" value="Registrarse">
+                <div class="has-warning"><p id="errorsubmit"></p></div>
             </form>
         </div>
 
