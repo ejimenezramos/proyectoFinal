@@ -132,38 +132,47 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 					<div class=" con-w3l agileinf">
 					<H3 class="titulo_pack">Multipack: MADRE MIA WILLY</H3>
 						<div class="container borderpack">
-								<div class="col-md-3 pro-1">
+								<div class="col-md-3">
 									<div class="col-m2">
-									<a href="#" data-toggle="modal" data-target="#myModal1" class="offer-img">
+									<a href="#" data-toggle="modal"  class="offer-img">
 											<img src="images/boxtrix.png" class="img-responsive" alt="">
 										</a>
 										<div class="mid-1">
 											<div class="women">
-												<h6><a href="single.html">Trix cereal</a></h6>							
+												<h6>Trix cereal</h6>							
 											</div>
 										</div>
 									</div>
 								</div>
-								<div class="col-md-3 pro-1">
+								<div class="col-md-3">
 									<div class="col-m2">
-										<a href="#" data-toggle="modal" data-target="#myModal2" class="offer-img">
+										<a href="#" data-toggle="modal" class="offer-img">
 											<img src="images/milkgreen.png" class="img-responsive" alt="">
 										</a>
 										<div class="mid-1">
 											<div class="women">
-												<h6><a href="single.html">Leche</a></h6>							
+												<h6>Leche</h6>							
 											</div>
 										</div>
 									</div>
 								</div>
-								<div class="col-md-3 pro-1">
+								<div class="col-md-3">
 									<div class="col-m2">
-										<a href="#" data-toggle="modal" data-target="#myModal3" class="offer-img">
+										<a href="#" data-toggle="modal" class="offer-img">
 											<img src="images/packkinder.png" class="img-responsive" alt="">
 										</a>
 										<div class="mid-1">
 											<div class="women">
-												<h6><a href="single.html">Kinder bueno</a></h6>							
+												<h6>Kinder bueno</h6>							
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-3">
+									<div class="col-m2">
+										<div class="mid-1">
+											<div style="text-align: center;">
+												<button class="btn btn-danger my-cart-btn my-cart-b" data-id="24" data-name="Cheerios" data-summary="summary 24" data-price="3.00" data-quantity="1" data-image="images/boxcheerios.png">Add to Cart</button>							
 											</div>
 										</div>
 									</div>

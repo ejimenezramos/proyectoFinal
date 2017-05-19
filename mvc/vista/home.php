@@ -161,11 +161,9 @@ function hideURLbar(){ window.scrollTo(0,1); }
 	<!--PABLO: Nuevo slider con javascript-->
 
 	<div class="w3-content w3-section" style="max-width: 90%">
-		<img class="mySlides" src="images/cereal1.jpeg"
-			style="width: 100%; height: 30rem"> <img class="mySlides"
-			src="images/cereal2.jpeg" style="width: 100%; height: 30rem"> <img
-			class="mySlides" src="images/cereal3.jpeg"
-			style="width: 100%; height: 30rem">
+		<img class="mySlides" src="images/cereal1.jpeg" style="width: 100%; height: 30rem"> 
+		<img class="mySlides" src="images/cereal2.jpeg" style="width: 100%; height: 30rem"> 
+		<img class="mySlides" src="images/cereal3.jpeg" style="width: 100%; height: 30rem">
 		<div class="w3-display-topmiddle w3-container w3-padding-16"
 			style="width: 100%">
 			<div class="banner-info2">
@@ -179,7 +177,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 		</div>
 	</div>
 	<!-- Script para el javascript -->
-	<script>
+	<script type="text/javascript">
 		var myIndex = 0;
 		carousel();
 
@@ -265,7 +263,8 @@ function hideURLbar(){ window.scrollTo(0,1); }
 				<img class="mySlides2" src="images/ba2.jpg" style="width:100%">
 			</div>
 		</div>
-		<script>
+		
+		<script type="text/javascript">
 		var slideIndex = 0;
 		carousel();
 		
@@ -281,9 +280,9 @@ function hideURLbar(){ window.scrollTo(0,1); }
 		    setTimeout(carousel, 2000); 
 		}
 		</script>
+		
+		
 	</div>
-	
-	
 	
 	<!--footer-->
 	<div class="footer">
