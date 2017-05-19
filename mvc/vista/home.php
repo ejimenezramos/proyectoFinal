@@ -166,7 +166,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 			src="images/cereal2.jpeg" style="width: 100%; height: 30rem"> <img
 			class="mySlides" src="images/cereal3.jpeg"
 			style="width: 100%; height: 30rem">
-		<div class="w3-display-bottommiddle w3-container w3-padding-16"
+		<div class="w3-display-topmiddle w3-container w3-padding-16"
 			style="width: 100%">
 			<div class="banner-info2">
 				<div class="search-form">

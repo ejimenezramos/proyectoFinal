@@ -98,9 +98,24 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .w3-display-middle{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%)}
 .w3-display-left{position:absolute;top:50%;left:0%;transform:translate(0%,-50%);-ms-transform:translate(-0%,-50%)}
 .w3-display-right{position:absolute;top:50%;right:0%;transform:translate(0%,-50%);-ms-transform:translate(0%,-50%)}
-.w3-display-topmiddle{position:absolute;left:50%;top:0;transform:translate(-50%,0%);-ms-transform:translate(-50%,0%)}
-/*Pablo 19/50/17 añadimos bottom:50%;*/
-.w3-display-bottommiddle{position:absolute;left:50%;bottom:50%;transform:translate(-50%,0%);-ms-transform:translate(-50%,0%)}
+
+/*Pablo 19/05/17 Modificamos top: y ponemos el damaño en em*/
+.w3-display-topmiddle{
+	position: absolute;
+    left: 50%;
+    top: 25em;
+    transform: translate(-50%,0%);
+	-ms-transform:translate(-50%,0%);
+}
+/*Pablo 19/50/17 ;*/
+
+.w3-display-bottommiddle{
+	position:absolute;
+	left:50%;
+	bottom:50%;
+	transform:translate(-50%,0%);
+	-ms-transform:translate(-50%,0%);
+}
 .w3-display-container:hover .w3-display-hover{display:block}.w3-display-container:hover span.w3-display-hover{display:inline-block}.w3-display-hover{display:none}
 .w3-display-position{position:absolute}
 .w3-circle{border-radius:50%}
