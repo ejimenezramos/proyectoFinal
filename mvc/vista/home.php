@@ -23,8 +23,8 @@ function hideURLbar(){ window.scrollTo(0,1); }
 <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
 <!-- Custom Theme files -->
 <link href="css/style.css" rel='stylesheet' type='text/css' />
-	<!--Pablo 15/05/17: Estilos w3c para los slideshow-->
-	<link href="css/w3c.css" rel='stylesheet' type='text/css' />
+<!--Pablo 15/05/17: Estilos w3c para los slideshow-->
+<link href="css/w3c.css" rel='stylesheet' type='text/css' />
 <!-- js -->
 <script src="js/jquery-1.11.1.min.js"></script>
 <!-- //js -->
@@ -95,7 +95,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 
 </head>
 <body>
-<script type="text/javascript">
+	<script type="text/javascript">
 	$(window).load(function(){
 		$(window).scroll(function() {
 			var wintop = $(window).scrollTop(), docheight = $('body').height(), winheight = $(window).height();
@@ -106,10 +106,9 @@ function hideURLbar(){ window.scrollTo(0,1); }
 		});
 	});
 </script>
-<div class="KW_progressContainer">
-	<div class="KW_progressBar">
+	<div class="KW_progressContainer">
+		<div class="KW_progressBar"></div>
 	</div>
-</div>
 
 	<div class="header">
 		<div class="container">
@@ -160,21 +159,26 @@ function hideURLbar(){ window.scrollTo(0,1); }
 
 
 	<!--PABLO: Nuevo slider con javascript-->
-		<div class="banner-info2">
-			<div class="search-form">
-				<form action="#" method="post">
-					<input type="text" placeholder="¿Te podemos ayudar?" name="Search...">
-					<input type="submit" value=" ">
-				</form>
+
+	<div class="w3-content w3-section" style="max-width: 90%">
+		<img class="mySlides" src="images/cereal1.jpeg"
+			style="width: 100%; height: 30rem"> <img class="mySlides"
+			src="images/cereal2.jpeg" style="width: 100%; height: 30rem"> <img
+			class="mySlides" src="images/cereal3.jpeg"
+			style="width: 100%; height: 30rem">
+		<div class="w3-display-bottommiddle w3-container w3-padding-16"
+			style="width: 100%">
+			<div class="banner-info2">
+				<div class="search-form">
+					<form action="#" method="post">
+						<input type="text" placeholder="¿Te podemos ayudar?"
+							name="Search..."> <input type="submit" value=" ">
+					</form>
+				</div>
 			</div>
 		</div>
-	<div class="w3-content w3-section" style="max-width:100%">
-		<img class="mySlides" src="images/cereal1.jpeg" style="width:100%;height: 30rem">
-		<img class="mySlides" src="images/cereal2.jpeg" style="width:100%;height: 30rem">
-		<img class="mySlides" src="images/cereal3.jpeg" style="width:100%;height: 30rem">
-
 	</div>
-
+	<!-- Script para el javascript -->
 	<script>
 		var myIndex = 0;
 		carousel();
@@ -207,12 +211,11 @@ function hideURLbar(){ window.scrollTo(0,1); }
 				<div class="col-md1 ">
 					<a href="?pagina=productos"> <img src="images/home_variedad.png"
 						class="img-home img" alt="">
-                        <div class="big-sa">
-                            <h3 class="home_tittle">
-                                #
-                                <span>Productos</span>
-                            </h3>
-                        </div>
+						<div class="big-sa">
+							<h3 class="home_tittle">
+								# <span>Productos</span>
+							</h3>
+						</div>
 					</a>
 				</div>
 
@@ -222,14 +225,13 @@ function hideURLbar(){ window.scrollTo(0,1); }
 			</div>
 			<div class="col-md-4 m-w3ls1">
 				<div class="col-md ">
-					<a href="?pagina=aboutus"> <img src="images/conocenos_home.jpeg" class="img-home  img"
-						alt="">
-                        <div class="big-sa">
-                            <h3 class="home_tittle">
-                                #
-                                <span>Conócenos</span>
-                            </h3>
-                        </div>
+					<a href="?pagina=aboutus"> <img src="images/conocenos_home.jpeg"
+						class="img-home  img" alt="">
+						<div class="big-sa">
+							<h3 class="home_tittle">
+								# <span>Conócenos</span>
+							</h3>
+						</div>
 					</a>
 				</div>
 				<div class="col-md1 content-mid2">
@@ -240,22 +242,49 @@ function hideURLbar(){ window.scrollTo(0,1); }
 				<div class="col-md3 ">
 					<a href="?pagina=packs"> <img src="images/pack_home.jpeg"
 						class="img-home  img1" alt="">
-                        <div class="big-sa">
-                            <h3 class="home_tittle">
-                                #
-                                <span>Packs</span>
-                            </h3>
-                        </div>
+						<div class="big-sa">
+							<h3 class="home_tittle">
+								# <span>Packs</span>
+							</h3>
+						</div>
 					</a>
 				</div>
 				<div class="col-md1 content-mid2">
-					<p>Te ofrecemos las mejores combinaciones posibles para que tu experiencia sea completa</p>
+					<p>Te ofrecemos las mejores combinaciones posibles para que tu
+						experiencia sea completa</p>
 				</div>
 			</div>
 			<div class="clearfix"></div>
 		</div>
+		
+		<!-- Pablo:19/09/17: Slideshow para publicidad de la web -->
+		<div class="container2">
+			<div class="w3-content" style="max-width:500px">
+				<img class="mySlides2" src="images/ba.jpg" style="width: 100%">
+				<img class="mySlides2" src="images/ba1.jpg" style="width:100%">
+				<img class="mySlides2" src="images/ba2.jpg" style="width:100%">
+			</div>
+		</div>
+		<script>
+		var slideIndex = 0;
+		carousel();
+		
+		function carousel() {
+		    var i;
+		    var x = document.getElementsByClassName("mySlides2");
+		    for (i = 0; i < x.length; i++) {
+		      x[i].style.display = "none"; 
+		    }
+		    slideIndex++;
+		    if (slideIndex > x.length) {slideIndex = 1} 
+		    x[slideIndex-1].style.display = "block"; 
+		    setTimeout(carousel, 2000); 
+		}
+		</script>
 	</div>
-
+	
+	
+	
 	<!--footer-->
 	<div class="footer">
 		<div class="container">

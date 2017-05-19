@@ -759,6 +759,14 @@ pre code {
   margin-right: auto;
   margin-left: auto;
 }
+/*Pablo: 19/05/17 Clase para el contenedor de la publicidad del main*/
+.container2 {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top:10em;
+}
 @media (min-width: 768px) {
   .container {
     width: 750px;
