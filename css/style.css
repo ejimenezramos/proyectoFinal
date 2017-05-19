@@ -557,9 +557,9 @@ span.fa.fa-shopping-cart.my-cart-icon {
     padding: 10px;
     outline: none;
     font-size: 1em;
-    color: #1ABC9C;
+    color: #117A65;
     border: 1px solid #1ABC9C;
-    background: rgba(255, 255, 255, 0.45);
+    background: rgba(255, 255, 255, 0.8);
 }
 .search-form input[type='submit']{
     /*Elena 28/04/17 : se modifica el color del fondo de el icono de búsqueda*/
@@ -1072,6 +1072,7 @@ ul.product-qty {
 }
 .content-mid {
     padding: 6em 0;
+    padding-bottom:1em;
 }
 /*PABLO: clase para dar tama�o al contenedor del texto del main del menu*/
 .content-mid2 {
