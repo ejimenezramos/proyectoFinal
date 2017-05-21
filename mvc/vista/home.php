@@ -98,21 +98,22 @@ function hideURLbar(){ window.scrollTo(0,1); }
 
 </head>
 <body>
-	<script type="text/javascript">
-	$(window).load(function(){
-		$(window).scroll(function() {
-			var wintop = $(window).scrollTop(), docheight = $('body').height(), winheight = $(window).height();
-			console.log(wintop);
-			var totalScroll = (wintop/(docheight-winheight))*100;
-			console.log("total scroll" + totalScroll);
-			$(".KW_progressBar").css("width",totalScroll+"%");
+<!--Pablo 21/05/17: Barra de progreso-->
+		<script type="text/javascript">
+		$(window).load(function(){
+			$(window).scroll(function() {
+				var wintop = $(window).scrollTop(), docheight = $('body').height(), winheight = $(window).height();
+				console.log(wintop);
+				var totalScroll = (wintop/(docheight-winheight))*100;
+				console.log("total scroll" + totalScroll);
+				$(".KW_progressBar").css("width",totalScroll+"%");
+			});
 		});
-	});
-</script>
+	</script>
 	<div class="KW_progressContainer">
 		<div class="KW_progressBar"></div>
 	</div>
-
+<!--Pablo 21/05/17: Cabecera-->
 	<div class="header">
 		<div class="container">
 			<div class="logo">
@@ -269,9 +270,9 @@ function hideURLbar(){ window.scrollTo(0,1); }
 		
 		<script type="text/javascript">
 		var slideIndex = 0;
-		carousel();
+		carousel2();
 		
-		function carousel() {
+		function carousel2() {
 		    var i;
 		    var x = document.getElementsByClassName("mySlides2");
 		    for (i = 0; i < x.length; i++) {
@@ -280,7 +281,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 		    slideIndex++;
 		    if (slideIndex > x.length) {slideIndex = 1} 
 		    x[slideIndex-1].style.display = "block"; 
-		    setTimeout(carousel, 2000); 
+		    setTimeout(carousel2, 2000);
 		}
 		</script>
 		
