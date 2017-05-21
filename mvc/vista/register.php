@@ -222,10 +222,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     <i class="fa fa-list" aria-hidden="true"></i>
                     <select class="consulta" disabled="disabled" name="tipoDireccion" id="tipoDireccion"
                             oninvalid="setCustomValidity('Todos los campos son obligatorios para el registro')">
-                        <option value="0">--Selecciona un tipo de vía--</option>
-                        <option value="1">Calle</option>
-                        <option value="2">Avda</option>
-                        <option value="2">Pº</option>
+                        <option value="seleccion">--Selecciona un tipo de vía--</option>
+                        <option value="C/">Calle</option>
+                        <option value="Avda">Avda</option>
+                        <option value="Pº">Pº</option>
+                        <option value="Travesía">Travesía</option>
                     </select>
                     <div class="clearfix"></div>
                 </div>

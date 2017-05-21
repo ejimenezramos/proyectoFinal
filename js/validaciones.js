@@ -3,14 +3,14 @@
 
 /***************DECLARACIÓN VARIABLES EXPRESIONES REGULARES****************/
 
-var patnombre = new RegExp("^[a-zA-Z]+(\s*[a-zA-Z]*)*[a-zA-Z]+$");
+var patnombre = new RegExp("^[a-zA-Z]+(\\s*[a-zA-Z]*)*[a-zA-Z]+$");
 var patttel = new RegExp("(6|7|9)\\d{8}");
 var patemail = new RegExp("^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$");
 var patusuario = new RegExp("^\\w+$");
 var patdni = new RegExp("^[XYZxyz]?[\\-\\s]?\\d{5,8}[\-\\s]?[A-Za-z]$");
-var patdir = new RegExp("^[A-Za-z]+\\s?[A-Za-z]+\\s?[A-Za-z]+\\s?\\d+$");
+var patdir = new RegExp("^([A-Za-z]+\\,?\\s?)+\\d*$");
 var patcp = new RegExp("^\\d{5}$");
-/*******PRUEBAS*********/
+var patfecha = new RegExp("^\\d{2}[/|-]\\d{2}[/|-]\\d{4}$")
 
 
 /***************VALIDACIONES SUBMIT REGISTRO****************/
@@ -109,18 +109,52 @@ $(document).ready(function () {
                     $("#error" + id).html("");
                 }
                 break;
+
+            /**FECHA EN REVISION**/
             case "fechanac":
                 var fecha = new Date();
-                var date = event.target.value.split("-");
-                var year = date[0];
-                if ((parseInt(fecha.getFullYear()) - year) < 18) {
-                    $("#error" + id).html("Lo sentimos, no puedes registrarte si no eres mayor de edad");
+                if (comprobarNavegador() == "Chrome") {
+                    var date = event.target.value.split("-");
+                    var anio = date[0];
+                    var mes = date[1];
+                    var dia = date[2];
+alert(dia+" "+mes+" "+anio);
+
+                    if ((parseInt(fecha.getFullYear())) - anio >= 18) {
+                        $("#error" + id).html("");
+                        alert((parseInt(fecha.getFullYear())) - anio == 18);
+                        alert(mes);
+                        var m=fecha.getMonth();
+                        m+1;
+                        alert(m);
+                        if ((parseInt(fecha.getFullYear())) - anio == 18 && fecha.getMonth()+1 <= mes) {
+                            alert("mes");
+                            $("#error" + id).html("");
+                            if (parseInt(fecha.getDate() <= dia)) {
+                                alert("dias");
+                                $("#error" + id).html("");
+
+                            }
+                        }
+                    }
+                    else {
+                        $("#error" + id).html("Lo sentimos, no puedes registrarte si no eres mayor de edad");
+                    }
                 }
+
                 else {
-                    $("#error" + id).html("");
+                    if (patfecha.test($("#fechanac").val())) {
+                        alert("si cumple");
+                    }
+                    else {
+                        $("#error" + id).html("Lo sentimos, no puedes registrarte si no eres mayor de edad");
+                    }
+
                 }
                 break;
-            case "dni":
+            case
+            "dni"
+            :
                 var dniLetters = "TRWAGMYFPDXBNJZSQVHLCKET";
                 var dniValueMayusculas = $("#dni").val().toUpperCase();
                 if (patdni.test(dniValueMayusculas)) {
@@ -155,7 +189,9 @@ $(document).ready(function () {
                 }
 
                 break;
-            case "telefono":
+            case
+            "telefono"
+            :
                 if (patttel.test(event.target.value)) {
                     $("#error" + id).html("");
                 }
@@ -163,7 +199,9 @@ $(document).ready(function () {
                     $("#error" + id).html("El " + id + " introducido debe empezar por 6,7 o 9 y debe contener 9 dígitos");
                 }
                 break;
-            case "email":
+            case
+            "email"
+            :
                 if (patemail.test(event.target.value)) {
                     $("#error" + id).html("");
                 }
@@ -171,8 +209,12 @@ $(document).ready(function () {
                     $("#error" + id).html("El " + id + " introducido no es correcto, debe cumplir el formato 'example@example.com'");
                 }
                 break;
-            case "usuario":
-            case "password":
+            case
+            "usuario"
+            :
+            case
+            "password"
+            :
                 if (patusuario.test(event.target.value)) {
                     $("#error" + id).html("");
                 }
@@ -181,7 +223,9 @@ $(document).ready(function () {
                 }
                 break;
 
-            case "password2":
+            case
+            "password2"
+            :
                 if (event.target.value == $("#password").val()) {
                     $("#error" + id).html("");
                 }
@@ -189,7 +233,9 @@ $(document).ready(function () {
                     $("#error" + id).html("El " + id + " no coincide con el password inicial");
                 }
                 break;
-            case "direccion":
+            case
+            "direccion"
+            :
                 if (patdir.test(event.target.value)) {
                     $("#error" + id).html("");
                 }
@@ -197,7 +243,9 @@ $(document).ready(function () {
                     $("#error" + id).html("El campo " + id + " sólo puede contener caracteres alfanuméricos y espacios, Ej. de la Castellana 25");
                 }
                 break;
-            case "cp":
+            case
+            "cp"
+            :
                 if (patcp.test(event.target.value)) {
                     $("#error" + id).html("");
                 }
@@ -208,15 +256,28 @@ $(document).ready(function () {
 
         }
     })
-});
+})
+;
 
-
+function comprobarNavegador() {
+    var userAgent = navigator.userAgent;
+    if (userAgent.indexOf("Firefox") != -1) {
+        return "Firefox";
+    }
+    else {
+        return "Chrome";
+    }
+}
 /***************HABILITACIÓN BOTON REGISTRO AL ACEPTAR CONDICIONES****************/
 
 $(document).ready(function () {
     $("#condiciones").on('click', function () {
         if ($(this).is(':checked')) {
             $("#registrarse").attr('disabled', false);
+        }
+        else {
+            $("#registrarse").attr('disabled', true);
+            $("#errorsubmit").html('');
         }
 
     })
