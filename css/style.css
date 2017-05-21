@@ -18,6 +18,15 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     margin: 0em 1em 2em ;
 
 }
+
+/*Pablo 21/05/17: Clase para centrar el boton de los packs*/
+.boton_packs{
+    margin-top: 2em;
+}
+/*Pablo 15/05/17: Clase nueva para alinear los textos sobre las imagenes*/
+.home_tittle{
+    text-align: center;
+}
 /*Pablo 15/05/17: Clases para la barra de progreso*/
 .KW_progressContainer {
     left:0;
@@ -1039,7 +1048,7 @@ ul.product-qty {
 }
 .big-sale h3 span,.big-sa h3 span,.big-sale2 h3 span,.big-sale3 h3 span{
     /*Elena 28/04/17: Cambio color span imagenes home para que sea legible con respecto a las imágenes de fondo*/
-	color:#BB8FCE;
+	color:#7D3C98;
 }
 .big-sale p,.big-sa p,.big-sale2 p,.big-sale3 p{
     /*Elena:28/04/17: Cambio color letra sobre las imágenes del home para que sean legibles*/
@@ -1083,6 +1092,10 @@ ul.product-qty {
 /*--content-mid--*/
 .product {
 	padding:8em 0 6em;
+}
+/*Pablo 21/05/17: paddings para los pakcs*/
+.product2 {
+    padding:0em  6em;
 }
 .pro-1 {
     margin-bottom: 2em;
@@ -3012,7 +3025,7 @@ img.img-head {
 .search-form input[type='submit'] {
     width: 35px;
     height: 35px;
-    background: url(../images/can.png) no-repeat 4px 3px #FCCD1E;
+    background: url(../images/can.png) no-repeat 4px 3px #1ABC9C;
 }
 .search-form input[type='text'] {
     width: 85%;

@@ -26,7 +26,6 @@ function hideURLbar(){ window.scrollTo(0,1); }
 <!--Pablo 15/05/17: Estilos w3c para los slideshow-->
 <link href="css/w3c.css" rel='stylesheet' type='text/css' />
 	<!--Pablo 20/05/17: Estilos para el footer-->
-	<!--Pablo 15/05/17: Estilos w3c para los slideshow-->
 	<link href="css/footer.css" rel='stylesheet' type='text/css' />
 <!-- js -->
 <script src="js/jquery-1.11.1.min.js"></script>
@@ -165,8 +164,8 @@ function hideURLbar(){ window.scrollTo(0,1); }
 	<!--PABLO: Nuevo slider con javascript-->
 
 	<div class="w3-content w3-section" style="max-width: 90%">
-		<img class="mySlides" src="images/cereal1.jpeg" style="width: 100%; height: 30rem"> 
-		<img class="mySlides" src="images/cereal2.jpeg" style="width: 100%; height: 30rem"> 
+		<img class="mySlides" src="images/cereal1.jpeg" style="width: 100%; height: 30rem">
+		<img class="mySlides" src="images/cereal2.jpeg" style="width: 100%; height: 30rem">
 		<img class="mySlides" src="images/cereal3.jpeg" style="width: 100%; height: 30rem">
 		<div class="w3-display-topmiddle w3-container w3-padding-16"
 			style="width: 100%">
@@ -261,7 +260,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 		
 		<!-- Pablo:19/09/17: Slideshow para publicidad de la web -->
 		<div class="container2">
-			<div class="w3-content" style="max-width:500px">
+			<div class="w3-content" style="max-width:80%">
 				<img class="mySlides2" src="images/ba.jpg" style="width: 100%">
 				<img class="mySlides2" src="images/ba1.jpg" style="width:100%">
 				<img class="mySlides2" src="images/ba2.jpg" style="width:100%">
@@ -294,16 +293,13 @@ function hideURLbar(){ window.scrollTo(0,1); }
 			<h3>Cereal<span>Break</span></h3>
 
 			<p class="footer-links">
-				<a href="?pagina=home">Home</a>
+				<a href="?pagina=home">Licencia</a>
 				·
-				<a href="?pagina=productos">Productos</a>
+				<a href="?pagina=productos">Devoluciones</a><br>
+
+				<a href="?pagina=packs">Envío y entrega</a>
 				·
-				<a href="?pagina=packs">Packs especiales</a>
-				·
-				<a href="?pagina=aboutus">Sobre nosotros</a>
-				·
-				<a href="?pagina=contact">Contáctanos</a>
-				·
+				<a href="?pagina=packs">Preguntas frecuentes</a>
 			</p>
 
 			<p class="footer-company-name">Cereal Break &copy; 2017</p>
@@ -313,7 +309,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 
 			<div>
 				<i class="fa fa-map-marker"></i>
-				<p><span>21 Revolution Street</span> Paris, France</p>
+				<p><span>Paseo de la Castellana 10</span> Madrid, España</p>
 			</div>
 
 			<div>
