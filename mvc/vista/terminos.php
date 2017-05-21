@@ -23,6 +23,8 @@ function hideURLbar(){ window.scrollTo(0,1); }
 <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
 <!-- Custom Theme files -->
 <link href="css/style.css" rel='stylesheet' type='text/css' />
+	<!--Pablo 20/05/17: Estilos para el footer-->
+	<link href="css/footer.css" rel='stylesheet' type='text/css' />
 <!-- js -->
 <script src="js/jquery-1.11.1.min.js"></script>
 <!-- //js -->
@@ -93,6 +95,21 @@ function hideURLbar(){ window.scrollTo(0,1); }
 
 </head>
 <body>
+<!--Pablo 21/05/17: Barra de progreso-->
+<script type="text/javascript">
+	$(window).load(function(){
+		$(window).scroll(function() {
+			var wintop = $(window).scrollTop(), docheight = $('body').height(), winheight = $(window).height();
+			console.log(wintop);
+			var totalScroll = (wintop/(docheight-winheight))*100;
+			console.log("total scroll" + totalScroll);
+			$(".KW_progressBar").css("width",totalScroll+"%");
+		});
+	});
+</script>
+<div class="KW_progressContainer">
+	<div class="KW_progressBar"></div>
+</div>
 	<div class="header">
 
 		<div class="container">
@@ -920,15 +937,51 @@ function hideURLbar(){ window.scrollTo(0,1); }
 		</div>
 	</div>
 	<!-- //typography -->
-	<!--footer-->
-	<div class="footer">
-		<div class="container">
-			<div class="clearfix"></div>
-			<div class="footer-bottom">
-				<h2>
-					<a href="home.php">
-						</b>Cereal-Break<span></span></a>
-				</h2>
+	<!--footer Pablo 20/05/17: Nuevo footer-->
+	<footer class="footer-distributed">
+		<div class="footer-left">
+			<h3>Cereal<span>Break</span></h3>
+
+			<p class="footer-links">
+				<a href="?pagina=home">Licencia</a>
+				·
+				<a href="?pagina=productos">Devoluciones</a><br>
+
+				<a href="?pagina=packs">Envío y entrega</a>
+				·
+				<a href="?pagina=packs">Preguntas frecuentes</a>
+			</p>
+
+			<p class="footer-company-name">Cereal Break &copy; 2017</p>
+		</div>
+
+		<div class="footer-center">
+
+			<div>
+				<i class="fa fa-map-marker"></i>
+				<p><span>Paseo de la Castellana 10</span> Madrid, España</p>
+			</div>
+
+			<div>
+				<i class="fa fa-phone"></i>
+				<p>+1 555 123456</p>
+			</div>
+
+			<div>
+				<i class="fa fa-envelope"></i>
+				<p><a href="mailto:support@company.com">support@cerealbreak.com</a></p>
+			</div>
+
+		</div>
+
+		<div class="footer-right">
+
+			<p class="footer-company-about">
+				<span>Pasión por los cereales</span>
+				Disfruta de los mejores cereales del mundo en tu propia casa
+			</p>
+
+			<div class="footer-icons">
 
 				<ul class="social-fo">
 					<li><a href="#" class=" face"><i class="fa fa-facebook"
@@ -940,37 +993,10 @@ function hideURLbar(){ window.scrollTo(0,1); }
 					<li><a href="#" class=" dri"><i class="fa fa-dribbble"
 													aria-hidden="true"></i></a></li>
 				</ul>
-				<div class=" address">
-					<div class="col-md-4 fo-grid1">
-						<p>
-							<i class="fa fa-home" aria-hidden="true"></i>12K Street , 45
-							Building Road Canada.
-						</p>
-					</div>
-					<div class="col-md-4 fo-grid1">
-						<p>
-							<i class="fa fa-phone" aria-hidden="true"></i>+1234 758 839 ,
-							+1273 748 730
-						</p>
-					</div>
-					<div class="col-md-4 fo-grid1">
-						<p>
-							<a href="mailto:info@example.com"><i class="fa fa-envelope-o"
-																 aria-hidden="true"></i>info@example1.com</a>
-						</p>
-					</div>
-					<div class="clearfix"></div>
+			</div>
 
-				</div>
-			</div>
-			<div class="copy-right">
-				<p>
-					&copy; 2016 Big store. All Rights Reserved | Design by <a
-						href="http://w3layouts.com/"> W3layouts</a>
-				</p>
-			</div>
 		</div>
-	</div>
+	</footer>
 	<!-- //footer-->
 	<!-- smooth scrolling -->
 	<script type="text/javascript">
