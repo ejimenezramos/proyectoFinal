@@ -25,6 +25,9 @@ function hideURLbar(){ window.scrollTo(0,1); }
 <link href="css/style.css" rel='stylesheet' type='text/css' />
 <!--Pablo 15/05/17: Estilos w3c para los slideshow-->
 <link href="css/w3c.css" rel='stylesheet' type='text/css' />
+	<!--Pablo 20/05/17: Estilos para el footer-->
+	<!--Pablo 15/05/17: Estilos w3c para los slideshow-->
+	<link href="css/footer.css" rel='stylesheet' type='text/css' />
 <!-- js -->
 <script src="js/jquery-1.11.1.min.js"></script>
 <!-- //js -->
@@ -284,56 +287,70 @@ function hideURLbar(){ window.scrollTo(0,1); }
 		
 	</div>
 	
-	<!--footer-->
-	<div class="footer">
-		<div class="container">
-			<div class="clearfix"></div>
-			<div class="footer-bottom">
-				<h2>
-					<a href="home.php"> </b>Cereal-Break<span></span></a>
-				</h2>
+	<!--footer Pablo 20/05/17: Nuevo footer-->
+	<footer class="footer-distributed">
+		<div class="footer-left">
+			<h3>Cereal<span>Break</span></h3>
+
+			<p class="footer-links">
+				<a href="?pagina=home">Home</a>
+				·
+				<a href="?pagina=productos">Productos</a>
+				·
+				<a href="?pagina=packs">Packs especiales</a>
+				·
+				<a href="?pagina=aboutus">Sobre nosotros</a>
+				·
+				<a href="?pagina=contact">Contáctanos</a>
+				·
+			</p>
+
+			<p class="footer-company-name">Cereal Break &copy; 2017</p>
+		</div>
+
+		<div class="footer-center">
+
+			<div>
+				<i class="fa fa-map-marker"></i>
+				<p><span>21 Revolution Street</span> Paris, France</p>
+			</div>
+
+			<div>
+				<i class="fa fa-phone"></i>
+				<p>+1 555 123456</p>
+			</div>
+
+			<div>
+				<i class="fa fa-envelope"></i>
+				<p><a href="mailto:support@company.com">support@cerealbreak.com</a></p>
+			</div>
+
+		</div>
+
+		<div class="footer-right">
+
+			<p class="footer-company-about">
+				<span>Pasión por los cereales</span>
+				Disfruta de los mejores cereales del mundo en tu propia casa
+			</p>
+
+			<div class="footer-icons">
 
 				<ul class="social-fo">
 					<li><a href="#" class=" face"><i class="fa fa-facebook"
-							aria-hidden="true"></i></a></li>
+													 aria-hidden="true"></i></a></li>
 					<li><a href="#" class=" twi"><i class="fa fa-twitter"
-							aria-hidden="true"></i></a></li>
+													aria-hidden="true"></i></a></li>
 					<li><a href="#" class=" pin"><i class="fa fa-pinterest-p"
-							aria-hidden="true"></i></a></li>
+													aria-hidden="true"></i></a></li>
 					<li><a href="#" class=" dri"><i class="fa fa-dribbble"
-							aria-hidden="true"></i></a></li>
+													aria-hidden="true"></i></a></li>
 				</ul>
-				<div class=" address">
-					<div class="col-md-4 fo-grid1">
-						<p>
-							<i class="fa fa-home" aria-hidden="true"></i>12K Street , 45
-							Building Road Canada.
-						</p>
-					</div>
-					<div class="col-md-4 fo-grid1">
-						<p>
-							<i class="fa fa-phone" aria-hidden="true"></i>+1234 758 839 ,
-							+1273 748 730
-						</p>
-					</div>
-					<div class="col-md-4 fo-grid1">
-						<p>
-							<a href="mailto:info@example.com"><i class="fa fa-envelope-o"
-								aria-hidden="true"></i>info@example1.com</a>
-						</p>
-					</div>
-					<div class="clearfix"></div>
+			</div>
 
-				</div>
-			</div>
-			<div class="copy-right">
-				<p>
-					&copy; 2016 Big store. All Rights Reserved | Design by <a
-						href="http://w3layouts.com/"> W3layouts</a>
-				</p>
-			</div>
 		</div>
-	</div>
+	</footer>
+
 	<!-- //footer-->
 
 	<!-- smooth scrolling -->

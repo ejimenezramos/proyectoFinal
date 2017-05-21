@@ -377,8 +377,10 @@
 .fa-pencil:before {
   content: "\f040";
 }
+/*pablo 20/05/17: añadimmos color*/
 .fa-map-marker:before {
   content: "\f041";
+  color:red;
 }
 .fa-adjust:before {
   content: "\f042";
@@ -623,8 +625,10 @@
 .fa-lemon-o:before {
   content: "\f094";
 }
+/*Pablo 20/05/17: añadimos color*/
 .fa-phone:before {
   content: "\f095";
+  color:green;
 }
 .fa-square-o:before {
   content: "\f096";
@@ -811,7 +815,6 @@
 }
 .fa-envelope:before {
   content: "\f0e0";
-  color: #117A65;
 }
 .fa-linkedin:before {
   content: "\f0e1";
