@@ -7,8 +7,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE html>
 <html>
 <head>
-<title>Big store a Ecommerce Online Shopping Category Flat
-	Bootstrap Responsive Website Template | Kitchen :: w3layouts</title>
+<title>Big store a Ecommerce Online Shopping Category Flat Bootstrap
+	Responsive Website Template | Kitchen :: w3layouts</title>
 <!-- for-mobile-apps -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -24,8 +24,8 @@ function hideURLbar(){ window.scrollTo(0,1); }
 <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
 <!-- Custom Theme files -->
 <link href="css/style.css" rel='stylesheet' type='text/css' />
-	<!--Pablo 20/05/17: Estilos para el footer-->
-	<link href="css/footer.css" rel='stylesheet' type='text/css' />
+<!--Pablo 20/05/17: Estilos para el footer-->
+<link href="css/footer.css" rel='stylesheet' type='text/css' />
 <!-- js -->
 <script src="js/jquery-1.11.1.min.js"></script>
 <!-- //js -->
@@ -51,8 +51,8 @@ function hideURLbar(){ window.scrollTo(0,1); }
 
 </head>
 <body>
-<!--Pablo 21/05/17: Barra de progreso-->
-<script type="text/javascript">
+	<!--Pablo 21/05/17: Barra de progreso-->
+	<script type="text/javascript">
 	$(window).load(function(){
 		$(window).scroll(function() {
 			var wintop = $(window).scrollTop(), docheight = $('body').height(), winheight = $(window).height();
@@ -63,13 +63,11 @@ function hideURLbar(){ window.scrollTo(0,1); }
 		});
 	});
 </script>
-<div class="KW_progressContainer">
-	<div class="KW_progressBar"></div>
-</div>
+	<div class="KW_progressContainer">
+		<div class="KW_progressBar"></div>
+	</div>
 	<div class="header">
-
 		<div class="container">
-
 			<div class="logo">
 				<h1>
 					<a href="?pagina=home">Cereal-Break<span>Experience</span></a>
@@ -77,14 +75,15 @@ function hideURLbar(){ window.scrollTo(0,1); }
 			</div>
 			<div class="head-t">
 				<ul class="card">
-					<li><a href="?pagina=login" ><i class="fa fa-user" aria-hidden="true"></i>Login</a></li>
-					<li><a href="?pagina=register" ><i class="fa fa-arrow-right" aria-hidden="true"></i>Registro</a></li>
+					<li><a href="?pagina=login"><i class="fa fa-user"
+							aria-hidden="true"></i>Login</a></li>
+					<li><a href="?pagina=register"><i class="fa fa-arrow-right"
+							aria-hidden="true"></i>Registro</a></li>
 				</ul>
 			</div>
 			<div class="header-ri"></div>
 			<div class="nav-top">
 				<nav class="navbar navbar-default">
-
 					<div class="navbar-header nav_2">
 						<button type="button"
 							class="navbar-toggle collapsed navbar-toggle1"
@@ -93,18 +92,14 @@ function hideURLbar(){ window.scrollTo(0,1); }
 								class="icon-bar"></span> <span class="icon-bar"></span> <span
 								class="icon-bar"></span>
 						</button>
-
-
 					</div>
 					<div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
 						<ul class="nav navbar-nav ">
 							<li><a href="?pagina=home" class="hyper "><span>Home</span></a></li>
 							<li class="active"><a href="?pagina=productos" class="hyper"><span>Productos</span></a>
 							</li>
-							<li><a href="?pagina=packs" class="hyper"><span>Packs
-										especiales</span></a></li>
-							<li><a href="?pagina=aboutus" class="hyper"> <span>Sobre
-										nosotros</span></a></li>
+							<li><a href="?pagina=packs" class="hyper"><span>Packs especiales</span></a></li>
+							<li><a href="?pagina=aboutus" class="hyper"> <span>Sobre nosotros</span></a></li>
 							<li><a href="?pagina=contact" class="hyper"><span>Contáctanos</span></a></li>
 						</ul>
 					</div>
@@ -166,9 +161,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 									<p>
 										<label>4,00€</label><em class="item_price">3,00€</em>
 									</p>
-									<div class="block">
-
-									</div>
+									<div class="block"></div>
 									<div class="clearfix"></div>
 								</div>
 								<div class="add">
@@ -196,9 +189,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 									<p>
 										<label>5.00€</label><em class="item_price">4.50€</em>
 									</p>
-									<div class="block">
-
-									</div>
+									<div class="block"></div>
 									<div class="clearfix"></div>
 								</div>
 								<div class="add">
@@ -226,15 +217,13 @@ function hideURLbar(){ window.scrollTo(0,1); }
 									<p>
 										<label>4.00€</label><em class="item_price">3.50€</em>
 									</p>
-									<div class="block">
-
-									</div>
+									<div class="block"></div>
 									<div class="clearfix"></div>
 								</div>
 								<div class="add">
 									<button class="btn btn-danger my-cart-btn my-cart-b"
-										data-id="26" data-name="Cinnamon Crunch" data-summary="summary 26"
-										data-price="3.50" data-quantity="1"
+										data-id="26" data-name="Cinnamon Crunch"
+										data-summary="summary 26" data-price="3.50" data-quantity="1"
 										data-image="images/boxcinnamon.png">Add to Cart</button>
 								</div>
 							</div>
@@ -256,9 +245,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 									<p>
 										<label>3.50€</label><em class="item_price">3.20€</em>
 									</p>
-									<div class="block">
-
-									</div>
+									<div class="block"></div>
 									<div class="clearfix"></div>
 								</div>
 								<div class="add">
@@ -270,7 +257,6 @@ function hideURLbar(){ window.scrollTo(0,1); }
 							</div>
 						</div>
 					</div>
-
 					<div class="col-md-3 pro-1">
 						<div class="col-m">
 							<a href="#" data-toggle="modal" data-target="#myModal5"
@@ -287,9 +273,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 									<p>
 										<label>7.00€</label><em class="item_price">6.00€</em>
 									</p>
-									<div class="block">
-
-									</div>
+									<div class="block"></div>
 									<div class="clearfix"></div>
 								</div>
 								<div class="add">
@@ -317,9 +301,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 									<p>
 										<label>5.00€</label><em class="item_price">4.50€</em>
 									</p>
-									<div class="block">
-
-									</div>
+									<div class="block"></div>
 									<div class="clearfix"></div>
 								</div>
 								<div class="add">
@@ -347,9 +329,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 									<p>
 										<label>4.00€</label><em class="item_price">3.50€</em>
 									</p>
-									<div class="block">
-
-									</div>
+									<div class="block"></div>
 									<div class="clearfix"></div>
 								</div>
 								<div class="add">
@@ -379,9 +359,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 									<p>
 										<label>1.00€</label><em class="item_price">0.80€</em>
 									</p>
-									<div class="block">
-
-									</div>
+									<div class="block"></div>
 									<div class="clearfix"></div>
 								</div>
 								<div class="add">
@@ -409,9 +387,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 									<p>
 										<label>1.00€</label><em class="item_price">0.80€</em>
 									</p>
-									<div class="block">
-
-									</div>
+									<div class="block"></div>
 									<div class="clearfix"></div>
 								</div>
 								<div class="add">
@@ -439,9 +415,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 									<p>
 										<label>1.00€</label><em class="item_price">0.80€</em>
 									</p>
-									<div class="block">
-
-									</div>
+									<div class="block"></div>
 									<div class="clearfix"></div>
 								</div>
 								<div class="add">
@@ -469,15 +443,13 @@ function hideURLbar(){ window.scrollTo(0,1); }
 									<p>
 										<label>1.00€</label><em class="item_price">0.80€</em>
 									</p>
-									<div class="block">
-
-									</div>
+									<div class="block"></div>
 									<div class="clearfix"></div>
 								</div>
 								<div class="add">
 									<button class="btn btn-danger my-cart-btn my-cart-b"
-										data-id="34" data-name="Leche de Vainilla" data-summary="summary 34"
-										data-price="0.80" data-quantity="1"
+										data-id="34" data-name="Leche de Vainilla"
+										data-summary="summary 34" data-price="0.80" data-quantity="1"
 										data-image="images/milkvainilla.png">Add to Cart</button>
 								</div>
 							</div>
@@ -499,15 +471,13 @@ function hideURLbar(){ window.scrollTo(0,1); }
 									<p>
 										<label>1.00€</label><em class="item_price">0.80€</em>
 									</p>
-									<div class="block">
-
-									</div>
+									<div class="block"></div>
 									<div class="clearfix"></div>
 								</div>
 								<div class="add">
 									<button class="btn btn-danger my-cart-btn my-cart-b"
-										data-id="35" data-name="Leche de Soja y Almendras" data-summary="summary 35"
-										data-price="0.80" data-quantity="1"
+										data-id="35" data-name="Leche de Soja y Almendras"
+										data-summary="summary 35" data-price="0.80" data-quantity="1"
 										data-image="images/milksojaalmond.png">Add to Cart</button>
 								</div>
 							</div>
@@ -518,8 +488,8 @@ function hideURLbar(){ window.scrollTo(0,1); }
 					<div class="col-md-3 pro-1">
 						<div class="col-m">
 							<a href="#" data-toggle="modal" data-target="#myModal12"
-							   class="offer-img"> <img src="images/packkinder.png"
-													   class="img-responsive" alt="">
+								class="offer-img"> <img src="images/packkinder.png"
+								class="img-responsive" alt="">
 							</a>
 							<div class="mid-1">
 								<div class="women">
@@ -531,16 +501,14 @@ function hideURLbar(){ window.scrollTo(0,1); }
 									<p>
 										<label>2.50€</label><em class="item_price">1.80€</em>
 									</p>
-									<div class="block">
-
-									</div>
+									<div class="block"></div>
 									<div class="clearfix"></div>
 								</div>
 								<div class="add">
 									<button class="btn btn-danger my-cart-btn my-cart-b"
-											data-id="35" data-name="Kinder Bueno" data-summary="summary 35"
-											data-price="1.80" data-quantity="1"
-											data-image="images/packkinder.png">Add to Cart</button>
+										data-id="35" data-name="Kinder Bueno"
+										data-summary="summary 35" data-price="1.80" data-quantity="1"
+										data-image="images/packkinder.png">Add to Cart</button>
 								</div>
 							</div>
 						</div>
@@ -548,8 +516,8 @@ function hideURLbar(){ window.scrollTo(0,1); }
 					<div class="col-md-3 pro-1">
 						<div class="col-m">
 							<a href="#" data-toggle="modal" data-target="#myModal12"
-							   class="offer-img"> <img src="images/packchips.png"
-													   class="img-responsive" alt="">
+								class="offer-img"> <img src="images/packchips.png"
+								class="img-responsive" alt="">
 							</a>
 							<div class="mid-1">
 								<div class="women">
@@ -561,16 +529,14 @@ function hideURLbar(){ window.scrollTo(0,1); }
 									<p>
 										<label>2.30€</label><em class="item_price">1.50€</em>
 									</p>
-									<div class="block">
-
-									</div>
+									<div class="block"></div>
 									<div class="clearfix"></div>
 								</div>
 								<div class="add">
 									<button class="btn btn-danger my-cart-btn my-cart-b"
-											data-id="35" data-name="Chips Ahoy!" data-summary="summary 35"
-											data-price="1.50" data-quantity="1"
-											data-image="images/packchips.png">Add to Cart</button>
+										data-id="35" data-name="Chips Ahoy!" data-summary="summary 35"
+										data-price="1.50" data-quantity="1"
+										data-image="images/packchips.png">Add to Cart</button>
 								</div>
 							</div>
 						</div>
@@ -578,8 +544,8 @@ function hideURLbar(){ window.scrollTo(0,1); }
 					<div class="col-md-3 pro-1">
 						<div class="col-m">
 							<a href="#" data-toggle="modal" data-target="#myModal12"
-							   class="offer-img"> <img src="images/packbons.png"
-													   class="img-responsive" alt="">
+								class="offer-img"> <img src="images/packbons.png"
+								class="img-responsive" alt="">
 							</a>
 							<div class="mid-1">
 								<div class="women">
@@ -591,16 +557,14 @@ function hideURLbar(){ window.scrollTo(0,1); }
 									<p>
 										<label>3.00€</label><em class="item_price">2.80€</em>
 									</p>
-									<div class="block">
-
-									</div>
+									<div class="block"></div>
 									<div class="clearfix"></div>
 								</div>
 								<div class="add">
 									<button class="btn btn-danger my-cart-btn my-cart-b"
-											data-id="35" data-name="Oats Idli" data-summary="summary 35"
-											data-price="2.80" data-quantity="1"
-											data-image="images/packbons.png">Add to Cart</button>
+										data-id="35" data-name="Oats Idli" data-summary="summary 35"
+										data-price="2.80" data-quantity="1"
+										data-image="images/packbons.png">Add to Cart</button>
 								</div>
 							</div>
 						</div>
@@ -608,8 +572,8 @@ function hideURLbar(){ window.scrollTo(0,1); }
 					<div class="col-md-3 pro-1">
 						<div class="col-m">
 							<a href="#" data-toggle="modal" data-target="#myModal12"
-							   class="offer-img"> <img src="images/packoreo.png"
-													   class="img-responsive" alt="">
+								class="offer-img"> <img src="images/packoreo.png"
+								class="img-responsive" alt="">
 							</a>
 							<div class="mid-1">
 								<div class="women">
@@ -621,16 +585,14 @@ function hideURLbar(){ window.scrollTo(0,1); }
 									<p>
 										<label>2.20€</label><em class="item_price">1.80€</em>
 									</p>
-									<div class="block">
-
-									</div>
+									<div class="block"></div>
 									<div class="clearfix"></div>
 								</div>
 								<div class="add">
 									<button class="btn btn-danger my-cart-btn my-cart-b"
-											data-id="35" data-name="Oreo" data-summary="summary 35"
-											data-price="1.80" data-quantity="1"
-											data-image="images/packoreo.png">Add to Cart</button>
+										data-id="35" data-name="Oreo" data-summary="summary 35"
+										data-price="1.80" data-quantity="1"
+										data-image="images/packoreo.png">Add to Cart</button>
 								</div>
 							</div>
 						</div>
@@ -638,8 +600,8 @@ function hideURLbar(){ window.scrollTo(0,1); }
 					<div class="col-md-3 pro-1">
 						<div class="col-m">
 							<a href="#" data-toggle="modal" data-target="#myModal12"
-							   class="offer-img"> <img src="images/packconguitos.png"
-													   class="img-responsive" alt="">
+								class="offer-img"> <img src="images/packconguitos.png"
+								class="img-responsive" alt="">
 							</a>
 							<div class="mid-1">
 								<div class="women">
@@ -651,16 +613,14 @@ function hideURLbar(){ window.scrollTo(0,1); }
 									<p>
 										<label>1.90€</label><em class="item_price">1.60€</em>
 									</p>
-									<div class="block">
-
-									</div>
+									<div class="block"></div>
 									<div class="clearfix"></div>
 								</div>
 								<div class="add">
 									<button class="btn btn-danger my-cart-btn my-cart-b"
-											data-id="35" data-name="Conguitos" data-summary="summary 35"
-											data-price="1.60" data-quantity="1"
-											data-image="images/packconguitos.png">Add to Cart</button>
+										data-id="35" data-name="Conguitos" data-summary="summary 35"
+										data-price="1.60" data-quantity="1"
+										data-image="images/packconguitos.png">Add to Cart</button>
 								</div>
 							</div>
 						</div>
@@ -673,16 +633,15 @@ function hideURLbar(){ window.scrollTo(0,1); }
 	<!--footer Pablo 20/05/17: Nuevo footer-->
 	<footer class="footer-distributed">
 		<div class="footer-left">
-			<h3>Cereal<span>Break</span></h3>
+			<h3>
+				Cereal<span>Break</span>
+			</h3>
 
 			<p class="footer-links">
-				<a href="?pagina=home">Licencia</a>
-				·
-				<a href="?pagina=productos">Devoluciones</a><br>
+				<a href="?pagina=home">Licencia</a> · <a href="?pagina=productos">Devoluciones</a><br>
 
-				<a href="?pagina=packs">Envío y entrega</a>
-				·
-				<a href="?pagina=packs">Preguntas frecuentes</a>
+				<a href="?pagina=packs">Envío y entrega</a> · <a
+					href="?pagina=packs">Preguntas frecuentes</a>
 			</p>
 
 			<p class="footer-company-name">Cereal Break &copy; 2017</p>
@@ -692,7 +651,9 @@ function hideURLbar(){ window.scrollTo(0,1); }
 
 			<div>
 				<i class="fa fa-map-marker"></i>
-				<p><span>Paseo de la Castellana 10</span> Madrid, España</p>
+				<p>
+					<span>Paseo de la Castellana 10</span> Madrid, España
+				</p>
 			</div>
 
 			<div>
@@ -702,7 +663,9 @@ function hideURLbar(){ window.scrollTo(0,1); }
 
 			<div>
 				<i class="fa fa-envelope"></i>
-				<p><a href="mailto:support@company.com">support@cerealbreak.com</a></p>
+				<p>
+					<a href="mailto:support@company.com">support@cerealbreak.com</a>
+				</p>
 			</div>
 
 		</div>
@@ -710,21 +673,21 @@ function hideURLbar(){ window.scrollTo(0,1); }
 		<div class="footer-right">
 
 			<p class="footer-company-about">
-				<span>Pasión por los cereales</span>
-				Disfruta de los mejores cereales del mundo en tu propia casa
+				<span>Pasión por los cereales</span> Disfruta de los mejores
+				cereales del mundo en tu propia casa
 			</p>
 
 			<div class="footer-icons">
 
 				<ul class="social-fo">
 					<li><a href="#" class=" face"><i class="fa fa-facebook"
-													 aria-hidden="true"></i></a></li>
+							aria-hidden="true"></i></a></li>
 					<li><a href="#" class=" twi"><i class="fa fa-twitter"
-													aria-hidden="true"></i></a></li>
+							aria-hidden="true"></i></a></li>
 					<li><a href="#" class=" pin"><i class="fa fa-pinterest-p"
-													aria-hidden="true"></i></a></li>
+							aria-hidden="true"></i></a></li>
 					<li><a href="#" class=" dri"><i class="fa fa-dribbble"
-													aria-hidden="true"></i></a></li>
+							aria-hidden="true"></i></a></li>
 				</ul>
 			</div>
 
@@ -748,8 +711,8 @@ function hideURLbar(){ window.scrollTo(0,1); }
 			});
 		});
 	</script>
-	<a href="#" id="toTop" style="display: block;"> <span
-		id="toTopHover" style="opacity: 1;"> </span></a>
+	<a href="#" id="toTop" style="display: block;"> <span id="toTopHover"
+		style="opacity: 1;"> </span></a>
 	<!-- //smooth scrolling -->
 	<!-- for bootstrap working -->
 	<script src="js/bootstrap.js"></script>
@@ -828,13 +791,13 @@ function hideURLbar(){ window.scrollTo(0,1); }
 							<div class="clearfix"></div>
 						</div>
 						<h4 class="quick">Descripción:</h4>
-						<p class="quick_desc">Disfruta de uno de nuestros deliciosos cereales con sabor a
-						cacahuete y miel.</p>
+						<p class="quick_desc">Disfruta de uno de nuestros deliciosos
+							cereales con sabor a cacahuete y miel.</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-btn1 "
 								data-id="24" data-name="Cheerios" data-summary="summary 24"
-								data-price="3.00" data-quantity="1" data-image="images/boxcheerios.png">Add
-								to Cart</button>
+								data-price="3.00" data-quantity="1"
+								data-image="images/boxcheerios.png">Add to Cart</button>
 						</div>
 					</div>
 					<div class="clearfix"></div>
@@ -867,13 +830,13 @@ function hideURLbar(){ window.scrollTo(0,1); }
 							<div class="clearfix"></div>
 						</div>
 						<h4 class="quick">Descripción:</h4>
-						<p class="quick_desc">Nuestras deliciosas bocanadas de maíz, dulces
-						y crujientes con mantequilla de cacahuete</p>
+						<p class="quick_desc">Nuestras deliciosas bocanadas de maíz,
+							dulces y crujientes con mantequilla de cacahuete</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-btn1 "
 								data-id="25" data-name="Peach Halves" data-summary="summary 25"
-								data-price="4.50" data-quantity="1" data-image="images/boxreeses.png">Add
-								to Cart</button>
+								data-price="4.50" data-quantity="1"
+								data-image="images/boxreeses.png">Add to Cart</button>
 						</div>
 					</div>
 					<div class="clearfix"></div>
@@ -906,12 +869,13 @@ function hideURLbar(){ window.scrollTo(0,1); }
 							<div class="clearfix"></div>
 						</div>
 						<h4 class="quick">Descripción:</h4>
-						<p class="quick_desc">Sabrosos cereales de maíz tostado con sabor a canela</p>
+						<p class="quick_desc">Sabrosos cereales de maíz tostado con sabor
+							a canela</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-btn1 "
 								data-id="26" data-name="Banana" data-summary="summary 26"
-								data-price="3.50" data-quantity="1" data-image="images/boxcinnamon.png">Add
-								to Cart</button>
+								data-price="3.50" data-quantity="1"
+								data-image="images/boxcinnamon.png">Add to Cart</button>
 						</div>
 					</div>
 					<div class="clearfix"></div>
@@ -944,12 +908,13 @@ function hideURLbar(){ window.scrollTo(0,1); }
 							<div class="clearfix"></div>
 						</div>
 						<h4 class="quick">Descripción:</h4>
-						<p class="quick_desc">Deliciosos aros de cereales que colorearán tu día</p>
+						<p class="quick_desc">Deliciosos aros de cereales que colorearán
+							tu día</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-btn1 "
 								data-id="27" data-name="Rice" data-summary="summary 27"
-								data-price="3.20" data-quantity="1" data-image="images/boxfroot.png">Add
-								to Cart</button>
+								data-price="3.20" data-quantity="1"
+								data-image="images/boxfroot.png">Add to Cart</button>
 						</div>
 					</div>
 					<div class="clearfix"></div>
@@ -982,15 +947,13 @@ function hideURLbar(){ window.scrollTo(0,1); }
 							<div class="clearfix"></div>
 						</div>
 						<h4 class="quick">Descripción:</h4>
-						<p class="quick_desc">
-							Saborea unos estupendos cereales de colores y descubre la magia de sus cinco
-							nuevos amuletos de diamantes.
-						</p>
+						<p class="quick_desc">Saborea unos estupendos cereales de colores
+							y descubre la magia de sus cinco nuevos amuletos de diamantes.</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-btn1 "
 								data-id="28" data-name="Lucky Charms" data-summary="summary 28"
-								data-price="4.00" data-quantity="1" data-image="images/boxlucky.png">Add
-								to Cart</button>
+								data-price="4.00" data-quantity="1"
+								data-image="images/boxlucky.png">Add to Cart</button>
 						</div>
 					</div>
 					<div class="clearfix"></div>
@@ -1023,12 +986,13 @@ function hideURLbar(){ window.scrollTo(0,1); }
 							<div class="clearfix"></div>
 						</div>
 						<h4 class="quick">Descripción:</h4>
-						<p class="quick_desc">Deliciosos cereales que daran alegría a tu día</p>
+						<p class="quick_desc">Deliciosos cereales que daran alegría a tu
+							día</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-btn1 "
 								data-id="29" data-name="Biscuits" data-summary="summary 29"
-								data-price="4.50" data-quantity="1" data-image="images/boxtrix.png">Add
-								to Cart</button>
+								data-price="4.50" data-quantity="1"
+								data-image="images/boxtrix.png">Add to Cart</button>
 						</div>
 					</div>
 					<div class="clearfix"></div>
@@ -1061,12 +1025,13 @@ function hideURLbar(){ window.scrollTo(0,1); }
 							<div class="clearfix"></div>
 						</div>
 						<h4 class="quick">Descripción:</h4>
-						<p class="quick_desc">Deliciosos cereales de chocolate que chocolatearán tu leche</p>
+						<p class="quick_desc">Deliciosos cereales de chocolate que
+							chocolatearán tu leche</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-btn1 "
 								data-id="30" data-name="Nuts" data-summary="summary 30"
-								data-price="3.50" data-quantity="1" data-image="images/boxcocoa.png">Add
-								to Cart</button>
+								data-price="3.50" data-quantity="1"
+								data-image="images/boxcocoa.png">Add to Cart</button>
 						</div>
 					</div>
 					<div class="clearfix"></div>
@@ -1103,8 +1068,8 @@ function hideURLbar(){ window.scrollTo(0,1); }
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-btn1 "
 								data-id="31" data-name="Rice" data-summary="summary 31"
-								data-price="0.80" data-quantity="1" data-image="images/milkblue.png">Add
-								to Cart</button>
+								data-price="0.80" data-quantity="1"
+								data-image="images/milkblue.png">Add to Cart</button>
 						</div>
 					</div>
 					<div class="clearfix"></div>
@@ -1137,10 +1102,9 @@ function hideURLbar(){ window.scrollTo(0,1); }
 							<div class="clearfix"></div>
 						</div>
 						<h4 class="quick">Quick Overview:</h4>
-						<p class="quick_desc">Nam liber tempor cum soluta nobis
-							eleifend option congue nihil imperdiet doming id quod mazim
-							placerat facer possim assum. Typi non habent claritatem insitam;
-							es</p>
+						<p class="quick_desc">Nam liber tempor cum soluta nobis eleifend
+							option congue nihil imperdiet doming id quod mazim placerat facer
+							possim assum. Typi non habent claritatem insitam; es</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-btn1 "
 								data-id="32" data-name="Noodles" data-summary="summary 32"
@@ -1173,18 +1137,17 @@ function hideURLbar(){ window.scrollTo(0,1); }
 					<div class="col-md-7 span-1 ">
 						<h3>Tea(250 g)</h3>
 
-						<p class="in-para">There are many variations of passages of
-							Lorem Ipsum.</p>
+						<p class="in-para">There are many variations of passages of Lorem
+							Ipsum.</p>
 						<div class="price_single">
 							<span class="reducedfrom "><del>$1.00</del>$0.70</span>
 
 							<div class="clearfix"></div>
 						</div>
 						<h4 class="quick">Quick Overview:</h4>
-						<p class="quick_desc">Nam liber tempor cum soluta nobis
-							eleifend option congue nihil imperdiet doming id quod mazim
-							placerat facer possim assum. Typi non habent claritatem insitam;
-							es</p>
+						<p class="quick_desc">Nam liber tempor cum soluta nobis eleifend
+							option congue nihil imperdiet doming id quod mazim placerat facer
+							possim assum. Typi non habent claritatem insitam; es</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-btn1 "
 								data-id="33" data-name="Seafood" data-summary="summary 33"
@@ -1217,18 +1180,17 @@ function hideURLbar(){ window.scrollTo(0,1); }
 					<div class="col-md-7 span-1 ">
 						<h3>Seafood(1 kg)</h3>
 
-						<p class="in-para">There are many variations of passages of
-							Lorem Ipsum.</p>
+						<p class="in-para">There are many variations of passages of Lorem
+							Ipsum.</p>
 						<div class="price_single">
 							<span class="reducedfrom "><del>$2.00</del>$1.00</span>
 
 							<div class="clearfix"></div>
 						</div>
 						<h4 class="quick">Quick Overview:</h4>
-						<p class="quick_desc">Nam liber tempor cum soluta nobis
-							eleifend option congue nihil imperdiet doming id quod mazim
-							placerat facer possim assum. Typi non habent claritatem insitam;
-							es</p>
+						<p class="quick_desc">Nam liber tempor cum soluta nobis eleifend
+							option congue nihil imperdiet doming id quod mazim placerat facer
+							possim assum. Typi non habent claritatem insitam; es</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-btn1 "
 								data-id="34" data-name="Oats Idli" data-summary="summary 34"
@@ -1260,18 +1222,17 @@ function hideURLbar(){ window.scrollTo(0,1); }
 					</div>
 					<div class="col-md-7 span-1 ">
 						<h3>Oats Idli(500 g)</h3>
-						<p class="in-para">There are many variations of passages of
-							Lorem Ipsum.</p>
+						<p class="in-para">There are many variations of passages of Lorem
+							Ipsum.</p>
 						<div class="price_single">
 							<span class="reducedfrom "><del>$4.00</del>$3.50</span>
 
 							<div class="clearfix"></div>
 						</div>
 						<h4 class="quick">Quick Overview:</h4>
-						<p class="quick_desc">Nam liber tempor cum soluta nobis
-							eleifend option congue nihil imperdiet doming id quod mazim
-							placerat facer possim assum. Typi non habent claritatem insitam;
-							es</p>
+						<p class="quick_desc">Nam liber tempor cum soluta nobis eleifend
+							option congue nihil imperdiet doming id quod mazim placerat facer
+							possim assum. Typi non habent claritatem insitam; es</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-btn1 "
 								data-id="35" data-name="product 35" data-summary="summary 35"

@@ -65,7 +65,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	border: 1px solid #1ABC9C;
 }
 
-
+/*Pablo 23/05/17: Clase para cambiar el cursor */
+.cursor_pointer{
+	cursor:pointer;
+}
 
 body{
 	margin:0;

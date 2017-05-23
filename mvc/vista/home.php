@@ -25,8 +25,8 @@ function hideURLbar(){ window.scrollTo(0,1); }
 <link href="css/style.css" rel='stylesheet' type='text/css' />
 <!--Pablo 15/05/17: Estilos w3c para los slideshow-->
 <link href="css/w3c.css" rel='stylesheet' type='text/css' />
-	<!--Pablo 20/05/17: Estilos para el footer-->
-	<link href="css/footer.css" rel='stylesheet' type='text/css' />
+<!--Pablo 20/05/17: Estilos para el footer-->
+<link href="css/footer.css" rel='stylesheet' type='text/css' />
 <!-- js -->
 <script src="js/jquery-1.11.1.min.js"></script>
 <!-- //js -->
@@ -97,8 +97,8 @@ function hideURLbar(){ window.scrollTo(0,1); }
 
 </head>
 <body>
-<!--Pablo 21/05/17: Barra de progreso-->
-		<script type="text/javascript">
+	<!--Pablo 21/05/17: Barra de progreso-->
+	<script type="text/javascript">
 		$(window).load(function(){
 			$(window).scroll(function() {
 				var wintop = $(window).scrollTop(), docheight = $('body').height(), winheight = $(window).height();
@@ -112,7 +112,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 	<div class="KW_progressContainer">
 		<div class="KW_progressBar"></div>
 	</div>
-<!--Pablo 21/05/17: Cabecera-->
+	<!--Pablo 21/05/17: Cabecera-->
 	<div class="header">
 		<div class="container">
 			<div class="logo">
@@ -164,9 +164,11 @@ function hideURLbar(){ window.scrollTo(0,1); }
 	<!--PABLO: Nuevo slider con javascript-->
 
 	<div class="w3-content w3-section" style="max-width: 90%">
-		<img class="mySlides" src="images/cereal1.jpeg" style="width: 100%; height: 30rem">
-		<img class="mySlides" src="images/cereal2.jpeg" style="width: 100%; height: 30rem">
-		<img class="mySlides" src="images/cereal3.jpeg" style="width: 100%; height: 30rem">
+		<img class="mySlides" src="images/cereal1.jpeg"
+			style="width: 100%; height: 30rem"> <img class="mySlides"
+			src="images/cereal2.jpeg" style="width: 100%; height: 30rem"> <img
+			class="mySlides" src="images/cereal3.jpeg"
+			style="width: 100%; height: 30rem">
 		<div class="w3-display-topmiddle w3-container w3-padding-16"
 			style="width: 100%">
 			<div class="banner-info2">
@@ -257,16 +259,16 @@ function hideURLbar(){ window.scrollTo(0,1); }
 			</div>
 			<div class="clearfix"></div>
 		</div>
-		
+
 		<!-- Pablo:19/09/17: Slideshow para publicidad de la web -->
 		<div class="container2">
-			<div class="w3-content" style="max-width:80%">
-				<img class="mySlides2" src="images/ba.jpg" style="width: 100%">
-				<img class="mySlides2" src="images/ba1.jpg" style="width:100%">
-				<img class="mySlides2" src="images/ba2.jpg" style="width:100%">
+			<div class="w3-content" style="max-width: 80%">
+				<img class="mySlides2" src="images/ba.jpg" style="width: 100%"> <img
+					class="mySlides2" src="images/ba1.jpg" style="width: 100%"> <img
+					class="mySlides2" src="images/ba2.jpg" style="width: 100%">
 			</div>
 		</div>
-		
+
 		<script type="text/javascript">
 		var slideIndex = 0;
 		carousel2();
@@ -283,23 +285,23 @@ function hideURLbar(){ window.scrollTo(0,1); }
 		    setTimeout(carousel2, 2000);
 		}
 		</script>
-		
-		
+
+
 	</div>
-	
+
 	<!--footer Pablo 20/05/17: Nuevo footer-->
 	<footer class="footer-distributed">
 		<div class="footer-left">
-			<h3>Cereal<span>Break</span></h3>
+			<h3>
+				Cereal<span>Break</span>
+			</h3>
 
 			<p class="footer-links">
-				<a href="?pagina=home">Licencia</a>
-				Â·
-				<a href="?pagina=productos">Devoluciones</a><br>
+				<a class="cursor_pointer"  onclick="window.open('?pagina=licencia', 'Licencia', 'width=900, height=600')"> Licencia</a> Â· 
+				<a data-toggle="modal" data-target="#ModalDevoluciones">Devoluciones</a><br>
 
-				<a href="?pagina=packs">EnvÃ­o y entrega</a>
-				Â·
-				<a href="?pagina=packs">Preguntas frecuentes</a>
+				<a href="?pagina=packs">EnvÃ­o y entrega</a> Â· <a
+					href="?pagina=packs">Preguntas frecuentes</a>
 			</p>
 
 			<p class="footer-company-name">Cereal Break &copy; 2017</p>
@@ -309,7 +311,9 @@ function hideURLbar(){ window.scrollTo(0,1); }
 
 			<div>
 				<i class="fa fa-map-marker"></i>
-				<p><span>Paseo de la Castellana 10</span> Madrid, EspaÃ±a</p>
+				<p>
+					<span>Paseo de la Castellana 10</span> Madrid, EspaÃ±a
+				</p>
 			</div>
 
 			<div>
@@ -319,7 +323,9 @@ function hideURLbar(){ window.scrollTo(0,1); }
 
 			<div>
 				<i class="fa fa-envelope"></i>
-				<p><a href="mailto:support@company.com">support@cerealbreak.com</a></p>
+				<p>
+					<a href="mailto:support@company.com">support@cerealbreak.com</a>
+				</p>
 			</div>
 
 		</div>
@@ -327,21 +333,21 @@ function hideURLbar(){ window.scrollTo(0,1); }
 		<div class="footer-right">
 
 			<p class="footer-company-about">
-				<span>PasiÃ³n por los cereales</span>
-				Disfruta de los mejores cereales del mundo en tu propia casa
+				<span>PasiÃ³n por los cereales</span> Disfruta de los mejores
+				cereales del mundo en tu propia casa
 			</p>
 
 			<div class="footer-icons">
 
 				<ul class="social-fo">
 					<li><a href="#" class=" face"><i class="fa fa-facebook"
-													 aria-hidden="true"></i></a></li>
+							aria-hidden="true"></i></a></li>
 					<li><a href="#" class=" twi"><i class="fa fa-twitter"
-													aria-hidden="true"></i></a></li>
+							aria-hidden="true"></i></a></li>
 					<li><a href="#" class=" pin"><i class="fa fa-pinterest-p"
-													aria-hidden="true"></i></a></li>
+							aria-hidden="true"></i></a></li>
 					<li><a href="#" class=" dri"><i class="fa fa-dribbble"
-													aria-hidden="true"></i></a></li>
+							aria-hidden="true"></i></a></li>
 				</ul>
 			</div>
 
@@ -417,10 +423,33 @@ function hideURLbar(){ window.scrollTo(0,1); }
 
 		});
 	</script>
-
-
-
-
-
+	
+	<div class="modal fade" id="ModalDevoluciones" tabindex="-1" role="dialog"
+		aria-labelledby="myModalLabel">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content modal-info">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal"
+						aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div>
+					<h3>Política de devolución de productos</h3>
+					<p class="quick_desc">Si usted no queda completamente satisfecho con el producto adquirido, se le repondrá la pieza o devolverá el dinero siempre que cumpla con la las especificaciones detalladas a continuación.
+					<br>Para ello es necesario que los productos (cereales, leche o topping) conserven los embalajes y precintos originales. Importante: no abrir el producto si se tiene la intención de cambiar o devolverlo
+					<br>En el caso de que desee devolver o cambiar un producto deberá enviarnos un correo electrónico a la dirección support@cerealbreak.com explicando el motivo del cambio, indicando el número de pedido y la fecha de recepción y adjuntando una foto del producto o productos en el estado en el que encuentran para su devolución o cambio.
+					<br>Para proceder al cambio o devolución de un producto:</p>
+					<dl>
+						<dd>El usuario o cliente dispone de siete días hábiles, contados desde la recepción del producto, para desistir del contrato sin necesidad de indicación de los motivos siempre que el producto esté en perfectas condiciones</dd>
+						<dd>Conservar el envoltorio original; si éste está abierto no se podrá proceder al cambio o devolución.</dd>
+						<dd>Es requisito imprescindible que tanto el embalaje como el producto estén en perfecto estado, no hayan sido manipulados, no presenten defectos ni deterioros por hechos externos u otras circunstancias que deriven en el menoscabo del producto, en especial la apertura del recipiente.</dd>
+						<dd>Cualquier producto abierto, cortado o manipulado de cualquier manera no podrá ser sujeto a cambio o devolución.</dd>
+						<dd>El pedido devuelto deberá ser entregado junto con el albarán de entrega y factura a la dirección que SuperJamon.Es le indicará una vez se haya valora el caso y se proceda al cambio o devolución.</dd>
+					</dl>
+				</div>
+			</div>
+		</div>
+	</div>
 </body>
 </html>

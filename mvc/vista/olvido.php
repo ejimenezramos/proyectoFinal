@@ -140,9 +140,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 	</div>
 </div>
 <!--Olvido-->
-
 	<div class="login">
-	
 		<div class="main-agileits">
 				<div class="form-w3agile">
 					<h3>Olvidé la constraseña</h3>
