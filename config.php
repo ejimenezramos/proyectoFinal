@@ -8,7 +8,7 @@ define('VISTAS_PATH', PAGE_PATH . '/mvc/vista/');
 // MYSQL
 define('MYSQL_CONFIG', serialize([
     'database_type' => 'mysql',
-    'database_name' => 'mispruebas',
+    'database_name' => 'cereal',
     'server' => 'localhost',
     'username' => 'root',
     'password' => '',

@@ -26,12 +26,12 @@ class mdlContact extends padre {
             if ($val->isValid()) {
 // Guardamos los datos en session
                 $_SESSION[self::PAGE] = $val->getOks();
-                $data = $_SESSION['contact'];
+                $data = $_SESSION['login'];
                 $datos = Usuario::insertDB($data);
                 if ($datos) {
-                    $_SESSION['info'] = 'registed';
+                    $_SESSION['info'] = 'logged';
                 } else
-                    $_SESSION['info'] = 'noRegisted';
+                    $_SESSION['info'] = 'noLogged';
 // Cambiamos el paso
                 redirectTo('index.php?pagina=menu');
             }
