@@ -171,7 +171,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 <div class="has-warning"><p id="errorapellidos"></p></div>
                 <div class="key">
                     <i class="fa fa-birthday-cake" aria-hidden="true"></i>
-                    <input type="date" placeholder="Fecha de nacimiento" id="fechanac" name="fechanac"
+                    <input type="date" placeholder="Fecha de nacimiento" id="fechanac" name="fechanac" maxrange
                            oninvalid="setCustomValidity('Todos los campos son obligatorios para el registro')">
                     <div class="clearfix"></div>
                 </div>
