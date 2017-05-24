@@ -202,9 +202,10 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 							<div class="mid-1">
 								<div style="text-align: center;">
 									<button class="btn btn-danger my-cart-btn my-cart-b"
-										data-id="24" data-name="Pack infantil" data-summary="summary 24"
-										data-price="_vacio" data-quantity="1"
-										data-image="images/boxcheerios.png">Add to Cart</button>
+										data-id="001" data-name="Pack infantil"
+										data-summary="summary 001" data-price="_vacio"
+										data-quantity="1" data-image="images/boxcheerios.png">Add to
+										Cart</button>
 								</div>
 							</div>
 						</div>
@@ -263,9 +264,9 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 							<div class="mid-1">
 								<div style="text-align: center;">
 									<button class="btn btn-danger my-cart-btn my-cart-b"
-										data-id="24" data-name="Pack Chocolate" data-summary="summary 24"
-										data-price="_vacio" data-quantity="1"
-										data-image="images/boxcheerios.png">Add to Cart</button>
+										data-id="002" data-name="Pack Chocolate"
+										data-summary="summary 002" data-price="3" data-quantity="1"
+										data-image="images/pack_chocolate.png">Add to Cart</button>
 								</div>
 							</div>
 						</div>
@@ -324,9 +325,9 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 							<div class="mid-1">
 								<div style="text-align: center;">
 									<button class="btn btn-danger my-cart-btn my-cart-b"
-										data-id="24" data-name="Pack Exotic" data-summary="summary 24"
-										data-price="_vacio" data-quantity="1"
-										data-image="images/boxcheerios.png">Add to Cart</button>
+										data-id="003" data-name="Pack Exotic" data-summary="summary 003"
+										data-price="4" data-quantity="1"
+										data-image="images/pack_exotic.png">Add to Cart</button>
 								</div>
 							</div>
 						</div>
@@ -385,9 +386,9 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 							<div class="mid-1">
 								<div style="text-align: center;">
 									<button class="btn btn-danger my-cart-btn my-cart-b"
-										data-id="24" data-name="Pack Healthy" data-summary="summary 24"
-										data-price="_vacio" data-quantity="1"
-										data-image="images/boxcheerios.png">Add to Cart</button>
+										data-id="004" data-name="Pack Healthy"
+										data-summary="summary 004" data-price="5" data-quantity="1"
+										data-image="images/pack_healthy.png">Add to Cart</button>
 								</div>
 							</div>
 						</div>
@@ -446,9 +447,9 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 							<div class="mid-1">
 								<div style="text-align: center;">
 									<button class="btn btn-danger my-cart-btn my-cart-b"
-										data-id="24" data-name="Pack Sweety" data-summary="summary 24"
-										data-price="_vacio" data-quantity="1"
-										data-image="images/boxcheerios.png">Add to Cart</button>
+										data-id="005" data-name="Pack Sweety" data-summary="summary 005"
+										data-price="6" data-quantity="1"
+										data-image="images/pack_sweety.png">Add to Cart</button>
 								</div>
 							</div>
 						</div>
@@ -456,6 +457,67 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 				</div>
 			</div>
 		</div>
+		
+		
+		<div class="horizontal-tab">
+					<ul class="nav nav-tabs">
+						<li class="active"><a href="#tab1" data-toggle="tab" aria-expanded="true">Pack Infantil</a></li>
+						<li class=""><a href="#tab2" data-toggle="tab" aria-expanded="false"><img src="images/pack_chocolate.png" width="100em">Pack Chcocolate</a></li>
+						<li class=""><a href="#tab3" data-toggle="tab" aria-expanded="false"><img src="images/pack_exotic.png" width="100em">Pack Exotic</a></li>
+						<li class=""><a href="#tab4" data-toggle="tab" aria-expanded="false"><img src="images/pack_healthy.png" width="100em">Pack Healthy</a></li>
+						<li class=""><a href="#tab4" data-toggle="tab" aria-expanded="false"><img src="images/pack_sweety.png"width="100em">Pack Sweety</a></li>
+					</ul>
+					<div class="tab-content">
+						<div class="tab-pane fade active in" id="tab1">
+							<div class="row">
+								<div class="col-md-12">
+									<p>Tab 1 : Lorem ipsum dolor sit amet, consectetur
+										adipisicing elit. Molestias atque autem fuga similique,
+										mollitia impedit maxime sapiente omnis blanditiis qui iste
+										aliquam, quisquam eos, earum.</p>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing
+										elit. Quaerat ex hic, maiores excepturi, doloribus modi.</p>
+								</div>
+							</div>
+						</div>
+						<div class="tab-pane" id="tab2">
+							<div class="row">
+								<div class="col-md-12">
+									<p>Tab 2 : Lorem ipsum dolor sit amet, consectetur
+										adipisicing elit. Molestias atque autem fuga similique,
+										mollitia impedit maxime sapiente omnis blanditiis qui iste
+										aliquam, quisquam eos, earum.</p>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing
+										elit. Quaerat ex hic, maiores excepturi, doloribus modi.</p>
+								</div>
+							</div>
+						</div>
+						<div class="tab-pane" id="tab3">
+							<div class="row">
+								<div class="col-md-12">
+									<p>Tab 3 : Lorem ipsum dolor sit amet, consectetur
+										adipisicing elit. Molestias atque autem fuga similique,
+										mollitia impedit maxime sapiente omnis blanditiis qui iste
+										aliquam, quisquam eos, earum.</p>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing
+										elit. Quaerat ex hic, maiores excepturi, doloribus modi.</p>
+								</div>
+							</div>
+						</div>
+						<div class="tab-pane" id="tab4">
+							<div class="row">
+								<div class="col-md-12">
+									<p>Tab 4 : Lorem ipsum dolor sit amet, consectetur
+										adipisicing elit. Molestias atque autem fuga similique,
+										mollitia impedit maxime sapiente omnis blanditiis qui iste
+										aliquam, quisquam eos, earum.</p>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing
+										elit. Quaerat ex hic, maiores excepturi, doloribus modi.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 	</div>
 	<!--footer Pablo 20/05/17: Nuevo footer-->
 	<footer class="footer-distributed">
@@ -464,7 +526,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 				Cereal<span>Break</span>
 			</h3>
 
-			<<p class="footer-links">
+			<p class="footer-links">
 				<a class="cursor_pointer"
 					onclick="window.open('?pagina=licencia', 'Licencia', 'width=900, height=600')">
 					Licencia</a> · <a class="cursor_pointer" data-toggle="modal"
@@ -938,7 +1000,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 		</div>
 	</div>
 
-<!-- MODALES DEL FOOTER -->
+	<!-- MODALES DEL FOOTER -->
 	<!-- Pablo 24/05/17 Modal para las Devoluciones -->
 
 	<div class="modal fade" id="ModalDevoluciones" role="dialog">
