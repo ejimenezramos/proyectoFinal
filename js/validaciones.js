@@ -17,113 +17,120 @@ var patfecha = new RegExp("^\\d{2}[/|-]\\d{2}[/|-]\\d{4}$");
 
 $(document).ready(function () {
     $("#registro").submit(function () {
-        return comprobarNombre() && comprobarApellido() && comprobarFecha() && comprobarDni() && comprobarTelefono() && comprobarEmail() && comprobarDireccion() && comprobarCp() && comprobarUser() && comprobarPassword() && comprobarPassword2();
+        var ob = ($("#registro").find("input"));
+        for (i = 0; i < ob.length - 1; i++) {
+           if(ob[i].value.length<=0){
+                $("#errorsubmit").html('Por favor, rellene todos los campos');
+             return false;
+            }
+
+        }
     });
 });
-
+//return comprobarNombre() && comprobarApellido() && comprobarFecha() && comprobarDni() && comprobarTelefono() && comprobarEmail() && comprobarDireccion() && comprobarCp() && comprobarUser() && comprobarPassword() && comprobarPassword2();
 /*FUNCIONES PARA COMPROBAR QUE EN EL SUBMIT EL VALOR DE LOS CAMPOS NO HAYA CAMBIADO*/
 /*Si alguna de estas funciones devuelve false no se realiza el submit y salta el error correspondiente, sino se hace el submit con normalidad. Se controla que hayan vaciado el campo o que no cumpla el formato */
 
 
-function comprobarNombre() {
-    if ($("#nombre").val() === "") {
-        $("#errorsubmit").html('Por favor, rellena todos los campos');
-        return false;
-    }
-    else if (patnombre.test($("#nombre").val())) {
-        return true;
-    }
-    else {
-        $("#errorsubmit").html('Por favor, revisa los datos del formulario');
-        return false;
-    }
-}
-function comprobarApellido() {
-    if ($("#apellidos").val() === "") {
-        $("#errorsubmit").html('Por favor, rellena todos los campos');
-    }
-    else if (patnombre.test($("#apellidos").val())) {
-        return true;
-    }
-    else {
-        $("#errorsubmit").html('Por favor, revisa los datos del formulario');
-        return false;
-    }
-}
-function comprobarFecha() {/*falta probar la función al hacer el submit*/
-    if ($("#fechanac").val() === "") {
-        $("#errorsubmit").html('Por favor, rellena todos los campos');
-    }
-    var fecha = new Date();
-    var anio;
-    var mes;
-    var dia;
-    var date;
-    var fechaValida;
-    if (comprobarNavegador() === "Chrome") {
-        date = event.target.value.split("-");
-        anio = date[0];
-        mes = date[1];
-        dia = date[2];
+/* function comprobarNombre() {
+ if ($("#nombre").val() === "") {
+ $("#errorsubmit").html('Por favor, rellena todos los campos');
+ return false;
+ }
+ else if (patnombre.test($("#nombre").val())) {
+ return true;
+ }
+ else {
+ $("#errorsubmit").html('Por favor, revisa los datos del formulario');
+ return false;
+ }
+ }
+ function comprobarApellido() {
+ if ($("#apellidos").val() === "") {
+ $("#errorsubmit").html('Por favor, rellena todos los campos');
+ }
+ else if (patnombre.test($("#apellidos").val())) {
+ return true;
+ }
+ else {
+ $("#errorsubmit").html('Por favor, revisa los datos del formulario');
+ return false;
+ }
+ }
+ function comprobarFecha() {
+ if ($("#fechanac").val() === "") {
+ $("#errorsubmit").html('Por favor, rellena todos los campos');
+ }
+ var fecha = new Date();
+ var anio;
+ var mes;
+ var dia;
+ var date;
+ var fechaValida;
+ if (comprobarNavegador() === "Chrome") {
+ date = event.target.value.split("-");
+ anio = date[0];
+ mes = date[1];
+ dia = date[2];
 
-        fechaValida=verificarAdultos(dia, mes, anio,fecha);
-    }
-    else {
-        if (patfecha.test(event.target.value)) {
-            if (event.target.value.indexOf("/") != -1) {
-                date = event.target.value.split("/");
-            }
-            else {
-                date = event.target.value.split("-");
-            }
-            dia = date[0];
-            mes = date[1];
-            anio = date[2];
+ fechaValida=verificarAdultos(dia, mes, anio,fecha);
+ }
+ else {
+ if (patfecha.test(event.target.value)) {
+ if (event.target.value.indexOf("/") != -1) {
+ date = event.target.value.split("/");
+ }
+ else {
+ date = event.target.value.split("-");
+ }
+ dia = date[0];
+ mes = date[1];
+ anio = date[2];
 
-            fechaValida=verificarAdultos(dia, mes, anio,fecha);
+ fechaValida=verificarAdultos(dia, mes, anio,fecha);
 
-        }
-        else {
-            $("#error" + id).html("El campo fecha de nacimiento debe respetar el siguiente formato: 00/00/0000");
+ }
+ else {
+ $("#error" + id).html("El campo fecha de nacimiento debe respetar el siguiente formato: 00/00/0000");
 
-        }
+ }
 
-    }
+ }
 
-    if(fechaValida===true){
-        return true;
-    }
-    else{
-       return false;
+ if(fechaValida===true){
+ return true;
+ }
+ else{
+ return false;
 
-    }
-}
+ }
+ }
 
-function comprobarDni() {
-    if ($("#dni").val() === "") {
-        $("#errorsubmit").html('Por favor, rellena todos los campos');
-    }
-    if (patdni.test($("#dni").val())) {
-        return true;
-    }
-    else {
-        $("#errorsubmit").html('Por favor, revisa los datos del formulario');
-        return false;
-    }
-}
+ function comprobarDni() {
+ if ($("#dni").val() === "") {
+ $("#errorsubmit").html('Por favor, rellena todos los campos');
+ }
+ if (patdni.test($("#dni").val())) {
+ return true;
+ }
+ else {
+ $("#errorsubmit").html('Por favor, revisa los datos del formulario');
+ return false;
+ }
+ }
 
-function comprobarTelefono() {
-    if ($("#telefono").val() === "") {
-        $("#errorsubmit").html('Por favor, rellena todos los campos');
-    }
-    if (pattel.test($("#telefono").val())) {
-        return true;
-    }
-    else {
-        $("#errorsubmit").html('Por favor, revisa los datos del formulario');
-        return false;
-    }
-}
+ function comprobarTelefono() {
+ if ($("#telefono").val() === "") {
+ $("#errorsubmit").html('Por favor, rellena todos los campos');
+ }
+ if (pattel.test($("#telefono").val())) {
+ return true;
+ }
+ else {
+ $("#errorsubmit").html('Por favor, revisa los datos del formulario');
+ return false;
+ }
+ }*/
 
 
 /***************VALIDACIONES CHANGE() REGISTRO****************/
@@ -134,12 +141,14 @@ $(document).ready(function () {
         switch (id) {
             case "nombre":
             case "apellidos":
-                if (patnombre.test(event.target.value) == false) {
-                    $("#error" + id).html("*El campo " + id + " tiene un error de formato, no admite dígitos ni caracteres especiales");
+                if (patnombre.test(event.target.value) == false || event.target.value.length<=0) {
+                    $("#error" + id).html("*El campo " + id + " tiene un error de formato, no admite dígitos ni caracteres especiales o está vacio");
+                    $("#condiciones").attr('disabled', true);
                 }
 
                 else {
                     $("#error" + id).html("");
+                    $("#condiciones").attr('disabled', false);
                 }
                 break;
 
@@ -156,8 +165,7 @@ $(document).ready(function () {
                     anio = date[0];
                     mes = date[1];
                     dia = date[2];
-
-                   fechaValida=verificarAdultos(dia, mes, anio,fecha);
+                    fechaValida = verificarAdultos(dia, mes, anio, fecha);
                 }
                 else {
                     if (patfecha.test(event.target.value)) {
@@ -171,21 +179,25 @@ $(document).ready(function () {
                         mes = date[1];
                         anio = date[2];
 
-                      fechaValida=verificarAdultos(dia, mes, anio,fecha);
+                        fechaValida = verificarAdultos(dia, mes, anio, fecha);
 
                     }
                     else {
                         $("#error" + id).html("El campo fecha de nacimiento debe respetar el siguiente formato: 00/00/0000");
+                        $("#condiciones").attr('disabled', true);
                         break;
                     }
 
                 }
 
-                if(fechaValida===true){
+                if (fechaValida === true) {
                     $("#error" + id).html("");
+                    $("#condiciones").attr('disabled', false);
                 }
-                else{
+                else {
+
                     $("#error" + id).html("Lo siento, debes ser mayor de edad para registrarte y poder efectuar compras");
+                    $("#condiciones").attr('disabled', true);
 
                 }
 
@@ -215,13 +227,17 @@ $(document).ready(function () {
                     if (dniLetters[dniNum % 23] === dniLetter) {
 
                         $("#error" + id).html("");
+                        $("#condiciones").attr('disabled', false);
                     }
                     else {
+
                         $("#error" + id).html("La letra del " + id + " no es correcta");
+                        $("#condiciones").attr('disabled', true);
                     }
                 }
                 else {
                     $("#error" + id).html("El formato del campo " + id + " no es correcto.(Ej.12345678-B/12345678 B/ X12345678B /X 12345678-B / X12345678B)");
+                    $("#condiciones").attr('disabled', true);
                 }
 
                 break;
@@ -230,9 +246,11 @@ $(document).ready(function () {
             :
                 if (patttel.test(event.target.value)) {
                     $("#error" + id).html("");
+                    $("#condiciones").attr('disabled', false);
                 }
                 else {
                     $("#error" + id).html("El " + id + " introducido debe empezar por 6,7 o 9 y debe contener 9 dígitos");
+                    $("#condiciones").attr('disabled', true);
                 }
                 break;
             case
@@ -240,9 +258,11 @@ $(document).ready(function () {
             :
                 if (patemail.test(event.target.value)) {
                     $("#error" + id).html("");
+                    $("#condiciones").attr('disabled', false);
                 }
                 else {
                     $("#error" + id).html("El " + id + " introducido no es correcto, debe cumplir el formato 'example@example.com'");
+                    $("#condiciones").attr('disabled', true);
                 }
                 break;
             case
@@ -253,9 +273,11 @@ $(document).ready(function () {
             :
                 if (patusuario.test(event.target.value)) {
                     $("#error" + id).html("");
+                    $("#condiciones").attr('disabled', false);
                 }
                 else {
                     $("#error" + id).html("El campo " + id + " introducido debe contener sólo caracteres alfanuméricos");
+                    $("#condiciones").attr('disabled', true);
                 }
                 break;
 
@@ -264,9 +286,11 @@ $(document).ready(function () {
             :
                 if (event.target.value == $("#password").val()) {
                     $("#error" + id).html("");
+                    $("#condiciones").attr('disabled', false);
                 }
                 else {
                     $("#error" + id).html("El " + id + " no coincide con el password inicial");
+                    $("#condiciones").attr('disabled', true);
                 }
                 break;
             case
@@ -274,9 +298,11 @@ $(document).ready(function () {
             :
                 if (patdir.test(event.target.value)) {
                     $("#error" + id).html("");
+                    $("#condiciones").attr('disabled', false);
                 }
                 else {
                     $("#error" + id).html("El campo " + id + " sólo puede contener caracteres alfanuméricos y espacios, Ej. de la Castellana 25");
+                    $("#condiciones").attr('disabled', true);
                 }
                 break;
             case
@@ -284,9 +310,11 @@ $(document).ready(function () {
             :
                 if (patcp.test(event.target.value)) {
                     $("#error" + id).html("");
+                    $("#condiciones").attr('disabled', false);
                 }
                 else {
                     $("#error" + id).html("El código postal debe estar compuesto de 5 dígitos");
+                    $("#condiciones").attr('disabled', true);
                 }
 
 
@@ -307,7 +335,7 @@ function comprobarNavegador() {
 }
 /*FUNCION VERIFICAR ADULTOS: Verifica si la fecha introducida por el usuario supera la mayoría de edad*/
 
-function verificarAdultos(dia, mes, anio,fecha) {
+function verificarAdultos(dia, mes, anio, fecha) {
 
 
     if ((parseInt(fecha.getFullYear())) - anio >= 18) {

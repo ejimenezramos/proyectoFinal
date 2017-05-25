@@ -283,7 +283,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 <div class="has-warning"><p id="errorpassword2"></p></div>
 
                 <input class="forg-left" type="checkbox" id="condiciones" name="condiciones"
-                       oninvalid="setCustomValidity('Por favor acepta los términos y condiciones')">
+                       oninvalid="setCustomValidity('Por favor acepta los términos y condiciones')" disabled="true">
                 <div class="clearfix forg"><a class="comentarios" href="?pagina=terminos">Acepto los términos y
                         condiciones</a></div>
                 <div class="has-warning"><p id="errorcondiciones"></p></div>
