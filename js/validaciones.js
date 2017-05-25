@@ -17,14 +17,7 @@ var patfecha = new RegExp("^\\d{2}[/|-]\\d{2}[/|-]\\d{4}$");
 
 $(document).ready(function () {
     $("#registro").submit(function () {
-        var ob = ($("#registro").find("input"));
-        for (i = 0; i < ob.length - 1; i++) {
-           if(ob[i].value.length<=0){
-                $("#errorsubmit").html('Por favor, rellene todos los campos');
-             return false;
-            }
 
-        }
     });
 });
 //return comprobarNombre() && comprobarApellido() && comprobarFecha() && comprobarDni() && comprobarTelefono() && comprobarEmail() && comprobarDireccion() && comprobarCp() && comprobarUser() && comprobarPassword() && comprobarPassword2();
@@ -141,14 +134,14 @@ $(document).ready(function () {
         switch (id) {
             case "nombre":
             case "apellidos":
-                if (patnombre.test(event.target.value) == false || event.target.value.length<=0) {
-                    $("#error" + id).html("*El campo " + id + " tiene un error de formato, no admite dígitos ni caracteres especiales o está vacio");
+                if (patnombre.test(event.target.value) == false || event.target.value.length <= 0) {
+                    $("#error" + id).html("*El campo " + id + " tiene un error de formato, no admite dígitos ni caracteres especiales");
                     $("#condiciones").attr('disabled', true);
                 }
 
                 else {
                     $("#error" + id).html("");
-                    $("#condiciones").attr('disabled', false);
+
                 }
                 break;
 
@@ -184,7 +177,7 @@ $(document).ready(function () {
                     }
                     else {
                         $("#error" + id).html("El campo fecha de nacimiento debe respetar el siguiente formato: 00/00/0000");
-                        $("#condiciones").attr('disabled', true);
+
                         break;
                     }
 
@@ -192,12 +185,12 @@ $(document).ready(function () {
 
                 if (fechaValida === true) {
                     $("#error" + id).html("");
-                    $("#condiciones").attr('disabled', false);
+
                 }
                 else {
 
                     $("#error" + id).html("Lo siento, debes ser mayor de edad para registrarte y poder efectuar compras");
-                    $("#condiciones").attr('disabled', true);
+
 
                 }
 
@@ -227,7 +220,7 @@ $(document).ready(function () {
                     if (dniLetters[dniNum % 23] === dniLetter) {
 
                         $("#error" + id).html("");
-                        $("#condiciones").attr('disabled', false);
+
                     }
                     else {
 
@@ -246,7 +239,7 @@ $(document).ready(function () {
             :
                 if (patttel.test(event.target.value)) {
                     $("#error" + id).html("");
-                    $("#condiciones").attr('disabled', false);
+
                 }
                 else {
                     $("#error" + id).html("El " + id + " introducido debe empezar por 6,7 o 9 y debe contener 9 dígitos");
@@ -258,7 +251,7 @@ $(document).ready(function () {
             :
                 if (patemail.test(event.target.value)) {
                     $("#error" + id).html("");
-                    $("#condiciones").attr('disabled', false);
+
                 }
                 else {
                     $("#error" + id).html("El " + id + " introducido no es correcto, debe cumplir el formato 'example@example.com'");
@@ -273,7 +266,7 @@ $(document).ready(function () {
             :
                 if (patusuario.test(event.target.value)) {
                     $("#error" + id).html("");
-                    $("#condiciones").attr('disabled', false);
+
                 }
                 else {
                     $("#error" + id).html("El campo " + id + " introducido debe contener sólo caracteres alfanuméricos");
@@ -286,7 +279,20 @@ $(document).ready(function () {
             :
                 if (event.target.value == $("#password").val()) {
                     $("#error" + id).html("");
-                    $("#condiciones").attr('disabled', false);
+                    var ob = ($("#registro").find("input"));
+                    for (i = 0; i < ob.length - 1; i++) {
+                        if (ob[i].value.length <= 0) {
+                            $("#errorsubmit").html('Por favor, rellene todos los campos');
+                            return false;
+                        }
+                        else {
+                            $("#errorsubmit").html('');
+                            $("#condiciones").attr('disabled', false);
+                        }
+
+                    }
+
+
                 }
                 else {
                     $("#error" + id).html("El " + id + " no coincide con el password inicial");
@@ -298,7 +304,7 @@ $(document).ready(function () {
             :
                 if (patdir.test(event.target.value)) {
                     $("#error" + id).html("");
-                    $("#condiciones").attr('disabled', false);
+
                 }
                 else {
                     $("#error" + id).html("El campo " + id + " sólo puede contener caracteres alfanuméricos y espacios, Ej. de la Castellana 25");
@@ -310,7 +316,7 @@ $(document).ready(function () {
             :
                 if (patcp.test(event.target.value)) {
                     $("#error" + id).html("");
-                    $("#condiciones").attr('disabled', false);
+
                 }
                 else {
                     $("#error" + id).html("El código postal debe estar compuesto de 5 dígitos");
@@ -338,7 +344,11 @@ function comprobarNavegador() {
 function verificarAdultos(dia, mes, anio, fecha) {
 
 
-    if ((parseInt(fecha.getFullYear())) - anio >= 18) {
+    if (parseInt(fecha.getFullYear()) - anio > 18) {
+        return true;
+    }
+
+    else if (parseInt(fecha.getFullYear()) - anio == 18) {
 
         if (( fecha.getMonth() + 1 < mes)) {
             return false;
@@ -354,7 +364,9 @@ function verificarAdultos(dia, mes, anio, fecha) {
                 return false;
             }
         }
+
     }
+
     else {
 
         return false;
