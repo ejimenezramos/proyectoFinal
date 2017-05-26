@@ -75,16 +75,14 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 <body>
 	<!--Pablo 21/05/17: Barra de progreso-->
 	<script type="text/javascript">
-	$(window).load(function(){
-		$(window).scroll(function() {
-			var wintop = $(window).scrollTop(), docheight = $('body').height(), winheight = $(window).height();
-			console.log(wintop);
-			var totalScroll = (wintop/(docheight-winheight))*100;
-			console.log("total scroll" + totalScroll);
-			$(".KW_progressBar").css("width",totalScroll+"%");
+		$(window).load(function(){
+			$(window).scroll(function() {
+				var wintop = $(window).scrollTop(), docheight = $('body').height(), winheight = $(window).height();	
+				var totalScroll = (wintop/(docheight-winheight))*100;
+				$(".KW_progressBar").css("width",totalScroll+"%");
+			});
 		});
-	});
-</script>
+	</script>
 	<div class="KW_progressContainer">
 		<div class="KW_progressBar"></div>
 	</div>
@@ -155,7 +153,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 	</div>
 
 	<!--Pack numero 1-->
-	<div class="product2">
+	<!--<div class="product2">
 		<div class="container">
 			<div class=" con-w3l agileinf">
 				<H3 class="titulo_pack">Pack Infantil</H3>
@@ -204,9 +202,10 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 							<div class="mid-1">
 								<div style="text-align: center;">
 									<button class="btn btn-danger my-cart-btn my-cart-b"
-										data-id="24" data-name="Cheerios" data-summary="summary 24"
-										data-price="3.00" data-quantity="1"
-										data-image="images/boxcheerios.png">Add to Cart</button>
+										data-id="001" data-name="Pack infantil"
+										data-summary="summary 001" data-price="_vacio"
+										data-quantity="1" data-image="images/boxcheerios.png">Add to
+										Cart</button>
 								</div>
 							</div>
 						</div>
@@ -214,9 +213,9 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 				</div>
 			</div>
 		</div>
-	</div>
+	</div>-->
 	<!--Pack numero 2-->
-	<div class="product2">
+	<!--<div class="product2">
 		<div class="container">
 			<div class=" con-w3l agileinf">
 				<H3 class="titulo_pack">Pack Chocolate</H3>
@@ -265,9 +264,9 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 							<div class="mid-1">
 								<div style="text-align: center;">
 									<button class="btn btn-danger my-cart-btn my-cart-b"
-										data-id="24" data-name="Cheerios" data-summary="summary 24"
-										data-price="3.00" data-quantity="1"
-										data-image="images/boxcheerios.png">Add to Cart</button>
+										data-id="002" data-name="Pack Chocolate"
+										data-summary="summary 002" data-price="3" data-quantity="1"
+										data-image="images/pack_chocolate.png">Add to Cart</button>
 								</div>
 							</div>
 						</div>
@@ -275,9 +274,10 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 				</div>
 			</div>
 		</div>
-	</div>
+	</div>-->
+
 	<!--Pack numero 3-->
-	<div class="product2">
+	<!--<div class="product2">
 		<div class="container">
 			<div class=" con-w3l agileinf">
 				<H3 class="titulo_pack">Pack Exotic</H3>
@@ -326,9 +326,9 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 							<div class="mid-1">
 								<div style="text-align: center;">
 									<button class="btn btn-danger my-cart-btn my-cart-b"
-										data-id="24" data-name="Cheerios" data-summary="summary 24"
-										data-price="3.00" data-quantity="1"
-										data-image="images/boxcheerios.png">Add to Cart</button>
+										data-id="003" data-name="Pack Exotic" data-summary="summary 003"
+										data-price="4" data-quantity="1"
+										data-image="images/pack_exotic.png">Add to Cart</button>
 								</div>
 							</div>
 						</div>
@@ -336,9 +336,9 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 				</div>
 			</div>
 		</div>
-	</div>
+	</div>-->
 	<!--Pack numero 4-->
-	<div class="product2">
+	<!--<div class="product2">
 		<div class="container">
 			<div class=" con-w3l agileinf">
 				<H3 class="titulo_pack">Pack Healthy</H3>
@@ -387,9 +387,9 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 							<div class="mid-1">
 								<div style="text-align: center;">
 									<button class="btn btn-danger my-cart-btn my-cart-b"
-										data-id="24" data-name="Cheerios" data-summary="summary 24"
-										data-price="3.00" data-quantity="1"
-										data-image="images/boxcheerios.png">Add to Cart</button>
+										data-id="004" data-name="Pack Healthy"
+										data-summary="summary 004" data-price="5" data-quantity="1"
+										data-image="images/pack_healthy.png">Add to Cart</button>
 								</div>
 							</div>
 						</div>
@@ -397,9 +397,9 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 				</div>
 			</div>
 		</div>
-	</div>
+	</div>-->
 	<!--Pack numero 5-->
-	<div class="product2">
+	<!--  <div class="product2">
 		<div class="container">
 			<div class=" con-w3l agileinf">
 				<H3 class="titulo_pack">Pack Sweety</H3>
@@ -448,17 +448,393 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 							<div class="mid-1">
 								<div style="text-align: center;">
 									<button class="btn btn-danger my-cart-btn my-cart-b"
-										data-id="24" data-name="Cheerios" data-summary="summary 24"
-										data-price="3.00" data-quantity="1"
-										data-image="images/boxcheerios.png">Add to Cart</button>
+										data-id="005" data-name="Pack Sweety" data-summary="summary 005"
+										data-price="6" data-quantity="1"
+										data-image="images/pack_sweety.png">Add to Cart</button>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
+		</div>-->
+
+	<!-- tab para los packs -->
+	<div class="content-mid">
+		<div class="horizontal_tab">
+			<ul class="nav2 nav-tabs">
+				<li class="active"><a href="#tab1" data-toggle="tab"
+					aria-expanded="true"><img src="images/pack_kids.png" width="100em"></a>
+				<p>Pack Intanfil</p></li>
+				<li class=""><a href="#tab2" data-toggle="tab" aria-expanded="false"><img
+						src="images/pack_chocolate.png" width="100em"></a>
+				<p>Pack Chocolate</p></li>
+				<li class=""><a href="#tab3" data-toggle="tab" aria-expanded="false"><img
+						src="images/pack_exotic.png" width="100em"></a>
+				<p>Pack Exotic</p></li>
+				<li class=""><a href="#tab4" data-toggle="tab" aria-expanded="false"><img
+						src="images/pack_healthy.png" width="100em"></a>
+				<p>Pack Healthy</p></li>
+				<li class=""><a href="#tab5" data-toggle="tab" aria-expanded="false"><img
+						src="images/pack_sweety.png" width="100em"></a>
+				<p>Pack Sweety</p></li>
+			</ul>
+			<div class="tab-content">
+				<!-- pack1 -->
+				<div class="tab-pane fade active in" id="tab1">
+					<div class="row">
+						<div class="col-md-12">
+							<div class=" con-w3l ">
+								<div class="col-md-3 pro-1">
+									<div class="col-m">
+										<a href="#" data-toggle="modal" data-target="#myModal5"
+											class="offer-img"> <img src="images/boxlucky.png"
+											class="img-responsive" alt="">
+										</a>
+										<div class="mid-1">
+											<div class="women">
+												<h6>
+													<a>Lucky Charms</a>
+												</h6>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-md-3 pro-1">
+									<div class="col-m">
+										<a href="#" data-toggle="modal" data-target="#myModal8"
+											class="offer-img"> <img src="images/milkblue.png"
+											class="img-responsive" alt="">
+										</a>
+										<div class="mid-1">
+											<div class="women">
+												<h6>
+													<a>Leche Azul</a>
+												</h6>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-md-3 pro-1">
+									<div class="col-m">
+										<a href="#" data-toggle="modal" data-target="#myModal12"
+											class="offer-img"> <img src="images/packbons.png"
+											class="img-responsive" alt="">
+										</a>
+										<div class="mid-1">
+											<div class="women">
+												<h6>
+													<a>Kinder Schoko-Bons</a>
+												</h6>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-md-3 pro-1">
+									<div class="col-m2 boton_packs">
+										<div class="mid-1">
+											<div style="text-align: center;">
+												<button class="btn btn-danger my-cart-btn my-cart-b"
+													data-id="001" data-name="Pack infantil"
+													data-summary="summary 001" data-price="1" data-quantity="1"
+													data-image="images/pack_kids.png">Add to Cart</button>
+											</div>
+										</div>
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Pack2 -->
+				<div class="tab-pane" id="tab2">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="col-md-3 pro-1">
+								<div class="col-m">
+									<a href="#" data-toggle="modal" data-target="#myModal7"
+										class="offer-img"> <img src="images/boxcocoa.png"
+										class="img-responsive" alt="">
+									</a>
+									<div class="mid-1">
+										<div class="women">
+											<h6>
+												<a>Cereales Cocoa Puffs</a>
+											</h6>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-3 pro-1">
+								<div class="col-m">
+									<a href="#" data-toggle="modal" class="offer-img"
+										data-target="#myModal11"> <img src="images/milkvainilla.png"
+										class="img-responsive" alt="">
+									</a>
+									<div class="mid-1">
+										<div class="women">
+											<h6>
+												<a>Leche de vainilla</a>
+											</h6>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-3 pro-1">
+								<div class="col-m">
+									<a href="#" data-toggle="modal" class="offer-img"
+										data-target="#myModal6"> <img src="images/topchocolate.png"
+										class="img-responsive" alt="">
+									</a>
+									<div class="mid-1">
+										<div class="women">
+											<h6>
+												<a>Sirope de chocolate</a>
+											</h6>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-3 pro-1">
+								<div class="col-m2 boton_packs">
+									<div class="mid-1">
+										<div style="text-align: center;">
+											<button class="btn btn-danger my-cart-btn my-cart-b"
+												data-id="002" data-name="Pack Chocolate"
+												data-summary="summary 002" data-price="3" data-quantity="1"
+												data-image="images/pack_chocolate.png">Add to Cart</button>
+										</div>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+				<!--  Pack 3-->
+				<div class="tab-pane" id="tab3">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="col-md-3 pro-1">
+								<div class="col-m">
+									<a href="#" data-toggle="modal" data-target="#myModal7"
+										class="offer-img"> <img src="images/boxfroot.png"
+										class="img-responsive" alt="">
+									</a>
+									<div class="mid-1">
+										<div class="women">
+											<h6>
+												<a>Cereales Froot Loops</a>
+											</h6>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-3 pro-1">
+								<div class="col-m">
+									<a href="#" data-toggle="modal" class="offer-img"
+										data-target="#myModal11"> <img src="images/milkgreen.png"
+										class="img-responsive" alt="">
+									</a>
+									<div class="mid-1">
+										<div class="women">
+											<h6>
+												<a>Leche verde</a>
+											</h6>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-3 pro-1">
+								<div class="col-m">
+									<a href="#" data-toggle="modal" class="offer-img"
+										data-target="#myModal6"> <img src="images/packbons.png"
+										class="img-responsive" alt="">
+									</a>
+									<div class="mid-1">
+										<div class="women">
+											<h6>
+												<a>Schockobons</a>
+											</h6>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-3 pro-1">
+								<div class="col-m2 boton_packs">
+									<div class="mid-1">
+										<div style="text-align: center;">
+											<button class="btn btn-danger my-cart-btn my-cart-b"
+												data-id="003" data-name="Pack Exotic"
+												data-summary="summary 003" data-price="4" data-quantity="1"
+												data-image="images/pack_exotic.png">Add to Cart</button>
+										</div>
+									</div>
+								</div>
+							</div>
+
+
+						</div>
+					</div>
+				</div>
+
+				<!-- Pack 4 -->
+				<div class="tab-pane" id="tab4">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="col-md-3 pro-1">
+								<div class="col-m">
+									<a href="#" data-toggle="modal" data-target="#myModal7"
+										class="offer-img"> <img src="images/boxcheerios.png"
+										class="img-responsive" alt="">
+									</a>
+									<div class="mid-1">
+										<div class="women">
+											<h6>
+												<a>Cereales Cheerios</a>
+											</h6>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-3 pro-1">
+								<div class="col-m">
+									<a href="#" data-toggle="modal" class="offer-img"
+										data-target="#myModal11"> <img src="images/milkpink.png"
+										class="img-responsive" alt="">
+									</a>
+									<div class="mid-1">
+										<div class="women">
+											<h6>
+												<a>Leche rosa</a>
+											</h6>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-3 pro-1">
+								<div class="col-m">
+									<a href="#" data-toggle="modal" class="offer-img"
+										data-target="#myModal6"> <img src="images/toparce.png"
+										class="img-responsive" alt="">
+									</a>
+									<div class="mid-1">
+										<div class="women">
+											<h6>
+												<a>Sirope de Arce</a>
+											</h6>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-3 pro-1">
+								<div class="col-m2 boton_packs">
+									<div class="mid-1">
+										<div style="text-align: center;">
+											<button class="btn btn-danger my-cart-btn my-cart-b"
+												data-id="004" data-name="Pack Healthy"
+												data-summary="summary 004" data-price="5" data-quantity="1"
+												data-image="images/pack_healthy.png">Add to Cart</button>
+										</div>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+
+				<!-- Pack 5 -->
+
+				<div class="tab-pane" id="tab5">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="col-md-3 pro-1">
+								<div class="col-m">
+									<a href="#" data-toggle="modal" data-target="#myModal7"
+										class="offer-img"> <img src="images/boxtrix.png"
+										class="img-responsive" alt="">
+									</a>
+									<div class="mid-1">
+										<div class="women">
+											<h6>
+												<a>Cereales Trix</a>
+											</h6>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-3 pro-1">
+								<div class="col-m">
+									<a href="#" data-toggle="modal" class="offer-img"
+										data-target="#myModal11"> <img src="images/milkpink.png"
+										class="img-responsive" alt="">
+									</a>
+									<div class="mid-1">
+										<div class="women">
+											<h6>
+												<a>Leche rosa</a>
+											</h6>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-3 pro-1">
+								<div class="col-m">
+									<a href="#" data-toggle="modal" class="offer-img"
+										data-target="#myModal6"> <img src="images/packbons.png"
+										class="img-responsive" alt="">
+									</a>
+									<div class="mid-1">
+										<div class="women">
+											<h6>
+												<a>Shockoboons</a>
+											</h6>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-3 pro-1">
+								<div class="col-m2 boton_packs">
+									<div class="mid-1">
+										<div style="text-align: center;">
+											<button class="btn btn-danger my-cart-btn my-cart-b"
+												data-id="005" data-name="Pack Sweety"
+												data-summary="summary 005" data-price="6" data-quantity="1"
+												data-image="images/pack_sweety.png">Add to Cart</button>
+										</div>
+									</div>
+								</div>
+							</div>
+
+
+						</div>
+					</div>
+				</div>
+
+
+			</div>
 		</div>
 	</div>
+
+
 	<!--footer Pablo 20/05/17: Nuevo footer-->
 	<footer class="footer-distributed">
 		<div class="footer-left">
@@ -467,10 +843,14 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 			</h3>
 
 			<p class="footer-links">
-				<a href="?pagina=home">Licencia</a> · <a href="?pagina=productos">Devoluciones</a><br>
-
-				<a href="?pagina=packs">Envío y entrega</a> · <a
-					href="?pagina=packs">Preguntas frecuentes</a>
+				<a class="cursor_pointer"
+					onclick="window.open('?pagina=licencia', 'Licencia', 'width=900, height=600')">
+					Licencia</a> · <a class="cursor_pointer" data-toggle="modal"
+					data-target="#ModalDevoluciones">Devoluciones</a><br> <a
+					class="cursor_pointer" data-toggle="modal"
+					data-target="#ModalEnvioEntrega">Envío y entrega</a> · <a
+					data-toggle="modal" data-target="#ModalPreguntas">Preguntas
+					frecuentes</a>
 			</p>
 
 			<p class="footer-company-name">Cereal Break &copy; 2017</p>
@@ -936,7 +1316,163 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 		</div>
 	</div>
 
+	<!-- MODALES DEL FOOTER -->
+	<!-- Pablo 24/05/17 Modal para las Devoluciones -->
 
+	<div class="modal fade" id="ModalDevoluciones" role="dialog">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+					<h4 class="modal-title">Pol&iacute;tica de devoluci&oacute;n de
+						productos</h4>
+				</div>
+				<div class="modal-body">
+					<p>
+						Si usted no queda completamente satisfecho con el producto
+						adquirido, se le repondr&aacute; la pieza o devolver el dinero
+						siempre que cumpla con la las especificaciones detalladas a
+						continuaci&oacuten. <br>Para ello es necesario que los productos
+						(cereales, leche o topping) conserven los embalajes y precintos
+						originales. Importante: no abrir el producto si se tiene la
+						intenci&oacute;n de cambiar o devolverlo <br>En el caso de que
+						desee devolver o cambiar un producto deber&aacute; enviarnos un
+						correo electr&oacutenico a la direcci&oacuten
+						support@cerealbreak.com explicando el motivo del cambio, indicando
+						el n&uacute;mero de pedido y la fecha de recepci&oacute;n y
+						adjuntando una foto del producto o productos en el estado en el
+						que encuentran para su devoluci&oacute;n o cambio. <br>Para
+						proceder al cambio o devoluci&oacute;n de un producto:
+					</p>
+					<ol>
+						<li class="list-group-item1">El usuario o cliente dispone de siete
+							d&iacute;as h&aacutebiles, contados desde la recepci&oacute;n del
+							producto, para desistir del contrato sin necesidad de
+							indicaci&oacute;n de los motivos siempre que el producto
+							est&eacute; en perfectas condiciones</li>
+						<li class="list-group-item1">Conservar el envoltorio original si
+							&eacute;ste est&aacute; abierto no se podr&aacute; proceder al
+							cambio o devoluci&oacute;n.</li>
+						<li class="list-group-item1">Es requisito imprescindible que tanto
+							el embalaje como el producto est&eacute;n en perfecto estado, no
+							hayan sido manipulados, no presenten defectos ni deterioros por
+							hechos externos u otras circunstancias que deriven en el
+							menoscabo del producto, en especial la apertura del recipiente.</li>
+						<li class="list-group-item1">Cualquier producto abierto, cortado o
+							manipulado de cualquier manera no podr&aacute; ser sujeto a
+							cambio o devoluci&oacute;n.</li>
+						<li class="list-group-item1">El pedido devuelto deber&aacute; ser
+							entregado junto con el albar&aacute;n de entrega y factura a la
+							direcci&oacute;n que se le indicar&aacute; una vez se haya valora
+							el caso y se proceda al cambio o devoluci&oacute;n.</li>
+					</ol>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Pablo 24/05/17 Modal para el Envio y Entrega de los productos-->
+	<div class="modal fade" id="ModalEnvioEntrega" role="dialog">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+				</div>
+				<div class="modal-body">
+					<div class="wpb_wrapper">
+						<h5>
+							<span>TARIFAS Y CONDICIONES DEL TRANSPORTE</span>
+						</h5>
+						<hr>
+						<p>
+							<span>Realizamos todos nuestros pedidos en las 48h tras el pedido
+								mediante las empresas&nbsp;<strong>NACEX</strong>, <strong>TNT</strong>
+								y <strong>CORREOS&nbsp;</strong>
+							</span>
+						</p>
+						<p>
+							<span>&nbsp;</span>
+						</p>
+						<p>
+							<span>Las <strong>TARIFAS DE ENV&#205;O</strong>&nbsp;van desde <strong>3,05&#8364;</strong>&nbsp;dependiendo
+								del destino y peso del pedido.
+							</span>
+						</p>
+						<p>
+							<span>&nbsp;</span>
+						</p>
+						<p>
+							<span>1. Las presentes condiciones ser&aacute;n de
+								aplicaci&oacute;n para los env&iacute;os contratados en defecto
+								de pactos o condiciones espec&iacute;ficas derivadas de la
+								singularidad de cada producto o servicio.</span>
+						</p>
+						<p>
+							<span>2. Los datos sobre el destino del pedido y para el
+								destinatario, son facilitados por &eacute;ste y bajo su
+								responsabilidad, no siendo comprobados por la agencia de
+								transporte, salvo grave riesgo inminente u orden de la
+								autoridad.</span>
+						</p>
+						<p>
+							<span>3. La prestaci&oacute;n de los servicios se
+								efectuar&aacute; de lunes a viernes. En el c&oacute;mputo
+								temporal se excluyen los d&iacute;as festivos en la localidad de
+								destino.</span>
+						</p>
+						<p>
+							<span>4. En caso de incumplimiento del plazo de entrega
+								contractualmente pactado, la indemnizaci&oacute;n a abonar
+								consistir&aacute; en la devoluci&oacute;n de los portes
+								satisfechos por el cliente. No se considerar&aacute;
+								incumplimiento del plazo de entrega aquellos causados por
+								ausencia del destinatario, cambio del domicilio o
+								direcci&oacute;n desconocidas, entregas fuera de plazo en
+								segundo intento de entrega, causas de fuerza mayor o caso
+								fortuito u otras no imputables a la agencia de transporte. En el
+								caso de que el pedido sea rechazado por el destinatario o el
+								destinatario se halle ausente, Cereal Break&nbsp;no asume
+								ninguna responsabilidad y se reserva el derecho a cobrar al
+								cliente el 100% del valor del pedido.</span>
+						</p>
+						<p>
+							<span>5. La entrega del pedido se realizar&aacute; en el
+								domicilio designado por el destinatario, salvo por reiterada
+								ausencia del destinatario, en cuyo caso, se efectuar&aacute; en
+								la central m&aacute;s cercana del destinatario. En caso de
+								ausencia del destinatario se dejar&aacute; aviso del intento de
+								entrega, as&iacute; como de la forma de acordar la misma.</span>
+						</p>
+						<p>
+							<span>6. Ser&aacute; requisito necesario para proceder a la
+								entrega de la mercanc&iacute;a la firma del pedido del
+								destinatario. En caso de negativa del destinatario a firmar el
+								pedido de la agencia quedar&aacute; eximida de toda
+								responsabilidad.</span>
+						</p>
+						<p>
+							<span>7. Los plazos para efectuar la reclamaci&oacute;n por
+								da&ntildeos en la mercanc&iacute;a ser&aacute;n de 24 horas
+								desde la entrega si los da&ntildeos no son apreciables
+								exteriormente.</span>
+						</p>
+						<p>
+							<span>&nbsp;</span>
+						</p>
+						<p>
+							<span><strong>CEREAL BREAK</strong><br> </span></span>
+						</p>
+
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+				</div>
+			</div>
+		</div>
+	</div>
 
 
 

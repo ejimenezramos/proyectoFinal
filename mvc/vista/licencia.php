@@ -75,16 +75,14 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 <body>
 	<!--Pablo 21/05/17: Barra de progreso-->
 	<script type="text/javascript">
-	$(window).load(function(){
-		$(window).scroll(function() {
-			var wintop = $(window).scrollTop(), docheight = $('body').height(), winheight = $(window).height();
-			console.log(wintop);
-			var totalScroll = (wintop/(docheight-winheight))*100;
-			console.log("total scroll" + totalScroll);
-			$(".KW_progressBar").css("width",totalScroll+"%");
+		$(window).load(function(){
+			$(window).scroll(function() {
+				var wintop = $(window).scrollTop(), docheight = $('body').height(), winheight = $(window).height();	
+				var totalScroll = (wintop/(docheight-winheight))*100;
+				$(".KW_progressBar").css("width",totalScroll+"%");
+			});
 		});
-	});
-</script>
+	</script>
 	<div class="KW_progressContainer">
 		<div class="KW_progressBar"></div>
 	</div>

@@ -60,14 +60,39 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     padding: 1.5em;
 }
 
+
 /*Pablo 18/05/17: clase para poner el borde al contenedor de los packs*/
 .borderpack{
 	border: 1px solid #1ABC9C;
+	margin:2em;
 }
 
 /*Pablo 23/05/17: Clase para cambiar el cursor */
 .cursor_pointer{
 	cursor:pointer;
+}
+
+/*Pablo 26/05/17: Clase para el tab de packs*/
+.horizontal_tab{
+	text-align: center;
+	margin:2em;
+}
+
+
+/*Pablo 26/05/17: clases para los tabs de packs*/
+.nav2 {
+    width:1024px;
+    height:100%;
+    list-style:none;
+    margin:auto;
+}
+.nav2 li {
+    min-width:75px;
+    height:100%;
+    padding-left:10px;
+    padding-right:10px;
+    float:left;
+    text-align:center;
 }
 
 body{
@@ -1565,9 +1590,10 @@ h2.resp-accordion:first-child {
 .nav-tabs > li {
 	float: left;
 	margin-bottom: -1px;
+	text-align: center;
 }
 .nav-tabs > li > a {
-	background: #f8f8f8;
+	/*background: #f8f8f8;*/
 	margin-right: 3px;
 	border: none;
 	border-radius: 0;
@@ -1587,13 +1613,13 @@ h2.resp-accordion:first-child {
 }
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
 	color: #fff;
-	background-color:#FAB005;
+	/*background-color:#FAB005;*/
 	border: none;
 	border-radius: 0;
 }
 .nav-tabs > li > a:hover, .nav-tabs > li > a:focus {
 	color: #fff;
-	background-color:#FAB005;
+	/*background-color:#FAB005;*/
 }
 .nav-tabs > li > a i {
 	font-size: 32px;
