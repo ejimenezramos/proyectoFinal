@@ -115,7 +115,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 		<div class="container">
 			<div class="logo">
 				<h1>
-					<a href="?pagina=home">Cereal-Break<span>Experience</span></a>
+					<a href="?pagina=home"><p>Cereal-Break<span>Experience</span></a>
 				</h1>
 			</div>
 			<div class="head-t">
@@ -161,12 +161,13 @@ function hideURLbar(){ window.scrollTo(0,1); }
 
 	<!--PABLO: Nuevo slider con javascript-->
 
-	<div class="w3-content w3-section" style="max-width: 90%">
-		<img class="mySlides" src="images/cereal1.jpeg"
-			style="width: 100%; height: 30rem"> <img class="mySlides"
-			src="images/cereal2.jpeg" style="width: 100%; height: 30rem"> <img
-			class="mySlides" src="images/cereal3.jpeg"
-			style="width: 100%; height: 30rem">
+
+	<div class="w3-content w3-section" style="max-width: 100%">
+		<img class="mySlides" src="images/cereal1.jpg"
+			style="width: 100%; height: 40rem"> <img class="mySlides"
+			src="images/cereal2.jpg" style="width: 100%; height: 40rem"> <img
+			class="mySlides" src="images/cereal3.jpg"
+			style="width: 100%; height: 40rem">
 		<div class="w3-display-topmiddle w3-container w3-padding-16"
 			style="width: 100%">
 			<div class="banner-info2">
@@ -221,7 +222,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 				</div>
 
 				<div class="col-md1 content-mid2">
-					<p>Descubre nuestra gran variedad de sabores, colores y texturas</p>
+					<h5>Tenemos una gran variedad de sabores, texturas y colores. ¡Haz un Cereal-Break!</h5>
 				</div>
 			</div>
 			<div class="col-md-4 m-w3ls1">
@@ -236,7 +237,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 					</a>
 				</div>
 				<div class="col-md1 content-mid2">
-					<p>Colorea tu desayuno de una manera diferente</p>
+					<h5>¿Quieres saber que es Cereal-Break? Descubre el origen de la auténtica experiencia de los cereales </h5>
 				</div>
 			</div>
 			<div class="col-md-4 m-w3ls">
@@ -251,8 +252,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 					</a>
 				</div>
 				<div class="col-md1 content-mid2">
-					<p>Te ofrecemos las mejores combinaciones posibles para que tu
-						experiencia sea completa</p>
+					<h5>¿No sabes por donde empezar? Te ofrecemos las combinaciones perfectas para descubrir el mundo Cereal-Break</h5>
 				</div>
 			</div>
 			<div class="clearfix"></div>
@@ -298,11 +298,9 @@ function hideURLbar(){ window.scrollTo(0,1); }
 				<a class="cursor_pointer"
 					onclick="window.open('?pagina=licencia', 'Licencia', 'width=900, height=600')">
 					Licencia</a> · <a class="cursor_pointer" data-toggle="modal"
-					data-target="#ModalDevoluciones">Devoluciones</a><br> <a
+					data-target="#ModalDevoluciones">Devoluciones</a> · <a
 					class="cursor_pointer" data-toggle="modal"
-					data-target="#ModalEnvioEntrega">Envío y entrega</a> · <a
-					data-toggle="modal" data-target="#ModalPreguntas">Preguntas
-					frecuentes</a>
+					data-target="#ModalEnvioEntrega">Envío y entrega</a>
 			</p>
 
 			<p class="footer-company-name">Cereal Break &copy; 2017</p>

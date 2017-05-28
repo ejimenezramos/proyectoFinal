@@ -1,6 +1,7 @@
 /* W3.CSS 4.04 Apr 2017 by Jan Egil and Borge Refsnes */
 html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
 /* Extract from normalize.css by Nicolas Gallagher and Jonathan Neal git.io/normalize */
+
 html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}
 article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summary{display:block}
 audio,canvas,progress,video{display:inline-block}progress{vertical-align:baseline}
@@ -99,11 +100,11 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .w3-display-left{position:absolute;top:50%;left:0%;transform:translate(0%,-50%);-ms-transform:translate(-0%,-50%)}
 .w3-display-right{position:absolute;top:50%;right:0%;transform:translate(0%,-50%);-ms-transform:translate(0%,-50%)}
 
-/*Pablo 19/05/17 Modificamos top: y ponemos el damaño en em*/
+/*Pablo 19/05/17 Modificamos top: y ponemos el damaï¿½o en em*/
 .w3-display-topmiddle{
-	position: absolute;
+	position: relative;
     left: 50%;
-    top: 25em;
+    top: -25em;
     transform: translate(-50%,0%);
 	-ms-transform:translate(-50%,0%);
 }

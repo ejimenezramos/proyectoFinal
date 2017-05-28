@@ -268,7 +268,7 @@ img.img-head {
 	margin-top: 2em;
 }
 .logo h1{
-   font-family: 'Montserrat', sans-serif;
+   font-family: 'FontCereal', sans-serif;
     font-size: 3em;
     color: #000;
 	display: inline-block;
@@ -277,7 +277,7 @@ img.img-head {
 .logo h1 a{
     /*Elena 28/04/17 : se modifica el color de la fuente del título principal de la página*/
     text-decoration:none;
-    color: #117A65;
+    color: #17A589;
 }
 .logo h1 span {
     /*Elena 28/04/17 : se modifica el color de la fuente del subtítulo principal de la página*/

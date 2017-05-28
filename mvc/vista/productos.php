@@ -637,13 +637,11 @@ function hideURLbar(){ window.scrollTo(0,1); }
 
 			<p class="footer-links">
 				<a class="cursor_pointer"
-					onclick="window.open('?pagina=licencia', 'Licencia', 'width=900, height=600')">
+				   onclick="window.open('?pagina=licencia', 'Licencia', 'width=900, height=600')">
 					Licencia</a> · <a class="cursor_pointer" data-toggle="modal"
-					data-target="#ModalDevoluciones">Devoluciones</a><br> <a
+									  data-target="#ModalDevoluciones">Devoluciones</a> · <a
 					class="cursor_pointer" data-toggle="modal"
-					data-target="#ModalEnvioEntrega">Envío y entrega</a> · <a
-					data-toggle="modal" data-target="#ModalPreguntas">Preguntas
-					frecuentes</a>
+					data-target="#ModalEnvioEntrega">Envío y entrega</a>
 			</p>
 
 			<p class="footer-company-name">Cereal Break &copy; 2017</p>
