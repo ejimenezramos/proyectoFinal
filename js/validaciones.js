@@ -54,7 +54,76 @@ function comprobarBlancos() {
 
 
 function comprobarValidacion() {
-    return false;
+    var inputs = $("#registro").find("input");
+    var contInvalid = 0;
+    for (var i = 0; i < inputs.length; i++) {
+        var id = inputs[i].id;
+        switch (id) {
+            case "nombre":
+            case "apellidos":
+                if (patnombre.test(inputs[i].value) == false) {
+                    inputs[i].value="";
+                    $("#error" + id).html("*El campo " + id + " tiene un error de formato, no admite dígitos ni caracteres especiales");
+                    contInvalid++;
+                }
+
+                else {
+                    $("#error" + id).html("");
+                }
+                break;
+            case "dni":
+                var dniLetters = "TRWAGMYFPDXBNJZSQVHLCKET";
+                var dniValueMayusculas = $("#dni").val().toUpperCase();
+                if (patdni.test(dniValueMayusculas)) {
+                    if (dniValueMayusculas.indexOf(" " != -1) || dniValueMayusculas.indexOf("-" != -1)) {
+                        var noSpaces = dniValueMayusculas.replace(/ /g, "");
+                        dniValueMayusculas = noSpaces.replace(/-/g, "");
+
+                        if (dniValueMayusculas.startsWith("X") || dniValueMayusculas.startsWith("Y") || dniValueMayusculas.startsWith("Z")) {
+
+                            var dniNum = dniValueMayusculas.substring(1, dniValueMayusculas.length - 1);
+
+                        }
+                        else {
+                            dniNum = dniValueMayusculas.substring(0, dniValueMayusculas.length - 1);
+
+                        }
+                        var dniLetter = dniValueMayusculas.substring(dniValueMayusculas.length - 1);
+                    }
+
+
+                    if (dniLetters[dniNum % 23] === dniLetter) {
+
+                        $("#error" + id).html("");
+
+                    }
+                    else {
+                        inputs[i].value="";
+                        $("#error" + id).html("La letra del " + id + " no es correcta");
+                        contInvalid++;
+                    }
+                }
+                else {
+                    inputs[i].value="";
+                    $("#error" + id).html("El formato del campo " + id + " no es correcto.(Ej.12345678-B/12345678 B/ X12345678B /X 12345678-B / X12345678B)");
+                    contInvalid++;
+
+                    break;
+
+                }
+        }
+    }
+    if (contInvalid > 0) {
+        $("#condiciones").removeAttr('checked');
+        $("#registrarse").attr('disabled', true);
+        $("#errorsubmit").html('Por favor, revise los campos del formulario');
+        return false;
+    }
+    else {
+        return true;
+    }
+
+
 }
 
 
@@ -322,9 +391,6 @@ $(document).ready(function () {
 })
 
 
-
-
-
 /*$(document).ready(function () {
  if ($("#registro").is(':disabled') && $("#registro").on('click', function () {
  alert("h");
@@ -377,55 +443,7 @@ $(document).ready(function () {
 
 });
 
-/***************VALIDACIONES SUBMIT() LOGIN****************/
-$(document).ready(function () {
-    $("#login").submit(function () {
-        if ($("#login").find("input").val().length <= 0) {
-            alert("Todos los campos son obligatorios, por favor rellene los campos");
-        }
-
-    })
-});
-
-/***************VALIDACIONES CHANGE() LOGIN****************/
-
-$(document).ready(function () {
-    $("#login").find("input").change(function (event) {
-        var id = event.target.id;
-        switch (id) {
-            case "usuario":
-            case "password":
-                if (patusuario.test(event.target.value)) {
-                    $("#error" + id).html("");
-                }
-                else {
-                    $("#error" + id).html("El " + id + " introducido no cumple el formato correcto, sólo caracteres alfanuméricos");
-                }
-                break;
 
 
-        }
-    });
-});
-
-/***************VALIDACIONES CHANGE() OLVIDÉ LA CONTRASEÑA LOGIN****************/
-
-$(document).ready(function () {
-    $("#olvido").find("input").change(function (event) {
-        var id = event.target.id;
-        switch (id) {
-            case "email":
-                if (patemail.test(event.target.value)) {
-                    $("#error" + id).html("");
-                }
-                else {
-                    $("#error" + id).html("El " + id + " introducido no cumple el formato correcto, Ej. example@@example.com");
-                }
-                break;
-
-
-        }
-    });
-});
 
 
