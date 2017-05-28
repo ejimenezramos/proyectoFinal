@@ -18,7 +18,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     margin: 0em 1em 2em ;
 
 }
+/*Elena 28/05/17: Clase creada para que desaparexcan algunos de los mensajes de error*/
+.errorfade{
+    -webkit-transition: opacity 8s linear;
+    transition: opacity 8s linear;
 
+}
 /*Pablo 21/05/17: Clase para centrar el boton de los packs*/
 .boton_packs{
     margin-top: 2em;

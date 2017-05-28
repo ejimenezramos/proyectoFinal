@@ -30,6 +30,7 @@ function comprobarBlancos() {
 
     for (var i = 0; i < inputs.length; i++) {
         if (inputs[i].value.length <= 0) {
+            alert(inputs[i].id);
             camposBlanco[cont] = inputs[i].id;
             cont++;
         }
@@ -38,11 +39,9 @@ function comprobarBlancos() {
 
         errorCampos = camposBlanco.join();
         $("#errorsubmit").html('Por favor rellena el/los campos: ')
-        if (errorCampos.indexOf("fechanac" != -1) && comprobarNavegador()=="Firefox") {
-            $("#errorsubmit").append('fecha');
-        }
 
-        $("#errorsubmit").append(" "+errorCampos);
+;
+        $("#errorsubmit").append(" "+errorCampos.replace("fechanac","fecha de nacimiento")+errorCampos);
 
         $("#condiciones").removeAttr('checked');
         $("#registrarse").attr('disabled', true);
@@ -181,7 +180,8 @@ function comprobarValidacion() {
                 alert("el año es bisiesto: " + boolBisiestos);
                 if (boolBisiestos === false) {
                     camposInvalidos[i] = inputs[i].id;
-                    $("#error" + id).html("la fecha introducida no es correcta");
+                    $("#error" + id).html("El año introducido no es bisiesto o el día introducido no es correcto");
+                    inputs[i].value = "";
                     contInvalid++;
 
 
@@ -282,20 +282,14 @@ function comprobarValidacion() {
     }
     alert("el cont " + contInvalid)
     if (contInvalid > 0) {
-        for (a = 0; a <= contInvalid; a++) {
-            alert(contInvalid);
-            if (camposInvalidos.indexOf(","!=-1)){
-                camposInvalidos.splice(camposInvalidos.indexOf(","),"");
-            }
+        if(camposInvalidos[0]==" "){
+            alert("si")
+         camposInvalidos.splice(0,1);
         }
-
         camposJoin = camposInvalidos.join();
-        alert(camposJoin);
-        $("#errorvalidacion").html('Revisa el formato de los campos ');
-
-        $("#errorvalidacion").append(camposJoin + ' tienen errores de formato');
-
-
+        camposJoin.replace("fechanac","fecha de nacimiento");
+        $("#errorvalidacion").html("Revisa los campos: "+camposJoin + ' tienen errores de formato');
+        $("#errorvalidacion").addClass("errorfade")
         $("#condiciones").removeAttr('checked');
         $("#registrarse").attr('disabled', true);
 
