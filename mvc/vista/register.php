@@ -290,6 +290,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 <div class="has-warning"><p id="errorpassword2"></p></div>
                 <input class="form-" id="registrarse" type="submit" disabled="disabled" value="Registrarse">
                 <div class="has-warning"><p id="errorsubmit"></p></div>
+
             </form>
         </div>
 
@@ -301,13 +302,15 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         <h3>Cereal<span>Break</span></h3>
 
         <p class="footer-links">
-            <a class="cursor_pointer"
-               onclick="window.open('?pagina=licencia', 'Licencia', 'width=900, height=600')">
-                Licencia</a> · <a class="cursor_pointer" data-toggle="modal"
-                                  data-target="#ModalDevoluciones">Devoluciones</a> · <a
-                class="cursor_pointer" data-toggle="modal"
-                data-target="#ModalEnvioEntrega">Envío y entrega</a>
-        </p>
+				<a class="cursor_pointer"
+					onclick="window.open('?pagina=licencia', 'Licencia', 'width=900, height=600')">
+					Licencia</a> · <a class="cursor_pointer" data-toggle="modal"
+					data-target="#ModalDevoluciones">Devoluciones</a><br> <a
+					class="cursor_pointer" data-toggle="modal"
+					data-target="#ModalEnvioEntrega">Envío y entrega</a> · <a
+					data-toggle="modal" data-target="#ModalPreguntas">Preguntas
+					frecuentes</a>
+			</p>
 
         <p class="footer-company-name">Cereal Break &copy; 2017</p>
     </div>

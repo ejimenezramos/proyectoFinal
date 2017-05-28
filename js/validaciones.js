@@ -17,418 +17,237 @@ var patfecha = new RegExp("^\\d{2}[/|-]\\d{2}[/|-]\\d{4}$");
 
 $(document).ready(function () {
     $("#registro").submit(function () {
-var inputs=$("#registro").find("input");
-        var id;
-        for(var i=0;i<inputs.length;i++){
-           id= inputs[i].id;
-            alert("yes");
-            if(inputs[i].value.length<=0){
-
-                $("#error"+id).html('Por favor rellena el campo '+ id+ " es obligatorio");
-                $("#condiciones").removeAttr("checked");
-                return false;
-            }
-            else {
-                switch (id) {
-                    case "nombre":
-                    case "apellidos":
-                        if (patnombre.test(event.target.value) == false || event.target.value.length <= 0) {
-                            $("#error" + id).html("*El campo " + id + " tiene un error de formato, no admite dígitos ni caracteres especiales");
-                            $("#condiciones").attr('disabled', true);
-                            $("#registrarse").attr('disabled', true);
-                            return false;
-                            break;
-                        }
-
-                        else {
-                            $("#error" + id).html("");
-
-                        }
-                        break;
+        return comprobarBlancos() && comprobarValidacion();
 
 
-                    case "fechanac":
-                        var fecha = new Date();
-                        var anio;
-                        var mes;
-                        var dia;
-                        var date;
-                        var fechaValida;
-                        if (comprobarNavegador() === "Chrome") {
-                            date = event.target.value.split("-");
-                            anio = date[0];
-                            mes = date[1];
-                            dia = date[2];
-                            fechaValida = verificarAdultos(dia, mes, anio, fecha);
-                        }
-                        else {
-                            if (patfecha.test(event.target.value)) {
-                                if (event.target.value.indexOf("/") != -1) {
-                                    date = event.target.value.split("/");
-                                }
-                                else {
-                                    date = event.target.value.split("-");
-                                }
-                                dia = date[0];
-                                mes = date[1];
-                                anio = date[2];
-
-                                fechaValida = verificarAdultos(dia, mes, anio, fecha);
-
-                            }
-                            else {
-                                $("#error" + id).html("El campo fecha de nacimiento debe respetar el siguiente formato: 00/00/0000");
-                                $("#condiciones").attr('disabled', true);
-                                $("#registrarse").attr('disabled', true);
-                                return false;
-
-                            }
-
-                        }
-
-                        if (fechaValida === true) {
-                            $("#error" + id).html("");
-
-                        }
-                        else {
-
-                            $("#error" + id).html("Lo siento, debes ser mayor de edad para registrarte y poder efectuar compras");
-                            $("#condiciones").attr('disabled', true);
-                            $("#registrarse").attr('disabled', true);
-                            return false;
-
-                        }
-
-                        break;
-                    case "dni":
-                        var dniLetters = "TRWAGMYFPDXBNJZSQVHLCKET";
-                        var dniValueMayusculas = $("#dni").val().toUpperCase();
-                        if (patdni.test(dniValueMayusculas)) {
-                            if (dniValueMayusculas.indexOf(" " != -1) || dniValueMayusculas.indexOf("-" != -1)) {
-                                var noSpaces = dniValueMayusculas.replace(/ /g, "");
-                                dniValueMayusculas = noSpaces.replace(/-/g, "");
-
-
-                                if (dniValueMayusculas.startsWith("X") || dniValueMayusculas.startsWith("Y") || dniValueMayusculas.startsWith("Z")) {
-
-                                    var dniNum = dniValueMayusculas.substring(1, dniValueMayusculas.length - 1);
-
-                                }
-                                else {
-                                    dniNum = dniValueMayusculas.substring(0, dniValueMayusculas.length - 1);
-
-                                }
-                                var dniLetter = dniValueMayusculas.substring(dniValueMayusculas.length - 1);
-                            }
-
-
-                            if (dniLetters[dniNum % 23] === dniLetter) {
-
-                                $("#error" + id).html("");
-
-                            }
-                            else {
-
-                                $("#error" + id).html("La letra del " + id + " no es correcta");
-                                $("#condiciones").attr('disabled', true);
-                                $("#registrarse").attr('disabled', true);
-                                return false;
-                            }
-                        }
-                        else {
-                            $("#error" + id).html("El formato del campo " + id + " no es correcto.(Ej.12345678-B/12345678 B/ X12345678B /X 12345678-B / X12345678B)");
-                            $("#condiciones").attr('disabled', true);
-                            $("#registrarse").attr('disabled', true);
-                            return false;
-                        }
-
-                        break;
-                    case
-                    "telefono"
-                    :
-                        if (patttel.test(event.target.value)) {
-                            $("#error" + id).html("");
-
-                        }
-                        else {
-                            $("#error" + id).html("El " + id + " introducido debe empezar por 6,7 o 9 y debe contener 9 dígitos");
-                            $("#condiciones").attr('disabled', true);
-                            $("#registrarse").attr('disabled', true);
-                            return false;
-                        }
-                        break;
-                    case
-                    "email"
-                    :
-                        if (patemail.test(event.target.value)) {
-                            $("#error" + id).html("");
-
-                        }
-                        else {
-                            $("#error" + id).html("El " + id + " introducido no es correcto, debe cumplir el formato 'example@example.com'");
-                            $("#condiciones").attr('disabled', true);
-                            $("#registrarse").attr('disabled', true);
-                            return false;
-                        }
-                        break;
-                    case
-                    "usuario"
-                    :
-                    case
-                    "password"
-                    :
-                        if (patusuario.test(event.target.value)) {
-                            $("#error" + id).html("");
-
-                        }
-                        else {
-                            $("#error" + id).html("El campo " + id + " introducido debe contener sólo caracteres alfanuméricos");
-                            $("#condiciones").attr('disabled', true);
-                            $("#registrarse").attr('disabled', true);
-                            return false;
-                        }
-                        break;
-
-                    case
-                    "password2"
-                    :
-                        if (event.target.value == $("#password").val()) {
-                            $("#error" + id).html("");
-
-                        }
-                        else {
-                            $("#error" + id).html("El " + id + " no coincide con el password inicial");
-                            $("#condiciones").attr('disabled', true);
-                            $("#registrarse").attr('disabled', true);
-                            return false;
-                        }
-                        break;
-                    case
-                    "direccion"
-                    :
-                        if (patdir.test(event.target.value)) {
-                            $("#error" + id).html("");
-
-                        }
-                        else {
-                            $("#error" + id).html("El campo " + id + " sólo puede contener caracteres alfanuméricos y espacios, Ej. de la Castellana 25");
-                            $("#condiciones").attr('disabled', true);
-                            $("#registrarse").attr('disabled', true);
-                            return false;
-                        }
-                        break;
-                    case
-                    "cp"
-                    :
-                        if (patcp.test(event.target.value)) {
-                            $("#error" + id).html("");
-
-                        }
-                        else {
-                            $("#error" + id).html("El código postal debe estar compuesto de 5 dígitos");
-                            $("#condiciones").attr('disabled', true);
-                            $("#registrarse").attr('disabled', true);
-                            return false;
-                        }
-
-
-                }
-            }
-
-        }
     });
 });
+function comprobarBlancos() {
+    var inputs = $("#registro").find("input");
+    var camposBlanco = [];
+    var errorCampos;
+    var cont = 0;
+
+    for (var i = 0; i < inputs.length; i++) {
+        if (inputs[i].value.length <= 0) {
+            camposBlanco[cont] = inputs[i].id;
+            cont++;
+        }
+    }
+    if (camposBlanco.length > 0) {
+        errorCampos = camposBlanco.join();
+        $("#errorsubmit").html('Por favor rellena los campos: ' + errorCampos + ' son obligatorios');
+        $("#condiciones").removeAttr('checked');
+        $("#registrarse").attr('disabled', true);
+
+        return false;
+    }
+    else {
+        $("#registrarse").attr('disabled', false);
+        $("#errorsubmit").html('');
+        $("#errorcondiciones").html('');
+        return true;
+    }
+
+
+}
+
+
+function comprobarValidacion() {
+    return false;
+}
+
 
 /***************VALIDACIONES CHANGE() REGISTRO****************/
 
 /*$(document).ready(function () {
-    $("#registro").find("input").change(function (event) {
-        var id = event.target.id;
-        switch (id) {
-            case "nombre":
-            case "apellidos":
-                if (patnombre.test(event.target.value) == false || event.target.value.length <= 0) {
-                    $("#error" + id).html("*El campo " + id + " tiene un error de formato, no admite dígitos ni caracteres especiales");
-                    $("#condiciones").attr('disabled', true);
-                }
+ $("#registro").find("input").change(function (event) {
+ var id = event.target.id;
+ switch (id) {
+ case "nombre":
+ case "apellidos":
+ if (patnombre.test(event.target.value) == false || event.target.value.length <= 0) {
+ $("#error" + id).html("*El campo " + id + " tiene un error de formato, no admite dígitos ni caracteres especiales");
+ $("#condiciones").attr('disabled', true);
+ }
 
-                else {
-                    $("#error" + id).html("");
+ else {
+ $("#error" + id).html("");
 
-                }
-                break;
-
-
-            case "fechanac":
-                var fecha = new Date();
-                var anio;
-                var mes;
-                var dia;
-                var date;
-                var fechaValida;
-                if (comprobarNavegador() === "Chrome") {
-                    date = event.target.value.split("-");
-                    anio = date[0];
-                    mes = date[1];
-                    dia = date[2];
-                    fechaValida = verificarAdultos(dia, mes, anio, fecha);
-                }
-                else {
-                    if (patfecha.test(event.target.value)) {
-                        if (event.target.value.indexOf("/") != -1) {
-                            date = event.target.value.split("/");
-                        }
-                        else {
-                            date = event.target.value.split("-");
-                        }
-                        dia = date[0];
-                        mes = date[1];
-                        anio = date[2];
-
-                        fechaValida = verificarAdultos(dia, mes, anio, fecha);
-
-                    }
-                    else {
-                        $("#error" + id).html("El campo fecha de nacimiento debe respetar el siguiente formato: 00/00/0000");
-
-                        break;
-                    }
-
-                }
-
-                if (fechaValida === true) {
-                    $("#error" + id).html("");
-
-                }
-                else {
-
-                    $("#error" + id).html("Lo siento, debes ser mayor de edad para registrarte y poder efectuar compras");
+ }
+ break;
 
 
-                }
+ case "fechanac":
+ var fecha = new Date();
+ var anio;
+ var mes;
+ var dia;
+ var date;
+ var fechaValida;
+ if (comprobarNavegador() === "Chrome") {
+ date = event.target.value.split("-");
+ anio = date[0];
+ mes = date[1];
+ dia = date[2];
+ fechaValida = verificarAdultos(dia, mes, anio, fecha);
+ }
+ else {
+ if (patfecha.test(event.target.value)) {
+ if (event.target.value.indexOf("/") != -1) {
+ date = event.target.value.split("/");
+ }
+ else {
+ date = event.target.value.split("-");
+ }
+ dia = date[0];
+ mes = date[1];
+ anio = date[2];
 
-                break;
-            case "dni":
-                var dniLetters = "TRWAGMYFPDXBNJZSQVHLCKET";
-                var dniValueMayusculas = $("#dni").val().toUpperCase();
-                if (patdni.test(dniValueMayusculas)) {
-                    if (dniValueMayusculas.indexOf(" " != -1) || dniValueMayusculas.indexOf("-" != -1)) {
-                        var noSpaces = dniValueMayusculas.replace(/ /g, "");
-                        dniValueMayusculas = noSpaces.replace(/-/g, "");
+ fechaValida = verificarAdultos(dia, mes, anio, fecha);
 
+ }
+ else {
+ $("#error" + id).html("El campo fecha de nacimiento debe respetar el siguiente formato: 00/00/0000");
 
-                        if (dniValueMayusculas.startsWith("X") || dniValueMayusculas.startsWith("Y") || dniValueMayusculas.startsWith("Z")) {
+ break;
+ }
 
-                            var dniNum = dniValueMayusculas.substring(1, dniValueMayusculas.length - 1);
+ }
 
-                        }
-                        else {
-                            dniNum = dniValueMayusculas.substring(0, dniValueMayusculas.length - 1);
+ if (fechaValida === true) {
+ $("#error" + id).html("");
 
-                        }
-                        var dniLetter = dniValueMayusculas.substring(dniValueMayusculas.length - 1);
-                    }
+ }
+ else {
 
-
-                    if (dniLetters[dniNum % 23] === dniLetter) {
-
-                        $("#error" + id).html("");
-
-                    }
-                    else {
-
-                        $("#error" + id).html("La letra del " + id + " no es correcta");
-                        $("#condiciones").attr('disabled', true);
-                    }
-                }
-                else {
-                    $("#error" + id).html("El formato del campo " + id + " no es correcto.(Ej.12345678-B/12345678 B/ X12345678B /X 12345678-B / X12345678B)");
-                    $("#condiciones").attr('disabled', true);
-                }
-
-                break;
-            case
-            "telefono"
-            :
-                if (patttel.test(event.target.value)) {
-                    $("#error" + id).html("");
-
-                }
-                else {
-                    $("#error" + id).html("El " + id + " introducido debe empezar por 6,7 o 9 y debe contener 9 dígitos");
-                    $("#condiciones").attr('disabled', true);
-                }
-                break;
-            case
-            "email"
-            :
-                if (patemail.test(event.target.value)) {
-                    $("#error" + id).html("");
-
-                }
-                else {
-                    $("#error" + id).html("El " + id + " introducido no es correcto, debe cumplir el formato 'example@example.com'");
-                    $("#condiciones").attr('disabled', true);
-                }
-                break;
-            case
-            "usuario"
-            :
-            case
-            "password"
-            :
-                if (patusuario.test(event.target.value)) {
-                    $("#error" + id).html("");
-
-                }
-                else {
-                    $("#error" + id).html("El campo " + id + " introducido debe contener sólo caracteres alfanuméricos");
-                    $("#condiciones").attr('disabled', true);
-                }
-                break;
-
-            case
-            "password2"
-            :
-                if (event.target.value == $("#password").val()) {
-                    $("#error" + id).html("");
-
-                }
-                else {
-                    $("#error" + id).html("El " + id + " no coincide con el password inicial");
-                    $("#condiciones").attr('disabled', true);
-                }
-                break;
-            case
-            "direccion"
-            :
-                if (patdir.test(event.target.value)) {
-                    $("#error" + id).html("");
-
-                }
-                else {
-                    $("#error" + id).html("El campo " + id + " sólo puede contener caracteres alfanuméricos y espacios, Ej. de la Castellana 25");
-                    $("#condiciones").attr('disabled', true);
-                }
-                break;
-            case
-            "cp"
-            :
-                if (patcp.test(event.target.value)) {
-                    $("#error" + id).html("");
-
-                }
-                else {
-                    $("#error" + id).html("El código postal debe estar compuesto de 5 dígitos");
-                    $("#condiciones").attr('disabled', true);
-                }
+ $("#error" + id).html("Lo siento, debes ser mayor de edad para registrarte y poder efectuar compras");
 
 
-        }
-    })
-})
-;
-/*FUNCIÓN COMPROBAR NAVEGADOR: Comprueba el navegador que está utilizando el usuario*/
+ }
+
+ break;
+ case "dni":
+ var dniLetters = "TRWAGMYFPDXBNJZSQVHLCKET";
+ var dniValueMayusculas = $("#dni").val().toUpperCase();
+ if (patdni.test(dniValueMayusculas)) {
+ if (dniValueMayusculas.indexOf(" " != -1) || dniValueMayusculas.indexOf("-" != -1)) {
+ var noSpaces = dniValueMayusculas.replace(/ /g, "");
+ dniValueMayusculas = noSpaces.replace(/-/g, "");
+
+
+ if (dniValueMayusculas.startsWith("X") || dniValueMayusculas.startsWith("Y") || dniValueMayusculas.startsWith("Z")) {
+
+ var dniNum = dniValueMayusculas.substring(1, dniValueMayusculas.length - 1);
+
+ }
+ else {
+ dniNum = dniValueMayusculas.substring(0, dniValueMayusculas.length - 1);
+
+ }
+ var dniLetter = dniValueMayusculas.substring(dniValueMayusculas.length - 1);
+ }
+
+
+ if (dniLetters[dniNum % 23] === dniLetter) {
+
+ $("#error" + id).html("");
+
+ }
+ else {
+
+ $("#error" + id).html("La letra del " + id + " no es correcta");
+ $("#condiciones").attr('disabled', true);
+ }
+ }
+ else {
+ $("#error" + id).html("El formato del campo " + id + " no es correcto.(Ej.12345678-B/12345678 B/ X12345678B /X 12345678-B / X12345678B)");
+ $("#condiciones").attr('disabled', true);
+ }
+
+ break;
+ case
+ "telefono"
+ :
+ if (patttel.test(event.target.value)) {
+ $("#error" + id).html("");
+
+ }
+ else {
+ $("#error" + id).html("El " + id + " introducido debe empezar por 6,7 o 9 y debe contener 9 dígitos");
+ $("#condiciones").attr('disabled', true);
+ }
+ break;
+ case
+ "email"
+ :
+ if (patemail.test(event.target.value)) {
+ $("#error" + id).html("");
+
+ }
+ else {
+ $("#error" + id).html("El " + id + " introducido no es correcto, debe cumplir el formato 'example@example.com'");
+ $("#condiciones").attr('disabled', true);
+ }
+ break;
+ case
+ "usuario"
+ :
+ case
+ "password"
+ :
+ if (patusuario.test(event.target.value)) {
+ $("#error" + id).html("");
+
+ }
+ else {
+ $("#error" + id).html("El campo " + id + " introducido debe contener sólo caracteres alfanuméricos");
+ $("#condiciones").attr('disabled', true);
+ }
+ break;
+
+ case
+ "password2"
+ :
+ if (event.target.value == $("#password").val()) {
+ $("#error" + id).html("");
+
+ }
+ else {
+ $("#error" + id).html("El " + id + " no coincide con el password inicial");
+ $("#condiciones").attr('disabled', true);
+ }
+ break;
+ case
+ "direccion"
+ :
+ if (patdir.test(event.target.value)) {
+ $("#error" + id).html("");
+
+ }
+ else {
+ $("#error" + id).html("El campo " + id + " sólo puede contener caracteres alfanuméricos y espacios, Ej. de la Castellana 25");
+ $("#condiciones").attr('disabled', true);
+ }
+ break;
+ case
+ "cp"
+ :
+ if (patcp.test(event.target.value)) {
+ $("#error" + id).html("");
+
+ }
+ else {
+ $("#error" + id).html("El código postal debe estar compuesto de 5 dígitos");
+ $("#condiciones").attr('disabled', true);
+ }
+
+
+ }
+ })
+ })
+ ;
+ /*FUNCIÓN COMPROBAR NAVEGADOR: Comprueba el navegador que está utilizando el usuario*/
 
 function comprobarNavegador() {
     var userAgent = navigator.userAgent;
@@ -477,40 +296,43 @@ function verificarAdultos(dia, mes, anio, fecha) {
 $(document).ready(function () {
     $("#condiciones").on('click', function () {
         if ($(this).is(':checked')) {
-            var inp=$("#registro").find("input");
-            for(var i=0; i<inp.length;i++){
-                if(inp[i].value.length<=0){
-                    $("#condiciones").removeAttr('checked');
-                    $("#registrarse").attr('disabled', true);
-                    $("#errorsubmit").html('por favor rellena el campo '+inp[i].id+", es obligatorio");
-                    break;
-                }
-                else{
-                    $("#registrarse").attr('disabled', false);
-                    $("#errorsubmit").html('');
-                }
-            }
+            comprobarBlancos();
+            /*var inp = $("#registro").find("input");
+             for (var i = 0; i < inp.length; i++) {
+             if (inp[i].value.length <= 0) {
+             $("#condiciones").removeAttr('checked');
 
+             $("#registrarse").attr('disabled', true);
+             $("#errorsubmit").html('por favor rellena el campo ' + inp[i].id + ", es obligatorio");
+             break;
+             }
+             else {
+             $("#registrarse").attr('disabled', false);
+             $("#errorsubmit").html('');
+             }*/
         }
+
+
         else {
-            $("#registrarse").attr('disabled', false);
-            $("#errorsubmit").html('');
+
+            $("#registrarse").attr('disabled', true);
+            $("#errorcondiciones").html('Por favor, acepta las condiciones para poder registrarte');
         }
-
     })
+})
 
 
-});
+
 
 
 /*$(document).ready(function () {
-    if ($("#registro").is(':disabled') && $("#registro").on('click', function () {
-            alert("h");
-            $("#errorcondiciones").html('Acepta los términos y condiciones si quieres enviar el formulario, gracias');
-        }));
+ if ($("#registro").is(':disabled') && $("#registro").on('click', function () {
+ alert("h");
+ $("#errorcondiciones").html('Acepta los términos y condiciones si quieres enviar el formulario, gracias');
+ }));
 
 
-});*/
+ });*/
 
 /***************HABILITACIÓN CAMPOS REGISTRO CUANDO SE SELEECIONE MUNICIPIO****************/
 
