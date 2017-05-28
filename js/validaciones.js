@@ -317,7 +317,7 @@ function verificarAdultos(dia, mes, anio, fecha) {
 
 /***************FUNCIÓN COMPROBAR BISIESTOS: comprueba si el año en el que estamos es bisiesto o no y si el día es mayor o menor a 29 en función del año****************/
 function comprobarBisiestos(fecha, anio, mes, dia) {
-    if ((fecha.getFullYear() % 4 == 0) && (fecha.getFullYear() % 100 != 0) || (fecha.getFullYear() % 400 == 0)) {
+    if (anio % 4 == 0 && anio % 100 != 0 || anio % 400 == 0) {
         if (mes == 2 && dia <= 29) {
             return true;
         }
