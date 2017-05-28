@@ -3,7 +3,13 @@
         /**
          * LIBRERIA DE FUNCIONES QUE FACILITAN LA PROGRAMACIÓN DEL PROGRAMADOR ;)
          */
-
+        function encodePassword($pass) {
+            $opciones = [
+                'cost' => 14
+            ];
+            $passHash = password_hash ( $pass, PASSWORD_DEFAULT, $opciones );
+            return $passHash;
+        }
         /**
          * getPost: Devuelve el post o en su defecto el valor que quiera el usuario si no existe
          */

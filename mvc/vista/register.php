@@ -154,14 +154,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             <form action="#" method="post" id="registro">
                 <div class="key">
                     <i class="fa fa-user" aria-hidden="true"></i>
-                    <input type="text" placeholder="Nombre" name="nombre" id="nombre" maxlength="20"
+                    <input type="text" placeholder="Nombre" name="Nombre" id="nombre" maxlength="20"
                            oninvalid="setCustomValidity('Todos los campos son obligatorios para el registro')">
                     <div class="clearfix"></div>
                 </div>
                 <div class="has-warning"><p id="errornombre"></p></div>
                 <div class="key">
                     <i class="fa fa-user" aria-hidden="true"></i>
-                    <input type="text" placeholder="Apellidos" name="apellidos" id="apellidos" maxlength="20"
+                    <input type="text" placeholder="Apellidos" name="Apellidos" id="apellidos" maxlength="20"
                            oninvalid="setCustomValidity('Todos los campos son obligatorios para el registro')">
 
                     <div class="clearfix"></div>
@@ -169,7 +169,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 <div class="has-warning"><p id="errorapellidos"></p></div>
                 <div class="key">
                     <i class="fa fa-birthday-cake" aria-hidden="true"></i>
-                    <input type="date" placeholder="Fecha de nacimiento" id="fechanac" name="fechanac" maxrange
+                    <input type="date" placeholder="Fecha de nacimiento" id="fechanac" name="Fecha_Nac" maxrange
                            oninvalid="setCustomValidity('Todos los campos son obligatorios para el registro')">
                     <div class="clearfix"></div>
                 </div>
@@ -177,27 +177,27 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
                 <div class="key">
                     <i class="fa fa-user" aria-hidden="true"></i>
-                    <input type="text" placeholder="Dni" name="dni" id="dni" maxlength="12"
+                    <input type="text" placeholder="Dni" name="DNI" id="dni" maxlength="12"
                            oninvalid="setCustomValidity('Todos los campos son obligatorios para el registro')">
                     <div class="clearfix"></div>
                 </div>
                 <div class="has-warning"><p id="errordni"></p></div>
                 <div class="key">
                     <i class="fa fa-mobile-phone" aria-hidden="true"></i>
-                    <input type="text" placeholder="Teléfono" name="telefono" id="telefono" maxlength="9"
+                    <input type="text" placeholder="Teléfono" name="Telefono" id="telefono" maxlength="9"
                            oninvalid="setCustomValidity('Todos los campos son obligatorios para el registro')">
                     <div class="clearfix"></div>
                 </div>
                 <div class="has-warning"><p id="errortelefono"></p></div>
                 <div class="key">
                     <i class="fa fa-envelope" aria-hidden="true"></i>
-                    <input type="text" placeholder="email@example.com" name="email" id="email"
+                    <input type="text" placeholder="email@example.com" name="Email" id="email"
                            oninvalid="setCustomValidity('Todos los campos son obligatorios para el registro')">
                     <div class="clearfix"></div>
                 </div>
                 <div class="key">
                     <i class="fa fa-list" aria-hidden="true"></i>
-                    <select class="consulta" name="comunidades" id="comunidades"
+                    <select class="consulta" name="Comunidad" id="comunidades"
                             oninvalid="setCustomValidity('Todos los campos son obligatorios para el registro')">
                         <option value="0">--Selecciona una Comunidad Autónoma--</option>
                         <option value="1">Andalucía</option>
@@ -225,7 +225,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 <div class="has-warning"><p id="errorcomunidades"></p></div>
                 <div class="key">
                     <i class="fa fa-list" aria-hidden="true"></i>
-                    <select class="consulta" disabled="disabled" name="provincias" id="provincias"
+                    <select class="consulta" disabled="disabled" name="Provincia" id="provincias"
                             oninvalid="setCustomValidity('Todos los campos son obligatorios para el registro')">
                         <option value="0">--Selecciona una provincia--</option>
 
@@ -248,35 +248,35 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 <div class="has-warning"><p id="errortipoDireccion"></p></div>
                 <div class="key">
                     <i class="fa fa-home" aria-hidden="true"></i>
-                    <input type="text" placeholder="Dirección" disabled="disabled" name="direccion" id="direccion"
+                    <input type="text" placeholder="Dirección" disabled="disabled" name="Direccion" id="direccion"
                            oninvalid="setCustomValidity('Todos los campos son obligatorios para el registro')">
                     <div class="clearfix"></div>
                 </div>
                 <div class="has-warning"><p id="errordireccion"></p></div>
                 <div class="key">
                     <i class="fa fa-home" aria-hidden="true"></i>
-                    <input type="text" placeholder="Código Postal" disabled="disabled" name="cp" id="cp" maxlength="5"
+                    <input type="text" placeholder="Código Postal" disabled="disabled" name="CP" id="cp" maxlength="5"
                            oninvalid="setCustomValidity('Todos los campos son obligatorios para el registro')">
                     <div class="clearfix"></div>
                 </div>
                 <div class="has-warning"><p id="errorcp"></p></div>
                 <div class="key">
                     <i class="fa fa-user" aria-hidden="true"></i>
-                    <input type="text" placeholder="Nombre de usuario" name="usuario" id="usuario" maxlength="20"
+                    <input type="text" placeholder="Nombre de usuario" name="Usuario" id="usuario" maxlength="20"
                            oninvalid="setCustomValidity('Todos los campos son obligatorios para el registro')">
                     <div class="clearfix"></div>
                 </div>
                 <div class="has-warning"><p id="errorusuario"></p></div>
                 <div class="key">
                     <i class="fa fa-lock" aria-hidden="true"></i>
-                    <input type="password" placeholder="Password" name="pass1" id="password"
+                    <input type="password" placeholder="Password" name="Password" id="password"
                            oninvalid="setCustomValidity('Todos los campos son obligatorios para el registro')">
                     <div class="clearfix"></div>
                 </div>
                 <div class="has-warning"><p id="errorpassword"></p></div>
                 <div class="key">
                     <i class="fa fa-lock" aria-hidden="true"></i>
-                    <input type="password" placeholder="Confirmar Password" id="password2" name="pass2"
+                    <input type="password" placeholder="Confirmar Password" id="password2" name="Password2"
                            oninvalid="setCustomValidity('Todos los campos son obligatorios para el registro')">
                     <div class="clearfix"></div>
                 </div>
@@ -288,7 +288,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         condiciones</a></div>
                 <div class="has-warning"><p id="errorcondiciones"></p></div>
                 <div class="has-warning"><p id="errorpassword2"></p></div>
-                <input class="form-" id="registrarse" type="submit" disabled="disabled" value="Registrarse">
+                <input class="form-" name="register" id="registrarse" type="submit" disabled="disabled" value="Registrarse">
                 <div class="has-warning"><p id="errorsubmit"></p></div>
 
             </form>
