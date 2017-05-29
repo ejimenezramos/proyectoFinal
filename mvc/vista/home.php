@@ -174,7 +174,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 				<div class="search-form">
 					<form action="#" method="post">
 						<input type="text" placeholder="¿Te podemos ayudar?"
-							name="Search..."> <input type="submit" value=" ">
+							id="keywords" name="keywords"> <input type="submit" value=" " name="search" id="search">
 					</form>
 				</div>
 			</div>

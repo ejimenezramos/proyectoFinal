@@ -1130,6 +1130,9 @@ ul.product-qty {
 .product2 {
     padding:0em  6em;
 }
+.pro-pack {
+    margin-bottom: 2em;
+}
 .pro-1 {
     margin-bottom: 2em;
 }
@@ -2477,6 +2480,10 @@ span.last {
     float: left;
     margin-bottom: 2em;
 }
+.pro-pack{
+	width: 75%;
+    float: left;
+}
 .pro-1 {
     width: 50%;
     float: left;
@@ -3026,6 +3033,9 @@ nav.navbar.navbar-default {
 .big-sale h3, .big-sa h3, .big-sale2 h3, .big-sale3 h3 {
     font-size: 2.2em;
 }
+.pro-pack {
+    padding: 0 5px;
+}
 .pro-1 {
     padding: 0 5px;
 }
@@ -3118,6 +3128,9 @@ img.img-head {
 .footer-grid h3 {
     font-size: 1.5em;
     margin-bottom: 0.5em;
+}
+.pro-pack {
+    margin-bottom: 1em;
 }
 .pro-1 {
     margin-bottom: 1em;

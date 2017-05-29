@@ -38,10 +38,8 @@ function comprobarBlancos() {
     if (camposBlanco.length > 0) {
 
         errorCampos = camposBlanco.join();
-        $("#errorsubmit").html('Por favor rellena el/los campos: ')
-
-;
-        $("#errorsubmit").append(" "+errorCampos.replace("fechanac","fecha de nacimiento")+errorCampos);
+        $("#errorsubmit").html('Por favor rellena el/los campos: ');
+        /*$("#errorsubmit").append(" "+errorCampos.replace("fechanac","fecha de nacimiento")+errorCampos);*/
 
         $("#condiciones").removeAttr('checked');
         $("#registrarse").attr('disabled', true);
@@ -235,7 +233,7 @@ function comprobarValidacion() {
                     contInvalid++;
                 }
                 break;
-
+                
             case
             "password2"
             :
@@ -278,7 +276,6 @@ function comprobarValidacion() {
                     contInvalid++;
                 }
         }
-
     }
     alert("el cont " + contInvalid)
     if (contInvalid > 0) {

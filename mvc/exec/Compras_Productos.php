@@ -5,7 +5,7 @@ class Autores {
     public static function searchIdDB($id) {
         $database = medoo::getInstance();
         $database->openConnection(unserialize(MYSQL_CONFIG));
-        $datos = $database->select('autores', '*', ["id[=]" => $id]);
+        $datos = $database->select('productos', '*', ["id[=]" => $id]);
         $database->closeConnection();
         return $datos;
     }

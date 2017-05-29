@@ -460,24 +460,24 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 		</div>-->
 
 	<!-- tab para los packs -->
-	<div class="content-mid">
+	<div class="container">
 		<div class="horizontal_tab">
-			<ul class="nav2 nav-tabs">
+			<ul class="nav2 nav-tabs col-md-3 pro-pack">
 				<li class="active"><a href="#tab1" data-toggle="tab"
 					aria-expanded="true"><img src="images/pack_kids.png" width="100em"></a>
-				<p>Pack Intanfil</p></li>
+					<p>Pack Intanfil</p></li>
 				<li class=""><a href="#tab2" data-toggle="tab" aria-expanded="false"><img
 						src="images/pack_chocolate.png" width="100em"></a>
-				<p>Pack Chocolate</p></li>
+					<p>Pack Chocolate</p></li>
 				<li class=""><a href="#tab3" data-toggle="tab" aria-expanded="false"><img
 						src="images/pack_exotic.png" width="100em"></a>
-				<p>Pack Exotic</p></li>
+					<p>Pack Exotic</p></li>
 				<li class=""><a href="#tab4" data-toggle="tab" aria-expanded="false"><img
 						src="images/pack_healthy.png" width="100em"></a>
-				<p>Pack Healthy</p></li>
+					<p>Pack Healthy</p></li>
 				<li class=""><a href="#tab5" data-toggle="tab" aria-expanded="false"><img
 						src="images/pack_sweety.png" width="100em"></a>
-				<p>Pack Sweety</p></li>
+					<p>Pack Sweety</p></li>
 			</ul>
 			<div class="tab-content">
 				<!-- pack1 -->
@@ -526,7 +526,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 										<div class="mid-1">
 											<div class="women">
 												<h6>
-													<a>Kinder Schoko-Bons</a>
+													<a>Schoko-Bons</a>
 												</h6>
 											</div>
 										</div>
@@ -564,7 +564,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 									<div class="mid-1">
 										<div class="women">
 											<h6>
-												<a>Cereales Cocoa Puffs</a>
+												<a>Cocoa Puffs</a>
 											</h6>
 										</div>
 									</div>
@@ -590,13 +590,13 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 							<div class="col-md-3 pro-1">
 								<div class="col-m">
 									<a href="#" data-toggle="modal" class="offer-img"
-										data-target="#myModal6"> <img src="images/topchocolate.png"
+										data-target="#myModal6"> <img src="images/packconguitos.png"
 										class="img-responsive" alt="">
 									</a>
 									<div class="mid-1">
 										<div class="women">
 											<h6>
-												<a>Sirope de chocolate</a>
+												<a>Conguitos</a>
 											</h6>
 										</div>
 									</div>
@@ -632,7 +632,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 									<div class="mid-1">
 										<div class="women">
 											<h6>
-												<a>Cereales Froot Loops</a>
+												<a>Froot Loops</a>
 											</h6>
 										</div>
 									</div>
@@ -804,7 +804,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 									<div class="mid-1">
 										<div class="women">
 											<h6>
-												<a>Shockoboons</a>
+												<a>Shocko-Bons</a>
 											</h6>
 										</div>
 									</div>
@@ -844,9 +844,9 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 
 			<p class="footer-links">
 				<a class="cursor_pointer"
-				   onclick="window.open('?pagina=licencia', 'Licencia', 'width=900, height=600')">
+					onclick="window.open('?pagina=licencia', 'Licencia', 'width=900, height=600')">
 					Licencia</a> · <a class="cursor_pointer" data-toggle="modal"
-									  data-target="#ModalDevoluciones">Devoluciones</a> · <a
+					data-target="#ModalDevoluciones">Devoluciones</a> · <a
 					class="cursor_pointer" data-toggle="modal"
 					data-target="#ModalEnvioEntrega">Envío y entrega</a>
 			</p>
