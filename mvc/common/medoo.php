@@ -709,7 +709,6 @@ class Medoo extends padre {
                 if (!is_array($value)) {
                     $value = preg_replace('/^[\w]*\./i', "", $value);
                 }
-
                 $this->dataMap($index, $key, $value, $row, $stack);
             }
 

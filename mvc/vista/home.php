@@ -1,3 +1,4 @@
+<?php $val = Validacion::getInstance(); ?>
 <!--
 Author: W3layouts
 Author URL: http://w3layouts.com
@@ -115,7 +116,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 		<div class="container">
 			<div class="logo">
 				<h1>
-					<a href="?pagina=home"><p>Cereal-Break<span>Experience</span></a>
+					<a href="?pagina=home">Cereal-Break<span>Experience</span></a>
 				</h1>
 			</div>
 			<div class="head-t">
@@ -172,9 +173,10 @@ function hideURLbar(){ window.scrollTo(0,1); }
 			style="width: 100%">
 			<div class="banner-info2">
 				<div class="search-form">
-					<form action="#" method="post">
+				<!-- campo Busqueda de productos-->
+					<form action="index.php?pagina=home" method="post">
 						<input type="text" placeholder="¿Te podemos ayudar?"
-							id="keywords" name="keywords"> <input type="submit" value=" " name="search" id="search">
+							id="id" name="id" value='<?php echo $val->restoreValue('id'); ?>'> <input type="submit" value=" " name="home" id="busqueda">
 					</form>
 				</div>
 			</div>
