@@ -98,7 +98,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 		</div>
 	</div>
 	<div class="container">
-		<h3>Esta obra está bajo una Licencia Creative Commons Atribución-NoComercial-SinDerivar 4.0 Internacional.</h3>
+		<h3>Licencia página web Cereal-Break</h3>
 		<main class="main_licencia">
 	<article class="color_fondo_licencia">
 		<p>Creative Commons Corporation (“Creative Commons”) is not a law
