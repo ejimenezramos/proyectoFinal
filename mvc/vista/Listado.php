@@ -173,7 +173,8 @@ function hideURLbar(){ window.scrollTo(0,1); }
 	<div class="container">{{listado}}</div>
 </div>
 
-<!-- product -->
+
+	<!-- product -->
 	<div class="modal fade" id="myModal1" tabindex="-1" role="dialog"
 		aria-labelledby="myModalLabel">
 		<div class="modal-dialog" role="document">

@@ -21,7 +21,7 @@ class ListadoParser {
                                 <div class=' con-w3l'>		
 	                                <div class='col-md-3 pro-1'>
 										<div class='col-m'>
-											<a href='#' data-toggle='modal' data-target='#myModal4' class='offer-img'> 
+											<a href='#' data-toggle='modal' data-target='#myModal" .$productos['Ref_Modal']. "' class='offer-img'> 
 		                                		<img src='images/" .$productos['Foto']. ".png' class='img-responsive' alt=''>
 											</a>
 											<div class='mid-1'>
