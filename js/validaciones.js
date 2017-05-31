@@ -39,7 +39,11 @@ function comprobarBlancos() {
 
         errorCampos = camposBlanco.join();
         $("#errorsubmit").html('Por favor rellena el/los campos: ');
-        /*$("#errorsubmit").append(" "+errorCampos.replace("fechanac","fecha de nacimiento")+errorCampos);*/
+        var aux=errorCampos.replace("fechanac", "fecha de nacimiento");
+         var aux2=aux.replace("cp","código postal");
+        var errores=aux2.replace("password2","confirmación password");
+
+        $("#errorsubmit").append(errores);
 
         $("#condiciones").removeAttr('checked');
         $("#registrarse").attr('disabled', true);
@@ -58,12 +62,14 @@ function comprobarBlancos() {
 /*FUNCION COMPROBAR VALIDACION: Comprueba si el formato de cada campo es correcto y si no lo es invalida el submit y devuelve un mensaje de error explicativo*/
 
 function comprobarValidacion() {
+
     var inputs = $("#registro").find("input");
     var camposInvalidos = [];
     var contInvalid = 0;
 
     for (var i = 0; i < inputs.length; i++) {
         var id = inputs[i].id;
+        $("#error"+id).fadeTo(1000, 1);
         switch (id) {
             case "nombre":
             case "apellidos":
@@ -107,14 +113,14 @@ function comprobarValidacion() {
                     else {
                         inputs[i].value = "";
                         camposInvalidos[i] = inputs[i].id;
-                        $("#error" + id).html("La letra del " + id + " no es correcta");
+                        $("#error" + id).html("*La letra del " + id + " no es correcta");
                         contInvalid++;
                     }
                 }
                 else {
                     inputs[i].value = "";
                     camposInvalidos[i] = inputs[i].id;
-                    $("#error" + id).html("El formato del campo " + id + " no es correcto.(Ej.12345678-B/12345678 B/ X12345678B /X 12345678-B / X12345678B)");
+                    $("#error" + id).html("*El formato del campo " + id + " no es correcto.(Ej.12345678-B/12345678 B/ X12345678B /X 12345678-B / X12345678B)");
                     contInvalid++;
 
 
@@ -150,13 +156,13 @@ function comprobarValidacion() {
                         dia = date[0];
                         mes = date[1];
                         anio = date[2];
-                        boolBisiestos = comprobarBisiestos(fecha, anio, mes, dia);
+
 
                     }
                     else {
 
                         camposInvalidos[i] = inputs[i].id;
-                        $("#error" + id).html("El campo fecha de nacimiento debe respetar el siguiente formato: 00/00/0000");
+                        $("#error" + id).html("*El campo fecha de nacimiento debe respetar el siguiente formato: 00/00/0000");
                         contInvalid++;
 
 
@@ -166,28 +172,29 @@ function comprobarValidacion() {
 
                 if (fechaValida == true) {
                     $("#error" + id).html("");
+                    boolBisiestos = comprobarBisiestos(fecha, anio, mes, dia);
+                    alert("el año es bisiesto: " + boolBisiestos);
+                    if (boolBisiestos === false) {
+                        camposInvalidos[i] = inputs[i].id;
+                        $("#error" + id).html("*El año introducido no es bisiesto o el día introducido no es correcto");
+                        inputs[i].value = "";
+                        contInvalid++;
 
+
+                    }
+                    else {
+
+                        $("#error" + id).html("");
+                    }
                 }
                 else {
                     inputs[i].value = "";
                     camposInvalidos[i] = inputs[i].id;
-                    $("#error" + id).html("Lo siento, debes ser mayor de edad para registrarte y poder efectuar compras");
+                    $("#error" + id).html("*Lo siento, debes ser mayor de edad para registrarte y poder efectuar compras");
                     contInvalid++;
 
                 }
-                alert("el año es bisiesto: " + boolBisiestos);
-                if (boolBisiestos === false) {
-                    camposInvalidos[i] = inputs[i].id;
-                    $("#error" + id).html("El año introducido no es bisiesto o el día introducido no es correcto");
-                    inputs[i].value = "";
-                    contInvalid++;
 
-
-                }
-                else {
-                    alert("e");
-                    $("#error" + id).html("");
-                }
 
                 break;
             case "telefono":
@@ -198,7 +205,7 @@ function comprobarValidacion() {
                 else {
                     inputs[i].value = "";
                     camposInvalidos[i] = inputs[i].id;
-                    $("#error" + id).html("El " + id + " introducido debe empezar por 6,7 o 9 y debe contener 9 dígitos");
+                    $("#error" + id).html("*El " + id + " debe empezar por 6,7 o 9 y debe contener 9 dígitos");
                     contInvalid++;
                 }
                 break;
@@ -212,8 +219,9 @@ function comprobarValidacion() {
                 else {
                     inputs[i].value = "";
                     camposInvalidos[i] = inputs[i].id;
-                    $("#error" + id).html("El " + id + " introducido no es correcto, debe cumplir el formato 'example@example.com'");
                     contInvalid++;
+                    $("#error" + id).html("*El " + id + " introducido no es correcto, debe cumplir el formato 'example@example.com'");
+
                 }
                 break;
             case
@@ -229,11 +237,11 @@ function comprobarValidacion() {
                 else {
                     inputs[i].value = "";
                     camposInvalidos[i] = inputs[i].id;
-                    $("#error" + id).html("El campo " + id + " introducido debe contener sólo caracteres alfanuméricos");
+                    $("#error" + id).html("*El " + id + " introducido debe contener sólo caracteres alfanuméricos");
                     contInvalid++;
                 }
                 break;
-                
+
             case
             "password2"
             :
@@ -244,7 +252,7 @@ function comprobarValidacion() {
                 else {
                     inputs[i].value = "";
                     camposInvalidos[i] = inputs[i].id;
-                    $("#error" + id).html("El " + id + " no coincide con el password inicial");
+                    $("#error" + id).html("*La confirmación del password no coincide con el password inicial");
                     contInvalid++;
                 }
                 break;
@@ -258,7 +266,7 @@ function comprobarValidacion() {
                 else {
                     inputs[i].value = "";
                     camposInvalidos[i] = inputs[i].id;
-                    $("#error" + id).html("El campo " + id + " sólo puede contener caracteres alfanuméricos y espacios, Ej. de la Castellana 25");
+                    $("#error" + id).html("*El campo " + id + " sólo puede contener caracteres alfanuméricos y espacios, Ej. de la Castellana 25");
                     contInvalid++;
                 }
                 break;
@@ -276,17 +284,20 @@ function comprobarValidacion() {
                     contInvalid++;
                 }
         }
+
     }
-    alert("el cont " + contInvalid)
+
     if (contInvalid > 0) {
-        if(camposInvalidos[0]==" "){
-            alert("si")
-         camposInvalidos.splice(0,1);
+        if(camposInvalidos[0].value==""){
+            camposInvalidos.splice(0,1);
         }
         camposJoin = camposInvalidos.join();
-        camposJoin.replace("fechanac","fecha de nacimiento");
-        $("#errorvalidacion").html("Revisa los campos: "+camposJoin + ' tienen errores de formato');
-        $("#errorvalidacion").addClass("errorfade")
+      alert(contInvalid);
+        var aux=camposJoin.replace("fechanac", "fecha de nacimiento");
+        var aux2=aux.replace("cp","código Postal");
+        var errores=aux2.replace("password2","confirmación password");
+        $("#errorvalidacion").html("Revisa los campos: " + errores + ' tienen errores de formato');
+        $("#errorvalidacion").fadeTo(15000, 0);
         $("#condiciones").removeAttr('checked');
         $("#registrarse").attr('disabled', true);
 
@@ -303,6 +314,20 @@ function comprobarValidacion() {
 
 
 }
+/*FUNCIÓN QUE LLAMA EN EL ONCHANGE DE LOS CAMPOS DEL FORMULARIO A LA FUNCIÓN eliminarErrores(), PARA SETEAR LOS CAMPOS DE ERROR*/
+$(document).ready(function () {
+    $("#registro").find("input").on('change', function (event){
+
+        var id=event.target.id;
+        eliminarErrores(id);
+    });
+});
+function  eliminarErrores(id) {
+
+    $("#error"+id).fadeTo(3000, 0);
+}
+
+
 
 /*FUNCIÓN COMPROBAR NAVEGADOR: Comprueba el navegador que está utilizando el usuario*/
 
@@ -364,7 +389,7 @@ function comprobarBisiestos(fecha, anio, mes, dia) {
             return true;
         }
         else if (mes == 2 && dia > 28) {
-            alert("el mes es 2 y el dia mayor a 28");
+
             return false;
         }
     }
