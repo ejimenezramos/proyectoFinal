@@ -24,7 +24,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 	<link href="css/footer.css" rel='stylesheet' type='text/css' />
 <!-- js -->
    <script src="js/jquery-1.11.1.min.js"></script>
-	<script type='text/javascript' src="js/validaciones.js"></script>
+	<script type='text/javascript' src="js/jquery.login.js"></script>
 <!-- //js -->
 <!-- start-smoth-scrolling -->
 <script type="text/javascript" src="js/move-top.js"></script>
@@ -157,7 +157,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 							<div class="clearfix"></div>
 						</div>
 						<div class="has-warning"><p id="errorpassword"></p></div>
-						<input type="submit" value="Login">
+						<input type="submit" value="Login" id="loguear">
 					</form>
 				</div>
 				<div class="forg">
