@@ -52,7 +52,10 @@ class ListadoParser {
                         }
                         $str .= "</table>";
                     } else
-                        $str = '<p> <b>No se han encontrado resultados...</b></p>';
+                        $str = '<div class="alert alert-warning alert-dismissable">
+					No se han encontrado resultados. Por favor prueba con: Cereal, Leche, Topping.<br>
+                     <b><a href="?pagina=home">Volver</a></b>
+				</div>';
                     break;
             }
             $vista = str_replace('{{' . $tag . '}}', $str, $vista);
