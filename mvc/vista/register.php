@@ -28,7 +28,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <link href="css/footer.css" rel='stylesheet' type='text/css' />
     <!-- js -->
     <script src="js/jquery-1.11.1.min.js"></script>
-    <script type='text/javascript' src="js/validaciones.js"></script>
+    <script type='text/javascript' src="js/jquery.registro.js"></script>
     <script src="js/jquery.peticionesAJAX.js"></script>
     <!-- //js -->
     <!-- start-smoth-scrolling -->
