@@ -158,6 +158,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 						</div>
 						<div class="has-warning"><p id="errorpassword"></p></div>
 						<input type="submit" value="Login" id="loguear">
+						<div class="has-warning"><p id="errorlogin"></p></div>
 					</form>
 				</div>
 				<div class="forg">

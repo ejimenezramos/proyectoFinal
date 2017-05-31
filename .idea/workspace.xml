@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="773c24a4-52bd-4d25-b22b-0000bce0fb4f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/jquery.login.js" afterPath="$PROJECT_DIR$/js/jquery.login.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvc/vista/login.php" afterPath="$PROJECT_DIR$/mvc/vista/login.php" />
     </list>
     <ignored path="paco.iws" />
@@ -27,28 +27,30 @@
       <file leaf-file-name="register.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mvc/vista/register.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4879">
-              <caret line="287" column="85" selection-start-line="287" selection-start-column="85" selection-end-line="287" selection-end-column="85" />
+            <state relative-caret-position="373">
+              <caret line="293" column="16" selection-start-line="293" selection-start-column="16" selection-end-line="293" selection-end-column="75" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="terminos.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mvc/vista/terminos.php">
+      <file leaf-file-name="jquery.login.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/jquery.login.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4080">
-              <caret line="240" column="0" selection-start-line="240" selection-start-column="0" selection-end-line="240" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="326">
+              <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css/style.css">
+      <file leaf-file-name="login.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mvc/vista/login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+            <state relative-caret-position="601">
+              <caret line="160" column="66" selection-start-line="160" selection-start-column="66" selection-end-line="160" selection-end-column="66" />
               <folding />
             </state>
           </provider>
@@ -101,7 +103,6 @@
         <option value="$PROJECT_DIR$/css/w3c.css" />
         <option value="$PROJECT_DIR$/mvc/vista/aboutus.php" />
         <option value="$PROJECT_DIR$/mvc/vista/contact.php" />
-        <option value="$PROJECT_DIR$/mvc/vista/login.php" />
         <option value="$PROJECT_DIR$/mvc/vista/packs.php" />
         <option value="$PROJECT_DIR$/mvc/vista/productos.php" />
         <option value="$PROJECT_DIR$/css/font-awesome.css" />
@@ -116,6 +117,8 @@
         <option value="$PROJECT_DIR$/js/validaciones.js" />
         <option value="$PROJECT_DIR$/mvc/vista/terminos.php" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/mvc/vista/login.php" />
+        <option value="$PROJECT_DIR$/js/jquery.login.js" />
       </list>
     </option>
   </component>
@@ -469,12 +472,12 @@
       <workItem from="1495976213559" duration="9887000" />
       <workItem from="1495996619588" duration="385000" />
       <workItem from="1495997509426" duration="14649000" />
-      <workItem from="1496264400313" duration="29000" />
+      <workItem from="1496264400313" duration="420000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="185335000" />
+    <option name="totallyTimeSpent" value="185726000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1378" height="735" extended-state="0" />
@@ -515,7 +518,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/include.php" />
     <entry file="file://$PROJECT_DIR$/mvc/modelo/form/Home/mdlMenu.php" />
     <entry file="file://$PROJECT_DIR$/mvc/vista/menu.php" />
     <entry file="file://$PROJECT_DIR$/js/contacto.js" />
@@ -696,14 +698,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mvc/vista/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1132">
-          <caret line="181" column="12" selection-start-line="181" selection-start-column="12" selection-end-line="181" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mvc/vista/contact.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="520">
@@ -807,27 +801,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mvc/vista/register.php">
+    <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4879">
-          <caret line="287" column="85" selection-start-line="287" selection-start-column="85" selection-end-line="287" selection-end-column="85" />
+        <state relative-caret-position="187">
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mvc/vista/terminos.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4080">
+        <state relative-caret-position="459">
           <caret line="240" column="0" selection-start-line="240" selection-start-column="0" selection-end-line="240" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
+    <entry file="file://$PROJECT_DIR$/mvc/vista/register.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        <state relative-caret-position="373">
+          <caret line="293" column="16" selection-start-line="293" selection-start-column="16" selection-end-line="293" selection-end-column="75" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/vista/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="601">
+          <caret line="160" column="66" selection-start-line="160" selection-start-column="66" selection-end-line="160" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery.login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
