@@ -41,6 +41,33 @@ class ContactParser {
                         $required_fields = substr($required_fields, 0, -2);
                         $str .= "<p class='has-error'>El/Los campo(s) $required_fields son obligatorios</p>";
                     }
+                    break;
+                case "login":
+                    $str="<li><a href='?pagina=login'><i class='fa fa-user'
+							aria-hidden='true'></i>Login</a></li>";
+                    $str.="<li><a href='?pagina=register'><i class='fa fa-user'
+							aria-hidden='true'></i>Registro</a></li>";
+                    switch($_SESSION['info'])
+                    {
+                        case "registed":
+                            $usuario=$_SESSION['usuarios'];
+                            $str="<li><a href='?pagina=user'><i class='fa fa-user'
+							aria-hidden='true'></i>Bienvenido: $usuario</a></li>";
+                            $str.="<li><a href='?pagina=home&cerrar='true''><i class='fa fa-arrow-right'
+							aria-hidden='true'></i>Cerrar Sesión</a></li>";
+                            Session::del($_SESSION['info']);
+                            break;
+                        case "noRegisted":
+                            $str="No registrado";
+                            Session::del($_SESSION['info']);
+                            break;
+                        case "logged":
+                            $str="<li><a href='?pagina=home&cerrar='true''><i class='fa fa-user'
+							aria-hidden='true'></i>Cerrar Sesión</a></li>";
+                            Session::del($_SESSION['info']);
+                            break;
+                    }
+                    break;
 
             }
             $vista = str_replace('{{' . $tag . '}}', $str, $vista);

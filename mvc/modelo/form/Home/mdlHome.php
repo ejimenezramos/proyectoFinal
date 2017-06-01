@@ -25,15 +25,22 @@ class mdlHome extends Padre {
                 redirectTo('index.php?pagina=listado');
             }
         }
+
     }
+
 
     public function onCargarVista($path) {
         if (getGet('pagina') != self::PAGE)
             return;
+        if(isset($_GET['cerrar']))
+        {
+            session_destroy();
+        }
         ob_start();
         include $path;
         $vista = ob_get_contents();
         ob_end_clean();
+
         echo HomeParser::loadContent($vista);
     }
 
