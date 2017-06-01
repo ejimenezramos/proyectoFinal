@@ -57,6 +57,28 @@ class HomeParser {
 						$str .= "<p class='has-warning'>El/Los campo(s) $warning_fields tienen errores de formato.</p>";
 					}
 					break;
+                case "login":
+                    $str="Login";
+                    switch($_SESSION['info'])
+                    {
+                        case "registed":
+                            $str="Bienvenido".$_SESSION['usuarios'];
+                            Session::del($_SESSION['info']);
+                            break;
+                        case "noRegisted":
+                            $str="No registrado";
+                            Session::del($_SESSION['info']);
+                            break;
+                    }
+                    //if($_SESSION['info']=="registed")
+                    //{
+                    //    $str.="Binvenido".$_SESSION['usuario'];
+                    //}
+                    //else
+                    //{
+                    //    $str.="Login";
+                    //}
+                    break;
 			}
 			$vista = str_replace('{{' . $tag . '}}', $str, $vista);
 		}

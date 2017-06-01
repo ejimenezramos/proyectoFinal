@@ -2667,16 +2667,16 @@ a.at-in {
     margin-top: 0px;
     margin-right: 0px;
     margin-bottom: 0px;
-    background-color: #FAB005;
+    background-color: #117A65;
     background-image: none;
-    border: 1px solid #FAB005;
+    border: 1px solid #117A65;
     border-radius: 0px;
 }
 .navbar-default .navbar-toggle .icon-bar {
     background-color: #FFF;
 }
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-    background-color: #FAB005;
+    background-color: #117A65;
 }
 nav.navbar.navbar-default {
     float: left;
@@ -2713,7 +2713,7 @@ ul.multi-column-dropdown {
     opacity: 1;
 }
 .navbar-default .navbar-toggle {
-    border-color: #FAB005;
+    border-color: #117A65;
 }
 .navbar-nav {
     margin: 1em 0 0;

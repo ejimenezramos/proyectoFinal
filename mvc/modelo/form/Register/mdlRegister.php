@@ -54,11 +54,11 @@ class mdlRegister extends padre  {
                 $datos = Usuarios::insertDB ( $data );
                 if ($datos) {
                     $_SESSION ['info'] = 'registed';
+                    $_SESSION['usuarios']=$usuario;
                 } else
                     $_SESSION ['info'] = 'noRegisted';
                 // Cambiamos el paso
                 redirectTo ( 'index.php?pagina=home' );
-                Session::del('info');
             }
         }
     }

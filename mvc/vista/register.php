@@ -28,7 +28,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <link href="css/footer.css" rel='stylesheet' type='text/css' />
     <!-- js -->
     <script src="js/jquery-1.11.1.min.js"></script>
-    <script type='text/javascript' src="js/jquery.registro.js"></script>
+    <script type='text/javascript' src="js/valRegistro.js"></script>
     <script src="js/jquery.peticionesAJAX.js"></script>
     <!-- //js -->
     <!-- start-smoth-scrolling -->
@@ -151,7 +151,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <div class="main-agileits">
         <div class="form-w3agile form1">
             <h3>Registro</h3>
-            <form action="#" method="post" id="registro">
+            <form action="index.php?pagina=register" method="post" id="registro">
                 <div class="key">
                     <i class="fa fa-user" aria-hidden="true"></i>
                     <input type="text" placeholder="Nombre" name="Nombre" id="nombre" maxlength="20"
