@@ -4,7 +4,7 @@ class Usuarios {
 		$database = medoo::getInstance ();
 		$database->openConnection ( unserialize ( MYSQL_CONFIG ) );
 		$datos = $database->select ( 'usuarios', 'Password', [ 
-				"Nombre[=]" => $usuario 
+				"Usuario[=]" => $usuario 
 		] );
 		$database->closeConnection ();
 		if ($datos)
@@ -24,7 +24,7 @@ class Usuarios {
 		$database = medoo::getInstance ();
 		$database->openConnection ( unserialize ( MYSQL_CONFIG ) );
 		$datos = ($database->count ( 'usuarios', [ 
-				'usuario' => $usuario 
+				'Usuario' => $usuario 
 		] ) > 0) ? true : false;
 		$database->closeConnection ();
 		return $datos;
@@ -34,7 +34,7 @@ class Usuarios {
 		$database = medoo::getInstance ();
 		$database->openConnection ( unserialize ( MYSQL_CONFIG ) );
 		$datos = ($database->count ( 'usuarios', [ 
-				'email' => $email 
+				'Email' => $email 
 		] ) > 0) ? true : false;
 		$database->closeConnection ();
 	}

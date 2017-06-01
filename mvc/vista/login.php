@@ -148,15 +148,15 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 					<form action="index.php?pagina=login" method="post" >
 						<div class="key">
 							<i class="fa fa-user" aria-hidden="true"></i>
-							<input  type="text" placeholder="Usuario" name="usuario" id="usuario" oninvalid="setCustomValidity('Este campo es obligatorio')" value='<?php echo $val->restoreValue('usuario'); ?>'>
-							 <span>{{war-usuario}}</span>
+							<input  type="text" placeholder="Usuario" name="Usuario" id="usuario" oninvalid="setCustomValidity('Este campo es obligatorio')" value='<?php echo $val->restoreValue('usuario'); ?>'>
+							 <span>{{war-Usuario}}</span>
 							<div class="clearfix"></div>
 						</div>
 						<div class="has-warning"><p id="errorusuario"></p></div>
 						<div class="key">
 							<i class="fa fa-lock" aria-hidden="true"></i>
-							<input  type="password" placeholder="Password" name="clave" id="clave"  oninvalid="setCustomValidity('Este campo es obligatorio')" value='<?php echo $val->restoreValue('clave'); ?>' >
-							<span>{{war-clave}}</span>
+							<input  type="password" placeholder="Password" name="Password" id="clave"  oninvalid="setCustomValidity('Este campo es obligatorio')" value='<?php echo $val->restoreValue('clave'); ?>' >
+							<span>{{war-Password}}</span>
 							<div class="clearfix"></div>
 						</div>
 						<div class="has-warning"><p id="errorpassword"></p></div>

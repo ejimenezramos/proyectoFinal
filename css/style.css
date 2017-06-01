@@ -1922,7 +1922,7 @@ a#myTabDrop1 {
 	padding:6em 0;
 }
 .main-agileits {
-    width: 30%;
+    width: 50%;
     margin: 0em auto ;
 	box-shadow: 0px 0px 15px 0px #D6D6D6;
 	-o-box-shadow: 0px 0px 15px 0px #D6D6D6;
@@ -2422,12 +2422,12 @@ span.last {
 /*--responsive--*/
 @media(max-width:1440px){
 .main-agileits {
-    width: 35%;
+    width: 50%;
 }
 }
 @media(max-width:1280px){
 .main-agileits {
-    width: 38%;
+    width: 50%;
 }
 }
 @media(max-width:1080px){
