@@ -3,15 +3,13 @@
 
 class LoginParser
 {
-    public static function loadContent($vista)
-    {
+    public static function loadContent($vista){
         $val = Validacion::getInstance();
         $vista = self::pasoSiguiente($vista);
         return $vista;
     }
 
-    public static function pasoSiguiente($vista)
-    {
+    public static function pasoSiguiente($vista){
         $val = Validacion::getInstance();
         $required_fields = '';
         $warning_fields = '';
@@ -45,6 +43,10 @@ class LoginParser
                     if (strlen($required_fields) > 0) {
                         $required_fields = substr($required_fields, 0, -2);
                         $str .= "<p class='has-error'>El/Los campo(s) $required_fields son obligatorios</p>";
+                    }
+                    if (strlen($warning_fields) > 0) {
+                        $warning_fields = substr($warning_fields, 0, -2);
+                        $str .= "<p class='has-warning'>El/Los campo(s) $warning_fields tienen errores de formato.</p>";
                     }
 
             }

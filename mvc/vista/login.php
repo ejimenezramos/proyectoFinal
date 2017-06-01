@@ -1,3 +1,4 @@
+<?php $val = Validacion::getInstance(); ?>
 <!--
 Author: W3layouts
 Author URL: http://w3layouts.com
@@ -144,20 +145,22 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 		<div class="main-agileits">
 				<div class="form-w3agile">
 					<h3>Login</h3>
-					<form action="#" method="post" id="login">
+					<form action="index.php?pagina=login" method="post" >
 						<div class="key">
 							<i class="fa fa-user" aria-hidden="true"></i>
-							<input  type="text" placeholder="Usuario" name="usuario" id="usuario" oninvalid="setCustomValidity('Este campo es obligatorio')">
+							<input  type="text" placeholder="Usuario" name="usuario" id="usuario" oninvalid="setCustomValidity('Este campo es obligatorio')" value='<?php echo $val->restoreValue('usuario'); ?>'>
+							 <span>{{war-usuario}}</span>
 							<div class="clearfix"></div>
 						</div>
 						<div class="has-warning"><p id="errorusuario"></p></div>
 						<div class="key">
 							<i class="fa fa-lock" aria-hidden="true"></i>
-							<input  type="password" placeholder="Password" name="password" id="password"  oninvalid="setCustomValidity('Este campo es obligatorio')" >
+							<input  type="password" placeholder="Password" name="clave" id="clave"  oninvalid="setCustomValidity('Este campo es obligatorio')" value='<?php echo $val->restoreValue('clave'); ?>' >
+							<span>{{war-clave}}</span>
 							<div class="clearfix"></div>
 						</div>
 						<div class="has-warning"><p id="errorpassword"></p></div>
-						<input type="submit" value="Login" id="loguear">
+						<input type="submit" value="Login" name="login" id="loguear">
 						<div class="has-warning"><p id="errorlogin"></p></div>
 					</form>
 				</div>
