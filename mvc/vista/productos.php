@@ -765,7 +765,6 @@ function hideURLbar(){ window.scrollTo(0,1); }
 
 
 
-
 	<!-- product -->
 	<div class="modal fade" id="myModal1" tabindex="-1" role="dialog"
 		aria-labelledby="myModalLabel">
@@ -786,13 +785,12 @@ function hideURLbar(){ window.scrollTo(0,1); }
 					<div class="col-md-7 span-1 ">
 						<h3>Cheerios</h3>
 						<div class="price_single">
-							<span class="reducedfrom "><del>4.00€</del>-->3.00€</span>
+							<span class="reducedfrom ">3.00&euro;</span>
 
 							<div class="clearfix"></div>
 						</div>
-						<h4 class="quick">Descripción:</h4>
-						<p class="quick_desc">Disfruta de uno de nuestros deliciosos
-							cereales con sabor a cacahuete y miel.</p>
+						<h4 class="quick">Descripci&oacute;n del producto</h4>
+						<p class="quick_desc">Disfruta de uno de nuestros deliciosos cereales con sabor a cacahuete y miel.</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-btn1 "
 								data-id="24" data-name="Cheerios" data-summary="summary 24"
@@ -825,16 +823,15 @@ function hideURLbar(){ window.scrollTo(0,1); }
 					<div class="col-md-7 span-1 ">
 						<h3>Reese´s Puffs</h3>
 						<div class="price_single">
-							<span class="reducedfrom "><del>5.00€</del>-->4.50€</span>
+							<span class="reducedfrom ">4.50&euro;</span>
 
 							<div class="clearfix"></div>
 						</div>
-						<h4 class="quick">Descripción:</h4>
-						<p class="quick_desc">Nuestras deliciosas bocanadas de maíz,
-							dulces y crujientes con mantequilla de cacahuete</p>
+						<h4 class="quick">Descripci&oacute;n del producto</h4>
+						<p class="quick_desc">Nuestras deliciosas bocanadas de ma�z, dulces y crujientes con mantequilla de cacahuete</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-btn1 "
-								data-id="25" data-name="Peach Halves" data-summary="summary 25"
+								data-id="25" data-name="Reese´s Puffs" data-summary="summary 25"
 								data-price="4.50" data-quantity="1"
 								data-image="images/boxreeses.png">Add to Cart</button>
 						</div>
@@ -864,16 +861,16 @@ function hideURLbar(){ window.scrollTo(0,1); }
 					<div class="col-md-7 span-1 ">
 						<h3>Cinnamon Crunch</h3>
 						<div class="price_single">
-							<span class="reducedfrom "><del>4.00€</del>-->3.50€</span>
+							<span class="reducedfrom ">3.50&euro;</span>
 
 							<div class="clearfix"></div>
 						</div>
-						<h4 class="quick">Descripción:</h4>
+						<h4 class="quick">Descripci&oacute;n del producto</h4>
 						<p class="quick_desc">Sabrosos cereales de maíz tostado con sabor
 							a canela</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-btn1 "
-								data-id="26" data-name="Banana" data-summary="summary 26"
+								data-id="26" data-name="Cinnamon Crunch" data-summary="summary 26"
 								data-price="3.50" data-quantity="1"
 								data-image="images/boxcinnamon.png">Add to Cart</button>
 						</div>
@@ -903,16 +900,16 @@ function hideURLbar(){ window.scrollTo(0,1); }
 					<div class="col-md-7 span-1 ">
 						<h3>Froot Loops</h3>
 						<div class="price_single">
-							<span class="reducedfrom "><del>3.50€</del>-->3.20€</span>
+							<span class="reducedfrom ">3.20&euro;</span>
 
 							<div class="clearfix"></div>
 						</div>
-						<h4 class="quick">Descripción:</h4>
+						<h4 class="quick">Descripci&oacute;n del producto</h4>
 						<p class="quick_desc">Deliciosos aros de cereales que colorearán
 							tu día</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-btn1 "
-								data-id="27" data-name="Rice" data-summary="summary 27"
+								data-id="27" data-name="Froot Loops" data-summary="summary 27"
 								data-price="3.20" data-quantity="1"
 								data-image="images/boxfroot.png">Add to Cart</button>
 						</div>
@@ -942,17 +939,17 @@ function hideURLbar(){ window.scrollTo(0,1); }
 					<div class="col-md-7 span-1 ">
 						<h3>Lucky Charms</h3>
 						<div class="price_single">
-							<span class="reducedfrom "><del>5.00€</del>-->4.00€</span>
+							<span class="reducedfrom ">4.75&euro;</span>
 
 							<div class="clearfix"></div>
 						</div>
-						<h4 class="quick">Descripción:</h4>
+						<h4 class="quick">Descripci&oacute;n del producto</h4>
 						<p class="quick_desc">Saborea unos estupendos cereales de colores
 							y descubre la magia de sus cinco nuevos amuletos de diamantes.</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-btn1 "
 								data-id="28" data-name="Lucky Charms" data-summary="summary 28"
-								data-price="4.00" data-quantity="1"
+								data-price="4.75" data-quantity="1"
 								data-image="images/boxlucky.png">Add to Cart</button>
 						</div>
 					</div>
@@ -981,16 +978,16 @@ function hideURLbar(){ window.scrollTo(0,1); }
 					<div class="col-md-7 span-1 ">
 						<h3>Trix</h3>
 						<div class="price_single">
-							<span class="reducedfrom "><del>5.00€</del>-->4.50€</span>
+							<span class="reducedfrom ">4.50&euro;</span>
 
 							<div class="clearfix"></div>
 						</div>
-						<h4 class="quick">Descripción:</h4>
+						<h4 class="quick">Descripci&oacute;n del producto</h4>
 						<p class="quick_desc">Deliciosos cereales que daran alegría a tu
 							día</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-btn1 "
-								data-id="29" data-name="Biscuits" data-summary="summary 29"
+								data-id="29" data-name="Trix" data-summary="summary 29"
 								data-price="4.50" data-quantity="1"
 								data-image="images/boxtrix.png">Add to Cart</button>
 						</div>
@@ -1020,16 +1017,16 @@ function hideURLbar(){ window.scrollTo(0,1); }
 					<div class="col-md-7 span-1 ">
 						<h3>Cocoa Puffs</h3>
 						<div class="price_single">
-							<span class="reducedfrom "><del>4.00€</del>-->3.50€</span>
+							<span class="reducedfrom ">3.50&euro;</span>
 
 							<div class="clearfix"></div>
 						</div>
-						<h4 class="quick">Descripción:</h4>
+						<h4 class="quick">Descripci&oacute;n del producto</h4>
 						<p class="quick_desc">Deliciosos cereales de chocolate que
 							chocolatearán tu leche</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-btn1 "
-								data-id="30" data-name="Nuts" data-summary="summary 30"
+								data-id="30" data-name="Cocoa Puffs" data-summary="summary 30"
 								data-price="3.50" data-quantity="1"
 								data-image="images/boxcocoa.png">Add to Cart</button>
 						</div>
@@ -1059,15 +1056,15 @@ function hideURLbar(){ window.scrollTo(0,1); }
 					<div class="col-md-7 span-1 ">
 						<h3>Leche Azul</h3>
 						<div class="price_single">
-							<span class="reducedfrom "><del>1.00€</del>-->0.80€</span>
+							<span class="reducedfrom ">0.80&euro;</span>
 
 							<div class="clearfix"></div>
 						</div>
-						<h4 class="quick">Descripción:</h4>
-						<p class="quick_desc">Deliciosa leche de color azul</p>
+						<h4 class="quick">Descripci&oacute;n del producto</h4>
+						<p class="quick_desc">Leche UHT Asturiana con colorante azul</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-btn1 "
-								data-id="31" data-name="Rice" data-summary="summary 31"
+								data-id="31" data-name="Leche Azul" data-summary="summary 31"
 								data-price="0.80" data-quantity="1"
 								data-image="images/milkblue.png">Add to Cart</button>
 						</div>
@@ -1097,18 +1094,16 @@ function hideURLbar(){ window.scrollTo(0,1); }
 					<div class="col-md-7 span-1 ">
 						<h3>Leche Rosa</h3>
 						<div class="price_single">
-							<span class="reducedfrom "><del>1.00€</del>-->0.80€</span>
+							<span class="reducedfrom ">0.80&euro;</span>
 
 							<div class="clearfix"></div>
 						</div>
-						<h4 class="quick">Quick Overview:</h4>
-						<p class="quick_desc">Nam liber tempor cum soluta nobis eleifend
-							option congue nihil imperdiet doming id quod mazim placerat facer
-							possim assum. Typi non habent claritatem insitam; es</p>
+						<h4 class="quick">Descripci&oacute;n del producto</h4>
+						<p class="quick_desc">Leche UHT Asturiana con colorante rosa</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-btn1 "
-								data-id="32" data-name="Noodles" data-summary="summary 32"
-								data-price="1.50" data-quantity="1" data-image="images/of32.png">Add
+								data-id="32" data-name="Leche Rosa" data-summary="summary 32"
+								data-price="0.80" data-quantity="1" data-image="images/milkpink.png">Add
 								to Cart</button>
 						</div>
 					</div>
@@ -1136,22 +1131,17 @@ function hideURLbar(){ window.scrollTo(0,1); }
 					</div>
 					<div class="col-md-7 span-1 ">
 						<h3>Leche Verde</h3>
-
-						<p class="in-para">There are many variations of passages of Lorem
-							Ipsum.</p>
 						<div class="price_single">
-							<span class="reducedfrom "><del>$1.00</del>$0.70</span>
+							<span class="reducedfrom ">0.80&euro;</span>
 
 							<div class="clearfix"></div>
 						</div>
-						<h4 class="quick">Quick Overview:</h4>
-						<p class="quick_desc">Nam liber tempor cum soluta nobis eleifend
-							option congue nihil imperdiet doming id quod mazim placerat facer
-							possim assum. Typi non habent claritatem insitam; es</p>
+						<h4 class="quick">Descripci&oacute;n del producto</h4>
+						<p class="quick_desc">Leche UHT Asturiana con colorante verde</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-btn1 "
-								data-id="33" data-name="Seafood" data-summary="summary 33"
-								data-price="0.70" data-quantity="1" data-image="images/of33.png">Add
+								data-id="33" data-name="Leche Verde" data-summary="summary 33"
+								data-price="0.80" data-quantity="1" data-image="images/milkgreen.png">Add
 								to Cart</button>
 						</div>
 					</div>
@@ -1179,22 +1169,16 @@ function hideURLbar(){ window.scrollTo(0,1); }
 					</div>
 					<div class="col-md-7 span-1 ">
 						<h3>Leche de Vainilla</h3>
-
-						<p class="in-para">There are many variations of passages of Lorem
-							Ipsum.</p>
 						<div class="price_single">
-							<span class="reducedfrom "><del>$2.00</del>$1.00</span>
-
+							<span class="reducedfrom ">0.90&euro;</span>
 							<div class="clearfix"></div>
 						</div>
-						<h4 class="quick">Quick Overview:</h4>
-						<p class="quick_desc">Nam liber tempor cum soluta nobis eleifend
-							option congue nihil imperdiet doming id quod mazim placerat facer
-							possim assum. Typi non habent claritatem insitam; es</p>
+						<h4 class="quick">Descripci&oacute;n del producto</h4>
+						<p class="quick_desc">Leche UHT Asturiana con estracto de vainilla</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-btn1 "
-								data-id="34" data-name="Oats Idli" data-summary="summary 34"
-								data-price="1.00" data-quantity="1" data-image="images/of34.png">Add
+								data-id="34" data-name="Leche de Vainilla" data-summary="summary 34"
+								data-price="0.90" data-quantity="1" data-image="images/milkvainilla.png">Add
 								to Cart</button>
 						</div>
 					</div>
@@ -1222,21 +1206,16 @@ function hideURLbar(){ window.scrollTo(0,1); }
 					</div>
 					<div class="col-md-7 span-1 ">
 						<h3>Leche de Avena y soja</h3>
-						<p class="in-para">There are many variations of passages of Lorem
-							Ipsum.</p>
 						<div class="price_single">
-							<span class="reducedfrom "><del>$4.00</del>$3.50</span>
-
+							<span class="reducedfrom ">1.20&euro;</span>
 							<div class="clearfix"></div>
 						</div>
-						<h4 class="quick">Quick Overview:</h4>
-						<p class="quick_desc">Nam liber tempor cum soluta nobis eleifend
-							option congue nihil imperdiet doming id quod mazim placerat facer
-							possim assum. Typi non habent claritatem insitam; es</p>
+						<h4 class="quick">Descripci&oacute;n del producto</h4>
+						<p class="quick_desc">Leche de Soja con estractos de almendra</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-btn1 "
-								data-id="35" data-name="product 35" data-summary="summary 35"
-								data-price="3.50" data-quantity="1" data-image="images/of35.png">Add
+								data-id="35" data-name="Leche de Avena y soja" data-summary="summary 35"
+								data-price="1.20" data-quantity="1" data-image="images/milksojaalmond.png">Add
 								to Cart</button>
 						</div>
 					</div>
@@ -1264,21 +1243,16 @@ function hideURLbar(){ window.scrollTo(0,1); }
 					</div>
 					<div class="col-md-7 span-1 ">
 						<h3>Kinder Bueno</h3>
-						<p class="in-para">There are many variations of passages of Lorem
-							Ipsum.</p>
 						<div class="price_single">
-							<span class="reducedfrom "><del>$4.00</del>$3.50</span>
-
+							<span class="reducedfrom"><del>1.80&euro;</span>
 							<div class="clearfix"></div>
 						</div>
-						<h4 class="quick">Quick Overview:</h4>
-						<p class="quick_desc">Nam liber tempor cum soluta nobis eleifend
-							option congue nihil imperdiet doming id quod mazim placerat facer
-							possim assum. Typi non habent claritatem insitam; es</p>
+						<h4 class="quick">Descripci&oacute;n del producto</h4>
+						<p class="quick_desc">Paquete con unidades peque&ntilde;as de kinder bueno</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-btn1 "
-								data-id="35" data-name="product 35" data-summary="summary 35"
-								data-price="3.50" data-quantity="1" data-image="images/of35.png">Add
+								data-id="36" data-name="Kinder Bueno" data-summary="summary 36"
+								data-price="1.80" data-quantity="1" data-image="images/packkinder.png">Add
 								to Cart</button>
 						</div>
 					</div>
@@ -1307,21 +1281,16 @@ function hideURLbar(){ window.scrollTo(0,1); }
 					</div>
 					<div class="col-md-7 span-1 ">
 						<h3>Chips Ahoy</h3>
-						<p class="in-para">There are many variations of passages of Lorem
-							Ipsum.</p>
 						<div class="price_single">
-							<span class="reducedfrom "><del>$4.00</del>$3.50</span>
-
+							<span class="reducedfrom"><del>1.80&euro;</span>
 							<div class="clearfix"></div>
 						</div>
-						<h4 class="quick">Quick Overview:</h4>
-						<p class="quick_desc">Nam liber tempor cum soluta nobis eleifend
-							option congue nihil imperdiet doming id quod mazim placerat facer
-							possim assum. Typi non habent claritatem insitam; es</p>
+						<h4 class="quick">Descripci&oacute;n del producto</h4>
+						<p class="quick_desc">Paquete con unidades peque&ntilde;as de chips ahoy!</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-btn1 "
-								data-id="35" data-name="product 35" data-summary="summary 35"
-								data-price="3.50" data-quantity="1" data-image="images/of35.png">Add
+								data-id="37" data-name="Chips Ahoy" data-summary="summary 37"
+								data-price="1.80" data-quantity="1" data-image="images/packchips.png">Add
 								to Cart</button>
 						</div>
 					</div>
@@ -1350,21 +1319,16 @@ function hideURLbar(){ window.scrollTo(0,1); }
 					</div>
 					<div class="col-md-7 span-1 ">
 						<h3>Kinder Schoko-Bons</h3>
-						<p class="in-para">There are many variations of passages of Lorem
-							Ipsum.</p>
 						<div class="price_single">
-							<span class="reducedfrom "><del>$4.00</del>$3.50</span>
-
+							<span class="reducedfrom "><del>1.80&euro;</span>
 							<div class="clearfix"></div>
 						</div>
-						<h4 class="quick">Quick Overview:</h4>
-						<p class="quick_desc">Nam liber tempor cum soluta nobis eleifend
-							option congue nihil imperdiet doming id quod mazim placerat facer
-							possim assum. Typi non habent claritatem insitam; es</p>
+						<h4 class="quick">Descripci&oacute;n del producto</h4>
+						<p class="quick_desc">Paquete con unidades peque&ntilde;as de Schoko-bons</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-btn1 "
-								data-id="35" data-name="product 35" data-summary="summary 35"
-								data-price="3.50" data-quantity="1" data-image="images/of35.png">Add
+								data-id="38" data-name="Kinder Schoko-Bons" data-summary="summary 38"
+								data-price="1.80" data-quantity="1" data-image="images/of35.png">Add
 								to Cart</button>
 						</div>
 					</div>
@@ -1393,21 +1357,17 @@ function hideURLbar(){ window.scrollTo(0,1); }
 					</div>
 					<div class="col-md-7 span-1 ">
 						<h3>Oreo</h3>
-						<p class="in-para">There are many variations of passages of Lorem
-							Ipsum.</p>
 						<div class="price_single">
-							<span class="reducedfrom "><del>$4.00</del>$3.50</span>
+							<span class="reducedfrom ">1.80&euro;</span>
 
 							<div class="clearfix"></div>
 						</div>
-						<h4 class="quick">Quick Overview:</h4>
-						<p class="quick_desc">Nam liber tempor cum soluta nobis eleifend
-							option congue nihil imperdiet doming id quod mazim placerat facer
-							possim assum. Typi non habent claritatem insitam; es</p>
+						<h4 class="quick">Descripci&oacute;n del producto</h4>
+						<p class="quick_desc">Paquete con unidades peque&ntilde;as de oreos</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-btn1 "
-								data-id="35" data-name="product 35" data-summary="summary 35"
-								data-price="3.50" data-quantity="1" data-image="images/of35.png">Add
+								data-id="39" data-name="Oreo" data-summary="summary 39"
+								data-price="1.80" data-quantity="1" data-image="images/packoreo.png">Add
 								to Cart</button>
 						</div>
 					</div>
@@ -1435,21 +1395,16 @@ function hideURLbar(){ window.scrollTo(0,1); }
 					</div>
 					<div class="col-md-7 span-1 ">
 						<h3>Conguitos</h3>
-						<p class="in-para">There are many variations of passages of Lorem
-							Ipsum.</p>
 						<div class="price_single">
-							<span class="reducedfrom "><del>$4.00</del>$3.50</span>
-
+							<span class="reducedfrom ">1.80&euro;</span>
 							<div class="clearfix"></div>
 						</div>
-						<h4 class="quick">Quick Overview:</h4>
-						<p class="quick_desc">Nam liber tempor cum soluta nobis eleifend
-							option congue nihil imperdiet doming id quod mazim placerat facer
-							possim assum. Typi non habent claritatem insitam; es</p>
+						<h4 class="quick">Descripci&oacute;n del producto:</h4>
+						<p class="quick_desc">Paquete con unidades peque&ntilde;as de conguitos</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-btn1 "
-								data-id="35" data-name="product 35" data-summary="summary 35"
-								data-price="3.50" data-quantity="1" data-image="images/of35.png">Add
+								data-id="40" data-name="Conguitos" data-summary="summary 40"
+								data-price="1.80" data-quantity="1" data-image="images/packconguitos.png">Add
 								to Cart</button>
 						</div>
 					</div>
