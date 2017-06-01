@@ -159,9 +159,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 		</div>
 	</div>
 
-
 	<!--PABLO: Nuevo slider con javascript-->
-
 
 	<div class="w3-content w3-section" style="max-width: 100%">
 		<img class="mySlides" src="images/cereal1.jpg"
