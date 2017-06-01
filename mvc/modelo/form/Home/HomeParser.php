@@ -62,7 +62,7 @@ class HomeParser {
                     switch($_SESSION['info'])
                     {
                         case "registed":
-                            $str="Bienvenido".$_SESSION['usuarios'];
+                            $str="Bienvenido: ".$_SESSION['usuarios'];
                             Session::del($_SESSION['info']);
                             break;
                         case "noRegisted":
@@ -70,14 +70,6 @@ class HomeParser {
                             Session::del($_SESSION['info']);
                             break;
                     }
-                    //if($_SESSION['info']=="registed")
-                    //{
-                    //    $str.="Binvenido".$_SESSION['usuario'];
-                    //}
-                    //else
-                    //{
-                    //    $str.="Login";
-                    //}
                     break;
 			}
 			$vista = str_replace('{{' . $tag . '}}', $str, $vista);
