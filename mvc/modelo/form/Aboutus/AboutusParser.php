@@ -25,12 +25,10 @@ class AboutusParser
                             case "registed":
                                 $usuario = $_SESSION['usuarios'];
                                 $str = "<li><a href='?pagina=user'><i class='fa fa-user'
-							aria-hidden='true'></i>Bienvenido: $usuario</a></li>";
-                                $str .= "<li><a href='?pagina=home&cerrar=true'><i class='fa fa-arrow-right'
-							aria-hidden='true'></i>Cerrar Sesi?n</a></li>";
-                                $str .= "<li><a href='?pagina=user'><i class='fa fa-user'
-							aria-hidden='true'></i>Mi cuenta</a></li>";
+							aria-hidden='true'></i>Mi cuenta: $usuario</a></li>";
                                 Session::del($_SESSION['info']);
+                                $str .= "<li><a href='?pagina=home&cerrar=true'><i class='fa fa-arrow-right'
+							aria-hidden='true'></i>Cerrar SesiÃ³n</a></li>";
                                 break;
                             case "noRegisted":
                                 $str = "No registrado";
@@ -41,7 +39,7 @@ class AboutusParser
                                 $str = "<li><a href='?pagina=user'><i class='fa fa-user'
 							aria-hidden='true'></i>Bienvenido: $usuario</a></li>";
                                 $str .= "<li><a href='?pagina=home&cerrar=true'><i class='fa fa-arrow-right'
-							aria-hidden='true'></i>Cerrar Sesión</a></li>";
+							aria-hidden='true'></i>Cerrar Sesiï¿½n</a></li>";
                                 $str .= "<li><a href='?pagina=user'><i class='fa fa-user'
 							aria-hidden='true'></i>Mi cuenta</a></li>";
                                 Session::del($_SESSION['info']);

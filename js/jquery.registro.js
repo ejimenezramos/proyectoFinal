@@ -11,7 +11,10 @@ var patdni = new RegExp("^[XYZxyz]?[\\-\\s]?\\d{5,8}[\-\\s]?[A-Za-z]$");
 var patdir = new RegExp("^([A-Za-z]+\\,?\\s?)+\\d*$");
 var patcp = new RegExp("^\\d{5}$");
 var patfecha = new RegExp("^\\d{2}[/|-]\\d{2}[/|-]\\d{4}$");
-var totalcamposerroneos=0;
+var totalcamposerroneos = 0;
+var camposInvalidos = [];
+var contInvalid = 0;
+var camposBlanco = [];
 /***************VALIDACIONES SUBMIT REGISTRO****************/
 
 $(document).ready(function () {
@@ -24,7 +27,7 @@ $(document).ready(function () {
 /*FUNCIÓN COMPROBAR BLANCOS: Comprueba si hay campos en blanco en el formulario y devuelve true or false para validar o invalidar el submit*/
 function comprobarBlancos() {
     var inputs = $("#registro").find("input");
-    var camposBlanco = [];
+
     var errorCampos;
     var cont = 0;
 
@@ -39,9 +42,9 @@ function comprobarBlancos() {
 
         errorCampos = camposBlanco.join();
         $("#errorsubmit").html('Por favor rellena el/los campos: ');
-        var aux=errorCampos.replace("fechanac", "fecha de nacimiento");
-         var aux2=aux.replace("cp","código postal");
-        var errores=aux2.replace("password2","confirmación password");
+        var aux = errorCampos.replace("fechanac", "fecha de nacimiento");
+        var aux2 = aux.replace("cp", "código postal");
+        var errores = aux2.replace("password2", "confirmación password");
 
         $("#errorsubmit").append(errores);
 
@@ -64,14 +67,27 @@ function comprobarBlancos() {
 function comprobarValidacion() {
 
     var inputs = $("#registro").find("input");
-    var camposInvalidos = [];
-    var contInvalid = 0;
 
+    contInvalid = 0;
+    $("#errorvalidacion").html('');
+    $("#errorvalidacion").css('opacity', '1');
     for (var i = 0; i < inputs.length; i++) {
         var id = inputs[i].id;
-        $("#errorvalidacion").fadeTo(1000, 1);
+        $("#error" + id).css('opacity', '1');
+
         switch (id) {
             case "nombre":
+                if (patnombre.test(inputs[i].value) == false) {
+                    inputs[i].value = "";
+                    camposInvalidos[i] = inputs[i].id;
+                    $("#error" + id).html("*El campo " + id + " tiene un error de formato, no admite dígitos ni caracteres especiales");
+                    contInvalid++;
+                }
+
+                else {
+                    $("#error" + id).html("");
+                }
+                break;
             case "apellidos":
                 if (patnombre.test(inputs[i].value) == false) {
                     inputs[i].value = "";
@@ -286,16 +302,20 @@ function comprobarValidacion() {
         }
 
     }
-    totalcamposerroneos=contInvalid;
+
+    totalcamposerroneos = contInvalid;
+
     if (contInvalid > 0) {
-        if(camposInvalidos[0].value==""){
-            camposInvalidos.splice(0,1);
+
+        for (a = 0; a <= camposInvalidos.length; a++) {
+            if (camposInvalidos[a] == undefined) {
+                camposInvalidos.splice(a, 1);
+            }
         }
         camposJoin = camposInvalidos.join();
-alert(camposJoin);
-        var aux=camposJoin.replace("fechanac", "fecha de nacimiento");
-        var aux2=aux.replace("cp","código Postal");
-        var errores=aux2.replace("password2","confirmación password");
+        var aux = camposJoin.replace("fechanac", "fecha de nacimiento");
+        var aux2 = aux.replace("cp", "código Postal");
+        var errores = aux2.replace("password2", "confirmación password");
         $("#errorvalidacion").html("Revisa los campos: " + errores + ' tienen errores de formato');
         $("#errorvalidacion").fadeTo(15000, 0);
         $("#condiciones").removeAttr('checked');
@@ -317,20 +337,22 @@ alert(camposJoin);
 /*FUNCIÓN QUE LLAMA EN EL ONCHANGE DE LOS CAMPOS DEL FORMULARIO A LA FUNCIÓN eliminarErrores(), PARA SETEAR LOS CAMPOS DE ERROR*/
 
 
- $(document).ready(function ()
-    { $("#registro").find("input").on('change', function (event){
-        if(totalcamposerroneos>0){
-            var id=event.target.id;
+$(document).ready(function () {
+    $("#registro").find("input").on('change', function (event) {
+        if (totalcamposerroneos > 0) {
+            var id = event.target.id;
             eliminarErrores(id);
         }
-        });
     });
-function  eliminarErrores(id) {
+});
+function eliminarErrores(id) {
 
-    $("#error"+id).fadeTo(3000, 0);
+    var promesa = $("#error" + id).fadeTo(3000, 0);
+    $.when(promesa).done(function () {
+        $("#error" + id).html('');
+    })
 
 }
-
 
 
 /*FUNCIÓN COMPROBAR NAVEGADOR: Comprueba el navegador que está utilizando el usuario*/
