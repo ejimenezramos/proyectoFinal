@@ -1,4 +1,5 @@
 
+
 <?php
 
 class mdlProductos extends padre {
@@ -21,3 +22,6 @@ class mdlProductos extends padre {
     }
 
 }
+
+
+
