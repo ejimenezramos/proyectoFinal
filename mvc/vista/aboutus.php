@@ -120,8 +120,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 			</div>
 			<div class="head-t">
 				<ul class="card">
-					<li><a href="?pagina=login" ><i class="fa fa-user" aria-hidden="true"></i>Login</a></li>
-					<li><a href="?pagina=register" ><i class="fa fa-arrow-right" aria-hidden="true"></i>Registro</a></li>
+					{{login}}
 				</ul>
 			</div>
 			<div class="header-ri"></div>
@@ -170,7 +169,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 		<div class="container">
 			<h3>Sobre nosotros</h3>
 			<h4>
-				<a href="?pagina=home">Home</a><label>/</label>Codes
+				<a href="?pagina=home">Home</a><label>/</label>Sobre Nosotros
 			</h4>
 			<div class="clearfix"></div>
 		</div>

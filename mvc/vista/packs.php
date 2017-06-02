@@ -96,12 +96,9 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 				</h1>
 			</div>
 			<div class="head-t">
-				<ul class="card">
-					<li><a href="?pagina=login"><i class="fa fa-user"
-							aria-hidden="true"></i>Login</a></li>
-					<li><a href="?pagina=register"><i class="fa fa-arrow-right"
-							aria-hidden="true"></i>Registro</a></li>
-				</ul>
+                <ul class="card">
+                    {{login}}
+                </ul>
 			</div>
 			<div class="header-ri"></div>
 			<div class="nav-top">
@@ -146,7 +143,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 		<div class="container">
 			<h3>Packs Especiales</h3>
 			<h4>
-				<a href="?pagina=home">Home</a><label>/</label>Contact
+				<a href="?pagina=home">Home</a><label>/</label>Packs
 			</h4>
 			<div class="clearfix"></div>
 		</div>
@@ -233,7 +230,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 											<div style="text-align: center;">
 												<button class="btn btn-danger my-cart-btn my-cart-b"
 													data-id="001" data-name="Pack infantil"
-													data-summary="summary 001" data-price="1" data-quantity="1"
+													data-summary="summary 001" data-price="6.90" data-quantity="1"
 													data-image="images/pack_kids.png">Add to Cart</button>
 											</div>
 										</div>
@@ -303,7 +300,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 										<div style="text-align: center;">
 											<button class="btn btn-danger my-cart-btn my-cart-b"
 												data-id="002" data-name="Pack Chocolate"
-												data-summary="summary 002" data-price="3" data-quantity="1"
+												data-summary="summary 002" data-price="7" data-quantity="1"
 												data-image="images/pack_chocolate.png">Add to Cart</button>
 										</div>
 									</div>
@@ -371,7 +368,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 										<div style="text-align: center;">
 											<button class="btn btn-danger my-cart-btn my-cart-b"
 												data-id="003" data-name="Pack Exotic"
-												data-summary="summary 003" data-price="4" data-quantity="1"
+												data-summary="summary 003" data-price="7.80" data-quantity="1"
 												data-image="images/pack_exotic.png">Add to Cart</button>
 										</div>
 									</div>
@@ -441,7 +438,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 										<div style="text-align: center;">
 											<button class="btn btn-danger my-cart-btn my-cart-b"
 												data-id="004" data-name="Pack Healthy"
-												data-summary="summary 004" data-price="5" data-quantity="1"
+												data-summary="summary 004" data-price="6.5" data-quantity="1"
 												data-image="images/pack_healthy.png">Add to Cart</button>
 										</div>
 									</div>
@@ -719,7 +716,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 							<div class="clearfix"></div>
 						</div>
 						<h4 class="quick">Descripci&oacute;n del producto</h4>
-						<p class="quick_desc">Nuestras deliciosas bocanadas de maíz, dulces y crujientes con mantequilla de cacahuete</p>
+						<p class="quick_desc">Nuestras deliciosas bocanadas de maï¿½z, dulces y crujientes con mantequilla de cacahuete</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-btn1 "
 								data-id="25" data-name="ReeseÂ´s Puffs" data-summary="summary 25"

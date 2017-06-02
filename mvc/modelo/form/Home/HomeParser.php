@@ -70,6 +70,8 @@ class HomeParser {
 							aria-hidden='true'></i>Bienvenido: $usuario</a></li>";
                                 $str .= "<li><a href='?pagina=home&cerrar=true'><i class='fa fa-arrow-right'
 							aria-hidden='true'></i>Cerrar Sesi�n</a></li>";
+                                $str .= "<li><a href='?pagina=user'><i class='fa fa-user'
+							aria-hidden='true'></i>Mi cuenta</a></li>";
                                 Session::del($_SESSION['info']);
                                 break;
                             case "noRegisted":
@@ -82,6 +84,8 @@ class HomeParser {
 							aria-hidden='true'></i>Bienvenido: $usuario</a></li>";
                                 $str .= "<li><a href='?pagina=home&cerrar=true'><i class='fa fa-arrow-right'
 							aria-hidden='true'></i>Cerrar Sesión</a></li>";
+                                $str .= "<li><a href='?pagina=user'><i class='fa fa-user'
+							aria-hidden='true'></i>Mi cuenta</a></li>";
                                 Session::del($_SESSION['info']);
                                 break;
                         }

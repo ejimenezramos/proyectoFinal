@@ -17,7 +17,7 @@ class mdlProductos extends padre {
         include $path;
         $vista = ob_get_contents();
         ob_end_clean();
-        echo $vista;
+        echo ProductosParser::loadContent($vista);
     }
 
 }

@@ -17,7 +17,7 @@ class mdlPacks extends padre {
         include $path;
         $vista = ob_get_contents();
         ob_end_clean();
-        echo $vista;
+        echo PacksParser::loadContent($vista);
     }
 
 }

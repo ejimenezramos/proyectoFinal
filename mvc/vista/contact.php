@@ -28,7 +28,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 	<link href="css/footer.css" rel='stylesheet' type='text/css' />
 <!-- js -->
 <script src="js/jquery-1.11.1.min.js"></script>
-	<script type="text/javascript" src="js/validaciones.js"></script>
+	<!--<script type="text/javascript" src="js/validaciones.js"></script>-->
 <!-- //js -->
 <!-- start-smoth-scrolling -->
 <script type="text/javascript" src="js/move-top.js"></script>
@@ -122,8 +122,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 			</div>
 			<div class="head-t">
 				<ul class="card">
-					<li><a href="?pagina=login" ><i class="fa fa-user" aria-hidden="true"></i>Login</a></li>
-					<li><a href="?pagina=register" ><i class="fa fa-arrow-right" aria-hidden="true"></i>Registro</a></li>
+					{{login}}
 				</ul>
 			</div>
 			<div class="header-ri"></div>
@@ -170,7 +169,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 		<div class="container">
 			<h3>Contacto</h3>
 			<h4>
-				<a href="?pagina=home">Home</a><label>/</label>Contact
+				<a href="?pagina=home">Home</a><label>/</label>Contacto
 			</h4>
 			<div class="clearfix"></div>
 		</div>

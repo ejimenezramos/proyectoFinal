@@ -912,7 +912,7 @@ color: #B3B3B3;
     padding-bottom: 1em;
 }
 span.reducedfrom {
-	    color: #FAB005;
+	    color: #117A65;
     font-size: 1.5em;   
 }
 
@@ -945,7 +945,7 @@ p.quick_desc {
   transition-property: color;
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
-    background-color:#FAB005;
+    background-color:#117A65;
    color: #fff;
    padding: 0.5em 1em;
    font-size:1em;
@@ -960,7 +960,7 @@ p.quick_desc {
   bottom: 0;
   left: 0;
   right: 0;
-  background:#029241;
+  background:#117A65;
   -webkit-transform: scaleY(1);
   transform: scaleY(1);
   -webkit-transform-origin: 50%;
@@ -977,7 +977,7 @@ p.quick_desc {
 	color: white;
 	text-decoration:none;
 	border:none;
-	background: #FAB005;
+	background: #1ABC9C;
 	border-radius: 0;
 }
 .my-cart-btn1:hover:before, .my-cart-btn1:focus:before, .my-cart-btn1:active:before {

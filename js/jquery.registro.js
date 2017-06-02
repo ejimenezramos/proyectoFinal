@@ -1,10 +1,8 @@
-/**
- * Created by elena.jimenez on 01/06/2017.
- */
 /*Created by elena.jimenez on 08/05/2017. */
 
-/***************DECLARACIÓN VARIABLES EXPRESIONES REGULARES********
- 
+
+/***************DECLARACIÓN VARIABLES EXPRESIONES REGULARES****************/
+
 var patnombre = new RegExp("^[a-zA-Z]+(\\s*[a-zA-Z]*)*[a-zA-Z]+$");
 var patttel = new RegExp("(6|7|9)\\d{8}");
 var patemail = new RegExp("^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$");
@@ -13,12 +11,13 @@ var patdni = new RegExp("^[XYZxyz]?[\\-\\s]?\\d{5,8}[\-\\s]?[A-Za-z]$");
 var patdir = new RegExp("^([A-Za-z]+\\,?\\s?)+\\d*$");
 var patcp = new RegExp("^\\d{5}$");
 var patfecha = new RegExp("^\\d{2}[/|-]\\d{2}[/|-]\\d{4}$");
-var totalCamposError = 0;
+var totalcamposerroneos=0;
 /***************VALIDACIONES SUBMIT REGISTRO****************/
 
 $(document).ready(function () {
     $("#registro").submit(function () {
         return comprobarBlancos() && comprobarValidacion();
+
     });
 });
 
@@ -28,9 +27,10 @@ function comprobarBlancos() {
     var camposBlanco = [];
     var errorCampos;
     var cont = 0;
+
     for (var i = 0; i < inputs.length; i++) {
         if (inputs[i].value.length <= 0) {
-            alert(inputs[i].id);
+
             camposBlanco[cont] = inputs[i].id;
             cont++;
         }
@@ -39,9 +39,9 @@ function comprobarBlancos() {
 
         errorCampos = camposBlanco.join();
         $("#errorsubmit").html('Por favor rellena el/los campos: ');
-        var aux = errorCampos.replace("fechanac", "fecha de nacimiento");
-        var aux2 = aux.replace("cp", "código postal");
-        var errores = aux2.replace("password2", "confirmación password");
+        var aux=errorCampos.replace("fechanac", "fecha de nacimiento");
+         var aux2=aux.replace("cp","código postal");
+        var errores=aux2.replace("password2","confirmación password");
 
         $("#errorsubmit").append(errores);
 
@@ -62,14 +62,14 @@ function comprobarBlancos() {
 /*FUNCION COMPROBAR VALIDACION: Comprueba si el formato de cada campo es correcto y si no lo es invalida el submit y devuelve un mensaje de error explicativo*/
 
 function comprobarValidacion() {
-    totalCamposError = 0;
+
     var inputs = $("#registro").find("input");
     var camposInvalidos = [];
     var contInvalid = 0;
 
     for (var i = 0; i < inputs.length; i++) {
         var id = inputs[i].id;
-        $("#error" + id).fadeTo(1000, 1);
+        $("#errorvalidacion").fadeTo(1000, 1);
         switch (id) {
             case "nombre":
             case "apellidos":
@@ -96,12 +96,14 @@ function comprobarValidacion() {
 
                             var dniNum = dniValueMayusculas.substring(1, dniValueMayusculas.length - 1);
 
-                        } else {
+                        }
+                        else {
                             dniNum = dniValueMayusculas.substring(0, dniValueMayusculas.length - 1);
 
                         }
                         var dniLetter = dniValueMayusculas.substring(dniValueMayusculas.length - 1);
                     }
+
 
                     if (dniLetters[dniNum % 23] === dniLetter) {
 
@@ -171,7 +173,7 @@ function comprobarValidacion() {
                 if (fechaValida == true) {
                     $("#error" + id).html("");
                     boolBisiestos = comprobarBisiestos(fecha, anio, mes, dia);
-                    alert("el año es bisiesto: " + boolBisiestos);
+
                     if (boolBisiestos === false) {
                         camposInvalidos[i] = inputs[i].id;
                         $("#error" + id).html("*El año introducido no es bisiesto o el día introducido no es correcto");
@@ -284,25 +286,21 @@ function comprobarValidacion() {
         }
 
     }
-
+    totalcamposerroneos=contInvalid;
     if (contInvalid > 0) {
-        alert(camposInvalidos);
-        for(i=0;i<=camposInvalidos.length;i++){
-            if (camposInvalidos[i].value == "") {
-                camposInvalidos.splice([i], 1);
-            }
+        if(camposInvalidos[0].value==""){
+            camposInvalidos.splice(0,1);
         }
-
         camposJoin = camposInvalidos.join();
-        alert(contInvalid);
-        var aux = camposJoin.replace("fechanac", "fecha de nacimiento");
-        var aux2 = aux.replace("cp", "código Postal");
-        var errores = aux2.replace("password2", "confirmación password");
+alert(camposJoin);
+        var aux=camposJoin.replace("fechanac", "fecha de nacimiento");
+        var aux2=aux.replace("cp","código Postal");
+        var errores=aux2.replace("password2","confirmación password");
         $("#errorvalidacion").html("Revisa los campos: " + errores + ' tienen errores de formato');
         $("#errorvalidacion").fadeTo(15000, 0);
         $("#condiciones").removeAttr('checked');
         $("#registrarse").attr('disabled', true);
-        totalCamposError = contInvalid;
+
         return false;
 
     }
@@ -317,18 +315,22 @@ function comprobarValidacion() {
 
 }
 /*FUNCIÓN QUE LLAMA EN EL ONCHANGE DE LOS CAMPOS DEL FORMULARIO A LA FUNCIÓN eliminarErrores(), PARA SETEAR LOS CAMPOS DE ERROR*/
-$(document).ready(function () {
-    $("#registro").find("input").on('change', function (event) {
-        if (totalCamposError > 0) {
-            var id = event.target.id;
+
+
+ $(document).ready(function ()
+    { $("#registro").find("input").on('change', function (event){
+        if(totalcamposerroneos>0){
+            var id=event.target.id;
             eliminarErrores(id);
         }
+        });
     });
-});
-function eliminarErrores(id) {
+function  eliminarErrores(id) {
 
-    $("#error" + id).fadeTo(3000, 0);
+    $("#error"+id).fadeTo(3000, 0);
+
 }
+
 
 
 /*FUNCIÓN COMPROBAR NAVEGADOR: Comprueba el navegador que está utilizando el usuario*/
@@ -456,4 +458,8 @@ $(document).ready(function () {
 
 
 });
+
+
+
+
 

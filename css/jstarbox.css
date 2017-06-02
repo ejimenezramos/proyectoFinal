@@ -48,8 +48,8 @@
 .starbox .stars { background: #b0b0b0; }
 .starbox .rated .stars { background: #b0b0b0; }
 .starbox .rated.hover .stars { background: #b0b0b0; }
-.starbox .colorbar { background: #FAB005; }
-.starbox .hover .colorbar { background: #FAB005; }
-.starbox .rated .colorbar { background: #FAB005; }
-.starbox .rated.hover .colorbar { background: #FAB005; }
-.starbox .ghost { background: #FAB005; }
+.starbox .colorbar { background: #117A65; }
+.starbox .hover .colorbar { background: #117A65; }
+.starbox .rated .colorbar { background: #117A65; }
+.starbox .rated.hover .colorbar { background: #117A65; }
+.starbox .ghost { background: #117A65; }
