@@ -21,158 +21,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="register.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mvc/vista/register.php">
+      <file leaf-file-name="jquery.mycart.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/jquery.mycart.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="30" column="58" selection-start-line="30" selection-start-column="58" selection-end-line="30" selection-end-column="58" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mdlProductos.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mvc/modelo/form/Productos/mdlProductos.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HomeParser.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mvc/modelo/form/Home/HomeParser.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="76" column="32" selection-start-line="76" selection-start-column="32" selection-end-line="76" selection-end-column="32" />
+            <state relative-caret-position="-865">
+              <caret line="291" column="64" selection-start-line="291" selection-start-column="64" selection-end-line="291" selection-end-column="64" />
               <folding>
-                <marker date="1496422659816" expanded="true" signature="2228:2318" ph="..." />
-                <marker date="1496422659816" expanded="true" signature="2252:2313" ph="..." />
-                <marker date="1496422659816" expanded="true" signature="2274:2304" ph="..." />
-                <marker date="1496422659816" expanded="true" signature="2352:2448" ph="..." />
-                <marker date="1496422659816" expanded="true" signature="2379:2443" ph="..." />
-                <marker date="1496422659816" expanded="true" signature="2401:2431" ph="..." />
-                <marker date="1496422659816" expanded="true" signature="2752:2828" ph="..." />
-                <marker date="1496422659816" expanded="true" signature="2752:2855" ph="..." />
-                <marker date="1496422659816" expanded="true" signature="2775:2828" ph="..." />
-                <marker date="1496422659816" expanded="true" signature="2797:2827" ph="..." />
-                <marker date="1496422659816" expanded="true" signature="2968:3084" ph="..." />
-                <marker date="1496422659816" expanded="true" signature="3003:3079" ph="..." />
-                <marker date="1496422659816" expanded="true" signature="3032:3062" ph="..." />
-                <marker date="1496422659816" expanded="true" signature="3486:3590" ph="..." />
-                <marker date="1496422659816" expanded="true" signature="3509:3585" ph="..." />
-                <marker date="1496422659816" expanded="true" signature="3531:3561" ph="..." />
-                <marker date="1496422659816" expanded="true" signature="3638:3754" ph="..." />
-                <marker date="1496422659816" expanded="true" signature="3673:3749" ph="..." />
-                <marker date="1496422659816" expanded="true" signature="3702:3732" ph="..." />
-                <marker date="1496422659816" expanded="true" signature="3802:3895" ph="..." />
-                <marker date="1496422659816" expanded="true" signature="3825:3890" ph="..." />
-                <marker date="1496422659816" expanded="true" signature="3847:3877" ph="..." />
+                <element signature="n#!!doc" expanded="true" />
+                <marker date="1496423746767" expanded="true" signature="5688:5695" ph="×" />
+                <marker date="1496423746767" expanded="true" signature="6745:6757" ph="..." />
+                <marker date="1496423746767" expanded="true" signature="7002:7014" ph="..." />
+                <marker date="1496423746767" expanded="true" signature="7250:7262" ph="..." />
+                <marker date="1496423746767" expanded="true" signature="8037:8047" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProductosParser.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mvc/modelo/form/Productos/ProductosParser.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="30" column="45" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
-              <folding>
-                <marker date="1496422584987" expanded="true" signature="324:414" ph="..." />
-                <marker date="1496422584987" expanded="true" signature="348:409" ph="..." />
-                <marker date="1496422584987" expanded="true" signature="370:400" ph="..." />
-                <marker date="1496422584987" expanded="true" signature="448:544" ph="..." />
-                <marker date="1496422584987" expanded="true" signature="475:539" ph="..." />
-                <marker date="1496422584987" expanded="true" signature="497:527" ph="..." />
-                <marker date="1496422584987" expanded="true" signature="846:949" ph="..." />
-                <marker date="1496422584987" expanded="true" signature="869:944" ph="..." />
-                <marker date="1496422584987" expanded="true" signature="891:921" ph="..." />
-                <marker date="1496422584987" expanded="true" signature="1062:1178" ph="..." />
-                <marker date="1496422584987" expanded="true" signature="1097:1173" ph="..." />
-                <marker date="1496422584987" expanded="true" signature="1126:1156" ph="..." />
-                <marker date="1496422584987" expanded="true" signature="1581:1685" ph="..." />
-                <marker date="1496422584987" expanded="true" signature="1604:1680" ph="..." />
-                <marker date="1496422584987" expanded="true" signature="1626:1656" ph="..." />
-                <marker date="1496422584987" expanded="true" signature="1733:1849" ph="..." />
-                <marker date="1496422584987" expanded="true" signature="1768:1844" ph="..." />
-                <marker date="1496422584987" expanded="true" signature="1797:1827" ph="..." />
-                <marker date="1496422584987" expanded="true" signature="1897:1990" ph="..." />
-                <marker date="1496422584987" expanded="true" signature="1920:1985" ph="..." />
-                <marker date="1496422584987" expanded="true" signature="1942:1972" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AboutusParser.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mvc/modelo/form/Aboutus/AboutusParser.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="30" column="75" selection-start-line="30" selection-start-column="75" selection-end-line="30" selection-end-column="75" />
-              <folding>
-                <marker date="1496422635201" expanded="true" signature="322:412" ph="..." />
-                <marker date="1496422635201" expanded="true" signature="346:407" ph="..." />
-                <marker date="1496422635201" expanded="true" signature="368:398" ph="..." />
-                <marker date="1496422635201" expanded="true" signature="446:542" ph="..." />
-                <marker date="1496422635201" expanded="true" signature="473:537" ph="..." />
-                <marker date="1496422635201" expanded="true" signature="495:525" ph="..." />
-                <marker date="1496422635201" expanded="true" signature="844:920" ph="..." />
-                <marker date="1496422635201" expanded="true" signature="844:947" ph="..." />
-                <marker date="1496422635201" expanded="true" signature="867:920" ph="..." />
-                <marker date="1496422635201" expanded="true" signature="889:919" ph="..." />
-                <marker date="1496422635201" expanded="true" signature="1060:1176" ph="..." />
-                <marker date="1496422635201" expanded="true" signature="1095:1171" ph="..." />
-                <marker date="1496422635201" expanded="true" signature="1124:1154" ph="..." />
-                <marker date="1496422635201" expanded="true" signature="1578:1682" ph="..." />
-                <marker date="1496422635201" expanded="true" signature="1601:1677" ph="..." />
-                <marker date="1496422635201" expanded="true" signature="1623:1653" ph="..." />
-                <marker date="1496422635201" expanded="true" signature="1730:1846" ph="..." />
-                <marker date="1496422635201" expanded="true" signature="1765:1841" ph="..." />
-                <marker date="1496422635201" expanded="true" signature="1794:1824" ph="..." />
-                <marker date="1496422635201" expanded="true" signature="1894:1987" ph="..." />
-                <marker date="1496422635201" expanded="true" signature="1917:1982" ph="..." />
-                <marker date="1496422635201" expanded="true" signature="1939:1969" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ContactParser.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mvc/modelo/form/Contact/ContactParser.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="58" column="75" selection-start-line="58" selection-start-column="75" selection-end-line="58" selection-end-column="75" />
-              <folding>
-                <marker date="1496422649990" expanded="true" signature="1732:1822" ph="..." />
-                <marker date="1496422649990" expanded="true" signature="1756:1817" ph="..." />
-                <marker date="1496422649990" expanded="true" signature="1778:1808" ph="..." />
-                <marker date="1496422649990" expanded="true" signature="1856:1952" ph="..." />
-                <marker date="1496422649990" expanded="true" signature="1883:1947" ph="..." />
-                <marker date="1496422649990" expanded="true" signature="1905:1935" ph="..." />
-                <marker date="1496422649990" expanded="true" signature="2254:2357" ph="..." />
-                <marker date="1496422649990" expanded="true" signature="2277:2352" ph="..." />
-                <marker date="1496422649990" expanded="true" signature="2299:2329" ph="..." />
-                <marker date="1496422649990" expanded="true" signature="2470:2586" ph="..." />
-                <marker date="1496422649990" expanded="true" signature="2505:2581" ph="..." />
-                <marker date="1496422649990" expanded="true" signature="2534:2564" ph="..." />
-                <marker date="1496422649990" expanded="true" signature="2988:3092" ph="..." />
-                <marker date="1496422649990" expanded="true" signature="3011:3087" ph="..." />
-                <marker date="1496422649990" expanded="true" signature="3033:3063" ph="..." />
-                <marker date="1496422649990" expanded="true" signature="3140:3256" ph="..." />
-                <marker date="1496422649990" expanded="true" signature="3175:3251" ph="..." />
-                <marker date="1496422649990" expanded="true" signature="3204:3234" ph="..." />
-                <marker date="1496422649990" expanded="true" signature="3304:3397" ph="..." />
-                <marker date="1496422649990" expanded="true" signature="3327:3392" ph="..." />
-                <marker date="1496422649990" expanded="true" signature="3349:3379" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jquery.registro.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="jquery.registro.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/jquery.registro.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jquery.registro2.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/jquery.registro2.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -196,7 +73,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/mvc/modelo/form/Productos/mdlMenu.php" />
         <option value="$PROJECT_DIR$/mvc/modelo/form/Packs/mdlProductos.php" />
         <option value="$PROJECT_DIR$/mvc/modelo/form/Contact/mdlProductos.php" />
         <option value="$PROJECT_DIR$/mvc/modelo/form/Aboutus/mdlAboutus.php" />
@@ -247,6 +123,7 @@
         <option value="$PROJECT_DIR$/mvc/modelo/form/Aboutus/AboutusParser.php" />
         <option value="$PROJECT_DIR$/mvc/modelo/form/Contact/ContactParser.php" />
         <option value="$PROJECT_DIR$/mvc/modelo/form/Home/HomeParser.php" />
+        <option value="$PROJECT_DIR$/js/jquery.mycart.js" />
       </list>
     </option>
   </component>
@@ -375,6 +252,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="mvc" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="proyectoFinal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="proyectoFinal" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -511,18 +402,18 @@
       <workItem from="1496264400313" duration="420000" />
       <workItem from="1496351287951" duration="285000" />
       <workItem from="1496417378939" duration="771000" />
-      <workItem from="1496418385834" duration="3554000" />
+      <workItem from="1496418385834" duration="5297000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="190371000" />
+    <option name="totallyTimeSpent" value="192114000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24158126" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24158126" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -557,20 +448,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/jstarbox.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/footer.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mvc/modelo/form/Olvido/mdlolvido.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -816,14 +693,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mvc/modelo/form/Productos/mdlProductos.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mvc/vista/home.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="163">
@@ -848,18 +717,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/jquery.registro.js">
+    <entry file="file://$PROJECT_DIR$/js/jquery.registro2.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mvc/vista/register.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="30" column="58" selection-start-line="30" selection-start-column="58" selection-end-line="30" selection-end-column="58" />
           <folding />
         </state>
       </provider>
@@ -983,6 +844,45 @@
             <marker date="1496422659816" expanded="true" signature="3825:3890" ph="..." />
             <marker date="1496422659816" expanded="true" signature="3847:3877" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/modelo/form/Productos/mdlProductos.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/vista/register.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="30" column="58" selection-start-line="30" selection-start-column="58" selection-end-line="30" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery.mycart.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-865">
+          <caret line="291" column="64" selection-start-line="291" selection-start-column="64" selection-end-line="291" selection-end-column="64" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <marker date="1496423746767" expanded="true" signature="5688:5695" ph="×" />
+            <marker date="1496423746767" expanded="true" signature="6745:6757" ph="..." />
+            <marker date="1496423746767" expanded="true" signature="7002:7014" ph="..." />
+            <marker date="1496423746767" expanded="true" signature="7250:7262" ph="..." />
+            <marker date="1496423746767" expanded="true" signature="8037:8047" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery.registro.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

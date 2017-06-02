@@ -15,12 +15,10 @@ var totalcamposerroneos = 0;
 var camposInvalidos = [];
 var contInvalid = 0;
 var camposBlanco = [];
-var camposInvalidos = [];
 /***************VALIDACIONES SUBMIT REGISTRO****************/
 
 $(document).ready(function () {
     $("#registro").submit(function () {
-        alert("entra");
         return comprobarBlancos() && comprobarValidacion();
 
     });
@@ -28,14 +26,12 @@ $(document).ready(function () {
 
 /*FUNCIÓN COMPROBAR BLANCOS: Comprueba si hay campos en blanco en el formulario y devuelve true or false para validar o invalidar el submit*/
 function comprobarBlancos() {
-    alert("blancos");
-    $("#errorsubmit").css('opacity,1');
     var inputs = $("#registro").find("input");
+
     var errorCampos;
     var cont = 0;
-    camposBlanco.splice(0);
+
     for (var i = 0; i < inputs.length; i++) {
-        alert(inputs[i].value)
         if (inputs[i].value.length <= 0) {
 
             camposBlanco[cont] = inputs[i].id;
@@ -69,9 +65,9 @@ function comprobarBlancos() {
 /*FUNCION COMPROBAR VALIDACION: Comprueba si el formato de cada campo es correcto y si no lo es invalida el submit y devuelve un mensaje de error explicativo*/
 
 function comprobarValidacion() {
-    camposInvalidos.splice(0);
+
     var inputs = $("#registro").find("input");
-    alert("validaxion");
+
     contInvalid = 0;
     $("#errorvalidacion").html('');
     $("#errorvalidacion").css('opacity', '1');
@@ -312,7 +308,7 @@ function comprobarValidacion() {
     if (contInvalid > 0) {
 
         for (a = 0; a <= camposInvalidos.length; a++) {
-            if (camposInvalidos[a] == undefined || camposInvalidos[a] == ""||camposInvalidos[a] == " ") {
+            if (camposInvalidos[a] == undefined) {
                 camposInvalidos.splice(a, 1);
             }
         }
@@ -430,12 +426,11 @@ function comprobarBisiestos(fecha, anio, mes, dia) {
 $(document).ready(function () {
     $("#condiciones").on('click', function () {
         if ($(this).is(':checked')) {
-            $("#registrarse").attr('disabled', false);
+            comprobarBlancos();
 
         }
 
         else {
-
             $("#registrarse").attr('disabled', true);
             $("#errorcondiciones").html('Por favor, acepta las condiciones para poder registrarte');
         }

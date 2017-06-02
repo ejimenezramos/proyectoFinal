@@ -211,9 +211,9 @@
           '<tr title="' + this.summary + '" data-id="' + this.id + '" data-price="' + this.price + '">' +
           '<td class="text-center" style="width: 30px;"><img width="30px" height="30px" src="' + this.image + '"/></td>' +
           '<td>' + this.name + '</td>' +
-          '<td title="Precio unitario">' + this.price + 'Ä</td>' +
+          '<td title="Precio unitario">' + this.price + '‚Ç¨</td>' +
           '<td title="Cantidad"><input type="number" min="1" style="width: 70px;" class="' + classProductQuantity + '" value="' + this.quantity + '"/></td>' +
-          '<td title="Total" class="' + classProductTotal + '">' + total + 'Ä</td>' +
+          '<td title="Total" class="' + classProductTotal + '">' + total + '‚Ç¨</td>' +
           '<td title="Eliminar del carrito" class="text-center" style="width: 30px;"><a href="javascript:void(0);" class="btn btn-xs btn-danger ' + classProductRemove + '">X</a></td>' +
           '</tr>'
         );
@@ -225,10 +225,10 @@
         '<td><strong>Total</strong></td>' +
         '<td></td>' +
         '<td></td>' +
-        '<td><strong id="' + idGrandTotal + '">Ä</strong></td>' +
+        '<td><strong id="' + idGrandTotal + '">‚Ç¨</strong></td>' +
         '<td></td>' +
         '</tr>'
-        : '<div class="alert alert-danger" role="alert" id="' + idEmptyCartMessage + '">El carrito est· vacÌo</div>'
+        : '<div class="alert alert-danger" role="alert" id="' + idEmptyCartMessage + '">El carrito est√° vac√≠o</div>'
       );
 
       var discountPrice = options.getDiscountPrice(products, ProductManager.getTotalPrice(), ProductManager.getTotalQuantity());
@@ -236,10 +236,10 @@
         $cartTable.append(
           '<tr style="color: red">' +
           '<td></td>' +
-          '<td><strong>Total (including discount)</strong></td>' +
+          '<td><strong>Total </strong></td>' +
           '<td></td>' +
           '<td></td>' +
-          '<td><strong id="' + idDiscountPrice + '">Ä</strong></td>' +
+          '<td><strong id="' + idDiscountPrice + '">‚Ç¨</strong></td>' +
           '<td></td>' +
           '</tr>'
         );
@@ -259,10 +259,10 @@
       });
     }
     var showGrandTotal = function(){
-      $("#" + idGrandTotal).text(ProductManager.getTotalPrice()+"Ä");
+      $("#" + idGrandTotal).text(ProductManager.getTotalPrice()+"‚Ç¨");
     }
     var showDiscountPrice = function(){
-      $("#" + idDiscountPrice).text(options.getDiscountPrice(ProductManager.getAllProducts(), ProductManager.getTotalPrice(), ProductManager.getTotalQuantity())+"Ä");
+      $("#" + idDiscountPrice).text(options.getDiscountPrice(ProductManager.getAllProducts(), ProductManager.getTotalPrice(), ProductManager.getTotalQuantity())+"‚Ç¨");
     }
 
     /*
@@ -289,7 +289,7 @@
       var id = $(this).closest("tr").data("id");
       var quantity = $(this).val();
 
-      $(this).parent("td").next("." + classProductTotal).text("Ä" + price * quantity);
+      $(this).parent("td").next("." + classProductTotal).text("‚Ç¨" + price * quantity);
       ProductManager.updatePoduct(id, quantity);
 
       $cartBadge.text(ProductManager.getTotalQuantity());
