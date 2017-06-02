@@ -98,14 +98,14 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 		</div>
 	</div>
 	<div class="container">
-		<h3>Licencia página web Cereal-Break</h3>
+		<h3>Licencia pÃ¡gina web Cereal-Break</h3>
 		<main class="main_licencia">
 	<article class="color_fondo_licencia">
-		<p>Creative Commons Corporation (“Creative Commons”) is not a law
+		<p>Creative Commons Corporation (ï¿½Creative Commonsï¿½) is not a law
 			firm and does not provide legal services or legal advice.
 			Distribution of Creative Commons public licenses does not create a
 			lawyer-client or other relationship. Creative Commons makes its
-			licenses and related information available on an “as-is” basis.
+			licenses and related information available on an ï¿½as-isï¿½ basis.
 			Creative Commons gives no warranties regarding its licenses, any
 			material licensed under their terms and conditions, or any related
 			information. Creative Commons disclaims all liability for damages
@@ -132,9 +132,9 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 			considerations for licensors.</p>
 		<p>Considerations for the public: By using one of our public
 			licenses, a licensor grants the public permission to use the licensed
-			material under specified terms and conditions. If the licensor’s
-			permission is not necessary for any reason–for example, because of
-			any applicable exception or limitation to copyright–then that use is
+			material under specified terms and conditions. If the licensorï¿½s
+			permission is not necessary for any reasonï¿½for example, because of
+			any applicable exception or limitation to copyrightï¿½then that use is
 			not regulated by the license. Our licenses grant only permissions
 			under copyright and certain other rights that a licensor has
 			authority to grant. Use of the licensed material may still be
@@ -155,7 +155,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 		the Licensor grants You such rights in consideration of benefits the
 		Licensor receives from making the Licensed Material available under
 		these terms and conditions.</p>
-	<strong>Section 1 – Definitions.</strong>
+	<strong>Section 1 ï¿½ Definitions.</strong>
 	<ol type="a">
 		<li id="s1a"><strong>Adapted Material</strong> means material
 			subject to Copyright and Similar Rights that is derived from or based
@@ -209,7 +209,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 			has a corresponding meaning.</li>
 	</ol>
 	<p>
-		<strong>Section 2 – Scope.</strong>
+		<strong>Section 2 ï¿½ Scope.</strong>
 	</p>
 	<ol type="a">
 		<li id="s2a"><strong>License grant</strong>.
@@ -248,7 +248,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 					<div class="para">
 						<ol type="A">
 							<li id="s2a5A"><span style="text-decoration: underline;">Offer
-									from the Licensor – Licensed Material</span>. Every recipient of the
+									from the Licensor ï¿½ Licensed Material</span>. Every recipient of the
 								Licensed Material automatically receives an offer from the
 								Licensor to exercise the Licensed Rights under the terms and
 								conditions of this Public License.</li>
@@ -288,7 +288,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 			</ol></li>
 	</ol>
 	<p>
-		<strong>Section 3 – License Conditions.</strong>
+		<strong>Section 3 ï¿½ License Conditions.</strong>
 	</p>
 	<ol type="a">
 		<li id="s3a"><p>
@@ -333,7 +333,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 				</li>
 			</ol></li>
 	</ol>
-	<strong>Section 4 – Sui Generis Database Rights.</strong>
+	<strong>Section 4 ï¿½ Sui Generis Database Rights.</strong>
 	<p>Where the Licensed Rights include Sui Generis Database Rights
 		that apply to Your use of the Licensed Material:</p>
 	<ol type="a">
@@ -352,7 +352,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 		</li>
 	</ol>
 	<p id="s5">
-		<strong>Section 5 – Disclaimer of Warranties and Limitation
+		<strong>Section 5 ï¿½ Disclaimer of Warranties and Limitation
 			of Liability.</strong>
 	</p>
 	<ol style="font-weight: bold;" type="a">
@@ -381,7 +381,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 			the extent possible, most closely approximates an absolute disclaimer
 			and waiver of all liability.</li>
 	</ol>
-	<strong>Section 6 – Term and Termination.</strong>
+	<strong>Section 6 ï¿½ Term and Termination.</strong>
 	<ol type="a">
 		<li id="s6a">This Public License applies for the term of the
 			Copyright and Similar Rights licensed here. However, if You fail to
@@ -409,7 +409,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 			survive termination of this Public License.
 		</li>
 	</ol>
-	<strong>Section 7 – Other Terms and Conditions.</strong>
+	<strong>Section 7 ï¿½ Other Terms and Conditions.</strong>
 	<ol type="a">
 		<li id="s7a">The Licensor shall not be bound by any additional or
 			different terms or conditions communicated by You unless expressly
@@ -418,7 +418,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 			regarding the Licensed Material not stated herein are separate from
 			and independent of the terms and conditions of this Public License.</li>
 	</ol>
-	<strong>Section 8 – Interpretation.</strong>
+	<strong>Section 8 ï¿½ Interpretation.</strong>
 	<ol type="a">
 		<li id="s8a">For the avoidance of doubt, this Public License does
 			not, and shall not be interpreted to, reduce, limit, restrict, or
@@ -442,14 +442,14 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 		Creative Commons is not a party to its public licenses.
 		Notwithstanding, Creative Commons may elect to apply one of its public
 		licenses to material it publishes and in those instances will be
-		considered the “Licensor.” The text of the Creative Commons public
+		considered the ï¿½Licensor.ï¿½ The text of the Creative Commons public
 		licenses is dedicated to the public domain under the <a href="//creativecommons.org/publicdomain/zero/1.0/legalcode">CC0
 			Public Domain Dedication</a>. Except for the limited purpose of
 		indicating that material is shared under a Creative Commons public
 		license or as otherwise permitted by the Creative Commons policies
 		published at <a href="//creativecommons.org/policies">creativecommons.org/policies</a>,
-		Creative Commons does not authorize the use of the trademark “Creative
-		Commons” or any other trademark or logo of Creative Commons without
+		Creative Commons does not authorize the use of the trademark ï¿½Creative
+		Commonsï¿½ or any other trademark or logo of Creative Commons without
 		its prior written consent including, without limitation, in connection
 		with any unauthorized modifications to any of its public licenses or
 		any other arrangements, understandings, or agreements concerning use

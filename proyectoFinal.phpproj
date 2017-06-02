@@ -133,6 +133,7 @@
     <Compile Include="mvc\modelo\form\Olvido\mdlolvido.php" />
     <Compile Include="mvc\modelo\form\Packs\mdlPacks.php" />
     <Compile Include="mvc\modelo\form\Productos\mdlProductos.php" />
+    <Compile Include="mvc\modelo\form\Productos\ProductosParser.php" />
     <Compile Include="mvc\modelo\form\Register\mdlRegister.php" />
     <Compile Include="mvc\modelo\form\Register\RegisterParser.php" />
     <Compile Include="mvc\modelo\form\Terminos\mdlterminos.php" />

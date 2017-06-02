@@ -73,10 +73,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 			</div>
 			<div class="head-t">
 				<ul class="card">
-					<li><a href="?pagina=login"><i class="fa fa-user"
-							aria-hidden="true"></i>Login</a></li>
-					<li><a href="?pagina=register"><i class="fa fa-arrow-right"
-							aria-hidden="true"></i>Registro</a></li>
+                    {{login}}
 				</ul>
 			</div>
 			<div class="header-ri"></div>
@@ -117,7 +114,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 		<div class="container">
 			<h3>Productos</h3>
 			<h4>
-				<a href="?pagina=home">Home</a><label>/</label>Contact
+				<a href="?pagina=home">Home</a><label>/</label>Productos
 			</h4>
 			<div class="clearfix"></div>
 		</div>
@@ -828,7 +825,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 							<div class="clearfix"></div>
 						</div>
 						<h4 class="quick">Descripci&oacute;n del producto</h4>
-						<p class="quick_desc">Nuestras deliciosas bocanadas de maíz, dulces y crujientes con mantequilla de cacahuete</p>
+						<p class="quick_desc">Nuestras deliciosas bocanadas de maï¿½z, dulces y crujientes con mantequilla de cacahuete</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-btn1 "
 								data-id="25" data-name="ReeseÂ´s Puffs" data-summary="summary 25"
