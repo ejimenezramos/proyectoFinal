@@ -61,30 +61,8 @@ class HomeParser {
 							aria-hidden='true'></i>Login</a></li>";
                     $str.="<li><a href='?pagina=register'><i class='fa fa-user'
 							aria-hidden='true'></i>Registro</a></li>";
-<<<<<<< HEAD
-                    switch($_SESSION['info'])
-                    {
-                        case "registed":
-                            $usuario=$_SESSION['usuarios'];
-                            $str="<li><a href='?pagina=user'><i class='fa fa-user'
-							aria-hidden='true'></i>Bienvenido: $usuario</a></li>";
-                            $str.="<li><a href='logout.php'><i class='fa fa-arrow-right'
-							aria-hidden='true'></i>Cerrar Sesión</a></li>";
-                            Session::del($_SESSION['info']);
-                            break;
-                        case "noRegisted":
-                            $str="No registrado";
-                            Session::del($_SESSION['info']);
-                            break;
-                        case "logged":
-                            $usuario=$_SESSION['usuarios'];
-                            $str="<li><a href='?pagina=user'><i class='fa fa-user'
-							aria-hidden='true'></i>Bienvenido: $usuario</a></li>";
-                            $str.="<li><a href='logout.php'><i class='fa fa-arrow-right'
-							aria-hidden='true'></i>Cerrar Sesión</a></li>";
-                            Session::del($_SESSION['info']);
-                            break;
-=======
+
+
                     if (isset($_SESSION['info'])) {
                         $info = $_SESSION['info'];
                         switch ($info) {
@@ -114,7 +92,6 @@ class HomeParser {
                                 break;
                         }
                         break;
->>>>>>> 48ed02d9fa074383c340a11cee97654552fc25ae
                     }
 			}
 			$vista = str_replace('{{' . $tag . '}}', $str, $vista);
@@ -123,4 +100,5 @@ class HomeParser {
 	}
 
 }
+
 
