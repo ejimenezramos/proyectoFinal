@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="773c24a4-52bd-4d25-b22b-0000bce0fb4f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/jquery.login.js" afterPath="$PROJECT_DIR$/js/jquery.login.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvc/vista/login.php" afterPath="$PROJECT_DIR$/mvc/vista/login.php" />
-    </list>
+    <list default="true" id="773c24a4-52bd-4d25-b22b-0000bce0fb4f" name="Default" comment="" />
     <ignored path="paco.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -34,13 +31,30 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jquery.login.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/jquery.login.js">
+      <file leaf-file-name="HomeParser.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mvc/modelo/form/Home/HomeParser.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+            <state relative-caret-position="460">
+              <caret line="88" column="21" selection-start-line="88" selection-start-column="21" selection-end-line="88" selection-end-column="21" />
               <folding>
-                <element signature="n#!!doc" expanded="true" />
+                <marker date="1496351534353" expanded="true" signature="2228:2318" ph="..." />
+                <marker date="1496351534353" expanded="true" signature="2252:2313" ph="..." />
+                <marker date="1496351534353" expanded="true" signature="2274:2304" ph="..." />
+                <marker date="1496351534353" expanded="true" signature="2352:2448" ph="..." />
+                <marker date="1496351534353" expanded="true" signature="2379:2443" ph="..." />
+                <marker date="1496351534353" expanded="true" signature="2401:2431" ph="..." />
+                <marker date="1496351534353" expanded="true" signature="2750:2854" ph="..." />
+                <marker date="1496351534353" expanded="true" signature="2773:2849" ph="..." />
+                <marker date="1496351534353" expanded="true" signature="2795:2825" ph="..." />
+                <marker date="1496351534353" expanded="true" signature="2902:3018" ph="..." />
+                <marker date="1496351534353" expanded="true" signature="2937:3013" ph="..." />
+                <marker date="1496351534353" expanded="true" signature="2966:2996" ph="..." />
+                <marker date="1496351534353" expanded="true" signature="3485:3589" ph="..." />
+                <marker date="1496351534353" expanded="true" signature="3508:3584" ph="..." />
+                <marker date="1496351534353" expanded="true" signature="3530:3560" ph="..." />
+                <marker date="1496351534353" expanded="true" signature="3637:3753" ph="..." />
+                <marker date="1496351534353" expanded="true" signature="3672:3748" ph="..." />
+                <marker date="1496351534353" expanded="true" signature="3701:3731" ph="..." />
               </folding>
             </state>
           </provider>
@@ -49,8 +63,8 @@
       <file leaf-file-name="login.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mvc/vista/login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="601">
-              <caret line="160" column="66" selection-start-line="160" selection-start-column="66" selection-end-line="160" selection-end-column="66" />
+            <state relative-caret-position="2720">
+              <caret line="160" column="30" selection-start-line="160" selection-start-column="30" selection-end-line="160" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -119,6 +133,7 @@
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/mvc/vista/login.php" />
         <option value="$PROJECT_DIR$/js/jquery.login.js" />
+        <option value="$PROJECT_DIR$/mvc/modelo/form/Home/HomeParser.php" />
       </list>
     </option>
   </component>
@@ -130,9 +145,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
-    <option name="width" value="1378" />
-    <option name="height" value="735" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -160,7 +176,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -285,6 +300,32 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="modelo" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="form" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Home" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="proyectoFinal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="proyectoFinal" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvc" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="exec" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -303,50 +344,9 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="proyectoFinal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="proyectoFinal" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libs" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="proyectoFinal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="proyectoFinal" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="proyectoFinal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="proyectoFinal" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -473,17 +473,18 @@
       <workItem from="1495996619588" duration="385000" />
       <workItem from="1495997509426" duration="14649000" />
       <workItem from="1496264400313" duration="420000" />
+      <workItem from="1496351287951" duration="285000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="185726000" />
+    <option name="totallyTimeSpent" value="186011000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1378" height="735" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24229075" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24158126" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -518,7 +519,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mvc/modelo/form/Home/mdlMenu.php" />
     <entry file="file://$PROJECT_DIR$/mvc/vista/menu.php" />
     <entry file="file://$PROJECT_DIR$/js/contacto.js" />
     <entry file="file://$PROJECT_DIR$/css/slider.css" />
@@ -670,7 +670,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="337">
           <caret line="950" column="16" selection-start-line="950" selection-start-column="16" selection-end-line="950" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -678,7 +677,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="14467">
           <caret line="851" column="16" selection-start-line="851" selection-start-column="16" selection-end-line="851" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -694,7 +692,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="26" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -702,7 +699,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="520">
           <caret line="240" column="12" selection-start-line="240" selection-start-column="12" selection-end-line="240" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -710,7 +706,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="520">
           <caret line="117" column="53" selection-start-line="117" selection-start-column="53" selection-end-line="117" selection-end-column="53" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -788,7 +783,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="205">
           <caret line="2388" column="2" selection-start-line="2388" selection-start-column="2" selection-end-line="2389" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -797,7 +791,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -805,7 +798,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -813,7 +805,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="240" column="0" selection-start-line="240" selection-start-column="0" selection-end-line="240" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -827,18 +818,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mvc/vista/login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="601">
-          <caret line="160" column="66" selection-start-line="160" selection-start-column="66" selection-end-line="160" selection-end-column="66" />
+        <state relative-caret-position="2720">
+          <caret line="160" column="30" selection-start-line="160" selection-start-column="30" selection-end-line="160" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/jquery.login.js">
+    <entry file="file://$PROJECT_DIR$/js/jquery.login.js" />
+    <entry file="file://$PROJECT_DIR$/mvc/modelo/form/Home/HomeParser.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+        <state relative-caret-position="460">
+          <caret line="88" column="21" selection-start-line="88" selection-start-column="21" selection-end-line="88" selection-end-column="21" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <marker date="1496351534353" expanded="true" signature="2228:2318" ph="..." />
+            <marker date="1496351534353" expanded="true" signature="2252:2313" ph="..." />
+            <marker date="1496351534353" expanded="true" signature="2274:2304" ph="..." />
+            <marker date="1496351534353" expanded="true" signature="2352:2448" ph="..." />
+            <marker date="1496351534353" expanded="true" signature="2379:2443" ph="..." />
+            <marker date="1496351534353" expanded="true" signature="2401:2431" ph="..." />
+            <marker date="1496351534353" expanded="true" signature="2750:2854" ph="..." />
+            <marker date="1496351534353" expanded="true" signature="2773:2849" ph="..." />
+            <marker date="1496351534353" expanded="true" signature="2795:2825" ph="..." />
+            <marker date="1496351534353" expanded="true" signature="2902:3018" ph="..." />
+            <marker date="1496351534353" expanded="true" signature="2937:3013" ph="..." />
+            <marker date="1496351534353" expanded="true" signature="2966:2996" ph="..." />
+            <marker date="1496351534353" expanded="true" signature="3485:3589" ph="..." />
+            <marker date="1496351534353" expanded="true" signature="3508:3584" ph="..." />
+            <marker date="1496351534353" expanded="true" signature="3530:3560" ph="..." />
+            <marker date="1496351534353" expanded="true" signature="3637:3753" ph="..." />
+            <marker date="1496351534353" expanded="true" signature="3672:3748" ph="..." />
+            <marker date="1496351534353" expanded="true" signature="3701:3731" ph="..." />
           </folding>
         </state>
       </provider>
