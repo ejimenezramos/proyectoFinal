@@ -214,7 +214,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 					<div class="has-warning"><p id="errorconsulta"></p></div>
 					<div class="key">
 						<i class="fa fa-comments" aria-hidden="true"></i>
-						<textarea cols="40" rows="10" placeholder="Escribe aquí tu comentario" name="area" id="area"  oninvalid="setCustomValidity('Todos los campos son obligatorios para enviar el formulario de contacto'')"></textarea>
+						<textarea cols="50" rows="10" placeholder="Escribe aquí tu comentario" name="area" id="area"  oninvalid="setCustomValidity('Todos los campos son obligatorios para enviar el formulario de contacto'')"></textarea>
 						<div class="clearfix"></div>
 					</div>
 					<div class="has-warning"><p id="errorarea"></p></div>
