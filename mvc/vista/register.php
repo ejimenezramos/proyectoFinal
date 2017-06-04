@@ -154,23 +154,20 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             <form action="index.php?pagina=register" method="post" id="registro">
                 <div class="key">
                     <i class="fa fa-user" aria-hidden="true"></i>
-                    <input type="text" placeholder="Nombre" name="Nombre" id="nombre" maxlength="20"
-                           oninvalid="setCustomValidity('Todos los campos son obligatorios para el registro')">
+                    <input type="text" placeholder="Nombre" name="Nombre" id="nombre" maxlength="20">
                     <div class="clearfix"></div>
                 </div>
                 <div class="has-warning"><p id="errornombre"></p></div>
                 <div class="key">
                     <i class="fa fa-user" aria-hidden="true"></i>
-                    <input type="text" placeholder="Apellidos" name="Apellidos" id="apellidos" maxlength="20"
-                           oninvalid="setCustomValidity('Todos los campos son obligatorios para el registro')">
+                    <input type="text" placeholder="Apellidos" name="Apellidos" id="apellidos" maxlength="40">
 
                     <div class="clearfix"></div>
                 </div>
                 <div class="has-warning"><p id="errorapellidos"></p></div>
                 <div class="key">
                     <i class="fa fa-birthday-cake" aria-hidden="true"></i>
-                    <input type="date" placeholder="Fecha de nacimiento" id="fechanac" name="Fecha_Nac" maxrange
-                           oninvalid="setCustomValidity('Todos los campos son obligatorios para el registro')">
+                    <input type="date" placeholder="Fecha de nacimiento" id="fechanac" name="Fecha_Nac">
                     <div class="clearfix"></div>
                 </div>
                 <div class="has-warning"><p id="errorfechanac"></p></div>
@@ -256,29 +253,25 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 <div class="has-warning"><p id="errordireccion"></p></div>
                 <div class="key">
                     <i class="fa fa-home" aria-hidden="true"></i>
-                    <input type="text" placeholder="Código Postal" disabled="disabled" name="CP" id="cp" maxlength="5"
-                           oninvalid="setCustomValidity('Todos los campos son obligatorios para el registro')">
+                    <input type="number" placeholder="Código Postal" disabled="disabled" name="CP" id="cp" maxlength="5">
                     <div class="clearfix"></div>
                 </div>
                 <div class="has-warning"><p id="errorcp"></p></div>
                 <div class="key">
                     <i class="fa fa-user" aria-hidden="true"></i>
-                    <input type="text" placeholder="Nombre de usuario" name="Usuario" id="usuario" maxlength="20"
-                           oninvalid="setCustomValidity('Todos los campos son obligatorios para el registro')">
+                    <input type="text" placeholder="Nombre de usuario" name="Usuario" id="usuario">
                     <div class="clearfix"></div>
                 </div>
                 <div class="has-warning"><p id="errorusuario"></p></div>
                 <div class="key">
                     <i class="fa fa-lock" aria-hidden="true"></i>
-                    <input type="password" placeholder="Password" name="Password" id="password"
-                           oninvalid="setCustomValidity('Todos los campos son obligatorios para el registro')">
+                    <input type="password" placeholder="Password" name="Password" id="password">
                     <div class="clearfix"></div>
                 </div>
                 <div class="has-warning"><p id="errorpassword"></p></div>
                 <div class="key">
                     <i class="fa fa-lock" aria-hidden="true"></i>
-                    <input type="password" placeholder="Confirmar Password" id="password2" name="Password2"
-                           oninvalid="setCustomValidity('Todos los campos son obligatorios para el registro')">
+                    <input type="password" placeholder="Confirmar Password" id="password2" name="Password2">
                     <div class="clearfix"></div>
                 </div>
                 <div class="has-warning"><p id="errorpassword2"></p></div>
