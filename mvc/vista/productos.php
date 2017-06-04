@@ -27,6 +27,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 <!-- start-smoth-scrolling -->
 <script type="text/javascript" src="js/move-top.js"></script>
 <script type="text/javascript" src="js/easing.js"></script>
+	<script type="text/javascript" src="js/jquery.productos.js"></script>
 <script type="text/javascript">
 	jQuery(document).ready(function($) {
 		$(".scroll").click(function(event) {
@@ -119,7 +120,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 	<div class="product">
 		<div class="container">
 			<div class="spec ">
-				<h4>Selecciona un producto</h4>
+				<h3>Selecciona un producto</h3>
 			</div>
 			<div class="spec">
 				<select id="prod" name="productos">
@@ -127,7 +128,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 					<option id="todos" value="0">--Todos los productos--</option>
 					<option id="cereales" value="1">Cereales</option>
 					<option id="leche" value="2">Leche</option>
-					<option id="toppings" value="3">Toppings</option>
+					<option id="tops" value="3">Toppings</option>
 				</select>
 				<div>
 					<b></b> <span><i></i></span> <b class="line"></b>
@@ -477,7 +478,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 				<div id="toppings">
 					<div class="col-md-3 pro-1">
 						<div class="col-m">
-							<a href="#" data-toggle="modal" data-target="#myModal13"
+							<a href="#" data-toggle="modal" data-target="#myModal20"
 								class="offer-img"> <img src="images/packkinder.png"
 								class="img-responsive" alt="">
 							</a>
@@ -499,6 +500,118 @@ function hideURLbar(){ window.scrollTo(0,1); }
 										data-id="35" data-name="Kinder Bueno"
 										data-summary="summary 35" data-price="1.80" data-quantity="1"
 										data-image="images/packkinder.png">Add to Cart</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 pro-1">
+						<div class="col-m">
+							<a href="#" data-toggle="modal" data-target="#myModal21"
+							   class="offer-img"> <img src="images/topcaramelo.png"
+													   class="img-responsive" alt="">
+							</a>
+							<div class="mid-1">
+								<div class="women">
+									<h6>
+										<a href="single.html">Top Caramelo</a>
+									</h6>
+								</div>
+								<div class="mid-2">
+									<p>
+										<label>2.50€</label><em class="item_price">1.80€</em>
+									</p>
+									<div class="block"></div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="add">
+									<button class="btn btn-danger my-cart-btn my-cart-b"
+											data-id="35" data-name="Top Caramelo"
+											data-summary="summary 35" data-price="1.80" data-quantity="1"
+											data-image="images/topcaramelo.png">Add to Cart</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 pro-1">
+						<div class="col-m">
+							<a href="#" data-toggle="modal" data-target="#myModal13"
+							   class="offer-img"> <img src="images/topchocolate.png"
+													   class="img-responsive" alt="">
+							</a>
+							<div class="mid-1">
+								<div class="women">
+									<h6>
+										<a href="single.html">Sirope chocolate</a>
+									</h6>
+								</div>
+								<div class="mid-2">
+									<p>
+										<label>2.50€</label><em class="item_price">1.80€</em>
+									</p>
+									<div class="block"></div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="add">
+									<button class="btn btn-danger my-cart-btn my-cart-b"
+											data-id="35" data-name="Sirope Chocolate"
+											data-summary="summary 35" data-price="1.80" data-quantity="1"
+											data-image="images/topchocolate.png">Add to Cart</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 pro-1">
+						<div class="col-m">
+							<a href="#" data-toggle="modal" data-target="#myModal18"
+							   class="offer-img"> <img src="images/toparce.png"
+													   class="img-responsive" alt="">
+							</a>
+							<div class="mid-1">
+								<div class="women">
+									<h6>
+										<a href="single.html">Sirope de Arce</a>
+									</h6>
+								</div>
+								<div class="mid-2">
+									<p>
+										<label>2.50€</label><em class="item_price">1.90€</em>
+									</p>
+									<div class="block"></div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="add">
+									<button class="btn btn-danger my-cart-btn my-cart-b"
+											data-id="35" data-name="Sirope Arce"
+											data-summary="summary 35" data-price="1.90" data-quantity="1"
+											data-image="images/toparce.png">Add to Cart</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 pro-1">
+						<div class="col-m">
+							<a href="#" data-toggle="modal" data-target="#myModal22"
+							   class="offer-img"> <img src="images/siropefresa.png"
+													   class="img-responsive" alt="">
+							</a>
+							<div class="mid-1">
+								<div class="women">
+									<h6>
+										<a href="single.html">Sirope de Fresa</a>
+									</h6>
+								</div>
+								<div class="mid-2">
+									<p>
+										<label>2.50€</label><em class="item_price">1.80€</em>
+									</p>
+									<div class="block"></div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="add">
+									<button class="btn btn-danger my-cart-btn my-cart-b"
+											data-id="35" data-name="Sirope Fresa"
+											data-summary="summary 35" data-price="1.80" data-quantity="1"
+											data-image="images/siropefresa.png">Add to Cart</button>
 								</div>
 							</div>
 						</div>
@@ -1230,21 +1343,21 @@ function hideURLbar(){ window.scrollTo(0,1); }
 				<div class="modal-body modal-spa">
 					<div class="col-md-5 span-2">
 						<div class="item">
-							<img src="images/packkinder.png" class="img-responsive" alt="">
+							<img src="images/topchocolate.png" class="img-responsive" alt="">
 						</div>
 					</div>
 					<div class="col-md-7 span-1 ">
-						<h3>Kinder Bueno</h3>
+						<h3>Sirope chocolate</h3>
 						<div class="price_single">
 							<span class="reducedfrom"><del>1.80&euro;</span>
 							<div class="clearfix"></div>
 						</div>
 						<h4 class="quick">Descripci&oacute;n del producto</h4>
-						<p class="quick_desc">Paquete con unidades peque&ntilde;as de kinder bueno</p>
+						<p class="quick_desc">Siropre de chocolate original americano</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-btn1 "
-								data-id="36" data-name="Kinder Bueno" data-summary="summary 36"
-								data-price="1.80" data-quantity="1" data-image="images/packkinder.png">Add
+								data-id="36" data-name="Sirope Choco" data-summary="summary 36"
+								data-price="1.80" data-quantity="1" data-image="images/topchocolate.png">Add
 								to Cart</button>
 						</div>
 					</div>
@@ -1253,7 +1366,150 @@ function hideURLbar(){ window.scrollTo(0,1); }
 			</div>
 		</div>
 	</div>
-	
+	<div class="modal fade" id="myModal18" tabindex="-1" role="dialog"
+		 aria-labelledby="myModalLabel">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content modal-info">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal"
+							aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body modal-spa">
+					<div class="col-md-5 span-2">
+						<div class="item">
+							<img src="images/toparce.png" class="img-responsive" alt="">
+						</div>
+					</div>
+					<div class="col-md-7 span-1 ">
+						<h3>Sirope de Arce</h3>
+						<div class="price_single">
+							<span class="reducedfrom"><del>1.90&euro;</span>
+							<div class="clearfix"></div>
+						</div>
+						<h4 class="quick">Descripci&oacute;n del producto</h4>
+						<p class="quick_desc">Siropre de Arce Maple Joe</p>
+						<div class="add-to">
+							<button class="btn btn-danger my-cart-btn my-cart-btn1 "
+									data-id="36" data-name="Sirope Choco" data-summary="summary 36"
+									data-price="1.80" data-quantity="1" data-image="images/toparce.png">Add
+								to Cart</button>
+						</div>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal fade" id="myModal20" tabindex="-1" role="dialog"
+		 aria-labelledby="myModalLabel">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content modal-info">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal"
+							aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body modal-spa">
+					<div class="col-md-5 span-2">
+						<div class="item">
+							<img src="images/packkinder.png" class="img-responsive" alt="">
+						</div>
+					</div>
+					<div class="col-md-7 span-1 ">
+						<h3>Kinder Bueno</h3>
+						<div class="price_single">
+							<span class="reducedfrom"><del>1.90&euro;</span>
+							<div class="clearfix"></div>
+						</div>
+						<h4 class="quick">Descripci&oacute;n del producto</h4>
+						<p class="quick_desc">Kinder Bueno auténtico sabor avellana</p>
+						<div class="add-to">
+							<button class="btn btn-danger my-cart-btn my-cart-btn1 "
+									data-id="36" data-name="Sirope Choco" data-summary="summary 36"
+									data-price="1.80" data-quantity="1" data-image="images/packkinder.png">Add
+								to Cart</button>
+						</div>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal fade" id="myModal21" tabindex="-1" role="dialog"
+		 aria-labelledby="myModalLabel">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content modal-info">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal"
+							aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body modal-spa">
+					<div class="col-md-5 span-2">
+						<div class="item">
+							<img src="images/topcaramelo.png" class="img-responsive" alt="">
+						</div>
+					</div>
+					<div class="col-md-7 span-1 ">
+						<h3>Sirope de caramelo</h3>
+						<div class="price_single">
+							<span class="reducedfrom"><del>1.90&euro;</span>
+							<div class="clearfix"></div>
+						</div>
+						<h4 class="quick">Descripci&oacute;n del producto</h4>
+						<p class="quick_desc">Sirope con sabor a caramelo</p>
+						<div class="add-to">
+							<button class="btn btn-danger my-cart-btn my-cart-btn1 "
+									data-id="36" data-name="Top Caramelo" data-summary="summary 36"
+									data-price="1.80" data-quantity="1" data-image="images/topcaramelo.png">Add
+								to Cart</button>
+						</div>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal fade" id="myModal22" tabindex="-1" role="dialog"
+		 aria-labelledby="myModalLabel">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content modal-info">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal"
+							aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body modal-spa">
+					<div class="col-md-5 span-2">
+						<div class="item">
+							<img src="images/siropefresa.png" class="img-responsive" alt="">
+						</div>
+					</div>
+					<div class="col-md-7 span-1 ">
+						<h3>Sirope de fresa</h3>
+						<div class="price_single">
+							<span class="reducedfrom"><del>1.90&euro;</span>
+							<div class="clearfix"></div>
+						</div>
+						<h4 class="quick">Descripci&oacute;n del producto</h4>
+						<p class="quick_desc">Sirope con sabor a fresa</p>
+						<div class="add-to">
+							<button class="btn btn-danger my-cart-btn my-cart-btn1 "
+									data-id="36" data-name="Top Caramelo" data-summary="summary 36"
+									data-price="1.80" data-quantity="1" data-image="images/siropefresa.png">Add
+								to Cart</button>
+						</div>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+		</div>
+	</div>
 	<!-- product -->
 	<div class="modal fade" id="myModal14" tabindex="-1" role="dialog"
 		aria-labelledby="myModalLabel">

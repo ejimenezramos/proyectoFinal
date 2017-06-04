@@ -16,7 +16,8 @@ $(document).ready(function () {
 function comprobarCamposLogin() {
 
     var inp = $("#formLogin").find("input");
-
+    camposErroneos.splice(0);
+    contCamposErroneos=0;
     for (var i = 0; i < inp.length; i++) {
         if (inp[i].value.length <= 0) {
 
@@ -25,10 +26,8 @@ function comprobarCamposLogin() {
         }
     }
     if (camposErroneos.length > 0) {
-        alert(camposErroneos.length);
         camposErroneos = camposErroneos.filter(compruebaUndefined);
         stringErroneos = camposErroneos.join();
-        alert(stringErroneos);
         $("#errorlogin").html('El/Los campo/s: '+stringErroneos+' son obligatorios para iniciar sesión');
         return false;
     }

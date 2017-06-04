@@ -18,12 +18,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     margin: 0em 1em 2em ;
 
 }
-/*Elena 28/05/17: Clase creada para que desaparexcan algunos de los mensajes de error*/
-.errorfade{
-    -webkit-transition: opacity 8s linear;
-    transition: opacity 8s linear;
+/*Añado un borde de color al select de productos y lo hago mas grande*/
+#prod{
+    border: 1px solid #117A65;
+    width:20%;
+    font-size: large;
 
 }
+
 /*Pablo 21/05/17: Clase para centrar el boton de los packs*/
 .boton_packs{
     margin-top: 2em;
@@ -1930,7 +1932,7 @@ a#myTabDrop1 {
 	-webkit-box-shadow: 0px 0px 15px 0px #D6D6D6;
 	padding: 3em ;
 }
-
+/*Elena 04/06/2017: Cambio color del texto al escribir en los input para que sea más legible.*/
 .key  input[type="text"] ,.key  input[type="password"]{
     width: 89%;
     padding: 10px 10px;
@@ -1938,7 +1940,8 @@ a#myTabDrop1 {
     border: none;
     border-bottom: none;
     outline: none;
-    color: #999;
+    color: #117A65;
+    font-weight: 600;
     float: left;
     background: none;
 }
