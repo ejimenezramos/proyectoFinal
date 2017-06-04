@@ -16,11 +16,12 @@ var camposInvalidos = [];
 var contInvalid = 0;
 var camposBlanco = [];
 var camposInvalidos = [];
+var cont = 0;
 /***************VALIDACIONES SUBMIT REGISTRO****************/
 
 $(document).ready(function () {
     $("#registro").submit(function () {
-        alert("entra");
+
         return comprobarBlancos() && comprobarValidacion();
 
     });
@@ -28,14 +29,13 @@ $(document).ready(function () {
 
 /*FUNCIÓN COMPROBAR BLANCOS: Comprueba si hay campos en blanco en el formulario y devuelve true or false para validar o invalidar el submit*/
 function comprobarBlancos() {
-    alert("blancos");
+    camposBlanco.splice(0);
     $("#errorsubmit").css('opacity,1');
     var inputs = $("#registro").find("input");
     var errorCampos;
-    var cont = 0;
-    camposBlanco.splice(0);
+   cont=0;
     for (var i = 0; i < inputs.length; i++) {
-        alert(inputs[i].value)
+
         if (inputs[i].value.length <= 0) {
 
             camposBlanco[cont] = inputs[i].id;
@@ -43,7 +43,7 @@ function comprobarBlancos() {
         }
     }
     if (camposBlanco.length > 0) {
-
+        camposBlanco=camposBlanco.filter(compruebaUndefined);
         errorCampos = camposBlanco.join();
         $("#errorsubmit").html('Por favor rellena el/los campos: ');
         var aux = errorCampos.replace("fechanac", "fecha de nacimiento");
@@ -71,7 +71,6 @@ function comprobarBlancos() {
 function comprobarValidacion() {
     camposInvalidos.splice(0);
     var inputs = $("#registro").find("input");
-    alert("validaxion");
     contInvalid = 0;
     $("#errorvalidacion").html('');
     $("#errorvalidacion").css('opacity', '1');
@@ -310,12 +309,7 @@ function comprobarValidacion() {
     totalcamposerroneos = contInvalid;
 
     if (contInvalid > 0) {
-
-        for (a = 0; a <= camposInvalidos.length; a++) {
-            if (camposInvalidos[a] == undefined || camposInvalidos[a] == ""||camposInvalidos[a] == " ") {
-                camposInvalidos.splice(a, 1);
-            }
-        }
+        camposInvalidos=camposInvalidos.filter(compruebaUndefined);
         camposJoin = camposInvalidos.join();
         var aux = camposJoin.replace("fechanac", "fecha de nacimiento");
         var aux2 = aux.replace("cp", "código Postal");
@@ -358,7 +352,9 @@ function eliminarErrores(id) {
 
 }
 
-
+function compruebaUndefined(array) {
+    return array !=undefined && array !=" " && array !="";
+}
 /*FUNCIÓN COMPROBAR NAVEGADOR: Comprueba el navegador que está utilizando el usuario*/
 
 function comprobarNavegador() {
