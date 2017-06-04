@@ -18,6 +18,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     margin: 0em 1em 2em ;
 
 }
+.suma{
+   padding-top: 30%;
+}
+.sum{
+    padding: 1em;
+
+}
 /*Añado un borde de color al select de productos y lo hago mas grande*/
 #prod{
     border: 1px solid #117A65;

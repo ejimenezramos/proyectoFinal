@@ -176,7 +176,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 					<div class="row">
 						<div class="col-md-12">
 							<div class=" con-w3l ">
-								<div class="col-md-3 pro-1">
+								<div class="col-md-2 pro-1">
 									<div class="col-m">
 										<a href="#" data-toggle="modal" data-target="#myModal5"
 											class="offer-img"> <img src="images/boxlucky.png"
@@ -192,7 +192,23 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 									</div>
 								</div>
 
-								<div class="col-md-3 pro-1">
+								<div class="col-md-2 pro-1">
+									<div class="sum">
+										<p data-toggle="" data-target=""
+										   class="offer-img"> <img src="images/suma.png"
+																   class="img-responsive suma" alt="">
+										</p>
+										<div class="mid-1">
+											<div class="women">
+												<h6>
+													<a></a>
+												</h6>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-md-2 pro-1">
 									<div class="col-m">
 										<a href="#" data-toggle="modal" data-target="#myModal8"
 											class="offer-img"> <img src="images/milkblue.png"
@@ -208,7 +224,24 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 									</div>
 								</div>
 
-								<div class="col-md-3 pro-1">
+
+								<div class="col-md-2 pro-1">
+									<div class="sum">
+										<p data-toggle="modal" data-target=""
+										   class="offer-img"> <img src="images/suma.png"
+																   class="img-responsive suma" alt="">
+										</p>
+										<div class="mid-1">
+											<div class="women">
+												<h6>
+													<a></a>
+												</h6>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-md-2 pro-1">
 									<div class="col-m">
 										<a href="#" data-toggle="modal" data-target="#myModal12"
 											class="offer-img"> <img src="images/packbons.png"
@@ -224,7 +257,8 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 									</div>
 								</div>
 
-								<div class="col-md-3 pro-1">
+
+								<div class="col-md-2 pro-1">
 									<div class="col-m2 boton_packs">
 										<div class="mid-1">
 											<div style="text-align: center;">
