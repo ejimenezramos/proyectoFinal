@@ -24,6 +24,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 <link href="css/style.css" rel='stylesheet' type='text/css' />
 <!--Pablo 20/05/17: Estilos para el footer-->
 <link href="css/footer.css" rel='stylesheet' type='text/css' />
+
 <!-- js -->
 <script src="js/jquery-1.11.1.min.js"></script>
 <!-- //js -->
@@ -96,9 +97,8 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 				</h1>
 			</div>
 			<div class="head-t">
-                <ul class="card">
-                    {{login}}
-                </ul>
+				<ul class="card">{{login}}
+				</ul>
 			</div>
 			<div class="header-ri"></div>
 			<div class="nav-top">
@@ -149,416 +149,64 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 		</div>
 	</div>
 
-	
-	<!-- tab para los packs -->
+
 	<div class="container">
-		<div class="horizontal_tab">
-			<ul class="nav2 nav-tabs col-md-3 pro-pack">
-				<li class="active"><a href="#tab1" data-toggle="tab"
-					aria-expanded="true"><img src="images/pack_kids.png" width="100em"></a>
-					<p>Pack Intanfil</p></li>
-				<li class=""><a href="#tab2" data-toggle="tab" aria-expanded="false"><img
-						src="images/pack_chocolate.png" width="100em"></a>
-					<p>Pack Chocolate</p></li>
-				<li class=""><a href="#tab3" data-toggle="tab" aria-expanded="false"><img
-						src="images/pack_exotic.png" width="100em"></a>
-					<p>Pack Exotic</p></li>
-				<li class=""><a href="#tab4" data-toggle="tab" aria-expanded="false"><img
-						src="images/pack_healthy.png" width="100em"></a>
-					<p>Pack Healthy</p></li>
-				<li class=""><a href="#tab5" data-toggle="tab" aria-expanded="false"><img
-						src="images/pack_sweety.png" width="100em"></a>
-					<p>Pack Sweety</p></li>
-			</ul>
-			<div class="tab-content">
-				<!-- pack1 -->
-				<div class="tab-pane fade active in" id="tab1">
-					<div class="row">
-						<div class="col-md-12">
-							<div class=" con-w3l ">
-								<div class="col-md-2 pro-1">
-									<div class="col-m">
-										<a href="#" data-toggle="modal" data-target="#myModal5"
-											class="offer-img"> <img src="images/boxlucky.png"
-											class="img-responsive" alt="">
-										</a>
-										<div class="mid-1">
-											<div class="women">
-												<h6>
-													<a>Lucky Charms</a>
-												</h6>
-											</div>
-										</div>
-									</div>
-								</div>
+		<div class="row">
+			<div class="col-lg-12">
+				<h1 class="page-header">Packs Cereal-Break</h1>
+			</div>
 
-								<div class="col-md-2 pro-1">
-									<div class="sum">
-										<p data-toggle="" data-target=""
-										   class="offer-img"> <img src="images/suma.png"
-																   class="img-responsive suma" alt="">
-										</p>
-										<div class="mid-1">
-											<div class="women">
-												<h6>
-													<a></a>
-												</h6>
-											</div>
-										</div>
-									</div>
-								</div>
-
-								<div class="col-md-2 pro-1">
-									<div class="col-m">
-										<a href="#" data-toggle="modal" data-target="#myModal8"
-											class="offer-img"> <img src="images/milkblue.png"
-											class="img-responsive" alt="">
-										</a>
-										<div class="mid-1">
-											<div class="women">
-												<h6>
-													<a>Leche Azul</a>
-												</h6>
-											</div>
-										</div>
-									</div>
-								</div>
-
-
-								<div class="col-md-2 pro-1">
-									<div class="sum">
-										<p data-toggle="modal" data-target=""
-										   class="offer-img"> <img src="images/suma.png"
-																   class="img-responsive suma" alt="">
-										</p>
-										<div class="mid-1">
-											<div class="women">
-												<h6>
-													<a></a>
-												</h6>
-											</div>
-										</div>
-									</div>
-								</div>
-
-								<div class="col-md-2 pro-1">
-									<div class="col-m">
-										<a href="#" data-toggle="modal" data-target="#myModal12"
-											class="offer-img"> <img src="images/packbons.png"
-											class="img-responsive" alt="">
-										</a>
-										<div class="mid-1">
-											<div class="women">
-												<h6>
-													<a>Schoko-Bons</a>
-												</h6>
-											</div>
-										</div>
-									</div>
-								</div>
-
-
-								<div class="col-md-2 pro-1">
-									<div class="col-m2 boton_packs">
-										<div class="mid-1">
-											<div style="text-align: center;">
-												<button class="btn btn-danger my-cart-btn my-cart-b"
-													data-id="001" data-name="Pack infantil"
-													data-summary="summary 001" data-price="6.90" data-quantity="1"
-													data-image="images/pack_kids.png">Add to Cart</button>
-											</div>
-										</div>
-									</div>
-								</div>
-
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<!-- Pack2 -->
-				<div class="tab-pane" id="tab2">
-					<div class="row">
-						<div class="col-md-12">
-							<div class="col-md-3 pro-1">
-								<div class="col-m">
-									<a href="#" data-toggle="modal" data-target="#myModal7"
-										class="offer-img"> <img src="images/boxcocoa.png"
-										class="img-responsive" alt="">
-									</a>
-									<div class="mid-1">
-										<div class="women">
-											<h6>
-												<a>Cocoa Puffs</a>
-											</h6>
-										</div>
-									</div>
-								</div>
-							</div>
-
-							<div class="col-md-3 pro-1">
-								<div class="col-m">
-									<a href="#" data-toggle="modal" class="offer-img"
-										data-target="#myModal11"> <img src="images/milkvainilla.png"
-										class="img-responsive" alt="">
-									</a>
-									<div class="mid-1">
-										<div class="women">
-											<h6>
-												<a>Leche de vainilla</a>
-											</h6>
-										</div>
-									</div>
-								</div>
-							</div>
-
-							<div class="col-md-3 pro-1">
-								<div class="col-m">
-									<a href="#" data-toggle="modal" class="offer-img"
-										data-target="#myModal6"> <img src="images/packconguitos.png"
-										class="img-responsive" alt="">
-									</a>
-									<div class="mid-1">
-										<div class="women">
-											<h6>
-												<a>Conguitos</a>
-											</h6>
-										</div>
-									</div>
-								</div>
-							</div>
-
-							<div class="col-md-3 pro-1">
-								<div class="col-m2 boton_packs">
-									<div class="mid-1">
-										<div style="text-align: center;">
-											<button class="btn btn-danger my-cart-btn my-cart-b"
-												data-id="002" data-name="Pack Chocolate"
-												data-summary="summary 002" data-price="7" data-quantity="1"
-												data-image="images/pack_chocolate.png">Add to Cart</button>
-										</div>
-									</div>
-								</div>
-							</div>
-
-						</div>
-					</div>
-				</div>
-				<!--  Pack 3-->
-				<div class="tab-pane" id="tab3">
-					<div class="row">
-						<div class="col-md-12">
-							<div class="col-md-3 pro-1">
-								<div class="col-m">
-									<a href="#" data-toggle="modal" data-target="#myModal7"
-										class="offer-img"> <img src="images/boxfroot.png"
-										class="img-responsive" alt="">
-									</a>
-									<div class="mid-1">
-										<div class="women">
-											<h6>
-												<a>Froot Loops</a>
-											</h6>
-										</div>
-									</div>
-								</div>
-							</div>
-
-							<div class="col-md-3 pro-1">
-								<div class="col-m">
-									<a href="#" data-toggle="modal" class="offer-img"
-										data-target="#myModal11"> <img src="images/milkgreen.png"
-										class="img-responsive" alt="">
-									</a>
-									<div class="mid-1">
-										<div class="women">
-											<h6>
-												<a>Leche verde</a>
-											</h6>
-										</div>
-									</div>
-								</div>
-							</div>
-
-							<div class="col-md-3 pro-1">
-								<div class="col-m">
-									<a href="#" data-toggle="modal" class="offer-img"
-										data-target="#myModal6"> <img src="images/packbons.png"
-										class="img-responsive" alt="">
-									</a>
-									<div class="mid-1">
-										<div class="women">
-											<h6>
-												<a>Schockobons</a>
-											</h6>
-										</div>
-									</div>
-								</div>
-							</div>
-
-							<div class="col-md-3 pro-1">
-								<div class="col-m2 boton_packs">
-									<div class="mid-1">
-										<div style="text-align: center;">
-											<button class="btn btn-danger my-cart-btn my-cart-b"
-												data-id="003" data-name="Pack Exotic"
-												data-summary="summary 003" data-price="7.80" data-quantity="1"
-												data-image="images/pack_exotic.png">Add to Cart</button>
-										</div>
-									</div>
-								</div>
-							</div>
-
-
-						</div>
-					</div>
-				</div>
-
-				<!-- Pack 4 -->
-				<div class="tab-pane" id="tab4">
-					<div class="row">
-						<div class="col-md-12">
-							<div class="col-md-3 pro-1">
-								<div class="col-m">
-									<a href="#" data-toggle="modal" data-target="#myModal7"
-										class="offer-img"> <img src="images/boxcheerios.png"
-										class="img-responsive" alt="">
-									</a>
-									<div class="mid-1">
-										<div class="women">
-											<h6>
-												<a>Cereales Cheerios</a>
-											</h6>
-										</div>
-									</div>
-								</div>
-							</div>
-
-							<div class="col-md-3 pro-1">
-								<div class="col-m">
-									<a href="#" data-toggle="modal" class="offer-img"
-										data-target="#myModal11"> <img src="images/milkpink.png"
-										class="img-responsive" alt="">
-									</a>
-									<div class="mid-1">
-										<div class="women">
-											<h6>
-												<a>Leche rosa</a>
-											</h6>
-										</div>
-									</div>
-								</div>
-							</div>
-
-							<div class="col-md-3 pro-1">
-								<div class="col-m">
-									<a href="#" data-toggle="modal" class="offer-img"
-										data-target="#myModal6"> <img src="images/toparce.png"
-										class="img-responsive" alt="">
-									</a>
-									<div class="mid-1">
-										<div class="women">
-											<h6>
-												<a>Sirope de Arce</a>
-											</h6>
-										</div>
-									</div>
-								</div>
-							</div>
-
-							<div class="col-md-3 pro-1">
-								<div class="col-m2 boton_packs">
-									<div class="mid-1">
-										<div style="text-align: center;">
-											<button class="btn btn-danger my-cart-btn my-cart-b"
-												data-id="004" data-name="Pack Healthy"
-												data-summary="summary 004" data-price="6.5" data-quantity="1"
-												data-image="images/pack_healthy.png">Add to Cart</button>
-										</div>
-									</div>
-								</div>
-							</div>
-
-						</div>
-					</div>
-				</div>
-
-				<!-- Pack 5 -->
-
-				<div class="tab-pane" id="tab5">
-					<div class="row">
-						<div class="col-md-12">
-							<div class="col-md-3 pro-1">
-								<div class="col-m">
-									<a href="#" data-toggle="modal" data-target="#myModal7"
-										class="offer-img"> <img src="images/boxtrix.png"
-										class="img-responsive" alt="">
-									</a>
-									<div class="mid-1">
-										<div class="women">
-											<h6>
-												<a>Cereales Trix</a>
-											</h6>
-										</div>
-									</div>
-								</div>
-							</div>
-
-							<div class="col-md-3 pro-1">
-								<div class="col-m">
-									<a href="#" data-toggle="modal" class="offer-img"
-										data-target="#myModal11"> <img src="images/milkpink.png"
-										class="img-responsive" alt="">
-									</a>
-									<div class="mid-1">
-										<div class="women">
-											<h6>
-												<a>Leche rosa</a>
-											</h6>
-										</div>
-									</div>
-								</div>
-							</div>
-
-							<div class="col-md-3 pro-1">
-								<div class="col-m">
-									<a href="#" data-toggle="modal" class="offer-img"
-										data-target="#myModal6"> <img src="images/packbons.png"
-										class="img-responsive" alt="">
-									</a>
-									<div class="mid-1">
-										<div class="women">
-											<h6>
-												<a>Shocko-Bons</a>
-											</h6>
-										</div>
-									</div>
-								</div>
-							</div>
-
-							<div class="col-md-3 pro-1">
-								<div class="col-m2 boton_packs">
-									<div class="mid-1">
-										<div style="text-align: center;">
-											<button class="btn btn-danger my-cart-btn my-cart-b"
-												data-id="005" data-name="Pack Sweety"
-												data-summary="summary 005" data-price="6" data-quantity="1"
-												data-image="images/pack_sweety.png">Add to Cart</button>
-										</div>
-									</div>
-								</div>
-							</div>
-
-
-						</div>
-					</div>
-				</div>
-
-
+			<div class="col-lg-3 col-md-4 col-xs-6 thumb">
+				<a class="thumbnail" data-toggle="modal" data-target="#myModal7"> <img class="img-responsive"
+					src="images/pack_choco.jpg" alt="">
+					Ver contenido
+				</a>
+				<p>Pack Chocolate</p>
+			</div>
+			<div class="col-lg-3 col-md-4 col-xs-6 thumb">
+				<a class="thumbnail" data-toggle="modal" data-target="#myModal7"> <img class="img-responsive"
+					src="images/pack_exotic.jpeg" alt="">
+					Ver contenido
+				</a>
+				<p>Pack Exotic</p><span></span>
+			</div>
+			<div class="col-lg-3 col-md-4 col-xs-6 thumb">
+				<a class="thumbnail" data-toggle="modal" data-target="#myModal7"> <img class="img-responsive"
+					src="images/pack_healthy.jpeg" alt="">
+					Ver contenido
+				</a>
+				<p>Pack Healthy</p><span></span>
+			</div>
+			<div class="col-lg-3 col-md-4 col-xs-6 thumb">
+				<a class="thumbnail" data-toggle="modal" data-target="#myModal7"> <img class="img-responsive"
+					src="images/pack_sweety.jpeg" alt="">
+					Ver contenido
+				</a>
+				<p>Pack Sweety</p><span></span>
+			</div>
+			<div class="col-lg-3 col-md-4 col-xs-6 thumb">
+				<a class="thumbnail" href="#"> <img class="img-responsive"
+					src="http://placehold.it/400x300" alt="">
+				</a>
+				<p>Pack Red passion</p><span></span>
+			</div>
+			<div class="col-lg-3 col-md-4 col-xs-6 thumb">
+				<a class="thumbnail" href="#"> <img class="img-responsive"
+					src="http://placehold.it/400x300" alt="">
+				</a>
+			</div>
+			<div class="col-lg-3 col-md-4 col-xs-6 thumb">
+				<a class="thumbnail" href="#"> <img class="img-responsive"
+					src="http://placehold.it/400x300" alt="">
+				</a>
+			</div>
+			<div class="col-lg-3 col-md-4 col-xs-6 thumb">
+				<a class="thumbnail" href="#"> <img class="img-responsive"
+					src="http://placehold.it/400x300" alt="">
+				</a>
 			</div>
 		</div>
 	</div>
-
 
 	<!--footer Pablo 20/05/17: Nuevo footer-->
 	<footer class="footer-distributed">
@@ -687,7 +335,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 
   });
   </script>
-		<!-- product -->
+	<!-- product -->
 	<div class="modal fade" id="myModal1" tabindex="-1" role="dialog"
 		aria-labelledby="myModalLabel">
 		<div class="modal-dialog" role="document">
@@ -712,7 +360,8 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 							<div class="clearfix"></div>
 						</div>
 						<h4 class="quick">Descripci&oacute;n del producto</h4>
-						<p class="quick_desc">Disfruta de uno de nuestros deliciosos cereales con sabor a cacahuete y miel.</p>
+						<p class="quick_desc">Disfruta de uno de nuestros deliciosos
+							cereales con sabor a cacahuete y miel.</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-btn1 "
 								data-id="24" data-name="Cheerios" data-summary="summary 24"
@@ -750,11 +399,12 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 							<div class="clearfix"></div>
 						</div>
 						<h4 class="quick">Descripci&oacute;n del producto</h4>
-						<p class="quick_desc">Nuestras deliciosas bocanadas de ma�z, dulces y crujientes con mantequilla de cacahuete</p>
+						<p class="quick_desc">Nuestras deliciosas bocanadas de ma�z,
+							dulces y crujientes con mantequilla de cacahuete</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-btn1 "
-								data-id="25" data-name="Reese´s Puffs" data-summary="summary 25"
-								data-price="4.50" data-quantity="1"
+								data-id="25" data-name="Reese´s Puffs"
+								data-summary="summary 25" data-price="4.50" data-quantity="1"
 								data-image="images/boxreeses.png">Add to Cart</button>
 						</div>
 					</div>
@@ -792,8 +442,8 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 							a canela</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-btn1 "
-								data-id="26" data-name="Cinnamon Crunch" data-summary="summary 26"
-								data-price="3.50" data-quantity="1"
+								data-id="26" data-name="Cinnamon Crunch"
+								data-summary="summary 26" data-price="3.50" data-quantity="1"
 								data-image="images/boxcinnamon.png">Add to Cart</button>
 						</div>
 					</div>
@@ -1025,8 +675,8 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-btn1 "
 								data-id="32" data-name="Leche Rosa" data-summary="summary 32"
-								data-price="0.80" data-quantity="1" data-image="images/milkpink.png">Add
-								to Cart</button>
+								data-price="0.80" data-quantity="1"
+								data-image="images/milkpink.png">Add to Cart</button>
 						</div>
 					</div>
 					<div class="clearfix"></div>
@@ -1063,8 +713,8 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-btn1 "
 								data-id="33" data-name="Leche Verde" data-summary="summary 33"
-								data-price="0.80" data-quantity="1" data-image="images/milkgreen.png">Add
-								to Cart</button>
+								data-price="0.80" data-quantity="1"
+								data-image="images/milkgreen.png">Add to Cart</button>
 						</div>
 					</div>
 					<div class="clearfix"></div>
@@ -1099,9 +749,9 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 						<p class="quick_desc">Leche UHT Asturiana con estracto de vainilla</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-btn1 "
-								data-id="34" data-name="Leche de Vainilla" data-summary="summary 34"
-								data-price="0.90" data-quantity="1" data-image="images/milkvainilla.png">Add
-								to Cart</button>
+								data-id="34" data-name="Leche de Vainilla"
+								data-summary="summary 34" data-price="0.90" data-quantity="1"
+								data-image="images/milkvainilla.png">Add to Cart</button>
 						</div>
 					</div>
 					<div class="clearfix"></div>
@@ -1123,7 +773,8 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 				<div class="modal-body modal-spa">
 					<div class="col-md-5 span-2">
 						<div class="item">
-							<img src="images/milksojaalmond.png" class="img-responsive" alt="">
+							<img src="images/milksojaalmond.png" class="img-responsive"
+								alt="">
 						</div>
 					</div>
 					<div class="col-md-7 span-1 ">
@@ -1136,9 +787,9 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 						<p class="quick_desc">Leche de Soja con estractos de almendra</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-btn1 "
-								data-id="35" data-name="Leche de Avena y soja" data-summary="summary 35"
-								data-price="1.20" data-quantity="1" data-image="images/milksojaalmond.png">Add
-								to Cart</button>
+								data-id="35" data-name="Leche de Avena y soja"
+								data-summary="summary 35" data-price="1.20" data-quantity="1"
+								data-image="images/milksojaalmond.png">Add to Cart</button>
 						</div>
 					</div>
 					<div class="clearfix"></div>
@@ -1170,12 +821,13 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 							<div class="clearfix"></div>
 						</div>
 						<h4 class="quick">Descripci&oacute;n del producto</h4>
-						<p class="quick_desc">Paquete con unidades peque&ntilde;as de kinder bueno</p>
+						<p class="quick_desc">Paquete con unidades peque&ntilde;as de
+							kinder bueno</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-btn1 "
 								data-id="36" data-name="Kinder Bueno" data-summary="summary 36"
-								data-price="1.80" data-quantity="1" data-image="images/packkinder.png">Add
-								to Cart</button>
+								data-price="1.80" data-quantity="1"
+								data-image="images/packkinder.png">Add to Cart</button>
 						</div>
 					</div>
 					<div class="clearfix"></div>
@@ -1183,7 +835,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 			</div>
 		</div>
 	</div>
-	
+
 	<!-- product -->
 	<div class="modal fade" id="myModal14" tabindex="-1" role="dialog"
 		aria-labelledby="myModalLabel">
@@ -1208,12 +860,13 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 							<div class="clearfix"></div>
 						</div>
 						<h4 class="quick">Descripci&oacute;n del producto</h4>
-						<p class="quick_desc">Paquete con unidades peque&ntilde;as de chips ahoy!</p>
+						<p class="quick_desc">Paquete con unidades peque&ntilde;as de
+							chips ahoy!</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-btn1 "
 								data-id="37" data-name="Chips Ahoy" data-summary="summary 37"
-								data-price="1.80" data-quantity="1" data-image="images/packchips.png">Add
-								to Cart</button>
+								data-price="1.80" data-quantity="1"
+								data-image="images/packchips.png">Add to Cart</button>
 						</div>
 					</div>
 					<div class="clearfix"></div>
@@ -1221,7 +874,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 			</div>
 		</div>
 	</div>
-	
+
 	<!-- product -->
 	<div class="modal fade" id="myModal15" tabindex="-1" role="dialog"
 		aria-labelledby="myModalLabel">
@@ -1246,12 +899,13 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 							<div class="clearfix"></div>
 						</div>
 						<h4 class="quick">Descripci&oacute;n del producto</h4>
-						<p class="quick_desc">Paquete con unidades peque&ntilde;as de Schoko-bons</p>
+						<p class="quick_desc">Paquete con unidades peque&ntilde;as de
+							Schoko-bons</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-btn1 "
-								data-id="38" data-name="Kinder Schoko-Bons" data-summary="summary 38"
-								data-price="1.80" data-quantity="1" data-image="images/of35.png">Add
-								to Cart</button>
+								data-id="38" data-name="Kinder Schoko-Bons"
+								data-summary="summary 38" data-price="1.80" data-quantity="1"
+								data-image="images/of35.png">Add to Cart</button>
 						</div>
 					</div>
 					<div class="clearfix"></div>
@@ -1259,7 +913,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 			</div>
 		</div>
 	</div>
-	
+
 	<!-- product -->
 	<div class="modal fade" id="myModal16" tabindex="-1" role="dialog"
 		aria-labelledby="myModalLabel">
@@ -1285,12 +939,13 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 							<div class="clearfix"></div>
 						</div>
 						<h4 class="quick">Descripci&oacute;n del producto</h4>
-						<p class="quick_desc">Paquete con unidades peque&ntilde;as de oreos</p>
+						<p class="quick_desc">Paquete con unidades peque&ntilde;as de
+							oreos</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-btn1 "
 								data-id="39" data-name="Oreo" data-summary="summary 39"
-								data-price="1.80" data-quantity="1" data-image="images/packoreo.png">Add
-								to Cart</button>
+								data-price="1.80" data-quantity="1"
+								data-image="images/packoreo.png">Add to Cart</button>
 						</div>
 					</div>
 					<div class="clearfix"></div>
@@ -1322,12 +977,13 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 							<div class="clearfix"></div>
 						</div>
 						<h4 class="quick">Descripci&oacute;n del producto:</h4>
-						<p class="quick_desc">Paquete con unidades peque&ntilde;as de conguitos</p>
+						<p class="quick_desc">Paquete con unidades peque&ntilde;as de
+							conguitos</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-btn1 "
 								data-id="40" data-name="Conguitos" data-summary="summary 40"
-								data-price="1.80" data-quantity="1" data-image="images/packconguitos.png">Add
-								to Cart</button>
+								data-price="1.80" data-quantity="1"
+								data-image="images/packconguitos.png">Add to Cart</button>
 						</div>
 					</div>
 					<div class="clearfix"></div>
