@@ -38,4 +38,13 @@ class Usuarios {
 		] ) > 0) ? true : false;
 		$database->closeConnection ();
 	}
+	
+	public static function modifyDB($data, $id) {
+		$database = medoo::getInstance();
+		$database->openConnection(unserialize(MYSQL_CONFIG));
+		$datos = $database->update('usuarios', $data, ['id' => $id]);
+		$database->closeConnection();
+		return $datos;
+	}
+	
 }

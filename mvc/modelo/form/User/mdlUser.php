@@ -20,9 +20,8 @@ class mdlUser extends Padre {
             if ($val->isValid()) {
 // Guardamos los datos en session
                 $_SESSION[self::PAGE] = $val->getOks();
-                $_SESSION['datos'] = productos::searchIdDB($id);
 // Cambiamos el paso
-                redirectTo('index.php?pagina=user');
+                redirectTo('index.php?pagina=home');
             }
         }
 
