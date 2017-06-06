@@ -178,70 +178,30 @@ function hideURLbar(){ window.scrollTo(0,1); }
 	<div class="typrography">
 		<div class="container">
 			<div class="spec ">
-				<h3>Short Codes</h3>
-				<div class="ser-t">
+
+				<div>
 					<b></b> <span><i></i></span> <b class="line"></b>
 				</div>
 			</div>
 			<div class="grid_3 grid_4 wow fadeInLeft animated"
 				data-wow-delay=".5s">
-				<h3 class="bars">Headings</h3>
+
 				<div class="bs-example">
 					<div class="mb-60">
-						<h1>Heading H1</h1>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-							Expedita saepe veniam quo consequuntur ad totam rem aliquid
-							voluptates hic eos ullam, sequi nihil necessitatibus beatae
-							perspiciatis perferendis, eveniet at esse vero molestiae debitis
-							distinctio sunt modi. Repellat, eligendi, eius! Veritatis in
-							veniam, tempora tempore ratione provident. Sunt nulla similique
-							voluptates magni labore maxime tempore error sed necessitatibus
-							ab. Quisquam, nisi.</p>
-						<h2>Heading H2</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-							Expedita saepe veniam quo consequuntur ad totam rem aliquid
-							voluptates hic eos ullam, sequi nihil necessitatibus beatae
-							perspiciatis perferendis, eveniet at esse vero molestiae debitis
-							distinctio sunt modi. Repellat, eligendi, eius! Veritatis in
-							veniam, tempora tempore ratione provident. Sunt nulla similique
-							voluptates magni labore maxime tempore error sed necessitatibus
-							ab. Quisquam, nisi.</p>
-						<h3>Heading H3</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-							Expedita saepe veniam quo consequuntur ad totam rem aliquid
-							voluptates hic eos ullam, sequi nihil necessitatibus beatae
-							perspiciatis perferendis, eveniet at esse vero molestiae debitis
-							distinctio sunt modi. Repellat, eligendi, eius! Veritatis in
-							veniam, tempora tempore ratione provident. Sunt nulla similique
-							voluptates magni labore maxime tempore error sed necessitatibus
-							ab. Quisquam, nisi.</p>
-						<h4>Heading H4</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-							Expedita saepe veniam quo consequuntur ad totam rem aliquid
-							voluptates hic eos ullam, sequi nihil necessitatibus beatae
-							perspiciatis perferendis, eveniet at esse vero molestiae debitis
-							distinctio sunt modi. Repellat, eligendi, eius! Veritatis in
-							veniam, tempora tempore ratione provident. Sunt nulla similique
-							voluptates magni labore maxime tempore error sed necessitatibus
-							ab. Quisquam, nisi.</p>
-						<h5>Heading H5</h5>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-							Expedita saepe veniam quo consequuntur ad totam rem aliquid
-							voluptates hic eos ullam, sequi nihil necessitatibus beatae
-							perspiciatis perferendis, eveniet at esse vero molestiae debitis
-							distinctio sunt modi. Repellat, eligendi, eius! Veritatis in
-							veniam, tempora tempore ratione provident. Sunt nulla similique
-							voluptates magni labore maxime tempore error sed necessitatibus
-							ab. Quisquam, nisi.</p>
-						<h6>Heading H6</h6>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-							Expedita saepe veniam quo consequuntur ad totam rem aliquid
-							voluptates hic eos ullam, sequi nihil necessitatibus beatae
-							perspiciatis perferendis, eveniet at esse vero molestiae debitis
-							distinctio sunt modi. Repellat, eligendi, eius! Veritatis in
-							veniam, tempora tempore ratione provident. Sunt nulla similique
-							voluptates magni labore maxime tempore error sed necessitatibus
-							ab. Quisquam, nisi.</p>
+						<h1>Nuestros Socios</h1>
+						<p>En las imágenes superiores podemos ver a los socios fundadores de la compañia.</p>
+						<h1>El origen</h1>
+						<p>La idea de formar Cereal-Break, nace de la necesidad de los consumidores nacionales de probar otro tipo de productos que no son habituales de nuestro país.
+							Por este motivo se decide en el año 2016, importar los primeros cereales americanos para su posterior venta en España.
+						    Ante la buena respuesta del consumidor nacional, se decide ampliar el negocio y nuestra oferta de productos hasta que finalmente
+							se incorpora en el año 2017 la leche coloreada o "colored milk", que ya había sido un éxito en otros paises.</p>
+						<h1>Nuestros objetivos</h1>
+						<p>Actualmente, contamos con más de 50.000 clientes suscritos a nuestra web que realizan compras asiduamente y disfrutan de nuestros productos.
+							El objetivo para este año 2017 es llegar a los 100.000 clientes, por este motivo, seguiremos ampliando nuestra oferta con los productos más novedosos del mercado.</p>
+						<h1>Nuestro compromiso de calidad </h1>
+						<p>Todos nuestros productos pasan por un exhaustivo control de calidad que garantiza su calidad y autenticidad. Desde Cereal-Break nos preocupamos porque los productos
+						que ofertamos cumplan todos los requisitos necesarios para alcanzar los máximos niveles de calidad exigidos a nivel nacional</p>
+
 					</div>
 				</div>
 			</div>
