@@ -261,7 +261,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 <div class="has-warning"><p id="errordireccion">{{war-Direccion}}</p></div>
                 <div class="key">
                     <i class="fa fa-home" aria-hidden="true"></i>
-                    <input type="number" placeholder="Código Postal" disabled="disabled" name="CP" id="cp" maxlength="5" />
+                    <input type="text" placeholder="Código Postal" disabled="disabled" name="CP" id="cp" maxlength="5" />
                     <div class="clearfix"></div>
                 </div>
                 <div class="has-warning"><p id="errorcp">{{war-CP}}</p></div>
