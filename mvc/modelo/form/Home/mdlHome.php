@@ -21,6 +21,7 @@ class mdlHome extends Padre {
 // Guardamos los datos en session
                 $_SESSION[self::PAGE] = $val->getOks();
                 $_SESSION['datos'] = productos::searchIdDB($id);
+                $_SESSION['home']= getPost('home');
 // Cambiamos el paso
                 redirectTo('index.php?pagina=listado');
             }
@@ -32,10 +33,6 @@ class mdlHome extends Padre {
     public function onCargarVista($path) {
         if (getGet('pagina') != self::PAGE)
             return;
-        if(isset($_GET['cerrar']))
-        {
-            session_destroy();
-        }
         ob_start();
         include $path;
         $vista = ob_get_contents();

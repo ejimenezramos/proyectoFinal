@@ -19,6 +19,8 @@ class AboutusParser
 							aria-hidden='true'></i>Login</a></li>";
                     $str.="<li><a href='?pagina=register'><i class='fa fa-user'
 							aria-hidden='true'></i>Registro</a></li>";
+
+
                     if (isset($_SESSION['info'])) {
                         $info = $_SESSION['info'];
                         switch ($info) {
@@ -26,8 +28,7 @@ class AboutusParser
                                 $usuario = $_SESSION['usuarios'];
                                 $str = "<li><a href='?pagina=user'><i class='fa fa-user'
 							aria-hidden='true'></i>Mi cuenta: $usuario</a></li>";
-                                Session::del($_SESSION['info']);
-                                $str .= "<li><a href='?pagina=home&cerrar=true'><i class='fa fa-arrow-right'
+                                $str .= "<li><a href='index.php'><i class='fa fa-arrow-right'
 							aria-hidden='true'></i>Cerrar Sesión</a></li>";
                                 break;
                             case "noRegisted":
@@ -37,16 +38,14 @@ class AboutusParser
                             case "logged":
                                 $usuario = $_SESSION['usuarios'];
                                 $str = "<li><a href='?pagina=user'><i class='fa fa-user'
-							aria-hidden='true'></i>Bienvenido: $usuario</a></li>";
-                                $str .= "<li><a href='?pagina=home&cerrar=true'><i class='fa fa-arrow-right'
-							aria-hidden='true'></i>Cerrar Sesi�n</a></li>";
-                                $str .= "<li><a href='?pagina=user'><i class='fa fa-user'
-							aria-hidden='true'></i>Mi cuenta</a></li>";
-                                Session::del($_SESSION['info']);
+							aria-hidden='true'></i>Mi cuenta: $usuario</a></li>";
+                                $str .= "<li><a href='index.php'><i class='fa fa-arrow-right'
+							aria-hidden='true'></i>Cerrar Sesión</a></li>";
                                 break;
                         }
-                        break;
+
                     }
+                    break;
 			}
 			$vista = str_replace('{{' . $tag . '}}', $str, $vista);
 		}

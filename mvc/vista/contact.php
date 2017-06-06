@@ -7,7 +7,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Cereal | Break - Contacto -</title>
+    <title>Big store a Ecommerce Online Shopping Category Flat
+        Bootstrap Responsive Website Template | Contact :: w3layouts</title>
     <!-- for-mobile-apps -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
@@ -184,7 +185,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <div class="main-agileits">
         <div class="form-w3agile">
             <h3>Formulario de Contacto</h3>
-            <form action="#" method="post" id="contacto">
+            <form action="index.php?pagina=contact" method="post" id="contacto">
                 <div class="key">
                     <i class="fa fa-user" aria-hidden="true"></i>
                     <input type="text" placeholder="Nombre" name="Nombre" id="nombre" maxlength="20">
@@ -222,7 +223,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     <div class="clearfix"></div>
                 </div>
                 <div class="has-warning"><p id="errorarea"></p></div>
-                <input type="submit" value="Contactar" id="contactar">
+                <input type="submit" value="Contactar" name="contact"  id="contactar">
                 <div class="has-warning"><p id="errorsubmit"></p></div>
                 <div class="has-warning"><p id="errorvalidacion"></p></div>
             </form>

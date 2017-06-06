@@ -8,9 +8,9 @@ class mdlContact extends padre {
         if (getGet('pagina') != self::PAGE)
             return;
 
-// Validamos
+        // Validamos
         $val = Validacion::getInstance();
-// Validamos los elementos que hay en $_POST
+        // Validamos los elementos que hay en $_POST
         $toValidate = ($_POST);
         $rules = array(
             'nombre' => 'required|alpha_space',
@@ -24,16 +24,10 @@ class mdlContact extends padre {
         $val->run($toValidate);
         if (!is_null(getPost(self::PAGE))) {
             if ($val->isValid()) {
-// Guardamos los datos en session
-                $_SESSION[self::PAGE] = $val->getOks();
-                $data = $_SESSION['login'];
-                $datos = Usuario::insertDB($data);
-                if ($datos) {
-                    $_SESSION['info'] = 'logged';
-                } else
-                    $_SESSION['info'] = 'noLogged';
-// Cambiamos el paso
-                redirectTo('index.php?pagina=menu');
+                // Guardamos los datos en session
+                $_SESSION['contactUser']=getPost('Nombre');
+                // Cambiamos el paso
+                redirectTo('index.php?pagina=mensaje');
             }
         }
     }
@@ -47,3 +41,4 @@ class mdlContact extends padre {
     }
 
 }
+

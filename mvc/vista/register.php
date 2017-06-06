@@ -1,14 +1,14 @@
-<?php $val = Validacion::getInstance(); ?>
 <!--
 Author: W3layouts
 Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 -->
+<?php $val = Validacion::getInstance(); ?>
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Cereal | Break - Registro -</title>
+    <title>Registro</title>
     <!-- for-mobile-apps -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
@@ -155,127 +155,134 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             <form action="index.php?pagina=register" method="post" id="registro">
                 <div class="key">
                     <i class="fa fa-user" aria-hidden="true"></i>
-                    <input type="text" placeholder="Nombre" name="Nombre" id="nombre" maxlength="20">
+                    <input type="text" placeholder="Nombre" name="Nombre" id="nombre" maxlength="20" 
+                           Value='<?php echo $val->restoreValue('Nombre'); ?>'>
                     <div class="clearfix"></div>
                 </div>
-                <div class="has-warning"><p id="errornombre"></p></div>
+                <div class="has-warning"><p id="errornombre">{{war-Nombre}}</p></div>
                 <div class="key">
                     <i class="fa fa-user" aria-hidden="true"></i>
-                    <input type="text" placeholder="Apellidos" name="Apellidos" id="apellidos" maxlength="40">
+                    <input type="text" placeholder="Apellidos" name="Apellidos" id="apellidos" maxlength="40" 
+                           Value='<?php echo $val->restoreValue('Apellidos'); ?>'>
 
                     <div class="clearfix"></div>
                 </div>
-                <div class="has-warning"><p id="errorapellidos"></p></div>
+                <div class="has-warning"><p id="errorapellidos">{{war-Apellidos}}</p></div>
                 <div class="key">
                     <i class="fa fa-birthday-cake" aria-hidden="true"></i>
-                    <input type="date" placeholder="Fecha de nacimiento" id="fechanac" name="Fecha_Nac">
+                    <input type="date" placeholder="Fecha de nacimiento" id="fechanac" name="Fecha_Nac" 
+                           Value='<?php echo $val->restoreValue('Fecha_Nac'); ?>'>
                     <div class="clearfix"></div>
                 </div>
-                <div class="has-warning"><p id="errorfechanac"></p></div>
+                <div class="has-warning"><p id="errorfechanac">{{war-Fecha_Nac}}</p></div>
 
                 <div class="key">
                     <i class="fa fa-user" aria-hidden="true"></i>
-                    <input type="text" placeholder="Dni" name="DNI" id="dni" maxlength="12"
+                    <input type="text" placeholder="Dni" name="DNI" id="dni" maxlength="12" 
+                           Value='<?php echo $val->restoreValue('DNI'); ?>'
                            oninvalid="setCustomValidity('Todos los campos son obligatorios para el registro')">
                     <div class="clearfix"></div>
                 </div>
-                <div class="has-warning"><p id="errordni"></p></div>
+                <div class="has-warning"><p id="errordni">{{war-DNI}}</p></div>
                 <div class="key">
                     <i class="fa fa-mobile-phone" aria-hidden="true"></i>
-                    <input type="text" placeholder="Teléfono" name="Telefono" id="telefono" maxlength="9"
+                    <input type="text" placeholder="Teléfono" name="Telefono" id="telefono" maxlength="9" 
+                           Value='<?php echo $val->restoreValue('Telefono'); ?>'
                            oninvalid="setCustomValidity('Todos los campos son obligatorios para el registro')">
                     <div class="clearfix"></div>
                 </div>
-                <div class="has-warning"><p id="errortelefono"></p></div>
+                <div class="has-warning"><p id="errortelefono">{{war-Telefono}}</p></div>
                 <div class="key">
                     <i class="fa fa-envelope" aria-hidden="true"></i>
-                    <input type="text" placeholder="email@example.com" name="Email" id="email"
+                    <input type="text" placeholder="email@example.com" name="Email" id="email" 
+                           Value='<?php echo $val->restoreValue('Email'); ?>'
                            oninvalid="setCustomValidity('Todos los campos son obligatorios para el registro')">
                     <div class="clearfix"></div>
                 </div>
-                <div class="has-warning"><p id="erroremail"></p></div>
+                <div class="has-warning"><p id="erroremail">{{war-Email}}</p></div>
                 <div class="key">
                     <i class="fa fa-list" aria-hidden="true"></i>
                     <select class="consulta" name="Comunidad" id="comunidades"
                             oninvalid="setCustomValidity('Todos los campos son obligatorios para el registro')">
-                        <option value="0">--Selecciona una Comunidad Autónoma--</option>
-                        <option value="1">Andalucía</option>
-                        <option value="2">Aragón</option>
-                        <option value="3">Asturias</option>
-                        <option value="4">Cantabria</option>
-                        <option value="5">Castilla y León</option>
-                        <option value="6">Castilla-La Mancha</option>
-                        <option value="7">Cataluña</option>
-                        <option value="8">Extremadura</option>
-                        <option value="9">Galicia</option>
-                        <option value="10">La Rioja</option>
-                        <option value="11">Islas Baleares</option>
-                        <option value="12">País Vasco</option>
-                        <option value="13">Canarias</option>
-                        <option value="14">Comunidad de Madrid</option>
-                        <option value="15">Región de Murcia</option>
-                        <option value="16">Comunidad Valenciana</option>
-                        <option value="17">Navarra</option>
-                        <option value="18">Ceuta</option>
-                        <option value="19">Melilla</option>
+                        <option value="0">--Seleccione una Comunidad Autónoma--</option>
+                        <option value="Andalucía">Andalucía</option>
+                        <option value="Aragón">Aragón</option>
+                        <option value="Asturias">Asturias</option>
+                        <option value="Cantabria">Cantabria</option>
+                        <option value="Castilla y León">Castilla y León</option>
+                        <option value="Castilla-La Mancha">Castilla-La Mancha</option>
+                        <option value="Cataluña">Cataluña</option>
+                        <option value="Extremadura">Extremadura</option>
+                        <option value="Galicia">Galicia</option>
+                        <option value="La Rioja">La Rioja</option>
+                        <option value="Islas Baleares">Islas Baleares</option>
+                        <option value="País Vasco">País Vasco</option>
+                        <option value="Canarias">Canarias</option>
+                        <option value="Comunidad de Madrid">Comunidad de Madrid</option>
+                        <option value="Región de Murcia">Región de Murcia</option>
+                        <option value="Comunidad Valenciana">Comunidad Valenciana</option>
+                        <option value="Navarra">Navarra</option>
+                        <option value="Ceuta">Ceuta</option>
+                        <option value="Melilla">Melilla</option>
                     </select>
                     <div class="clearfix"></div>
                 </div>
-                <div class="has-warning"><p id="errorcomunidades"></p></div>
+                <div class="has-warning"><p id="errorcomunidades">{{war-Comunidad}}</p></div>
                 <div class="key">
                     <i class="fa fa-list" aria-hidden="true"></i>
                     <select class="consulta" disabled="disabled" name="Provincia" id="provincias"
                             oninvalid="setCustomValidity('Todos los campos son obligatorios para el registro')">
-                        <option value="0">--Selecciona una provincia--</option>
+                        <option value="0">--Seleccione una provincia--</option>
 
                     </select>
                     <div class="clearfix"></div>
                 </div>
-                <div class="has-warning"><p id="errorprovincias"></p></div>
+                <div class="has-warning"><p id="errorprovincias">{{war-Provincia}}</p></div>
                 <div class="key">
                     <i class="fa fa-list" aria-hidden="true"></i>
                     <select class="consulta" disabled="disabled" name="tipoDireccion" id="tipoDireccion"
                             oninvalid="setCustomValidity('Todos los campos son obligatorios para el registro')">
-                        <option value="seleccion">--Selecciona un tipo de vía--</option>
-                        <option value="C/">Calle</option>
+                        <option value="seleccion">--Seleccione un tipo de vía--</option>
+                        <option value="C">Calle</option>
                         <option value="Avda">Avda</option>
                         <option value="Pº">Pº</option>
                         <option value="Travesía">Travesía</option>
                     </select>
                     <div class="clearfix"></div>
                 </div>
-                <div class="has-warning"><p id="errortipoDireccion"></p></div>
+                <div class="has-warning"><p id="errortipoDireccion">{{war-tipoDireccion}}</p></div>
                 <div class="key">
                     <i class="fa fa-home" aria-hidden="true"></i>
                     <input type="text" placeholder="Dirección" disabled="disabled" name="Direccion" id="direccion"
+                            Value='<?php echo $val->restoreValue('Direccion'); ?>'
                            oninvalid="setCustomValidity('Todos los campos son obligatorios para el registro')">
                     <div class="clearfix"></div>
                 </div>
-                <div class="has-warning"><p id="errordireccion"></p></div>
+                <div class="has-warning"><p id="errordireccion">{{war-Direccion}}</p></div>
                 <div class="key">
                     <i class="fa fa-home" aria-hidden="true"></i>
-                    <input type="number" placeholder="Código Postal" disabled="disabled" name="CP" id="cp" maxlength="5">
+                    <input type="number" placeholder="Código Postal" disabled="disabled" name="CP" id="cp" maxlength="5" />
                     <div class="clearfix"></div>
                 </div>
-                <div class="has-warning"><p id="errorcp"></p></div>
+                <div class="has-warning"><p id="errorcp">{{war-CP}}</p></div>
                 <div class="key">
                     <i class="fa fa-user" aria-hidden="true"></i>
-                    <input type="text" placeholder="Nombre de usuario" name="Usuario" id="usuario">
+                    <input type="text" placeholder="Nombre de usuario" name="Usuario" id="usuario" Value='<?php echo $val->restoreValue('Usuario'); ?>'>
                     <div class="clearfix"></div>
                 </div>
-                <div class="has-warning"><p id="errorusuario"></p></div>
+                <div class="has-warning"><p id="errorusuario">{{war-Usuario}}</p></div>
                 <div class="key">
                     <i class="fa fa-lock" aria-hidden="true"></i>
                     <input type="password" placeholder="Password" name="Password" id="password">
                     <div class="clearfix"></div>
                 </div>
-                <div class="has-warning"><p id="errorpassword"></p></div>
+                <div class="has-warning"><p id="errorpassword">{{war-Password}}</p></div>
                 <div class="key">
                     <i class="fa fa-lock" aria-hidden="true"></i>
                     <input type="password" placeholder="Confirmar Password" id="password2" name="Password2">
                     <div class="clearfix"></div>
                 </div>
-                <div class="has-warning"><p id="errorpassword2"></p></div>
+                <div class="has-warning"><p id="errorpassword2">{{war-Password2}}</p></div>
 
                 <input class="forg-left" type="checkbox" id="condiciones" name="condiciones"
                        oninvalid="setCustomValidity('Por favor acepta los términos y condiciones')" >
@@ -286,6 +293,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 <input class="form-" name="register" id="registrarse" type="submit" disabled="disabled" value="Registrarse">
                 <div class="has-warning"><p id="errorsubmit"></p></div>
                 <div class="has-warning"><p id="errorvalidacion"></p></div>
+                <div class="has-warning"><p>{{errores}}</p></div>
+                <div class="has-warning"><p>{{war-Usuario}}</p></div>
+                <div class="has-warning"><p>{{errorRegistro}}</p></div>
 
             </form>
         </div>

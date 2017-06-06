@@ -4,7 +4,7 @@
 class LoginParser
 {
     public static function loadContent($vista){
-        $val = Validacion::getInstance();
+
         $vista = self::pasoSiguiente($vista);
         return $vista;
     }
@@ -48,6 +48,13 @@ class LoginParser
                         $warning_fields = substr($warning_fields, 0, -2);
                         $str .= "<p class='has-warning'>El/Los campo(s) $warning_fields tienen errores de formato.</p>";
                     }
+                    break;
+                case "mensaje":
+                    if(isset($_SESSION['mens']))
+                        $str="Usuario o contraseña incorrectos, por favor inténtelo de nuevo. Si no está registrado en nuestra página, ".
+                        "puede hacerlo pinchando el siguiente enlace: <a href='?pagina=register' class='forg'><u>Registrarse</u></a>";
+                    Session::del('mens');
+                    break;
 
             }
             $vista = str_replace('{{' . $tag . '}}', $str, $vista);

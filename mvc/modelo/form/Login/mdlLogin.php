@@ -6,6 +6,9 @@ class mdlLogin extends padre {
 	public function onGestionPagina() {
 		if (getGet ( 'pagina' ) != self::PAGE)
 			return;
+
+        if(isset($_SESSION['info']))
+            redirectTo ( 'index.php?pagina=home' );
 		$val = Validacion::getInstance ();
 		$toValidate = ($_POST);
 		$rules = array (
@@ -25,7 +28,7 @@ class mdlLogin extends padre {
 				$_SESSION ['info'] = 'nologged';
 				$datos = Usuarios::searchUsuarioDB ( $usuario );
 				if ($datos) {
-					// Verificamos si el hash de la clave ($datos[0]) coincide con la clave introducida por el usuario a través del formulario
+					// Verificamos si el hash de la clave ($datos[0]) coincide con la clave introducida por el usuario a travï¿½s del formulario
 					if (password_verify ( $clave, $datos )){
 						$_SESSION ['info'] = 'logged';
                         $_SESSION['usuarios']=$usuario;
@@ -33,7 +36,8 @@ class mdlLogin extends padre {
 						redirectTo ( 'index.php?pagina=home' );
 					}
 				} else {
-					redirectTo ( 'index.php?pagina=register' );
+                    $_SESSION['mens']=true;
+					redirectTo ( 'index.php?pagina=login' );
 				}
 
 			}

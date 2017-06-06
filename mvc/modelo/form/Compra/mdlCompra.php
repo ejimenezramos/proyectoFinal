@@ -55,6 +55,6 @@ class mdlCompra extends padre  {
         include $path;
         $vista = ob_get_contents ();
         ob_end_clean ();
-        echo Mensaje::loadContent ( $vista );
+        echo $vista;
     }
 }

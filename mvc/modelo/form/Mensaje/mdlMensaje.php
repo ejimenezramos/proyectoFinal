@@ -7,8 +7,7 @@ class mdlMensaje extends padre {
     public function onGestionPagina() {
         if (getGet('pagina') != self::PAGE)
             return;
-        if (!isset($_SESSION['modificacion'])&& !isset($_SESSION['eliminacion']) && !isset($_SESSION['insercion']))
-            redirectTo('index.php');
+       
     }
 
     public function onCargarVista($path) {

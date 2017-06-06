@@ -8,7 +8,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE html>
 <html>
 <head>
-<title>Cereal | Break - Login -</title>
+<title>Big store a Ecommerce Online Shopping Category Flat Bootstrap Responsive Website Template | Login :: w3layouts</title>
 <!-- for-mobile-apps -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -144,6 +144,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 	
 		<div class="main-agileits">
 				<div class="form-w3agile">
+                    {{mensaje}}
 					<h3>Login</h3>
 					<form action="index.php?pagina=login" method="post" id="formLogin">
 						<div class="key">

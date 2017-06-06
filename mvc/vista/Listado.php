@@ -7,7 +7,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE html>
 <html>
 <head>
-<title>Cereal-Break | Tus resultados</title>
+<title>Cereal-Break</title>
 <!-- for-mobile-apps -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -120,10 +120,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 			</div>
 			<div class="head-t">
 				<ul class="card">
-					<li><a href="?pagina=login"><i class="fa fa-user"
-							aria-hidden="true"></i>Login</a></li>
-					<li><a href="?pagina=register"><i class="fa fa-arrow-right"
-							aria-hidden="true"></i>Registro</a></li>
+					{{login}}
 				</ul>
 			</div>
 			<div class="header-ri"></div>
@@ -140,8 +137,8 @@ function hideURLbar(){ window.scrollTo(0,1); }
 					</div>
 					<div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
 						<ul class="nav navbar-nav ">
-							<li class=" active"><a href="?pagina=home" class="hyper "><span>Home</span></a></li>
-							<li><a href="?pagina=productos" class="hyper"><span>Productos</span></a>
+							<li><a href="?pagina=home" class="hyper "><span>Home</span></a></li>
+							<li class="active"><a href="?pagina=productos" class="hyper"><span>Productos</span></a>
 							</li>
 							<li><a href="?pagina=packs" class="hyper"><span>Packs especiales</span></a></li>
 							<li><a href="?pagina=aboutus" class="hyper"> <span>Sobre nosotros</span></a></li>
@@ -170,7 +167,10 @@ function hideURLbar(){ window.scrollTo(0,1); }
 		</div>
 </div>
 <div class="product">
-	<div class="container">{{listado}}</div>
+	<div class="container">
+            <h1 class="page-header">Resultados de la búsqueda</h1>
+                {{listado}}
+    </div>
 </div>
 
 
