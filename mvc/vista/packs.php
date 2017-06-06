@@ -185,24 +185,27 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 			</div>
 			<div class="col-lg-3 col-md-4 col-xs-6 thumb">
 				<a class="thumbnail" href="#"> <img class="img-responsive"
-					src="http://placehold.it/400x300" alt="">
+					src="images/pack_redpassion.jpg" alt="">
 				</a>
 				<p>Pack Red passion</p><span></span>
 			</div>
 			<div class="col-lg-3 col-md-4 col-xs-6 thumb">
 				<a class="thumbnail" href="#"> <img class="img-responsive"
-					src="http://placehold.it/400x300" alt="">
+					src="images/pack_citrics.jpg" alt="">
 				</a>
+				<p>Pack Citrics</p><span></span>
 			</div>
 			<div class="col-lg-3 col-md-4 col-xs-6 thumb">
 				<a class="thumbnail" href="#"> <img class="img-responsive"
-					src="http://placehold.it/400x300" alt="">
+					src="images/pack_explosive.png" alt="">
 				</a>
+				<p>Pack Explosive</p><span></span>
 			</div>
 			<div class="col-lg-3 col-md-4 col-xs-6 thumb">
 				<a class="thumbnail" href="#"> <img class="img-responsive"
-					src="http://placehold.it/400x300" alt="">
+					src="images/pack_fantasia.jpg" alt="">
 				</a>
+				<p>Pack Fantasia</p><span></span>
 			</div>
 		</div>
 	</div>
