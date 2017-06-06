@@ -7,7 +7,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE html>
 <html>
 <head>
-<title>Cereal-Break</title>
+<title>Cereal-Break | Tus resultados</title>
 <!-- for-mobile-apps -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -237,7 +237,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 							<div class="clearfix"></div>
 						</div>
 						<h4 class="quick">Descripci&oacute;n del producto</h4>
-						<p class="quick_desc">Nuestras deliciosas bocanadas de maíz, dulces y crujientes con mantequilla de cacahuete</p>
+						<p class="quick_desc">Nuestras deliciosas bocanadas de maï¿½z, dulces y crujientes con mantequilla de cacahuete</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-btn1 "
 								data-id="25" data-name="ReeseÂ´s Puffs" data-summary="summary 25"

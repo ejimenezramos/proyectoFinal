@@ -2,8 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Big store a Ecommerce Online Shopping Category Flat Bootstrap
-	Responsive Website Template | Kitchen :: w3layouts</title>
+<title>Cereal | Break - Productos -</title>
 <!-- for-mobile-apps -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
