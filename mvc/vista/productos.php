@@ -120,7 +120,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 	<div class="product">
 		<div class="container">
 			<div class="spec ">
-				<h3>Selecciona un producto</h3>
+				<h2>Selecciona un producto</h2>
 			</div>
 			<div class="spec">
 				<select id="prod" name="productos">

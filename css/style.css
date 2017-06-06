@@ -289,9 +289,14 @@ img.img-head {
 .header {
     text-align: center;
 	margin-top: 2em;
+    font-size: large;
 }
+/*@font-face {
+    font-family: cereales;
+    src: url(/fonts/SensationsandQualities.ttf);
+}*/
 .logo h1{
-   font-family: 'FontCereal', sans-serif;
+   font-family: 'FontCereal',sans-serif;
     font-size: 3em;
     color: #000;
 	display: inline-block;
@@ -299,6 +304,7 @@ img.img-head {
 }
 .logo h1 a{
     /*Elena 28/04/17 : se modifica el color de la fuente del título principal de la página*/
+   /* font-family: cereales;*/
     text-decoration:none;
     color: #17A589;
 }
@@ -324,15 +330,18 @@ img.img-head {
     color: #fff;
     line-height: 8px;
 }
+/*Pongo font-size large para que se vea un poco más grande el acceso a Login y Registro*/
 .head-t {
     margin: 1em 0;
+    font-size: large;
+    color: #117A65;
 }
 .card li{
 	display:inline-block;
 }
 .card li a{
 	display:inline-block;
-	color: #999;
+	color: #2D2D2D;
     font-size: 0.9em;
 	margin:0 0.5em;
 }
@@ -758,13 +767,16 @@ ul.nav.tabs {
 .mid-1 h6 a:hover {
     color: #FAB005;
 }
+/*Elena 06/06/17: Quito float left y añado text-align:center para centrar el precio de los productos en su caja contenedora*/
 .mid-2 p{
-	float:left;
+	/*float:left;*/
+    text-align: center;
 	font-size:0.9em;
 	color:#B4B4B4;
 }
 .mid-2 p em{
-	font-style:normal;
+    color: #117A65;
+	font-weight: bold;
 }
 .mid-2 p label{
 	text-decoration: line-through;
