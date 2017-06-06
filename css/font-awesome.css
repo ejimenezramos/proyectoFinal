@@ -17,6 +17,12 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: 'FontCerealNueva';
+  src: url('../fonts/SensationsandQualities.ttf');
+
+
+}
 .fa {
   display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;

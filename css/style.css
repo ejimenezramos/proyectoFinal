@@ -289,25 +289,25 @@ img.img-head {
 .header {
     text-align: center;
 	margin-top: 2em;
-    font-size: large;
+    font-size: medium;
+
+
 }
-/*@font-face {
-    font-family: cereales;
-    src: url(/fonts/SensationsandQualities.ttf);
-}*/
+
 .logo h1{
-   font-family: 'FontCereal',sans-serif;
-    font-size: 3em;
+    margin-top:0.5;
+    font-size: 4vw;
     color: #000;
 	display: inline-block;
 	position:relative;
 }
 .logo h1 a{
     /*Elena 28/04/17 : se modifica el color de la fuente del título principal de la página*/
-   /* font-family: cereales;*/
+    font-family: FontCerealNueva;
     text-decoration:none;
     color: #17A589;
 }
+
 .logo h1 span {
     /*Elena 28/04/17 : se modifica el color de la fuente del subtítulo principal de la página*/
     font-size: 12px;
@@ -330,11 +330,12 @@ img.img-head {
     color: #fff;
     line-height: 8px;
 }
-/*Pongo font-size large para que se vea un poco más grande el acceso a Login y Registro*/
+/*Pongo font-size large para que se vea un poco más grande el acceso a Login y Registro, también modifico el padding para que exista un espacio entre el menu de registro y el menu nav principal*/
 .head-t {
     margin: 1em 0;
     font-size: large;
     color: #117A65;
+    padding:0.5em 0.5em;
 }
 .card li{
 	display:inline-block;
