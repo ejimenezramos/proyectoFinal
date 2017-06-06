@@ -186,7 +186,7 @@
         if (!$("#" + idCartModal).length) {
             $('body').append(
                 '<div class="modal fade" id="' + idCartModal + '" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">' +
-                '<div class="modal-dialog" role="document">' +
+                '<div class="modal-dialog" role="document"><form action="?pagina=compra" id="compraRealizada" method="post">' +
                 '<div class="modal-content">' +
                 '<div class="modal-header">' +
                 '<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>' +
@@ -197,24 +197,29 @@
                 '</div>' +
                 '<div class="modal-footer">' +
                 '<button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>' +
-                '<input type="submit" value="Comprar" class="btn btn-default" id="comprar">' +
+                '<input type="submit" value="Comprar" name="compra" class="btn btn-default" id="comprar">' +
                 '</div>' +
                 '</div>' +
                 '</div>' +
-                '</div>'
+                '</form></div>'
             );
             /*ELENA PROGRAMACIÓN CARRITO*/
 
-            $("#comprar").click(function () {
+            $("#compraRealizada").submit(function () {
                 var products = ProductManager.getAllProducts();
-                $.each(products, function () {
-                    var total = this.quantity * this.price;
-                    var id=this.id;
-                    var nombre=this.name;
-                    var precio=this.price;
-                    var cantidad=this.quantity;
-               alert("nom"+nombre+" id"+ id+" precio"+precio+" cantidad: "+cantidad);
-                });
+
+                    if (!products.length) {
+                        alert("vacio, devuelvo false");
+                        return false;
+                    }
+                    else {
+                        alert("lleno, hago submit");
+                        return true;
+                    }
+
+
+
+
             });
         }
 
@@ -228,10 +233,10 @@
                 $cartTable.append(
                     '<tr title="' + this.summary + '" data-id="' + this.id + '" data-price="' + this.price + '">' +
                     '<td class="text-center" style="width: 30px;"><img width="30px" height="30px" src="' + this.image + '"/></td>' +
-                    '<td>' + this.name + '</td>' +
-                    '<td title="Precio unitario">' + this.price + '€</td>' +
-                    '<td title="Cantidad"><input type="number" min="1" style="width: 70px;" class="' + classProductQuantity + '" value="' + this.quantity + '"/></td>' +
-                    '<td title="Total" class="' + classProductTotal + '">' + total + '€</td>' +
+                    '<td id="nombre" name="nombre">' + this.name + '</td>' +
+                    '<td id="precio" name="precio" title="Precio unitario">' + this.price + '€</td>' +
+                    '<td id="cantidad" name="cantidad" title="Cantidad"><input type="number" min="1" style="width: 70px;" class="' + classProductQuantity + '" value="' + this.quantity + '"/></td>' +
+                    '<td id="total" name="total" title="Total" class="' + classProductTotal + '">' + total + '€</td>' +
                     '<td title="Eliminar del carrito" class="text-center" style="width: 30px;"><a href="javascript:void(0);" class="btn btn-xs btn-danger ' + classProductRemove + '">X</a></td>' +
                     '</tr>'
                 );
