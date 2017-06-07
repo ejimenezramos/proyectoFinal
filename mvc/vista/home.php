@@ -298,7 +298,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 					data-target="#ModalEnvioEntrega">Envío y entrega</a>
 			</p>
 
-			<p class="footer-company-name">Cereal-Break by Cereal-Break is licensed under a<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Licencia Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png" /></a></p>
+			<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Licencia Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png" /></a>
 		</div>
 
 		<div class="footer-center">

@@ -154,71 +154,83 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 
 			<div class="col-lg-3 col-md-4 col-xs-6 thumb">
 				<a class="thumbnail" data-toggle="modal" data-target="#myModal23"> <img
-					class="img-responsive" src="images/pack_choco.jpg" alt=""> 					
+					class="img-responsive" src="images/pack_choco.jpg" alt="">
 					<button type="button" class="btn btn-info">Ver contenido</button>
 
 				</a>
-				<p>Pack Chocolate</p>
+				<div class="pack_tittle">
+					<h4>Pack Chocolate</h4>
+				</div>
+
 			</div>
 			<div class="col-lg-3 col-md-4 col-xs-6 thumb">
 				<a class="thumbnail" data-toggle="modal" data-target="#myModal24"> <img
 					class="img-responsive" src="images/pack_exotic.jpeg" alt="">
-				<button type="button" class="btn btn-info">Ver contenido</button>
-					
+					<button type="button" class="btn btn-info">Ver contenido</button>
+
 				</a>
-				<p>Pack Exotic</p>
-				<span></span>
+				<div class="pack_tittle">
+					<h4>Pack Exotic</h4>
+				</div>
 			</div>
 			<div class="col-lg-3 col-md-4 col-xs-6 thumb">
 				<a class="thumbnail" data-toggle="modal" data-target="#myModal25"> <img
 					class="img-responsive" src="images/pack_healthy.jpeg" alt="">
-					<button type="button" class="btn btn-info">Ver contenido</button> 
+					<button type="button" class="btn btn-info">Ver contenido</button>
 				</a>
-				<p>Pack Healthy</p>
-				<span></span>
+				<div class="pack_tittle">
+					<h4>Pack Healthy</h4>
+				</div>
+
 			</div>
 			<div class="col-lg-3 col-md-4 col-xs-6 thumb">
 				<a class="thumbnail" data-toggle="modal" data-target="#myModal26"> <img
 					class="img-responsive" src="images/pack_sweety.jpeg" alt="">
 					<button type="button" class="btn btn-info">Ver contenido</button>
-					
+
 				</a>
-				<p>Pack Sweety</p>
-				<span></span>
+				<div class="pack_tittle">
+					<h4>Pack Sweety</h4>
+				</div>
+
 			</div>
 			<div class="col-lg-3 col-md-4 col-xs-6 thumb">
 				<a class="thumbnail" data-toggle="modal" data-target="#myModal27"> <img
-					class="img-responsive" src="images/pack_redpassion.jpg" alt=""> 
+					class="img-responsive" src="images/pack_redpassion.jpg" alt="">
 					<button type="button" class="btn btn-info">Ver contenido</button>
 				</a>
-				<p>Pack Red passion</p>
-				<span></span>
+				<div class="pack_tittle">
+					<h4>Pack Red Passion</h4>
+				</div>
 			</div>
 			<div class="col-lg-3 col-md-4 col-xs-6 thumb">
 				<a class="thumbnail" data-toggle="modal" data-target="#myModal28"> <img
 					class="img-responsive" src="images/pack_oreo.jpeg" alt="">
 					<button type="button" class="btn btn-info">Ver contenido</button>
-					
+
 				</a>
-				<p>Pack Cookies</p>
-				<span></span>
+				<div class="pack_tittle">
+					<h4>Pack Cookies</h4>
+				</div>
 			</div>
 			<div class="col-lg-3 col-md-4 col-xs-6 thumb">
 				<a class="thumbnail" data-toggle="modal" data-target="#myModal29"> <img
 					class="img-responsive" src="images/pack_explosive.png" alt="">
 					<button type="button" class="btn btn-info">Ver contenido</button>
-					
+
 				</a>
-				<p>Pack Explosive</p>
-				<span></span>
+				<div class="pack_tittle">
+					<h4>Pack Explosive</h4>
+				</div>
 			</div>
 			<div class="col-lg-3 col-md-4 col-xs-6 thumb">
 				<a class="thumbnail" data-toggle="modal" data-target="#myModal30"> <img
 					class="img-responsive" src="images/pack_fantasia.jpg" alt="">
 					<button type="button" class="btn btn-info">Ver contenido</button>
 				</a>
-				<p>Pack Fantasia</p>
-				<span></span>
+				<div class="pack_tittle">
+					<h4>Pack Fantas&iacute;a</h4>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -239,7 +251,11 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 					data-target="#ModalEnvioEntrega">Envío y entrega</a>
 			</p>
 
-			<p class="footer-company-name">Cereal Break &copy; 2017</p>
+			<a rel="license"
+				href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img
+				alt="Licencia Creative Commons" style="border-width: 0"
+				src="https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png" /></a>
+
 		</div>
 
 		<div class="footer-center">
@@ -495,8 +511,8 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 							<div class="clearfix"></div>
 						</div>
 						<h4 class="quick">Descripci&oacute;n del producto</h4>
-						<p class="quick_desc">El contenido del pack incluye cereales
-							Trix, topping de sirope de Caramelo y Leche de color rosa</p>
+						<p class="quick_desc">El contenido del pack incluye cereales Trix,
+							topping de sirope de Caramelo y Leche de color rosa</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-b"
 								data-id="005" data-name="Pack Sweety" data-summary="summary 005"
@@ -509,8 +525,8 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 			</div>
 		</div>
 	</div>
-	
-	
+
+
 	<!-- pack Red Passion -->
 
 	<div class="modal fade" id="myModal27" tabindex="-1" role="dialog"
@@ -536,12 +552,12 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 							<div class="clearfix"></div>
 						</div>
 						<h4 class="quick">Descripci&oacute;n del producto</h4>
-						<p class="quick_desc">El contenido del pack incluye cereales
-							Froot Loops, topping de Sirope de Fresa y Leche de color rosa</p>
+						<p class="quick_desc">El contenido del pack incluye cereales Froot
+							Loops, topping de Sirope de Fresa y Leche de color rosa</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-b"
-								data-id="006" data-name="Pack Red Passion" data-summary="summary 006"
-								data-price="6" data-quantity="1"
+								data-id="006" data-name="Pack Red Passion"
+								data-summary="summary 006" data-price="6" data-quantity="1"
 								data-image="images/pack_passion.png">Add to Cart</button>
 						</div>
 					</div>
@@ -550,7 +566,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 			</div>
 		</div>
 	</div>
-	
+
 	<!-- pack Cookie -->
 
 	<div class="modal fade" id="myModal28" tabindex="-1" role="dialog"
@@ -576,8 +592,8 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 							<div class="clearfix"></div>
 						</div>
 						<h4 class="quick">Descripci&oacute;n del producto</h4>
-						<p class="quick_desc">El contenido del pack incluye cereales
-							Lucky Charms, topping de galletas Oreo y Leche de color azul</p>
+						<p class="quick_desc">El contenido del pack incluye cereales Lucky
+							Charms, topping de galletas Oreo y Leche de color azul</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-b"
 								data-id="007" data-name="Pack Cookie" data-summary="summary 007"
@@ -590,7 +606,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 			</div>
 		</div>
 	</div>
-	
+
 	<!-- pack Explosive -->
 
 	<div class="modal fade" id="myModal29" tabindex="-1" role="dialog"
@@ -606,7 +622,8 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 				<div class="modal-body modal-spa">
 					<div class="col-md-5 span-2">
 						<div class="item">
-							<img src="images/pack_explosives.png" class="img-responsive" alt="">
+							<img src="images/pack_explosives.png" class="img-responsive"
+								alt="">
 						</div>
 					</div>
 					<div class="col-md-7 span-1 ">
@@ -617,11 +634,12 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 						</div>
 						<h4 class="quick">Descripci&oacute;n del producto</h4>
 						<p class="quick_desc">El contenido del pack incluye cereales
-							Cinnamon Toast Crunsh, topping de Kinder bueno y Leche de color verde</p>
+							Cinnamon Toast Crunsh, topping de Kinder bueno y Leche de color
+							verde</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-b"
-								data-id="008" data-name="Pack Explosive" data-summary="summary 008"
-								data-price="6.50" data-quantity="1"
+								data-id="008" data-name="Pack Explosive"
+								data-summary="summary 008" data-price="6.50" data-quantity="1"
 								data-image="images/pack_explosives.png">Add to Cart</button>
 						</div>
 					</div>
@@ -630,7 +648,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 			</div>
 		</div>
 	</div>
-	
+
 	<!-- pack Fantasia -->
 
 	<div class="modal fade" id="myModal30" tabindex="-1" role="dialog"
@@ -657,11 +675,12 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 						</div>
 						<h4 class="quick">Descripci&oacute;n del producto</h4>
 						<p class="quick_desc">El contenido del pack incluye cereales
-							Reeses Puffs, topping de Sirope de Fresa y Leche de Soja con avellanas</p>
+							Reeses Puffs, topping de Sirope de Fresa y Leche de Soja con
+							avellanas</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-b"
-								data-id="009" data-name="Pack Fantasia" data-summary="summary 009"
-								data-price="7.50" data-quantity="1"
+								data-id="009" data-name="Pack Fantasia"
+								data-summary="summary 009" data-price="7.50" data-quantity="1"
 								data-image="images/pack_fantasia.png">Add to Cart</button>
 						</div>
 					</div>

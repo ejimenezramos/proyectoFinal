@@ -118,6 +118,13 @@ main_licencia{
 .color_fondo_licencia {
     background-color: #f2f2f2;
 }
+
+/*Pablo 07/06/17: clase para centrar y cambiar color de los titulos de packs*/
+
+.pack_tittle{
+	text-align: center;
+}
+
 body{
 	margin:0;
 	padding:0;

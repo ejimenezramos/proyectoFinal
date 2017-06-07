@@ -12,7 +12,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta property="og:title" content="Vide" />
-<meta name="keywords" content="Big store Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+<meta name="keywords"
+	content="Big store Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
 Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
 function hideURLbar(){ window.scrollTo(0,1); } </script>
@@ -20,11 +21,11 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
 <!-- Custom Theme files -->
 <link href="css/style.css" rel='stylesheet' type='text/css' />
-	<!--Pablo 20/05/17: Estilos para el footer-->
-	<link href="css/footer.css" rel='stylesheet' type='text/css' />
+<!--Pablo 20/05/17: Estilos para el footer-->
+<link href="css/footer.css" rel='stylesheet' type='text/css' />
 <!-- js -->
-   <script src="js/jquery-1.11.1.min.js"></script>
-	<script type='text/javascript' src="js/jquery.olvido.js"></script>
+<script src="js/jquery-1.11.1.min.js"></script>
+<script type='text/javascript' src="js/jquery.olvido.js"></script>
 <!-- //js -->
 <!-- start-smoth-scrolling -->
 <script type="text/javascript" src="js/move-top.js"></script>
@@ -39,12 +40,15 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 </script>
 <!-- start-smoth-scrolling -->
 <link href="css/font-awesome.css" rel="stylesheet">
-<link href='//fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-<link href='//fonts.googleapis.com/css?family=Noto+Sans:400,700' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Montserrat:400,700'
+	rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Noto+Sans:400,700'
+	rel='stylesheet' type='text/css'>
 <!--- start-rate---->
 <script src="js/jstarbox.js"></script>
-	<link rel="stylesheet" href="css/jstarbox.css" type="text/css" media="screen" charset="utf-8" />
-		<script type="text/javascript">
+<link rel="stylesheet" href="css/jstarbox.css" type="text/css"
+	media="screen" charset="utf-8" />
+<script type="text/javascript">
 			jQuery(function() {
 			jQuery('.starbox').each(function() {
 				var starbox = jQuery(this);
@@ -69,8 +73,8 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 
 </head>
 <body>
-<!--Pablo 21/05/17: Barra de progreso-->
-<script type="text/javascript">
+	<!--Pablo 21/05/17: Barra de progreso-->
+	<script type="text/javascript">
 		$(window).load(function(){
 			$(window).scroll(function() {
 				var wintop = $(window).scrollTop(), docheight = $('body').height(), winheight = $(window).height();	
@@ -79,10 +83,10 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 			});
 		});
 	</script>
-<div class="KW_progressContainer">
-	<div class="KW_progressBar"></div>
-</div>
-<div class="header">
+	<div class="KW_progressContainer">
+		<div class="KW_progressBar"></div>
+	</div>
+	<div class="header">
 		<div class="container">
 			<div class="logo">
 				<h1>
@@ -91,9 +95,11 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 			</div>
 			<div class="head-t">
 				<ul class="card">
-					<li><a href="?pagina=login" ><i class="fa fa-user" aria-hidden="true"></i>Login</a></li>
-					<li><a href="?pagina=register" ><i class="fa fa-arrow-right" aria-hidden="true"></i>Registro</a></li>
-				</ul>	
+					<li><a href="?pagina=login"><i class="fa fa-user"
+							aria-hidden="true"></i>Login</a></li>
+					<li><a href="?pagina=register"><i class="fa fa-arrow-right"
+							aria-hidden="true"></i>Registro</a></li>
+				</ul>
 			</div>
 			<div class="header-ri"></div>
 			<div class="nav-top">
@@ -110,12 +116,11 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 					<div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
 						<ul class="nav navbar-nav ">
 							<li class="active"><a href="?pagina=home" class="hyper "><span>Home</span></a></li>
-							<li class="dropdown "><a href="?pagina=productos"" class="hyper"><span>Productos</span></a>
+							<li class="dropdown "><a href="?pagina=productos" " class="hyper"><span>Productos</span></a>
 							</li>
-							<li class="dropdown"><a href="?pagina=packs"" class="hyper"><span>Packs
+							<li class="dropdown"><a href="?pagina=packs" " class="hyper"><span>Packs
 										especiales</span></a></li>
-							<li><a href="?pagina=aboutus" class="hyper"> <span>Sobre
-										nosotros</span></a></li>
+							<li><a href="?pagina=aboutus" class="hyper"> <span>Sobre nosotros</span></a></li>
 							<li><a href="?pagina=contact" class="hyper"><span>Contáctanos</span></a></li>
 						</ul>
 					</div>
@@ -128,40 +133,49 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 			</div>
 		</div>
 	</div>
-  <!---->
- <!--banner-->
-<div class="banner-top">
-	<div class="container">
-		<h3 >Olvidé mi contraseña</h3>
-		<h4><a href="?pagina=home">Home</a><label>/</label>Olvidé la contraseña</h4>
-		<div class="clearfix"> </div>
+	<!---->
+	<!--banner-->
+	<div class="banner-top">
+		<div class="container">
+			<h3>Olvidé mi contraseña</h3>
+			<h4>
+				<a href="?pagina=home">Home</a><label>/</label>Olvidé la
+				contraseña
+			</h4>
+			<div class="clearfix"></div>
+		</div>
 	</div>
-</div>
-<!--Olvido-->
+	<!--Olvido-->
 	<div class="login">
 		<div class="main-agileits">
-				<div class="form-w3agile">
-					<h3>Olvidé la constraseña</h3>
-					<form action="#" method="post" id="olvido">
-						<div class="comentarios"><p>Introduce tu email para reestablecer la contraseña</p></div>
-						<div class="key">
-							<i class="fa fa-envelope" aria-hidden="true"></i>
-							<input  type="text" placeholder="Email" name="email" id="email">
-							<div class="clearfix"></div>
-						</div>
-						<div class="has-warning"><p id="erroremail"></p></div>
-						<input type="submit" value="Reestablecer">
-					</form>
-				</div>
-				</div>
+			<div class="form-w3agile">
+				<h3>Olvidé la constraseña</h3>
+				<form action="#" method="post" id="olvido">
+					<div class="comentarios">
+						<p>Introduce tu email para reestablecer la contraseña</p>
+					</div>
+					<div class="key">
+						<i class="fa fa-envelope" aria-hidden="true"></i> <input
+							type="text" placeholder="Email" name="email" id="email">
+						<div class="clearfix"></div>
+					</div>
+					<div class="has-warning">
+						<p id="erroremail"></p>
+					</div>
+					<input type="submit" value="Reestablecer">
+				</form>
 			</div>
 		</div>
-<!--footer Pablo 20/05/17: Nuevo footer-->
-<footer class="footer-distributed">
-	<div class="footer-left">
-		<h3>Cereal<span>Break</span></h3>
+	</div>
+	
+	<!--footer Pablo 20/05/17: Nuevo footer-->
+	<footer class="footer-distributed">
+		<div class="footer-left">
+			<h3>
+				Cereal<span>Break</span>
+			</h3>
 
-		<p class="footer-links">
+			<p class="footer-links">
 				<a class="cursor_pointer"
 					onclick="window.open('?pagina=licencia', 'Licencia', 'width=900, height=600')">
 					Licencia</a> · <a class="cursor_pointer" data-toggle="modal"
@@ -172,53 +186,61 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 					frecuentes</a>
 			</p>
 
-		<p class="footer-company-name">Cereal Break &copy; 2017</p>
-	</div>
+			<a rel="license"
+				href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img
+				alt="Licencia Creative Commons" style="border-width: 0"
+				src="https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png" /></a>
 
-	<div class="footer-center">
-
-		<div>
-			<i class="fa fa-map-marker"></i>
-			<p><span>Paseo de la Castellana 10</span> Madrid, España</p>
 		</div>
 
-		<div>
-			<i class="fa fa-phone"></i>
-			<p>+1 555 123456</p>
+		<div class="footer-center">
+
+			<div>
+				<i class="fa fa-map-marker"></i>
+				<p>
+					<span>Paseo de la Castellana 10</span> Madrid, España
+				</p>
+			</div>
+
+			<div>
+				<i class="fa fa-phone"></i>
+				<p>+1 555 123456</p>
+			</div>
+
+			<div>
+				<i class="fa fa-envelope"></i>
+				<p>
+					<a href="mailto:support@company.com">support@cerealbreak.com</a>
+				</p>
+			</div>
+
 		</div>
 
-		<div>
-			<i class="fa fa-envelope"></i>
-			<p><a href="mailto:support@company.com">support@cerealbreak.com</a></p>
+		<div class="footer-right">
+
+			<p class="footer-company-about">
+				<span>Pasión por los cereales</span> Disfruta de los mejores
+				cereales del mundo en tu propia casa
+			</p>
+
+			<div class="footer-icons">
+
+				<ul class="social-fo">
+					<li><a href="#" class=" face"><i class="fa fa-facebook"
+							aria-hidden="true"></i></a></li>
+					<li><a href="#" class=" twi"><i class="fa fa-twitter"
+							aria-hidden="true"></i></a></li>
+					<li><a href="#" class=" pin"><i class="fa fa-pinterest-p"
+							aria-hidden="true"></i></a></li>
+					<li><a href="#" class=" dri"><i class="fa fa-dribbble"
+							aria-hidden="true"></i></a></li>
+				</ul>
+			</div>
+
 		</div>
-
-	</div>
-
-	<div class="footer-right">
-
-		<p class="footer-company-about">
-			<span>Pasión por los cereales</span>
-			Disfruta de los mejores cereales del mundo en tu propia casa
-		</p>
-
-		<div class="footer-icons">
-
-			<ul class="social-fo">
-				<li><a href="#" class=" face"><i class="fa fa-facebook"
-												 aria-hidden="true"></i></a></li>
-				<li><a href="#" class=" twi"><i class="fa fa-twitter"
-												aria-hidden="true"></i></a></li>
-				<li><a href="#" class=" pin"><i class="fa fa-pinterest-p"
-												aria-hidden="true"></i></a></li>
-				<li><a href="#" class=" dri"><i class="fa fa-dribbble"
-												aria-hidden="true"></i></a></li>
-			</ul>
-		</div>
-
-	</div>
-</footer>
-<!-- //footer-->
-<!-- smooth scrolling -->
+	</footer>
+	<!-- //footer-->
+	<!-- smooth scrolling -->
 	<script type="text/javascript">
 		$(document).ready(function() {
 		/*
@@ -232,13 +254,14 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 		$().UItoTop({ easingType: 'easeOutQuart' });
 		});
 	</script>
-	<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
-<!-- //smooth scrolling -->
-<!-- for bootstrap working -->
-		<script src="js/bootstrap.js"></script>
-<!-- //for bootstrap working -->
-<script type='text/javascript' src="js/jquery.mycart.js"></script>
-  <script type="text/javascript">
+	<a href="#" id="toTop" style="display: block;"> <span id="toTopHover"
+		style="opacity: 1;"> </span></a>
+	<!-- //smooth scrolling -->
+	<!-- for bootstrap working -->
+	<script src="js/bootstrap.js"></script>
+	<!-- //for bootstrap working -->
+	<script type='text/javascript' src="js/jquery.mycart.js"></script>
+	<script type="text/javascript">
   $(function () {
 
     var goToCartIcon = function($addTocartBtn){
@@ -277,7 +300,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 
   });
   </script>
-<!-- MODALES DEL FOOTER -->
+	<!-- MODALES DEL FOOTER -->
 	<!-- Pablo 24/05/17 Modal para las Devoluciones -->
 
 	<div class="modal fade" id="ModalDevoluciones" role="dialog">
