@@ -17,7 +17,7 @@ class mdlUser extends padre {
                 $rules = array(
                     'Nombre' => 'required|alpha_space',
                     'Apellidos' => 'required|alpha_space',
-                    'Direccion' => 'required|alpha_space',
+                    'Direccion' => 'required',
                     'Telefono' => 'required|tel',
                     'Email' => 'required|email',
                     'Usuario' => 'required|alpha_num',
@@ -35,7 +35,7 @@ class mdlUser extends padre {
             $rules = array(
                 'Nombre' => 'required|alpha_space',
                     'Apellidos' => 'required|alpha_space',
-                    'Direccion' => 'required|alpha_space',
+                    'Direccion' => 'required',
                     'Telefono' => 'required|tel',
                     'Email' => 'required|email',
                     'Usuario' => 'required|alpha_num',

@@ -1,26 +1,24 @@
-/*Created by elena.jimenez on 08/05/2017. */
+/**
+ * Created by elena.jimenez on 07/06/2017.
+ */
 
-
-/***************DECLARACIÓN VARIABLES EXPRESIONES REGULARES****************/
-
+/*DECLARACIÓN VARIABLES*/
+var pattdir2=new RegExp("[A-Za-z]{1,4}\\[A-Za-z]+\\s+\\,?\\d*");
 var patnombre = new RegExp("^[a-zA-ZÁáÉéÍíÓóÚú]+(\\s*[a-zA-Z]*)*[a-zA-Z]+$");
+var patfecha = new RegExp("^\\d{2}[/|-]\\d{2}[/|-]\\d{4}$");
+var patdni = new RegExp("^[XYZxyz]?[\\-\\s]?\\d{5,8}[\-\\s]?[A-Za-z]$");
 var patttel = new RegExp("(6|7|9)\\d{8}");
 var patemail = new RegExp("^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$");
 var patusuario = new RegExp("^\\w+$");
-var patdni = new RegExp("^[XYZxyz]?[\\-\\s]?\\d{5,8}[\-\\s]?[A-Za-z]$");
-var patdir = new RegExp("^([A-Za-z]+\\,?\\s?)+\\d*$");
-var patcp = new RegExp("^\\d{5}$");
-var patfecha = new RegExp("^\\d{2}[/|-]\\d{2}[/|-]\\d{4}$");
 var totalcamposerroneos = 0;
 var camposInvalidos = [];
 var contInvalid = 0;
 var camposBlanco = [];
 var camposInvalidos = [];
 var cont = 0;
-/***************VALIDACIONES SUBMIT REGISTRO****************/
 
 $(document).ready(function () {
-    $("#registro").submit(function () {
+    $("#modificacion").submit(function () {
 
         return comprobarBlancos() && comprobarValidacion();
 
@@ -31,9 +29,9 @@ $(document).ready(function () {
 function comprobarBlancos() {
     camposBlanco.splice(0);
     $("#errorsubmit").css('opacity,1');
-    var inputs = $("#registro").find("input");
+    var inputs = $("#modificacion").find("input");
     var errorCampos;
-   cont=0;
+    cont=0;
     for (var i = 0; i < inputs.length; i++) {
 
         if (inputs[i].value.length <= 0) {
@@ -66,11 +64,14 @@ function comprobarBlancos() {
 
 
 }
+
+
+
 /*FUNCION COMPROBAR VALIDACION: Comprueba si el formato de cada campo es correcto y si no lo es invalida el submit y devuelve un mensaje de error explicativo*/
 
 function comprobarValidacion() {
     camposInvalidos.splice(0);
-    var inputs = $("#registro").find("input");
+    var inputs = $("#modificacion").find("input");
     contInvalid = 0;
     $("#errorvalidacion").html('');
     $("#errorvalidacion").css('opacity', '1');
@@ -276,33 +277,21 @@ function comprobarValidacion() {
                 }
                 break;
             case
-            "direccion"
+            "direccionCompleta"
             :
-                if (patdir.test(inputs[i].value)) {
+                if (patdir2.test(inputs[i].value)) {
                     $("#error" + id).html("");
 
                 }
                 else {
                     inputs[i].value = "";
                     camposInvalidos[i] = inputs[i].id;
-                    $("#error" + id).html("*El campo " + id + " sólo puede contener caracteres alfanuméricos y espacios, Ej. de la Castellana 25");
+                    $("#error" + id).html("*El campo " + id + " sólo puede contener caracteres alfanuméricos y espacios, Ej. de la Castellana,25");
                     contInvalid++;
                 }
                 break;
 
-            case
-            "cp"
-            :
-                if (patcp.test(inputs[i].value)) {
-                    $("#error" + id).html("");
 
-                }
-                else {
-                    inputs[i].value = "";
-                    camposInvalidos[i] = inputs[i].id;
-                    $("#error" + id).html("El código postal debe estar compuesto de 5 dígitos");
-                    contInvalid++;
-                }
         }
 
     }
@@ -317,15 +306,14 @@ function comprobarValidacion() {
         var errores = aux2.replace("password2", "confirmación password");
         $("#errorvalidacion").html("Revisa los campos: " + errores + ' tienen errores de formato');
         $("#errorvalidacion").fadeTo(15000, 0);
-        $("#condiciones").removeAttr('checked');
-        $("#registrarse").attr('disabled', true);
+
 
         return false;
 
     }
     else {
 
-        $("#registrarse").attr('disabled', false);
+
         $("#errorvalidacion").html('');
         $("#errorcondiciones").html('');
         return true;
@@ -333,6 +321,8 @@ function comprobarValidacion() {
 
 
 }
+
+
 /*FUNCIÓN QUE LLAMA EN EL ONCHANGE DE LOS CAMPOS DEL FORMULARIO A LA FUNCIÓN eliminarErrores(), PARA SETEAR LOS CAMPOS DE ERROR*/
 
 
@@ -422,68 +412,3 @@ function comprobarBisiestos(fecha, anio, mes, dia) {
     }
 
 }
-/***************HABILITACIÓN BOTON REGISTRO AL ACEPTAR CONDICIONES****************/
-/*Si el checkbox está check,llama a la función comprobar blancos, para comprobar que los campos no están en blanco antes del submit. Si no está chequeado, deshabilita el botón submit*/
-$(document).ready(function () {
-    $("#condiciones").on('click', function () {
-        if ($(this).is(':checked')) {
-            $("#registrarse").attr('disabled', false);
-
-        }
-
-        else {
-
-            $("#registrarse").attr('disabled', true);
-            $("#errorcondiciones").html('Por favor, acepta las condiciones para poder registrarte');
-        }
-    })
-})
-
-
-/***************HABILITACIÓN CAMPOS REGISTRO CUANDO SE SELEECIONE MUNICIPIO****************/
-
-$(document).ready(function () {
-    $("#provincias").on('change', function () {
-        if ($(this).val() == "0") {
-            $("#errorprovincias").html('Por favor, selecciona una provincia de la lista');
-            $("#tipoDireccion").attr('disabled', true);
-            $("#direccion").attr('disabled', true);
-            $("#cp").attr('disabled', true);
-        }
-        else {
-            $("#errorprovincias").html('');
-            $("#tipoDireccion").attr('disabled', false);
-        }
-
-
-    })
-
-
-});
-
-/***************HABILITACIÓN CAMPOS REGISTRO CUANDO SE SELEECIONE TIPO DE VÍA****************/
-
-$(document).ready(function () {
-    $("#tipoDireccion").on('change', function (event) {
-        if ($(this).val() == "0") {
-            $("#error" + event.target.id).html('Por favor, selecciona un tipo de vía de la lista');
-
-            $("#direccion").attr('disabled', true);
-            $("#cp").attr('disabled', true);
-        }
-        else {
-            $("#errortipoDireccion").html('');
-            $("#direccion").attr('disabled', false);
-            $("#cp").attr('disabled', false);
-        }
-
-
-    })
-
-
-});
-
-
-
-
-

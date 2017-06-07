@@ -202,18 +202,18 @@
                 '</div>' +
                 '</div>' +
                 '</form></div>'
-            );
+            );}
             /*ELENA PROGRAMACIÓN CARRITO*/
 
             $("#compraRealizada").submit(function () {
                 var products = ProductManager.getAllProducts();
 
                     if (!products.length) {
-                        alert("vacio, devuelvo false");
+
                         return false;
                     }
                     else {
-                        alert("lleno, hago submit");
+
                         return true;
                     }
 
@@ -221,14 +221,16 @@
 
 
             });
-        }
+
 
         var drawTable = function () {
             var $cartTable = $("#" + idCartTable);
             $cartTable.empty();
 
             var products = ProductManager.getAllProducts();
+            var prods = "";
             $.each(products, function () {
+                prods += this.name + ':' + this.quantity + ';';
                 var total = this.quantity * this.price;
                 $cartTable.append(
                     '<tr title="' + this.summary + '" data-id="' + this.id + '" data-price="' + this.price + '">' +
@@ -237,10 +239,15 @@
                     '<td id="precio" name="precio" title="Precio unitario">' + this.price + '€</td>' +
                     '<td id="cantidad" name="cantidad" title="Cantidad"><input type="number" min="1" style="width: 70px;" class="' + classProductQuantity + '" value="' + this.quantity + '"/></td>' +
                     '<td id="total" name="total" title="Total" class="' + classProductTotal + '">' + total + '€</td>' +
+                    '<td><input id="datos" name="'+this.name+'" type="hidden" value="'+this.name+","+this.quantity+'"></td>'+
                     '<td title="Eliminar del carrito" class="text-center" style="width: 30px;"><a href="javascript:void(0);" class="btn btn-xs btn-danger ' + classProductRemove + '">X</a></td>' +
                     '</tr>'
                 );
             });
+            //append input con prods
+            $("#datos").value=prods;
+
+            prod:5;prod:2;
 
             $cartTable.append(products.length ?
                 '<tr>' +

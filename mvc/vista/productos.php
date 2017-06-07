@@ -26,7 +26,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 <!-- start-smoth-scrolling -->
 <script type="text/javascript" src="js/move-top.js"></script>
 <script type="text/javascript" src="js/easing.js"></script>
-<script type="text/javascript" src="js/jquery.productos.js"></script>
+	<script type="text/javascript" src="js/jquery.productos.js"></script>
 <script type="text/javascript">
 	jQuery(document).ready(function($) {
 		$(".scroll").click(function(event) {
@@ -67,7 +67,8 @@ function hideURLbar(){ window.scrollTo(0,1); }
 				</h1>
 			</div>
 			<div class="head-t">
-				<ul class="card">{{login}}
+				<ul class="card">
+					{{login}}
 				</ul>
 			</div>
 			<div class="header-ri"></div>
@@ -183,7 +184,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 								</div>
 								<div class="add">
 									<button class="btn btn-danger my-cart-btn my-cart-b"
-										data-id="25" data-name="Cocoa Puffs" data-summary="summary 25"
+										data-id="25" data-name="Reeses Puffs" data-summary="summary 25"
 										data-price="4.50" data-quantity="1"
 										data-image="images/boxreeses.png">Add to Cart</button>
 								</div>
@@ -267,7 +268,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 								</div>
 								<div class="add">
 									<button class="btn btn-danger my-cart-btn my-cart-b"
-										data-id="28" data-name="BoxLuxky" data-summary="summary 28"
+										data-id="28" data-name="Lucky Charms" data-summary="summary 28"
 										data-price="6.00" data-quantity="1"
 										data-image="images/boxlucky.png">Add to Cart</button>
 								</div>
@@ -295,7 +296,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 								</div>
 								<div class="add">
 									<button class="btn btn-danger my-cart-btn my-cart-b"
-										data-id="29" data-name="BoxTrix" data-summary="summary 29"
+										data-id="29" data-name="Trix" data-summary="summary 29"
 										data-price="4.50" data-quantity="1"
 										data-image="images/boxtrix.png">Add to Cart</button>
 								</div>
@@ -323,7 +324,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 								</div>
 								<div class="add">
 									<button class="btn btn-danger my-cart-btn my-cart-b"
-										data-id="30" data-name="BoxCocoa" data-summary="summary 30"
+										data-id="30" data-name="Cocoa Puffs" data-summary="summary 30"
 										data-price="3.50" data-quantity="1"
 										data-image="images/boxcocoa.png">Add to Cart</button>
 								</div>
@@ -381,7 +382,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 								</div>
 								<div class="add">
 									<button class="btn btn-danger my-cart-btn my-cart-b"
-										data-id="32" data-name="Noodles" data-summary="summary 32"
+										data-id="32" data-name="Leche Rosa" data-summary="summary 32"
 										data-price="0.80" data-quantity="1"
 										data-image="images/milkpink.png">Add to Cart</button>
 								</div>
@@ -437,7 +438,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 								</div>
 								<div class="add">
 									<button class="btn btn-danger my-cart-btn my-cart-b"
-										data-id="34" data-name="Leche de Vainilla"
+										data-id="34" data-name="Leche Vainilla"
 										data-summary="summary 34" data-price="0.80" data-quantity="1"
 										data-image="images/milkvainilla.png">Add to Cart</button>
 								</div>
@@ -505,8 +506,8 @@ function hideURLbar(){ window.scrollTo(0,1); }
 					<div class="col-md-3 pro-1">
 						<div class="col-m">
 							<a href="#" data-toggle="modal" data-target="#myModal21"
-								class="offer-img"> <img src="images/topcaramelo.png"
-								class="img-responsive" alt="">
+							   class="offer-img"> <img src="images/topcaramelo.png"
+													   class="img-responsive" alt="">
 							</a>
 							<div class="mid-1">
 								<div class="women">
@@ -523,9 +524,9 @@ function hideURLbar(){ window.scrollTo(0,1); }
 								</div>
 								<div class="add">
 									<button class="btn btn-danger my-cart-btn my-cart-b"
-										data-id="35" data-name="Top Caramelo"
-										data-summary="summary 35" data-price="1.80" data-quantity="1"
-										data-image="images/topcaramelo.png">Add to Cart</button>
+											data-id="35" data-name="topCaramelo"
+											data-summary="summary 35" data-price="1.80" data-quantity="1"
+											data-image="images/topcaramelo.png">Add to Cart</button>
 								</div>
 							</div>
 						</div>
@@ -533,8 +534,8 @@ function hideURLbar(){ window.scrollTo(0,1); }
 					<div class="col-md-3 pro-1">
 						<div class="col-m">
 							<a href="#" data-toggle="modal" data-target="#myModal13"
-								class="offer-img"> <img src="images/topchocolate.png"
-								class="img-responsive" alt="">
+							   class="offer-img"> <img src="images/topchocolate.png"
+													   class="img-responsive" alt="">
 							</a>
 							<div class="mid-1">
 								<div class="women">
@@ -551,9 +552,9 @@ function hideURLbar(){ window.scrollTo(0,1); }
 								</div>
 								<div class="add">
 									<button class="btn btn-danger my-cart-btn my-cart-b"
-										data-id="35" data-name="Sirope Chocolate"
-										data-summary="summary 35" data-price="1.80" data-quantity="1"
-										data-image="images/topchocolate.png">Add to Cart</button>
+											data-id="35" data-name="topChocolate"
+											data-summary="summary 35" data-price="1.80" data-quantity="1"
+											data-image="images/topchocolate.png">Add to Cart</button>
 								</div>
 							</div>
 						</div>
@@ -561,8 +562,8 @@ function hideURLbar(){ window.scrollTo(0,1); }
 					<div class="col-md-3 pro-1">
 						<div class="col-m">
 							<a href="#" data-toggle="modal" data-target="#myModal18"
-								class="offer-img"> <img src="images/toparce.png"
-								class="img-responsive" alt="">
+							   class="offer-img"> <img src="images/toparce.png"
+													   class="img-responsive" alt="">
 							</a>
 							<div class="mid-1">
 								<div class="women">
@@ -579,9 +580,9 @@ function hideURLbar(){ window.scrollTo(0,1); }
 								</div>
 								<div class="add">
 									<button class="btn btn-danger my-cart-btn my-cart-b"
-										data-id="35" data-name="Sirope Arce" data-summary="summary 35"
-										data-price="1.90" data-quantity="1"
-										data-image="images/toparce.png">Add to Cart</button>
+											data-id="35" data-name="topArce"
+											data-summary="summary 35" data-price="1.90" data-quantity="1"
+											data-image="images/toparce.png">Add to Cart</button>
 								</div>
 							</div>
 						</div>
@@ -589,8 +590,8 @@ function hideURLbar(){ window.scrollTo(0,1); }
 					<div class="col-md-3 pro-1">
 						<div class="col-m">
 							<a href="#" data-toggle="modal" data-target="#myModal22"
-								class="offer-img"> <img src="images/siropefresa.png"
-								class="img-responsive" alt="">
+							   class="offer-img"> <img src="images/siropefresa.png"
+													   class="img-responsive" alt="">
 							</a>
 							<div class="mid-1">
 								<div class="women">
@@ -607,9 +608,9 @@ function hideURLbar(){ window.scrollTo(0,1); }
 								</div>
 								<div class="add">
 									<button class="btn btn-danger my-cart-btn my-cart-b"
-										data-id="35" data-name="Sirope Fresa"
-										data-summary="summary 35" data-price="1.80" data-quantity="1"
-										data-image="images/siropefresa.png">Add to Cart</button>
+											data-id="35" data-name="topFresa"
+											data-summary="summary 35" data-price="1.80" data-quantity="1"
+											data-image="images/siropefresa.png">Add to Cart</button>
 								</div>
 							</div>
 						</div>
@@ -635,7 +636,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 								</div>
 								<div class="add">
 									<button class="btn btn-danger my-cart-btn my-cart-b"
-										data-id="35" data-name="Chips Ahoy!" data-summary="summary 35"
+										data-id="35" data-name="topChips" data-summary="summary 35"
 										data-price="1.50" data-quantity="1"
 										data-image="images/packchips.png">Add to Cart</button>
 								</div>
@@ -663,7 +664,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 								</div>
 								<div class="add">
 									<button class="btn btn-danger my-cart-btn my-cart-b"
-										data-id="35" data-name="Oats Idli" data-summary="summary 35"
+										data-id="35" data-name="topShocko" data-summary="summary 35"
 										data-price="2.80" data-quantity="1"
 										data-image="images/packbons.png">Add to Cart</button>
 								</div>
@@ -740,18 +741,14 @@ function hideURLbar(){ window.scrollTo(0,1); }
 
 			<p class="footer-links">
 				<a class="cursor_pointer"
-					onclick="window.open('?pagina=licencia', 'Licencia', 'width=900, height=600')">
+				   onclick="window.open('?pagina=licencia', 'Licencia', 'width=900, height=600')">
 					Licencia</a> · <a class="cursor_pointer" data-toggle="modal"
-					data-target="#ModalDevoluciones">Devoluciones</a> · <a
+									  data-target="#ModalDevoluciones">Devoluciones</a> · <a
 					class="cursor_pointer" data-toggle="modal"
 					data-target="#ModalEnvioEntrega">Envío y entrega</a>
 			</p>
 
-			<a rel="license"
-				href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img
-				alt="Licencia Creative Commons" style="border-width: 0"
-				src="https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png" /></a>
-
+			<p class="footer-company-name">Cereal Break &copy; 2017</p>
 		</div>
 
 		<div class="footer-center">
@@ -897,8 +894,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 							<div class="clearfix"></div>
 						</div>
 						<h4 class="quick">Descripci&oacute;n del producto</h4>
-						<p class="quick_desc">Disfruta de uno de nuestros deliciosos
-							cereales con sabor a cacahuete y miel.</p>
+						<p class="quick_desc">Disfruta de uno de nuestros deliciosos cereales con sabor a cacahuete y miel.</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-btn1 "
 								data-id="24" data-name="Cheerios" data-summary="summary 24"
@@ -936,12 +932,11 @@ function hideURLbar(){ window.scrollTo(0,1); }
 							<div class="clearfix"></div>
 						</div>
 						<h4 class="quick">Descripci&oacute;n del producto</h4>
-						<p class="quick_desc">Nuestras deliciosas bocanadas de ma�z,
-							dulces y crujientes con mantequilla de cacahuete</p>
+						<p class="quick_desc">Nuestras deliciosas bocanadas de ma�z, dulces y crujientes con mantequilla de cacahuete</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-btn1 "
-								data-id="25" data-name="Reese´s Puffs"
-								data-summary="summary 25" data-price="4.50" data-quantity="1"
+								data-id="25" data-name="Reese´s Puffs" data-summary="summary 25"
+								data-price="4.50" data-quantity="1"
 								data-image="images/boxreeses.png">Add to Cart</button>
 						</div>
 					</div>
@@ -979,8 +974,8 @@ function hideURLbar(){ window.scrollTo(0,1); }
 							a canela</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-btn1 "
-								data-id="26" data-name="Cinnamon Crunch"
-								data-summary="summary 26" data-price="3.50" data-quantity="1"
+								data-id="26" data-name="Cinnamon Crunch" data-summary="summary 26"
+								data-price="3.50" data-quantity="1"
 								data-image="images/boxcinnamon.png">Add to Cart</button>
 						</div>
 					</div>
@@ -1212,8 +1207,8 @@ function hideURLbar(){ window.scrollTo(0,1); }
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-btn1 "
 								data-id="32" data-name="Leche Rosa" data-summary="summary 32"
-								data-price="0.80" data-quantity="1"
-								data-image="images/milkpink.png">Add to Cart</button>
+								data-price="0.80" data-quantity="1" data-image="images/milkpink.png">Add
+								to Cart</button>
 						</div>
 					</div>
 					<div class="clearfix"></div>
@@ -1250,8 +1245,8 @@ function hideURLbar(){ window.scrollTo(0,1); }
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-btn1 "
 								data-id="33" data-name="Leche Verde" data-summary="summary 33"
-								data-price="0.80" data-quantity="1"
-								data-image="images/milkgreen.png">Add to Cart</button>
+								data-price="0.80" data-quantity="1" data-image="images/milkgreen.png">Add
+								to Cart</button>
 						</div>
 					</div>
 					<div class="clearfix"></div>
@@ -1286,9 +1281,9 @@ function hideURLbar(){ window.scrollTo(0,1); }
 						<p class="quick_desc">Leche UHT Asturiana con estracto de vainilla</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-btn1 "
-								data-id="34" data-name="Leche de Vainilla"
-								data-summary="summary 34" data-price="0.90" data-quantity="1"
-								data-image="images/milkvainilla.png">Add to Cart</button>
+								data-id="34" data-name="Leche de Vainilla" data-summary="summary 34"
+								data-price="0.90" data-quantity="1" data-image="images/milkvainilla.png">Add
+								to Cart</button>
 						</div>
 					</div>
 					<div class="clearfix"></div>
@@ -1310,8 +1305,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 				<div class="modal-body modal-spa">
 					<div class="col-md-5 span-2">
 						<div class="item">
-							<img src="images/milksojaalmond.png" class="img-responsive"
-								alt="">
+							<img src="images/milksojaalmond.png" class="img-responsive" alt="">
 						</div>
 					</div>
 					<div class="col-md-7 span-1 ">
@@ -1324,9 +1318,9 @@ function hideURLbar(){ window.scrollTo(0,1); }
 						<p class="quick_desc">Leche de Soja con estractos de almendra</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-btn1 "
-								data-id="35" data-name="Leche de Avena y soja"
-								data-summary="summary 35" data-price="1.20" data-quantity="1"
-								data-image="images/milksojaalmond.png">Add to Cart</button>
+								data-id="35" data-name="Leche de Avena y soja" data-summary="summary 35"
+								data-price="1.20" data-quantity="1" data-image="images/milksojaalmond.png">Add
+								to Cart</button>
 						</div>
 					</div>
 					<div class="clearfix"></div>
@@ -1362,8 +1356,8 @@ function hideURLbar(){ window.scrollTo(0,1); }
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-btn1 "
 								data-id="36" data-name="Sirope Choco" data-summary="summary 36"
-								data-price="1.80" data-quantity="1"
-								data-image="images/topchocolate.png">Add to Cart</button>
+								data-price="1.80" data-quantity="1" data-image="images/topchocolate.png">Add
+								to Cart</button>
 						</div>
 					</div>
 					<div class="clearfix"></div>
@@ -1372,12 +1366,12 @@ function hideURLbar(){ window.scrollTo(0,1); }
 		</div>
 	</div>
 	<div class="modal fade" id="myModal18" tabindex="-1" role="dialog"
-		aria-labelledby="myModalLabel">
+		 aria-labelledby="myModalLabel">
 		<div class="modal-dialog" role="document">
 			<div class="modal-content modal-info">
 				<div class="modal-header">
 					<button type="button" class="close" data-dismiss="modal"
-						aria-label="Close">
+							aria-label="Close">
 						<span aria-hidden="true">&times;</span>
 					</button>
 				</div>
@@ -1397,9 +1391,9 @@ function hideURLbar(){ window.scrollTo(0,1); }
 						<p class="quick_desc">Siropre de Arce Maple Joe</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-btn1 "
-								data-id="36" data-name="Sirope Choco" data-summary="summary 36"
-								data-price="1.80" data-quantity="1"
-								data-image="images/toparce.png">Add to Cart</button>
+									data-id="36" data-name="Sirope Choco" data-summary="summary 36"
+									data-price="1.80" data-quantity="1" data-image="images/toparce.png">Add
+								to Cart</button>
 						</div>
 					</div>
 					<div class="clearfix"></div>
@@ -1408,12 +1402,12 @@ function hideURLbar(){ window.scrollTo(0,1); }
 		</div>
 	</div>
 	<div class="modal fade" id="myModal20" tabindex="-1" role="dialog"
-		aria-labelledby="myModalLabel">
+		 aria-labelledby="myModalLabel">
 		<div class="modal-dialog" role="document">
 			<div class="modal-content modal-info">
 				<div class="modal-header">
 					<button type="button" class="close" data-dismiss="modal"
-						aria-label="Close">
+							aria-label="Close">
 						<span aria-hidden="true">&times;</span>
 					</button>
 				</div>
@@ -1433,9 +1427,9 @@ function hideURLbar(){ window.scrollTo(0,1); }
 						<p class="quick_desc">Kinder Bueno auténtico sabor avellana</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-btn1 "
-								data-id="36" data-name="Sirope Choco" data-summary="summary 36"
-								data-price="1.80" data-quantity="1"
-								data-image="images/packkinder.png">Add to Cart</button>
+									data-id="36" data-name="Kinder Bueno" data-summary="summary 36"
+									data-price="1.80" data-quantity="1" data-image="images/packkinder.png">Add
+								to Cart</button>
 						</div>
 					</div>
 					<div class="clearfix"></div>
@@ -1444,12 +1438,12 @@ function hideURLbar(){ window.scrollTo(0,1); }
 		</div>
 	</div>
 	<div class="modal fade" id="myModal21" tabindex="-1" role="dialog"
-		aria-labelledby="myModalLabel">
+		 aria-labelledby="myModalLabel">
 		<div class="modal-dialog" role="document">
 			<div class="modal-content modal-info">
 				<div class="modal-header">
 					<button type="button" class="close" data-dismiss="modal"
-						aria-label="Close">
+							aria-label="Close">
 						<span aria-hidden="true">&times;</span>
 					</button>
 				</div>
@@ -1469,9 +1463,9 @@ function hideURLbar(){ window.scrollTo(0,1); }
 						<p class="quick_desc">Sirope con sabor a caramelo</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-btn1 "
-								data-id="36" data-name="Top Caramelo" data-summary="summary 36"
-								data-price="1.80" data-quantity="1"
-								data-image="images/topcaramelo.png">Add to Cart</button>
+									data-id="36" data-name="Top Caramelo" data-summary="summary 36"
+									data-price="1.80" data-quantity="1" data-image="images/topcaramelo.png">Add
+								to Cart</button>
 						</div>
 					</div>
 					<div class="clearfix"></div>
@@ -1480,12 +1474,12 @@ function hideURLbar(){ window.scrollTo(0,1); }
 		</div>
 	</div>
 	<div class="modal fade" id="myModal22" tabindex="-1" role="dialog"
-		aria-labelledby="myModalLabel">
+		 aria-labelledby="myModalLabel">
 		<div class="modal-dialog" role="document">
 			<div class="modal-content modal-info">
 				<div class="modal-header">
 					<button type="button" class="close" data-dismiss="modal"
-						aria-label="Close">
+							aria-label="Close">
 						<span aria-hidden="true">&times;</span>
 					</button>
 				</div>
@@ -1505,9 +1499,9 @@ function hideURLbar(){ window.scrollTo(0,1); }
 						<p class="quick_desc">Sirope con sabor a fresa</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-btn1 "
-								data-id="36" data-name="Top Caramelo" data-summary="summary 36"
-								data-price="1.80" data-quantity="1"
-								data-image="images/siropefresa.png">Add to Cart</button>
+									data-id="36" data-name="Top Caramelo" data-summary="summary 36"
+									data-price="1.80" data-quantity="1" data-image="images/siropefresa.png">Add
+								to Cart</button>
 						</div>
 					</div>
 					<div class="clearfix"></div>
@@ -1539,13 +1533,12 @@ function hideURLbar(){ window.scrollTo(0,1); }
 							<div class="clearfix"></div>
 						</div>
 						<h4 class="quick">Descripci&oacute;n del producto</h4>
-						<p class="quick_desc">Paquete con unidades peque&ntilde;as de
-							chips ahoy!</p>
+						<p class="quick_desc">Paquete con unidades peque&ntilde;as de chips ahoy!</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-btn1 "
-								data-id="37" data-name="Chips Ahoy" data-summary="summary 37"
-								data-price="1.80" data-quantity="1"
-								data-image="images/packchips.png">Add to Cart</button>
+								data-id="37" data-name="Chips Ahoy!" data-summary="summary 37"
+								data-price="1.80" data-quantity="1" data-image="images/packchips.png">Add
+								to Cart</button>
 						</div>
 					</div>
 					<div class="clearfix"></div>
@@ -1553,7 +1546,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 			</div>
 		</div>
 	</div>
-
+	
 	<!-- product -->
 	<div class="modal fade" id="myModal15" tabindex="-1" role="dialog"
 		aria-labelledby="myModalLabel">
@@ -1578,13 +1571,12 @@ function hideURLbar(){ window.scrollTo(0,1); }
 							<div class="clearfix"></div>
 						</div>
 						<h4 class="quick">Descripci&oacute;n del producto</h4>
-						<p class="quick_desc">Paquete con unidades peque&ntilde;as de
-							Schoko-bons</p>
+						<p class="quick_desc">Paquete con unidades peque&ntilde;as de Schoko-bons</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-btn1 "
-								data-id="38" data-name="Kinder Schoko-Bons"
-								data-summary="summary 38" data-price="1.80" data-quantity="1"
-								data-image="images/of35.png">Add to Cart</button>
+								data-id="38" data-name="Kinder Schoko Bons!" data-summary="summary 38"
+								data-price="1.80" data-quantity="1" data-image="images/of35.png">Add
+								to Cart</button>
 						</div>
 					</div>
 					<div class="clearfix"></div>
@@ -1592,7 +1584,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 			</div>
 		</div>
 	</div>
-
+	
 	<!-- product -->
 	<div class="modal fade" id="myModal16" tabindex="-1" role="dialog"
 		aria-labelledby="myModalLabel">
@@ -1618,13 +1610,12 @@ function hideURLbar(){ window.scrollTo(0,1); }
 							<div class="clearfix"></div>
 						</div>
 						<h4 class="quick">Descripci&oacute;n del producto</h4>
-						<p class="quick_desc">Paquete con unidades peque&ntilde;as de
-							oreos</p>
+						<p class="quick_desc">Paquete con unidades peque&ntilde;as de oreos</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-btn1 "
 								data-id="39" data-name="Oreo" data-summary="summary 39"
-								data-price="1.80" data-quantity="1"
-								data-image="images/packoreo.png">Add to Cart</button>
+								data-price="1.80" data-quantity="1" data-image="images/packoreo.png">Add
+								to Cart</button>
 						</div>
 					</div>
 					<div class="clearfix"></div>
@@ -1656,13 +1647,12 @@ function hideURLbar(){ window.scrollTo(0,1); }
 							<div class="clearfix"></div>
 						</div>
 						<h4 class="quick">Descripci&oacute;n del producto:</h4>
-						<p class="quick_desc">Paquete con unidades peque&ntilde;as de
-							conguitos</p>
+						<p class="quick_desc">Paquete con unidades peque&ntilde;as de conguitos</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-btn1 "
 								data-id="40" data-name="Conguitos" data-summary="summary 40"
-								data-price="1.80" data-quantity="1"
-								data-image="images/packconguitos.png">Add to Cart</button>
+								data-price="1.80" data-quantity="1" data-image="images/packconguitos.png">Add
+								to Cart</button>
 						</div>
 					</div>
 					<div class="clearfix"></div>
@@ -1671,7 +1661,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 		</div>
 	</div>
 
-	<!-- MODALES DEL FOOTER -->
+<!-- MODALES DEL FOOTER -->
 	<!-- Pablo 24/05/17 Modal para las Devoluciones -->
 
 	<div class="modal fade" id="ModalDevoluciones" role="dialog">
@@ -1828,7 +1818,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 			</div>
 		</div>
 	</div>
-
+	
 </body>
 
 </html>

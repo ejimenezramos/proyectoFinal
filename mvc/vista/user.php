@@ -3,8 +3,7 @@
 <html>
 <head>
     <title>
-        Big store a Ecommerce Online Shopping Category Flat
-        Bootstrap Responsive Website Template | Contact :: w3layouts
+        Cereal-Break | Mi cuenta
     </title>
     <!-- for-mobile-apps -->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -29,7 +28,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <link href="css/footer.css" rel='stylesheet' type='text/css' />
     <!-- js -->
     <script src="js/jquery-1.11.1.min.js"></script>
-    <script type="text/javascript" src="js/jquery.contacto.js"></script>
+    <script type="text/javascript" src="js/jquery.user.js"></script>
     <!-- //js -->
     <!-- start-smoth-scrolling -->
     <script type="text/javascript" src="js/move-top.js"></script>
@@ -209,7 +208,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             <div class="main-agileits">
                 <div class="form-w3agile form1">
                     <h3>Modificar mis datos</h3>
-                    <form action="index.php?pagina=user" method="post">
+                    <form action="index.php?pagina=user" method="post" id="modificacion">
                         {{errores}}
                         {{mod}}
                         <label class="{{class-Nombre}}" for="nombre">Nombre</label>
@@ -277,7 +276,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <label class="{{class-Direccion}}" for="Direccion">Dirección</label>
                         <div class="key">
                             <i class="fa fa-home" aria-hidden="true"></i>
-                            <input type="text" placeholder="Dirección" name="Direccion" id="direccion"
+                            <input type="text" placeholder="Dirección" name="Direccion" id="direccionCompleta"
                                    oninvalid="setCustomValidity('Todos los campos son obligatorios para el registro')"
                                    Value='<?php echo $val->restoreValue('Direccion'); ?>'>
                             <div class="clearfix"></div>
@@ -313,7 +312,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <br>
                         <div>
                             <input class="form-" type="submit" name="user" value="Modificar">
+
                         </div>
+                        <div class="has-warning"><p id="errorsubmit"></p></div>
+                        <div class="has-warning"><p id="errorvalidacion"></p></div>
                     </form>
                 </div>
             </div>
