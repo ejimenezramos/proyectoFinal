@@ -239,15 +239,18 @@
                     '<td id="precio" name="precio" title="Precio unitario">' + this.price + '€</td>' +
                     '<td id="cantidad" name="cantidad" title="Cantidad"><input type="number" min="1" style="width: 70px;" class="' + classProductQuantity + '" value="' + this.quantity + '"/></td>' +
                     '<td id="total" name="total" title="Total" class="' + classProductTotal + '">' + total + '€</td>' +
-                    '<td><input id="datos" name="'+this.name+'" type="hidden" value="'+this.name+","+this.quantity+'"></td>'+
+                    '<td><input id="datos" name="data" type="hidden" value="'+prods+'"></td>'+
                     '<td title="Eliminar del carrito" class="text-center" style="width: 30px;"><a href="javascript:void(0);" class="btn btn-xs btn-danger ' + classProductRemove + '">X</a></td>' +
                     '</tr>'
                 );
             });
             //append input con prods
-            $("#datos").value=prods;
+           var productos=prods.substr(0,prods.length-1);
+            $("#datos").value=productos;
 
-            prod:5;prod:2;
+
+
+
 
             $cartTable.append(products.length ?
                 '<tr>' +

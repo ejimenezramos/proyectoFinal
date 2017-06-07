@@ -580,7 +580,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 								</div>
 								<div class="add">
 									<button class="btn btn-danger my-cart-btn my-cart-b"
-											data-id="35" data-name="topArce"
+											data-id="35" data-name="Sirope de Arce"
 											data-summary="summary 35" data-price="1.90" data-quantity="1"
 											data-image="images/toparce.png">Add to Cart</button>
 								</div>
@@ -608,13 +608,15 @@ function hideURLbar(){ window.scrollTo(0,1); }
 								</div>
 								<div class="add">
 									<button class="btn btn-danger my-cart-btn my-cart-b"
-											data-id="35" data-name="topFresa"
+											data-id="35" data-name="Sirope de Fresa"
 											data-summary="summary 35" data-price="1.80" data-quantity="1"
 											data-image="images/siropefresa.png">Add to Cart</button>
 								</div>
 							</div>
 						</div>
 					</div>
+
+					(18, 'Sirope de Fresa', 'Sirope de fresa', '1.80', 40, 'Topping','siropefresa',40, 22, 3),
 					<div class="col-md-3 pro-1">
 						<div class="col-m">
 							<a href="#" data-toggle="modal" data-target="#myModal14"
@@ -1352,10 +1354,10 @@ function hideURLbar(){ window.scrollTo(0,1); }
 							<div class="clearfix"></div>
 						</div>
 						<h4 class="quick">Descripci&oacute;n del producto</h4>
-						<p class="quick_desc">Siropre de chocolate original americano</p>
+						<p class="quick_desc">Sirope de chocolate original americano</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-btn1 "
-								data-id="36" data-name="Sirope Choco" data-summary="summary 36"
+								data-id="36" data-name="Sirope de Chocolate" data-summary="summary 36"
 								data-price="1.80" data-quantity="1" data-image="images/topchocolate.png">Add
 								to Cart</button>
 						</div>
@@ -1463,7 +1465,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 						<p class="quick_desc">Sirope con sabor a caramelo</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-btn1 "
-									data-id="36" data-name="Top Caramelo" data-summary="summary 36"
+									data-id="36" data-name="Sirope de Caramelo" data-summary="summary 36"
 									data-price="1.80" data-quantity="1" data-image="images/topcaramelo.png">Add
 								to Cart</button>
 						</div>
