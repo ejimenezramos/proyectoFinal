@@ -10,6 +10,9 @@ class mdlUser extends padre {
         $search = $_SESSION['usuarios'];
         if (is_null(getPost(self::PAGE))) { //verificamos si no se ha pulsado el bot�n edici�n
             $datos = Usuarios::searchNombreDB($search);
+
+
+
             if (count($datos) > 0) {
                 // Utilizamos la validaci�n para rellenar los campos del formulario.
                 $val = Validacion::getInstance();
@@ -22,7 +25,9 @@ class mdlUser extends padre {
                     'Email' => 'required|email',
                     'Usuario' => 'required|alpha_num',
                     'DNI' => 'required|dni',
-                    'Fecha_nac' => 'required'
+
+
+
                 );
                 $val->addRules($rules);
                 $val->run($toValidate);

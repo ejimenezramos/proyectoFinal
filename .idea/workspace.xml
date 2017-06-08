@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="773c24a4-52bd-4d25-b22b-0000bce0fb4f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/jquery.mycart.js" afterPath="$PROJECT_DIR$/js/jquery.mycart.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvc/vista/productos.php" afterPath="$PROJECT_DIR$/mvc/vista/productos.php" />
-    </list>
+    <list default="true" id="773c24a4-52bd-4d25-b22b-0000bce0fb4f" name="Default" comment="" />
     <ignored path="paco.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -25,18 +21,91 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="jquery.mycart.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/jquery.mycart.js">
+      <file leaf-file-name="user.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mvc/vista/user.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="242" column="81" selection-start-line="242" selection-start-column="81" selection-end-line="242" selection-end-column="81" />
+            <state relative-caret-position="491">
+              <caret line="284" column="57" selection-start-line="284" selection-start-column="57" selection-end-line="284" selection-end-column="57" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jquery.registro.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/jquery.registro.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="568">
+              <caret line="300" column="21" selection-start-line="300" selection-start-column="21" selection-end-line="300" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="validacion.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mvc/common/validacion.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1768">
+              <caret line="104" column="39" selection-start-line="104" selection-start-column="39" selection-end-line="104" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mdlCompra.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mvc/modelo/form/Compra/mdlCompra.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="969">
+              <caret line="57" column="20" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mdlUser.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mvc/modelo/form/User/mdlUser.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserParser.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mvc/modelo/form/User/UserParser.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="969">
+              <caret line="57" column="40" selection-start-line="57" selection-start-column="40" selection-end-line="57" selection-end-column="40" />
               <folding>
-                <marker date="1496851199363" expanded="true" signature="6777:6784" ph="×" />
-                <marker date="1496851199363" expanded="true" signature="8481:8493" ph="..." />
-                <marker date="1496851199363" expanded="true" signature="8850:8862" ph="..." />
-                <marker date="1496851199363" expanded="true" signature="9237:9249" ph="..." />
-                <marker date="1496851199363" expanded="true" signature="10306:10316" ph="..." />
+                <marker date="1496910183209" expanded="true" signature="2125:2215" ph="..." />
+                <marker date="1496910183209" expanded="true" signature="2149:2210" ph="..." />
+                <marker date="1496910183209" expanded="true" signature="2171:2201" ph="..." />
+                <marker date="1496910183209" expanded="true" signature="2249:2345" ph="..." />
+                <marker date="1496910183209" expanded="true" signature="2276:2340" ph="..." />
+                <marker date="1496910183209" expanded="true" signature="2298:2328" ph="..." />
+                <marker date="1496910183209" expanded="true" signature="2649:2752" ph="..." />
+                <marker date="1496910183209" expanded="true" signature="2672:2747" ph="..." />
+                <marker date="1496910183209" expanded="true" signature="2694:2724" ph="..." />
+                <marker date="1496910183209" expanded="true" signature="2800:2901" ph="..." />
+                <marker date="1496910183209" expanded="true" signature="2820:2896" ph="..." />
+                <marker date="1496910183209" expanded="true" signature="2849:2879" ph="..." />
+                <marker date="1496910183209" expanded="true" signature="3303:3406" ph="..." />
+                <marker date="1496910183209" expanded="true" signature="3326:3401" ph="..." />
+                <marker date="1496910183209" expanded="true" signature="3348:3378" ph="..." />
+                <marker date="1496910183209" expanded="true" signature="3454:3555" ph="..." />
+                <marker date="1496910183209" expanded="true" signature="3474:3550" ph="..." />
+                <marker date="1496910183209" expanded="true" signature="3503:3533" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="register.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mvc/vista/register.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="287">
+              <caret line="268" column="80" selection-start-line="268" selection-start-column="75" selection-end-line="268" selection-end-column="80" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -77,7 +146,6 @@
         <option value="$PROJECT_DIR$/mvc/vista/licencia.php" />
         <option value="$PROJECT_DIR$/mvc/vista/home.php" />
         <option value="$PROJECT_DIR$/mvc/modelo/form/Home/HomeParser.php" />
-        <option value="$PROJECT_DIR$/js/jquery.registro.js" />
         <option value="$PROJECT_DIR$/mvc/vista/olvido.php" />
         <option value="$PROJECT_DIR$/js/jquery.olvido.js" />
         <option value="$PROJECT_DIR$/js/jquery.contacto.js" />
@@ -87,7 +155,6 @@
         <option value="$PROJECT_DIR$/mvc/vista/contact.php" />
         <option value="$PROJECT_DIR$/mvc/vista/Listado.php" />
         <option value="$PROJECT_DIR$/mvc/vista/login.php" />
-        <option value="$PROJECT_DIR$/mvc/vista/user.php" />
         <option value="$PROJECT_DIR$/mvc/vista/packs.php" />
         <option value="$PROJECT_DIR$/css/font-awesome.css" />
         <option value="$PROJECT_DIR$/css/style.css" />
@@ -103,11 +170,13 @@
         <option value="$PROJECT_DIR$/mvc/modelo/form/Productos/ProductosParser.php" />
         <option value="$PROJECT_DIR$/mvc/modelo/form/Listado/ListadoParser.php" />
         <option value="$PROJECT_DIR$/mvc/modelo/form/Register/mdlRegister.php" />
-        <option value="$PROJECT_DIR$/mvc/modelo/form/User/mdlUser.php" />
         <option value="$PROJECT_DIR$/mvc/modelo/form/Login/mdlLogin.php" />
         <option value="$PROJECT_DIR$/mvc/vista/register.php" />
         <option value="$PROJECT_DIR$/mvc/vista/productos.php" />
+        <option value="$PROJECT_DIR$/mvc/modelo/form/User/mdlUser.php" />
         <option value="$PROJECT_DIR$/js/jquery.mycart.js" />
+        <option value="$PROJECT_DIR$/mvc/vista/user.php" />
+        <option value="$PROJECT_DIR$/js/jquery.registro.js" />
       </list>
     </option>
   </component>
@@ -119,9 +188,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1928" />
-    <option name="y" value="-121" />
-    <option name="width" value="1936" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1924" />
     <option name="height" value="1056" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -569,6 +638,24 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="mvc" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="proyectoFinal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="proyectoFinal" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="js" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -744,21 +831,22 @@
       <workItem from="1496775927167" duration="3857000" />
       <workItem from="1496785662344" duration="841000" />
       <workItem from="1496835526383" duration="8309000" />
+      <workItem from="1496911566632" duration="2061000" />
+      <workItem from="1496920861234" duration="1193000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="250334000" />
+    <option name="totallyTimeSpent" value="253588000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1928" y="-121" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1924" height="1056" extended-state="1" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24010417" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24004193" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32769555" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -769,6 +857,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32769555" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -789,7 +878,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mvc/exec/Autores.php" />
     <entry file="file://$PROJECT_DIR$/mvc/exec/Usuario.php" />
     <entry file="file://$PROJECT_DIR$/mvc/exec/Productos.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -822,19 +910,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/jquery.registro.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1387">
-          <caret line="314" column="34" selection-start-line="314" selection-start-column="34" selection-end-line="314" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/jquery.contacto.js" />
     <entry file="file://$PROJECT_DIR$/libs/common.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -922,14 +1002,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mvc/modelo/form/Compra/mdlCompra.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="614">
-          <caret line="57" column="19" selection-start-line="57" selection-start-column="19" selection-end-line="57" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -1038,45 +1110,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mvc/modelo/form/User/mdlUser.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="790">
-          <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mvc/modelo/form/Register/RegisterParser.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="858">
           <caret line="66" column="24" selection-start-line="66" selection-start-column="24" selection-end-line="66" selection-end-column="24" />
-          <folding>
-            <marker date="1496820088116" expanded="true" signature="1974:2064" ph="..." />
-            <marker date="1496820088116" expanded="true" signature="1998:2059" ph="..." />
-            <marker date="1496820088116" expanded="true" signature="2020:2050" ph="..." />
-            <marker date="1496820088116" expanded="true" signature="2098:2194" ph="..." />
-            <marker date="1496820088116" expanded="true" signature="2125:2189" ph="..." />
-            <marker date="1496820088116" expanded="true" signature="2147:2177" ph="..." />
-            <marker date="1496820088116" expanded="true" signature="2406:2509" ph="..." />
-            <marker date="1496820088116" expanded="true" signature="2429:2504" ph="..." />
-            <marker date="1496820088116" expanded="true" signature="2451:2481" ph="..." />
-            <marker date="1496820088116" expanded="true" signature="2553:2654" ph="..." />
-            <marker date="1496820088116" expanded="true" signature="2573:2649" ph="..." />
-            <marker date="1496820088116" expanded="true" signature="2602:2632" ph="..." />
-            <marker date="1496820088116" expanded="true" signature="2959:3062" ph="..." />
-            <marker date="1496820088116" expanded="true" signature="2982:3057" ph="..." />
-            <marker date="1496820088116" expanded="true" signature="3004:3034" ph="..." />
-            <marker date="1496820088116" expanded="true" signature="3106:3207" ph="..." />
-            <marker date="1496820088116" expanded="true" signature="3126:3202" ph="..." />
-            <marker date="1496820088116" expanded="true" signature="3155:3185" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mvc/vista/register.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1567">
-          <caret line="268" column="47" selection-start-line="268" selection-start-column="47" selection-end-line="268" selection-end-column="47" />
           <folding />
         </state>
       </provider>
@@ -1093,33 +1130,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="603">
           <caret line="71" column="25" selection-start-line="71" selection-start-column="25" selection-end-line="71" selection-end-column="25" />
-          <folding>
-            <marker date="1496820087948" expanded="true" signature="1689:1779" ph="..." />
-            <marker date="1496820087948" expanded="true" signature="1713:1774" ph="..." />
-            <marker date="1496820087948" expanded="true" signature="1735:1765" ph="..." />
-            <marker date="1496820087948" expanded="true" signature="1813:1909" ph="..." />
-            <marker date="1496820087948" expanded="true" signature="1840:1904" ph="..." />
-            <marker date="1496820087948" expanded="true" signature="1862:1892" ph="..." />
-            <marker date="1496820087948" expanded="true" signature="2213:2316" ph="..." />
-            <marker date="1496820087948" expanded="true" signature="2236:2311" ph="..." />
-            <marker date="1496820087948" expanded="true" signature="2258:2288" ph="..." />
-            <marker date="1496820087948" expanded="true" signature="2364:2465" ph="..." />
-            <marker date="1496820087948" expanded="true" signature="2384:2460" ph="..." />
-            <marker date="1496820087948" expanded="true" signature="2413:2443" ph="..." />
-            <marker date="1496820087948" expanded="true" signature="2867:2970" ph="..." />
-            <marker date="1496820087948" expanded="true" signature="2890:2965" ph="..." />
-            <marker date="1496820087948" expanded="true" signature="2912:2942" ph="..." />
-            <marker date="1496820087948" expanded="true" signature="3018:3119" ph="..." />
-            <marker date="1496820087948" expanded="true" signature="3038:3114" ph="..." />
-            <marker date="1496820087948" expanded="true" signature="3067:3097" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mvc/vista/user.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1140,33 +1150,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mvc/modelo/form/User/UserParser.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="57" column="40" selection-start-line="57" selection-start-column="40" selection-end-line="57" selection-end-column="40" />
-          <folding>
-            <marker date="1496820088178" expanded="true" signature="2125:2215" ph="..." />
-            <marker date="1496820088178" expanded="true" signature="2149:2210" ph="..." />
-            <marker date="1496820088178" expanded="true" signature="2171:2201" ph="..." />
-            <marker date="1496820088178" expanded="true" signature="2249:2345" ph="..." />
-            <marker date="1496820088178" expanded="true" signature="2276:2340" ph="..." />
-            <marker date="1496820088178" expanded="true" signature="2298:2328" ph="..." />
-            <marker date="1496820088178" expanded="true" signature="2649:2752" ph="..." />
-            <marker date="1496820088178" expanded="true" signature="2672:2747" ph="..." />
-            <marker date="1496820088178" expanded="true" signature="2694:2724" ph="..." />
-            <marker date="1496820088178" expanded="true" signature="2800:2901" ph="..." />
-            <marker date="1496820088178" expanded="true" signature="2820:2896" ph="..." />
-            <marker date="1496820088178" expanded="true" signature="2849:2879" ph="..." />
-            <marker date="1496820088178" expanded="true" signature="3303:3406" ph="..." />
-            <marker date="1496820088178" expanded="true" signature="3326:3401" ph="..." />
-            <marker date="1496820088178" expanded="true" signature="3348:3378" ph="..." />
-            <marker date="1496820088178" expanded="true" signature="3454:3555" ph="..." />
-            <marker date="1496820088178" expanded="true" signature="3474:3550" ph="..." />
-            <marker date="1496820088178" expanded="true" signature="3503:3533" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mvc/vista/packs.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="202">
@@ -1180,153 +1163,226 @@
         <state relative-caret-position="-878">
           <caret line="50" column="34" selection-start-line="50" selection-start-column="34" selection-end-line="50" selection-end-column="34" />
           <folding>
-            <element signature="e#24781#24787#0#HTML" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#28007#28014#0#HTML" expanded="true" />
-            <element signature="e#28375#28381#0#HTML" expanded="true" />
-            <element signature="e#28472#28480#0#HTML" expanded="true" />
-            <element signature="e#29331#29338#0#HTML" expanded="true" />
-            <element signature="e#29702#29708#0#HTML" expanded="true" />
-            <element signature="e#29799#29807#0#HTML" expanded="true" />
-            <element signature="e#30671#30678#0#HTML" expanded="true" />
-            <element signature="e#31046#31052#0#HTML" expanded="true" />
-            <element signature="e#31143#31151#0#HTML" expanded="true" />
-            <element signature="e#31991#31998#0#HTML" expanded="true" />
-            <element signature="e#32359#32365#0#HTML" expanded="true" />
-            <element signature="e#32456#32464#0#HTML" expanded="true" />
-            <element signature="e#33294#33301#0#HTML" expanded="true" />
-            <element signature="e#33663#33669#0#HTML" expanded="true" />
-            <element signature="e#33760#33768#0#HTML" expanded="true" />
-            <element signature="e#34656#34663#0#HTML" expanded="true" />
-            <element signature="e#35016#35022#0#HTML" expanded="true" />
-            <element signature="e#35113#35121#0#HTML" expanded="true" />
-            <element signature="e#35940#35947#0#HTML" expanded="true" />
-            <element signature="e#36308#36314#0#HTML" expanded="true" />
-            <element signature="e#36405#36413#0#HTML" expanded="true" />
-            <element signature="e#37253#37260#0#HTML" expanded="true" />
-            <element signature="e#37620#37626#0#HTML" expanded="true" />
-            <element signature="e#37717#37725#0#HTML" expanded="true" />
-            <element signature="e#38536#38543#0#HTML" expanded="true" />
-            <element signature="e#38903#38909#0#HTML" expanded="true" />
-            <element signature="e#39000#39008#0#HTML" expanded="true" />
-            <element signature="e#39820#39827#0#HTML" expanded="true" />
-            <element signature="e#40189#40195#0#HTML" expanded="true" />
-            <element signature="e#40286#40294#0#HTML" expanded="true" />
-            <element signature="e#41109#41116#0#HTML" expanded="true" />
-            <element signature="e#41487#41493#0#HTML" expanded="true" />
-            <element signature="e#41583#41591#0#HTML" expanded="true" />
-            <element signature="e#42420#42427#0#HTML" expanded="true" />
-            <element signature="e#42804#42810#0#HTML" expanded="true" />
-            <element signature="e#42900#42908#0#HTML" expanded="true" />
-            <element signature="e#43738#43745#0#HTML" expanded="true" />
-            <element signature="e#44119#44125#0#HTML" expanded="true" />
-            <element signature="e#44215#44223#0#HTML" expanded="true" />
-            <element signature="e#45032#45039#0#HTML" expanded="true" />
-            <element signature="e#45406#45412#0#HTML" expanded="true" />
-            <element signature="e#45502#45510#0#HTML" expanded="true" />
-            <element signature="e#46296#46303#0#HTML" expanded="true" />
-            <element signature="e#46671#46677#0#HTML" expanded="true" />
-            <element signature="e#46767#46775#0#HTML" expanded="true" />
-            <element signature="e#47576#47583#0#HTML" expanded="true" />
-            <element signature="e#47958#47964#0#HTML" expanded="true" />
-            <element signature="e#48054#48062#0#HTML" expanded="true" />
-            <element signature="e#48860#48867#0#HTML" expanded="true" />
-            <element signature="e#49239#49245#0#HTML" expanded="true" />
-            <element signature="e#49335#49343#0#HTML" expanded="true" />
-            <element signature="e#50148#50155#0#HTML" expanded="true" />
-            <element signature="e#50520#50526#0#HTML" expanded="true" />
-            <element signature="e#50616#50624#0#HTML" expanded="true" />
-            <element signature="e#50698#50706#0#HTML" expanded="true" />
-            <element signature="e#51453#51460#0#HTML" expanded="true" />
-            <element signature="e#51833#51839#0#HTML" expanded="true" />
-            <element signature="e#51929#51937#0#HTML" expanded="true" />
-            <element signature="e#52011#52019#0#HTML" expanded="true" />
-            <element signature="e#52769#52776#0#HTML" expanded="true" />
-            <element signature="e#53130#53136#0#HTML" expanded="true" />
-            <element signature="e#53227#53235#0#HTML" expanded="true" />
-            <element signature="e#53309#53317#0#HTML" expanded="true" />
-            <element signature="e#54048#54055#0#HTML" expanded="true" />
-            <element signature="e#54419#54425#0#HTML" expanded="true" />
-            <element signature="e#54515#54523#0#HTML" expanded="true" />
-            <element signature="e#54598#54606#0#HTML" expanded="true" />
-            <element signature="e#55302#55309#0#HTML" expanded="true" />
-            <element signature="e#55351#55359#0#HTML" expanded="true" />
-            <element signature="e#55375#55383#0#HTML" expanded="true" />
-            <element signature="e#55553#55561#0#HTML" expanded="true" />
-            <element signature="e#55878#55886#0#HTML" expanded="true" />
-            <element signature="e#55982#55990#0#HTML" expanded="true" />
-            <element signature="e#56139#56147#0#HTML" expanded="true" />
-            <element signature="e#56183#56191#0#HTML" expanded="true" />
-            <element signature="e#56302#56310#0#HTML" expanded="true" />
-            <element signature="e#56366#56374#0#HTML" expanded="true" />
-            <element signature="e#56493#56501#0#HTML" expanded="true" />
-            <element signature="e#56544#56552#0#HTML" expanded="true" />
-            <element signature="e#56634#56642#0#HTML" expanded="true" />
-            <element signature="e#56693#56701#0#HTML" expanded="true" />
-            <element signature="e#56810#56818#0#HTML" expanded="true" />
-            <element signature="e#56825#56833#0#HTML" expanded="true" />
-            <element signature="e#56852#56860#0#HTML" expanded="true" />
-            <element signature="e#56897#56905#0#HTML" expanded="true" />
-            <element signature="e#57025#57033#0#HTML" expanded="true" />
-            <element signature="e#57387#57395#0#HTML" expanded="true" />
-            <element signature="e#57433#57441#0#HTML" expanded="true" />
-            <element signature="e#57508#57516#0#HTML" expanded="true" />
-            <element signature="e#57556#57564#0#HTML" expanded="true" />
-            <element signature="e#57606#57614#0#HTML" expanded="true" />
-            <element signature="e#57633#57641#0#HTML" expanded="true" />
-            <element signature="e#57713#57721#0#HTML" expanded="true" />
-            <element signature="e#58204#58211#0#HTML" expanded="true" />
-            <element signature="e#58495#58501#0#HTML" expanded="true" />
-            <element signature="e#58571#58577#0#HTML" expanded="true" />
-            <element signature="e#58636#58642#1#HTML" expanded="true" />
-            <element signature="e#58710#58716#0#HTML" expanded="true" />
-            <element signature="e#58726#58732#0#HTML" expanded="true" />
-            <element signature="e#58754#58761#0#HTML" expanded="true" />
-            <element signature="e#58770#58776#0#HTML" expanded="true" />
-            <element signature="e#58876#58882#1#HTML" expanded="true" />
-            <element signature="e#58956#58964#0#HTML" expanded="true" />
-            <element signature="e#58985#58993#0#HTML" expanded="true" />
-            <element signature="e#59007#59015#0#HTML" expanded="true" />
-            <element signature="e#59078#59086#0#HTML" expanded="true" />
-            <element signature="e#59292#59300#0#HTML" expanded="true" />
-            <element signature="e#59516#59524#0#HTML" expanded="true" />
-            <element signature="e#59562#59570#0#HTML" expanded="true" />
-            <element signature="e#59598#59606#0#HTML" expanded="true" />
-            <element signature="e#59646#59654#0#HTML" expanded="true" />
-            <element signature="e#59841#59849#0#HTML" expanded="true" />
-            <element signature="e#59877#59885#0#HTML" expanded="true" />
-            <element signature="e#59900#59908#0#HTML" expanded="true" />
-            <element signature="e#59976#59984#0#HTML" expanded="true" />
-            <element signature="e#60124#60132#0#HTML" expanded="true" />
-            <element signature="e#60434#60440#0#HTML" expanded="true" />
-            <element signature="e#60640#60648#0#HTML" expanded="true" />
-            <element signature="e#60784#60792#0#HTML" expanded="true" />
-            <element signature="e#60816#60824#0#HTML" expanded="true" />
-            <element signature="e#60905#60913#0#HTML" expanded="true" />
-            <element signature="e#60954#60962#0#HTML" expanded="true" />
-            <element signature="e#61048#61056#0#HTML" expanded="true" />
-            <element signature="e#61125#61133#0#HTML" expanded="true" />
-            <element signature="e#61265#61273#0#HTML" expanded="true" />
-            <element signature="e#61396#61404#0#HTML" expanded="true" />
-            <element signature="e#61443#61451#0#HTML" expanded="true" />
-            <element signature="e#61456#61464#0#HTML" expanded="true" />
-            <element signature="e#61605#61611#1#HTML" expanded="true" />
+            <element signature="e#24781#24787#0#HTML" expanded="false" />
+            <element signature="e#28007#28014#0#HTML" expanded="false" />
+            <element signature="e#28375#28381#0#HTML" expanded="false" />
+            <element signature="e#28472#28480#0#HTML" expanded="false" />
+            <element signature="e#29331#29338#0#HTML" expanded="false" />
+            <element signature="e#29702#29708#0#HTML" expanded="false" />
+            <element signature="e#29799#29807#0#HTML" expanded="false" />
+            <element signature="e#30671#30678#0#HTML" expanded="false" />
+            <element signature="e#31046#31052#0#HTML" expanded="false" />
+            <element signature="e#31143#31151#0#HTML" expanded="false" />
+            <element signature="e#31991#31998#0#HTML" expanded="false" />
+            <element signature="e#32359#32365#0#HTML" expanded="false" />
+            <element signature="e#32456#32464#0#HTML" expanded="false" />
+            <element signature="e#33294#33301#0#HTML" expanded="false" />
+            <element signature="e#33663#33669#0#HTML" expanded="false" />
+            <element signature="e#33760#33768#0#HTML" expanded="false" />
+            <element signature="e#34656#34663#0#HTML" expanded="false" />
+            <element signature="e#35016#35022#0#HTML" expanded="false" />
+            <element signature="e#35113#35121#0#HTML" expanded="false" />
+            <element signature="e#35940#35947#0#HTML" expanded="false" />
+            <element signature="e#36308#36314#0#HTML" expanded="false" />
+            <element signature="e#36405#36413#0#HTML" expanded="false" />
+            <element signature="e#37253#37260#0#HTML" expanded="false" />
+            <element signature="e#37620#37626#0#HTML" expanded="false" />
+            <element signature="e#37717#37725#0#HTML" expanded="false" />
+            <element signature="e#38536#38543#0#HTML" expanded="false" />
+            <element signature="e#38903#38909#0#HTML" expanded="false" />
+            <element signature="e#39000#39008#0#HTML" expanded="false" />
+            <element signature="e#39820#39827#0#HTML" expanded="false" />
+            <element signature="e#40189#40195#0#HTML" expanded="false" />
+            <element signature="e#40286#40294#0#HTML" expanded="false" />
+            <element signature="e#41109#41116#0#HTML" expanded="false" />
+            <element signature="e#41487#41493#0#HTML" expanded="false" />
+            <element signature="e#41583#41591#0#HTML" expanded="false" />
+            <element signature="e#42420#42427#0#HTML" expanded="false" />
+            <element signature="e#42804#42810#0#HTML" expanded="false" />
+            <element signature="e#42900#42908#0#HTML" expanded="false" />
+            <element signature="e#43738#43745#0#HTML" expanded="false" />
+            <element signature="e#44119#44125#0#HTML" expanded="false" />
+            <element signature="e#44215#44223#0#HTML" expanded="false" />
+            <element signature="e#45032#45039#0#HTML" expanded="false" />
+            <element signature="e#45406#45412#0#HTML" expanded="false" />
+            <element signature="e#45502#45510#0#HTML" expanded="false" />
+            <element signature="e#46296#46303#0#HTML" expanded="false" />
+            <element signature="e#46671#46677#0#HTML" expanded="false" />
+            <element signature="e#46767#46775#0#HTML" expanded="false" />
+            <element signature="e#47576#47583#0#HTML" expanded="false" />
+            <element signature="e#47958#47964#0#HTML" expanded="false" />
+            <element signature="e#48054#48062#0#HTML" expanded="false" />
+            <element signature="e#48860#48867#0#HTML" expanded="false" />
+            <element signature="e#49239#49245#0#HTML" expanded="false" />
+            <element signature="e#49335#49343#0#HTML" expanded="false" />
+            <element signature="e#50148#50155#0#HTML" expanded="false" />
+            <element signature="e#50520#50526#0#HTML" expanded="false" />
+            <element signature="e#50616#50624#0#HTML" expanded="false" />
+            <element signature="e#50698#50706#0#HTML" expanded="false" />
+            <element signature="e#51453#51460#0#HTML" expanded="false" />
+            <element signature="e#51833#51839#0#HTML" expanded="false" />
+            <element signature="e#51929#51937#0#HTML" expanded="false" />
+            <element signature="e#52011#52019#0#HTML" expanded="false" />
+            <element signature="e#52769#52776#0#HTML" expanded="false" />
+            <element signature="e#53130#53136#0#HTML" expanded="false" />
+            <element signature="e#53227#53235#0#HTML" expanded="false" />
+            <element signature="e#53309#53317#0#HTML" expanded="false" />
+            <element signature="e#54048#54055#0#HTML" expanded="false" />
+            <element signature="e#54419#54425#0#HTML" expanded="false" />
+            <element signature="e#54515#54523#0#HTML" expanded="false" />
+            <element signature="e#54598#54606#0#HTML" expanded="false" />
+            <element signature="e#55302#55309#0#HTML" expanded="false" />
+            <element signature="e#55351#55359#0#HTML" expanded="false" />
+            <element signature="e#55375#55383#0#HTML" expanded="false" />
+            <element signature="e#55553#55561#0#HTML" expanded="false" />
+            <element signature="e#55878#55886#0#HTML" expanded="false" />
+            <element signature="e#55982#55990#0#HTML" expanded="false" />
+            <element signature="e#56139#56147#0#HTML" expanded="false" />
+            <element signature="e#56183#56191#0#HTML" expanded="false" />
+            <element signature="e#56302#56310#0#HTML" expanded="false" />
+            <element signature="e#56366#56374#0#HTML" expanded="false" />
+            <element signature="e#56493#56501#0#HTML" expanded="false" />
+            <element signature="e#56544#56552#0#HTML" expanded="false" />
+            <element signature="e#56634#56642#0#HTML" expanded="false" />
+            <element signature="e#56693#56701#0#HTML" expanded="false" />
+            <element signature="e#56810#56818#0#HTML" expanded="false" />
+            <element signature="e#56825#56833#0#HTML" expanded="false" />
+            <element signature="e#56852#56860#0#HTML" expanded="false" />
+            <element signature="e#56897#56905#0#HTML" expanded="false" />
+            <element signature="e#57025#57033#0#HTML" expanded="false" />
+            <element signature="e#57387#57395#0#HTML" expanded="false" />
+            <element signature="e#57433#57441#0#HTML" expanded="false" />
+            <element signature="e#57508#57516#0#HTML" expanded="false" />
+            <element signature="e#57556#57564#0#HTML" expanded="false" />
+            <element signature="e#57606#57614#0#HTML" expanded="false" />
+            <element signature="e#57633#57641#0#HTML" expanded="false" />
+            <element signature="e#57713#57721#0#HTML" expanded="false" />
+            <element signature="e#58204#58211#0#HTML" expanded="false" />
+            <element signature="e#58495#58501#0#HTML" expanded="false" />
+            <element signature="e#58571#58577#0#HTML" expanded="false" />
+            <element signature="e#58636#58642#1#HTML" expanded="false" />
+            <element signature="e#58710#58716#0#HTML" expanded="false" />
+            <element signature="e#58726#58732#0#HTML" expanded="false" />
+            <element signature="e#58754#58761#0#HTML" expanded="false" />
+            <element signature="e#58770#58776#0#HTML" expanded="false" />
+            <element signature="e#58876#58882#1#HTML" expanded="false" />
+            <element signature="e#58956#58964#0#HTML" expanded="false" />
+            <element signature="e#58985#58993#0#HTML" expanded="false" />
+            <element signature="e#59007#59015#0#HTML" expanded="false" />
+            <element signature="e#59078#59086#0#HTML" expanded="false" />
+            <element signature="e#59292#59300#0#HTML" expanded="false" />
+            <element signature="e#59516#59524#0#HTML" expanded="false" />
+            <element signature="e#59562#59570#0#HTML" expanded="false" />
+            <element signature="e#59598#59606#0#HTML" expanded="false" />
+            <element signature="e#59646#59654#0#HTML" expanded="false" />
+            <element signature="e#59841#59849#0#HTML" expanded="false" />
+            <element signature="e#59877#59885#0#HTML" expanded="false" />
+            <element signature="e#59900#59908#0#HTML" expanded="false" />
+            <element signature="e#59976#59984#0#HTML" expanded="false" />
+            <element signature="e#60124#60132#0#HTML" expanded="false" />
+            <element signature="e#60434#60440#0#HTML" expanded="false" />
+            <element signature="e#60640#60648#0#HTML" expanded="false" />
+            <element signature="e#60784#60792#0#HTML" expanded="false" />
+            <element signature="e#60816#60824#0#HTML" expanded="false" />
+            <element signature="e#60905#60913#0#HTML" expanded="false" />
+            <element signature="e#60954#60962#0#HTML" expanded="false" />
+            <element signature="e#61048#61056#0#HTML" expanded="false" />
+            <element signature="e#61125#61133#0#HTML" expanded="false" />
+            <element signature="e#61265#61273#0#HTML" expanded="false" />
+            <element signature="e#61396#61404#0#HTML" expanded="false" />
+            <element signature="e#61443#61451#0#HTML" expanded="false" />
+            <element signature="e#61456#61464#0#HTML" expanded="false" />
+            <element signature="e#61605#61611#1#HTML" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/modelo/form/User/UserParser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="57" column="40" selection-start-line="57" selection-start-column="40" selection-end-line="57" selection-end-column="40" />
+          <folding>
+            <marker date="1496910183209" expanded="true" signature="2125:2215" ph="..." />
+            <marker date="1496910183209" expanded="true" signature="2149:2210" ph="..." />
+            <marker date="1496910183209" expanded="true" signature="2171:2201" ph="..." />
+            <marker date="1496910183209" expanded="true" signature="2249:2345" ph="..." />
+            <marker date="1496910183209" expanded="true" signature="2276:2340" ph="..." />
+            <marker date="1496910183209" expanded="true" signature="2298:2328" ph="..." />
+            <marker date="1496910183209" expanded="true" signature="2649:2752" ph="..." />
+            <marker date="1496910183209" expanded="true" signature="2672:2747" ph="..." />
+            <marker date="1496910183209" expanded="true" signature="2694:2724" ph="..." />
+            <marker date="1496910183209" expanded="true" signature="2800:2901" ph="..." />
+            <marker date="1496910183209" expanded="true" signature="2820:2896" ph="..." />
+            <marker date="1496910183209" expanded="true" signature="2849:2879" ph="..." />
+            <marker date="1496910183209" expanded="true" signature="3303:3406" ph="..." />
+            <marker date="1496910183209" expanded="true" signature="3326:3401" ph="..." />
+            <marker date="1496910183209" expanded="true" signature="3348:3378" ph="..." />
+            <marker date="1496910183209" expanded="true" signature="3454:3555" ph="..." />
+            <marker date="1496910183209" expanded="true" signature="3474:3550" ph="..." />
+            <marker date="1496910183209" expanded="true" signature="3503:3533" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/modelo/form/User/mdlUser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/common/validacion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1768">
+          <caret line="104" column="39" selection-start-line="104" selection-start-column="39" selection-end-line="104" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/modelo/form/Compra/mdlCompra.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="57" column="20" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/jquery.mycart.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="242" column="81" selection-start-line="242" selection-start-column="81" selection-end-line="242" selection-end-column="81" />
+        <state relative-caret-position="1292">
+          <caret line="128" column="40" selection-start-line="128" selection-start-column="40" selection-end-line="128" selection-end-column="40" />
           <folding>
-            <marker date="1496851199363" expanded="true" signature="6777:6784" ph="×" />
-            <marker date="1496851199363" expanded="true" signature="8481:8493" ph="..." />
-            <marker date="1496851199363" expanded="true" signature="8850:8862" ph="..." />
-            <marker date="1496851199363" expanded="true" signature="9237:9249" ph="..." />
-            <marker date="1496851199363" expanded="true" signature="10306:10316" ph="..." />
+            <marker date="1496910182916" expanded="true" signature="6777:6784" ph="×" />
+            <marker date="1496910182916" expanded="true" signature="8481:8493" ph="..." />
+            <marker date="1496910182916" expanded="true" signature="8850:8862" ph="..." />
+            <marker date="1496910182916" expanded="true" signature="9237:9249" ph="..." />
+            <marker date="1496910182916" expanded="true" signature="10306:10316" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/vista/user.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="491">
+          <caret line="284" column="57" selection-start-line="284" selection-start-column="57" selection-end-line="284" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/vista/register.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="268" column="80" selection-start-line="268" selection-start-column="75" selection-end-line="268" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery.registro.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="568">
+          <caret line="300" column="21" selection-start-line="300" selection-start-column="21" selection-end-line="300" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>

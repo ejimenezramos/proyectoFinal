@@ -231,15 +231,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <div class="has-warning"><p id="errorapellidos"></p></div>
 
 
-                        <label class="{{class-Fecha_Nac}}" for="Fecha_Nac">Fecha de Nacimiento</label>
-                        <div class="key">
-                            <i class="fa fa-birthday-cake" aria-hidden="true"></i>
-                            <input type="date" placeholder="Fecha de nacimiento" id="fechanac" name="Fecha_Nac"
-                                   Value='<?php echo $val->restoreValue('Fecha_Nac'); ?>'>
-                            <div class="clearfix"></div>
-                        </div>
-                        <div class="has-warning"><p id="errorfechanac"></p></div>
-
                         <label class="{{class-DNI}}" for="DNI">DNI</label>
                         <div class="key">
                             <i class="fa fa-user" aria-hidden="true"></i>
@@ -293,27 +284,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         </div>
                         <div class="has-warning"><p id="errorusuario"></p></div>
 
-                        <label class="{{class-Password}}" for="Password">Password</label>
-                        <div class="key">
-                            <i class="fa fa-lock" aria-hidden="true"></i>
-                            <input type="password" placeholder="Password" name="Password" id="password">
-                            <div class="clearfix"></div>
-                        </div>
-                        <div class="has-warning"><p id="errorpassword"></p></div>
 
-
-                        <label class="{{class-Password2}}" for="Password2">Confirmar Password</label>
-                        <div class="key">
-                            <i class="fa fa-lock" aria-hidden="true"></i>
-                            <input type="password" placeholder="Confirmar Password" id="password2" name="Password2">
-                            <div class="clearfix"></div>
-                        </div>
-                        <div class="has-warning"><p id="errorpassword2"></p></div>
-                        <br>
-                        <div>
                             <input class="form-" type="submit" name="user" value="Modificar">
 
-                        </div>
+
                         <div class="has-warning"><p id="errorsubmit"></p></div>
                         <div class="has-warning"><p id="errorvalidacion"></p></div>
                     </form>
