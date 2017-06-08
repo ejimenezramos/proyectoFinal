@@ -230,7 +230,7 @@
             var products = ProductManager.getAllProducts();
             var prods = "";
             $.each(products, function () {
-                prods += this.name + ':' + this.quantity + ';';
+                prods +=this.id + ":" + this.name + ':' + this.quantity + ';';
                 var total = this.quantity * this.price;
                 $cartTable.append(
                     '<tr title="' + this.summary + '" data-id="' + this.id + '" data-price="' + this.price + '">' +

@@ -1,8 +1,8 @@
 
 <?php
 
-class mdlCompra extends padre  {
-    const PAGE = 'compra';
+class mdlCompraRealizada extends padre  {
+    const PAGE = 'compraRealizada';
     public function onGestionPagina() {
         if (getGet ( 'pagina' ) != self::PAGE) {
             return;
@@ -28,29 +28,15 @@ class mdlCompra extends padre  {
         if (! is_null ( getPost ( self::PAGE ) )) {
             if ($val->isValid ()) { // Guardamos los datos en session
                 $_SESSION [self::PAGE] = $val->getOks ();
-                $cont=0;
-                $vas=explode(";",  $_POST['data']);
-                $vad=implode(":", $vas);
-                $rest = substr($vad, 0, -1);
-                $vaq=explode(":", $rest);
-                $tab="<table class='table'><tr><td>Id Producto</td><td>Nombre</td><td>Cantidad</td></tr></table><table class='table'><tr>";
-                foreach($vaq as $a)
-                {
-                    if ($cont==0)
-                    {
-                        $tab.="<tr>";
-                    }
-                    $cont++;
-                    $tab.="<td>".$a."</td>";
-
-                    if ($cont==3)
-                    {
-                        $tab.="</tr>";
-                        $cont=0;
-                    }
-                }
-                $tab.="</table>";
-                $_SESSION ['compra'] =$tab;
+//                $vas=explode(";",  $_POST['data']);
+//                $tab="<table class='table'>";
+//                foreach($vas as $a)
+//                {
+//
+//                    $tab.="<tr><td>".$a."</td></tr>";
+//                }
+//                $tab.="</table>";
+//                $_SESSION ['compra'] =$tab;
 
                //Elena:
                 //esta lógica es de registro, te dejo el if para que lo cambies a tu gusto:
@@ -76,6 +62,6 @@ class mdlCompra extends padre  {
         include $path;
         $vista = ob_get_contents ();
         ob_end_clean ();
-        echo CompraParser::loadContent($vista);
+        echo CompraRealizadaParser::loadContent($vista);
     }
 }

@@ -395,8 +395,8 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 							Cocoa-puffs, topping de Conguitos y Leche de vainilla</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-b"
-								data-id="002" data-name="Pack Chocolate"
-								data-summary="summary 002" data-price="7" data-quantity="1"
+								data-id="1" data-name="Pack Chocolate"
+								data-summary="summary 1" data-price="7" data-quantity="1"
 								data-image="images/pack_chocolate.png">Add to Cart</button>
 						</div>
 					</div>
@@ -435,7 +435,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 							Loops, topping de Schoko-Bons y Leche de color verde</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-b"
-								data-id="003" data-name="Pack Exotic" data-summary="summary 003"
+								data-id="2" data-name="Pack Exotic" data-summary="summary 2"
 								data-price="7.80" data-quantity="1"
 								data-image="images/pack_exotic.png">Add to Cart</button>
 						</div>
@@ -475,8 +475,8 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 							Cheerios, topping de sirope de Arce y Leche de color rosa</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-b"
-								data-id="004" data-name="Pack Healthy"
-								data-summary="summary 004" data-price="6.5" data-quantity="1"
+								data-id="3" data-name="Pack Healthy"
+								data-summary="summary 3" data-price="6.5" data-quantity="1"
 								data-image="images/pack_healthy.png">Add to Cart</button>
 						</div>
 					</div>
@@ -515,7 +515,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 							topping de sirope de Caramelo y Leche de color rosa</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-b"
-								data-id="005" data-name="Pack Sweety" data-summary="summary 005"
+								data-id="4" data-name="Pack Sweety" data-summary="summary 4"
 								data-price="6" data-quantity="1"
 								data-image="images/pack_sweety.png">Add to Cart</button>
 						</div>
@@ -556,8 +556,8 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 							Loops, topping de Sirope de Fresa y Leche de color rosa</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-b"
-								data-id="006" data-name="Pack Red Passion"
-								data-summary="summary 006" data-price="6" data-quantity="1"
+								data-id="5" data-name="Pack Red Passion"
+								data-summary="summary 5" data-price="6" data-quantity="1"
 								data-image="images/pack_passion.png">Add to Cart</button>
 						</div>
 					</div>
@@ -596,7 +596,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 							Charms, topping de galletas Oreo y Leche de color azul</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-b"
-								data-id="007" data-name="Pack Cookie" data-summary="summary 007"
+								data-id="6" data-name="Pack Cookie" data-summary="summary 6"
 								data-price="6" data-quantity="1"
 								data-image="images/pack_cookie.png">Add to Cart</button>
 						</div>
@@ -638,8 +638,8 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 							verde</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-b"
-								data-id="008" data-name="Pack Explosive"
-								data-summary="summary 008" data-price="6.50" data-quantity="1"
+								data-id="7" data-name="Pack Explosive"
+								data-summary="summary 7" data-price="6.50" data-quantity="1"
 								data-image="images/pack_explosives.png">Add to Cart</button>
 						</div>
 					</div>
@@ -679,8 +679,8 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 							avellanas</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-b"
-								data-id="009" data-name="Pack Fantasia"
-								data-summary="summary 009" data-price="7.50" data-quantity="1"
+								data-id="8" data-name="Pack Fantasia"
+								data-summary="summary 8" data-price="7.50" data-quantity="1"
 								data-image="images/pack_fantasia.png">Add to Cart</button>
 						</div>
 					</div>
