@@ -34,6 +34,11 @@ class LoginParser
 
                     $vista = str_replace('{{war-' . $field . '}}', $val->getStrRule($rule), $vista);
                     break;
+                case 'alphanum_space':
+                    $warning_fields .= "<strong>$field</strong>, ";
+
+                    $vista = str_replace('{{war-' . $field . '}}', $val->getStrRule($rule), $vista);
+                    break;
             }
         }
         foreach (getTagsVista($vista) as $tag) {
@@ -51,7 +56,7 @@ class LoginParser
                     break;
                 case "mensaje":
                     if(isset($_SESSION['mens']))
-                        $str="Usuario o contraseña incorrectos, por favor inténtelo de nuevo. Si no está registrado en nuestra página, ".
+                        $str="Usuario o contraseï¿½a incorrectos, por favor intï¿½ntelo de nuevo. Si no estï¿½ registrado en nuestra pï¿½gina, ".
                         "puede hacerlo pinchando el siguiente enlace: <a href='?pagina=register' class='forg'><u>Registrarse</u></a>";
                     Session::del('mens');
                     break;

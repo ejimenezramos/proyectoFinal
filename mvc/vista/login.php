@@ -158,21 +158,21 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 						<i class="fa fa-user" aria-hidden="true"></i> <input type="text"
 							placeholder="Usuario" name="Usuario" id="usuario"
 							oninvalid="setCustomValidity('Para iniciar sesión debe rellenar ambos campos')"
-							value='<?php echo $val->restoreValue('usuario'); ?>'> <span>{{war-Usuario}}</span>
+							value='<?php echo $val->restoreValue('usuario'); ?>'>
 						<div class="clearfix"></div>
 					</div>
 					<div class="has-warning">
-						<p id="errorusuario"></p>
+						<p id="errorusuario">{{war-Usuario}}</p>
 					</div>
 					<div class="key">
 						<i class="fa fa-lock" aria-hidden="true"></i> <input
 							type="password" placeholder="Password" name="Password" id="clave"
 							oninvalid="setCustomValidity('Para iniciar sesión debe rellenar ambos campos')"
-							value='<?php echo $val->restoreValue('clave'); ?>'> <span>{{war-Password}}</span>
+							value='<?php echo $val->restoreValue('clave'); ?>'>
 						<div class="clearfix"></div>
 					</div>
 					<div class="has-warning">
-						<p id="errorpassword"></p>
+						<p id="errorclave">{{war-Password}}</p>
 					</div>
 					<input type="submit" value="Login" name="login" id="loguear">
 					<div class="has-warning">

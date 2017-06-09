@@ -12,8 +12,8 @@ class mdlLogin extends padre {
 		$val = Validacion::getInstance ();
 		$toValidate = ($_POST);
 		$rules = array (
-				'Usuario' => 'required|alpha_space',
-				'Password' => 'required|alpha_numeric'
+				'Usuario' => 'required|alphanum_space',
+				'Password' => 'required|alphanum_space'
 		);
 
 		$val->addRules ( $rules );

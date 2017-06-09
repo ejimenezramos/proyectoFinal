@@ -87,7 +87,7 @@ class Validacion extends padre {
                 return ' *El formato del dni deben ser 8 dígitos y una letra';
                 break;
             case 'alphanum_space':
-                return ' *sólo caracteres alfanuméricos por favor';
+                return ' *sólo admite caracteres alfanuméricos';
                   case 'repeated':
                 return ' *El teléfono 2 no puede sere igual que el uno';
                       break;
