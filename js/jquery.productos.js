@@ -1,6 +1,7 @@
 /**
  * Created by elena.jimenez on 03/05/2017.
  */
+/*Cuando se produce el evento on change en la lista desplegable "prod", se muestra o se oculta los elementos correspondientes al producto que ha seleccionado el cliente*/
 $(document).ready(function(){
   $("#prod").change(function () {
       switch(($("#prod").val())){

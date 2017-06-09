@@ -25,6 +25,7 @@ $(document).ready(function () {
 function comprobarBlancosContacto() {
     var inpObligatorios = $("#contacto").find("input");
     camposVacios.splice(0);
+    $("#errorsubmit").css('opacity,1');
     for (i = 0; i < inpObligatorios.length; i++) {
 
         if (inpObligatorios[i].value <= 0) {
@@ -61,10 +62,12 @@ function comprobarValidacionContacto() {
     var inputs = $("#contacto").find("input");
     contInvalid = 0;
     $("#errorvalidacion").html('');
+    $("#errorvalidacion").css('opacity', '1');
     var id;
     for (var i = 0; i < inputs.length; i++) {
         id = inputs[i].id;
-        $("#error"+id).html('');
+        $("#error" + id).css('opacity', '1');
+
         switch (id) {
             case "nombre":
                 if (patnombre.test(inputs[i].value)) {
@@ -112,6 +115,7 @@ function comprobarValidacionContacto() {
         camposInvalidos = camposInvalidos.filter(compruebaUndefined);
         stringCamposInvalidos = camposInvalidos.join();
         $("#errorvalidacion").html('Revise el/los campos: ' + stringCamposInvalidos + ' tienen errores de formato');
+        $("#errorvalidacion").fadeTo(15000, 0);
         return false;
     }
     else {
@@ -123,3 +127,21 @@ function comprobarValidacionContacto() {
 function compruebaUndefined(array) {
     return array != undefined && array != " " && array != "";
 }
+
+$(document).ready(function () {
+    $("#contacto").find("input").on('change', function (event) {
+        if (contInvalid > 0) {
+            var id = event.target.id;
+            eliminarErrores(id);
+        }
+    });
+});
+function eliminarErrores(id) {
+
+    var promesa = $("#error" + id).fadeTo(3000, 0);
+    $.when(promesa).done(function () {
+        $("#error" + id).html('');
+    })
+
+}
+

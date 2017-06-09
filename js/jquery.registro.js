@@ -15,7 +15,7 @@ var totalcamposerroneos = 0;
 var camposInvalidos = [];
 var contInvalid = 0;
 var camposBlanco = [];
-var camposInvalidos = [];
+
 var cont = 0;
 /***************VALIDACIONES SUBMIT REGISTRO****************/
 
