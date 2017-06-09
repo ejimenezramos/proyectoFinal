@@ -95,7 +95,7 @@ class mdlRegister extends padre  {
         $toValidate = ($_POST);
         // $toValidate = (!empty($_POST)) ? $_POST : Session::get(self::PAGE, array());
         $rules = array (
-            'Usuario' => 'required|duplicate|alpha_numeric',
+            'Usuario' => 'required|duplicate|alphanum_space',
             'Nombre' => 'required|alpha_space',
             'Apellidos' => 'required|alpha_space',
             'Fecha_Nac' => 'required',
@@ -105,7 +105,7 @@ class mdlRegister extends padre  {
             'Telefono' => 'required|tel',
 //          'CP' => 'required',
             'Direccion' => 'required',
-            'Password' => 'required',
+            'Password' => 'required|alphanum_space',
 //          'Password2' => 'required',
             'Email' => 'required|email'
         );
