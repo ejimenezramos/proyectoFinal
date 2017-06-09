@@ -7,7 +7,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE html>
 <html>
 <head>
-<title>Cereal-Break | Términos</title>
+<title>Cereal-Break | Términos y condiciones</title>
 <!-- for-mobile-apps -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -148,7 +148,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 							<li><a href="?pagina=productos" class="hyper"><span>Productos</span></a>
 							</li>
 							<li><a href="?pagina=packs" class="hyper"><span>Packs especiales</span></a></li>
-							<li class="active"><a href="?pagina=aboutus" class="hyper"> <span>Sobre
+							<li><a href="?pagina=aboutus" class="hyper"> <span>Sobre
 										nosotros</span></a></li>
 							<li><a href="?pagina=contact" class="hyper"><span>Contáctanos</span></a></li>
 						</ul>

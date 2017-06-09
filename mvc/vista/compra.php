@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>
-        Cereal | Break - Compra -
+        Cereal-Break | Compra
     </title>
     <!-- for-mobile-apps -->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
