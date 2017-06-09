@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="773c24a4-52bd-4d25-b22b-0000bce0fb4f" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/requests/compruebaProductos.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/jquery.contacto.js" afterPath="$PROJECT_DIR$/js/jquery.contacto.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/jquery.login.js" afterPath="$PROJECT_DIR$/js/jquery.login.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/jquery.productos.js" afterPath="$PROJECT_DIR$/js/jquery.productos.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/jquery.registro.js" afterPath="$PROJECT_DIR$/js/jquery.registro.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvc/vista/packs.php" afterPath="$PROJECT_DIR$/mvc/vista/packs.php" />
     </list>
     <ignored path="paco.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -99,11 +95,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jquery.login.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="jquery.login.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/jquery.login.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+            <state relative-caret-position="493">
+              <caret line="29" column="47" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -114,8 +110,18 @@
       <file leaf-file-name="login.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mvc/vista/login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="156" column="80" selection-start-line="156" selection-start-column="80" selection-end-line="156" selection-end-column="80" />
+            <state relative-caret-position="304">
+              <caret line="166" column="26" selection-start-line="166" selection-start-column="26" selection-end-line="166" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="packs.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mvc/vista/packs.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="508">
+              <caret line="400" column="30" selection-start-line="400" selection-start-column="30" selection-end-line="400" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -163,7 +169,6 @@
         <option value="$PROJECT_DIR$/mvc/vista/contact.php" />
         <option value="$PROJECT_DIR$/mvc/vista/Listado.php" />
         <option value="$PROJECT_DIR$/mvc/vista/login.php" />
-        <option value="$PROJECT_DIR$/mvc/vista/packs.php" />
         <option value="$PROJECT_DIR$/css/font-awesome.css" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/mvc/modelo/form/Mensaje/mdlMensaje.php" />
@@ -188,6 +193,7 @@
         <option value="$PROJECT_DIR$/js/jquery.contacto.js" />
         <option value="$PROJECT_DIR$/js/jquery.registro.js" />
         <option value="$PROJECT_DIR$/js/jquery.login.js" />
+        <option value="$PROJECT_DIR$/mvc/vista/packs.php" />
       </list>
     </option>
   </component>
@@ -962,12 +968,12 @@
       <workItem from="1496835526383" duration="8309000" />
       <workItem from="1496911566632" duration="2061000" />
       <workItem from="1496920861234" duration="1193000" />
-      <workItem from="1496989800066" duration="7457000" />
+      <workItem from="1496989800066" duration="8441000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="261045000" />
+    <option name="totallyTimeSpent" value="262029000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-121" width="1936" height="1056" extended-state="6" />
@@ -1092,14 +1098,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="663">
           <caret line="39" column="34" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mvc/vista/packs.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="543" column="30" selection-start-line="543" selection-start-column="30" selection-end-line="543" selection-end-column="30" />
           <folding />
         </state>
       </provider>
@@ -1489,14 +1487,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mvc/vista/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="156" column="80" selection-start-line="156" selection-start-column="80" selection-end-line="156" selection-end-column="80" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/jquery.registro.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -1507,11 +1497,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/jquery.login.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+        <state relative-caret-position="493">
+          <caret line="29" column="47" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/vista/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="166" column="26" selection-start-line="166" selection-start-column="26" selection-end-line="166" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/vista/packs.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="508">
+          <caret line="400" column="30" selection-start-line="400" selection-start-column="30" selection-end-line="400" selection-end-column="30" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -397,7 +397,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 							<button class="btn btn-danger my-cart-btn my-cart-b"
 								data-id="1" data-name="Pack Chocolate"
 								data-summary="summary 1" data-price="7" data-quantity="1"
-								data-image="images/pack_chocolate.png">Add to Cart</button>
+								data-image="images/pack_choco.png">Add to Cart</button>
 						</div>
 					</div>
 					<div class="clearfix"></div>
