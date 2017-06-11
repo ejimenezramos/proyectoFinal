@@ -12,6 +12,18 @@ class Usuarios {
         else
             return $datos;
     }
+    public static function getUserId($usuario) {
+        $database = medoo::getInstance ();
+        $database->openConnection ( unserialize ( MYSQL_CONFIG ) );
+        $datos = $database->select ( 'usuarios', 'Id_Usuario', [
+                "Usuario[=]" => $usuario
+        ] );
+        $database->closeConnection ();
+        if ($datos)
+            return $datos [0];
+        else
+            return "";
+    }
     public static function searchNombreDB($nombre) {
         $database = medoo::getInstance();
         $database->openConnection(unserialize(MYSQL_CONFIG));

@@ -8,6 +8,8 @@ class mdlCompraRealizada extends padre  {
             return;
         }
 
+
+
         // Validamos
 
         $val = Validacion::getInstance ();
@@ -16,11 +18,10 @@ class mdlCompraRealizada extends padre  {
         $toValidate = ($_POST);
         // $toValidate = (!empty($_POST)) ? $_POST : Session::get(self::PAGE, array());
         $rules = array (
+            'id',
+            'cantidad'
            //aqui habra que hacer el foreach para sacar todos los datos por línea de factura.
         );
-
-
-
 
         $val->addRules ( $rules );
         $val->run ( $toValidate );
@@ -28,27 +29,48 @@ class mdlCompraRealizada extends padre  {
         if (! is_null ( getPost ( self::PAGE ) )) {
             if ($val->isValid ()) { // Guardamos los datos en session
                 $_SESSION [self::PAGE] = $val->getOks ();
-//                $vas=explode(";",  $_POST['data']);
-//                $tab="<table class='table'>";
-//                foreach($vas as $a)
-//                {
 //
-//                    $tab.="<tr><td>".$a."</td></tr>";
-//                }
-//                $tab.="</table>";
-//                $_SESSION ['compra'] =$tab;
+                $s=0;
+                $w="";
+                $id=getPost('id');
+                $cantidad=getPost('cantidad');
+                $fecha=date("Y,n,j");
+                $idUser=Usuarios::getUserId($_SESSION['usuarios']);
+                for($i=0; $i<count($id); $i++)
+                {
+                    $w+=Productos::searchPrecioDB($id[$i]);
+                    $s+=Productos::searchPrecioDB($id[$i])*$cantidad[$i];
 
-               //Elena:
-                //esta lógica es de registro, te dejo el if para que lo cambies a tu gusto:
+                }
+                $ins=Productos::insertDB($idUser, $fecha, $s);
 
-                // $datos = Compra::insertDB ( $data );
-                /*if ($datos) {
-                    $_SESSION ['info'] = 'registed';
-                    $_SESSION['usuarios']=$usuario;
-                } else
-                    $_SESSION ['info'] = 'noRegisted';
-                // Cambiamos el paso
-                redirectTo ( 'index.php?pagina=home' );*/
+                for($i=0; $i<count($id); $i++)
+                {
+                    $po=Productos::searchPrecioDB($id[$i]);
+                    $cant=$cantidad[$i];
+                    $idProd=$id[$i];
+                    $insa=Productos::insertCompProdDB($ins, $idProd, $po, $cant);
+                    if($insa)
+                    {
+                        $asd="he hecho el insert ".$insa;
+                    }
+                }
+                echo "<script type=\"text/javascript\">alert(\" Usuario = $idUser, fecha= $fecha, precioTotal= $s\");</script>";
+
+
+                $asd="";
+                if($insa)
+                {
+                    $asd="he hecho el insert ".$insa;
+                }
+                //foreach($toValidate as $a)
+                //{
+                //    $s+=Productos::searchPrecioDB($a);
+                //}
+
+                $_SESSION['prueba']=$s."----".$id[0]."+++++++".$cantidad[0]."******".$w."=====".$fecha."---------".$idUser."-----".$asd;
+
+
             }
         }
     }

@@ -33,22 +33,64 @@ class mdlCompra extends padre  {
                 $vad=implode(":", $vas);
                 $rest = substr($vad, 0, -1);
                 $vaq=explode(":", $rest);
-                $tab="<table class='table'><tr><td>Id Producto</td><td>Nombre</td><td>Cantidad</td></tr></table><table class='table'><tr>";
-                foreach($vaq as $a)
+                $tab="<table class='table'><tr><td>Id Producto</td><td>Nombre</td><td>Cantidad</td></tr>";
+                //foreach($vaq as $a)
+                //{
+                //    if ($cont==0)
+                //    {
+                //        $tab.="<tr>";
+                //    }
+                //    $cont++;
+                //    $tab.="<td><input type='text' value='".$a."'></td>";
+
+                //    if ($cont==3)
+                //    {
+                //        $tab.="</tr>";
+                //        $cont=0;
+                //    }
+                //}
+                for($i=0; $i<count($vaq); $i++)
                 {
                     if ($cont==0)
                     {
                         $tab.="<tr>";
-                    }
-                    $cont++;
-                    $tab.="<td>".$a."</td>";
-
-                    if ($cont==3)
+                        $tab.="<td><input type='text' readonly='readonly' name='id[]' value='".$vaq[$i]."'></td>";
+                        $cont++;
+                    }else
                     {
-                        $tab.="</tr>";
-                        $cont=0;
+                        if ($cont==2)
+                        {
+                            $cont=0;
+                            $tab.="<td><input type='text' readonly='readonly' name='cantidad[]' value='".$vaq[$i]."'></td></tr>";
+                        }else
+                        {
+                            $tab.="<td>$vaq[$i]</td>";
+                            $cont++;
+                        }
                     }
                 }
+
+                //foreach($vaq as $a)
+                //{
+                //    if ($cont==0)
+                //    {
+                //        $tab.="<tr>";
+                //        $tab.="<td><input type='text' readonly='readonly' name='$a' value='".$a."'></td>";
+                //        $cont++;
+                //    }else
+                //    {
+                //        if ($cont==3)
+                //        {
+                //            $tab.="<td><input type='text' readonly='readonly' name='$a' value='".$a."'></td></tr>";
+                //            $cont=0;
+                //        }else
+                //        {
+                //            $tab.="<td>$a</td>";
+                //            $cont++;
+                //        }
+                //    }
+
+                //}
                 $tab.="</table>";
                 $_SESSION ['compra'] =$tab;
 

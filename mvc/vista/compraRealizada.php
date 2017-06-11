@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>
-        Cereal-Break | Compra Realizada
+        Cereal | Break - Compra -
     </title>
     <!-- for-mobile-apps -->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -210,7 +210,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             <a href="?pagina=home" class="hyper active"><span>Volver a inicio</span></a>
 
         </div>
-        </div>
     </div>
 
 
@@ -256,30 +255,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             </p>
             <div class="footer-icons">
                 <ul class="social-fo">
-                    <li>
-                        <a href="http://www.facebook.com" class=" face">
-                            <i class="fa fa-facebook"
-                               aria-hidden="true"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="http://www.twitter.com" class=" twi">
-                            <i class="fa fa-twitter"
-                               aria-hidden="true"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="http://www.pinterest.com" class=" pin">
-                            <i class="fa fa-pinterest-p"
-                               aria-hidden="true"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://dribbble.com/" class=" dri">
-                            <i class="fa fa-dribbble"
-                               aria-hidden="true"></i>
-                        </a>
-                    </li>
+                    <li><a href="http://www.facebook.com" class=" face"><i class="fa fa-facebook"
+                                                                           aria-hidden="true"></i></a></li>
+                    <li><a href="http://www.twitter.com" class=" twi"><i class="fa fa-twitter"
+                                                                         aria-hidden="true"></i></a></li>
+                    <li><a href="#http://www.pinterest.com" class=" pin"><i class="fa fa-pinterest-p"
+                                                                            aria-hidden="true"></i></a></li>
+                    <li><a href="https://dribbble.com/" class=" dri"><i class="fa fa-dribbble"
+                                                                        aria-hidden="true"></i></a></li>
                 </ul>
             </div>
         </div>

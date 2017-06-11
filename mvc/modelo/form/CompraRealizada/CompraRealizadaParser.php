@@ -43,7 +43,7 @@ class CompraRealizadaParser {
                     break;
                 case "compraRealizada":
 
-                    $str ="<p>Su compra ha sido realizada con éxito. Gracias por confiar en nosotros</p>";
+                    $str ="<p>Su compra ha sido realizada con éxito. Gracias por confiar en nosotros</p><br>".$_SESSION['prueba'];
                     break;
 
             }
