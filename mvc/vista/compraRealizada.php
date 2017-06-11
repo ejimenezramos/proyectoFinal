@@ -257,25 +257,25 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             <div class="footer-icons">
                 <ul class="social-fo">
                     <li>
-                        <a href="#" class=" face">
+                        <a href="http://www.facebook.com" class=" face">
                             <i class="fa fa-facebook"
                                aria-hidden="true"></i>
                         </a>
                     </li>
                     <li>
-                        <a href="#" class=" twi">
+                        <a href="http://www.twitter.com" class=" twi">
                             <i class="fa fa-twitter"
                                aria-hidden="true"></i>
                         </a>
                     </li>
                     <li>
-                        <a href="#" class=" pin">
+                        <a href="http://www.pinterest.com" class=" pin">
                             <i class="fa fa-pinterest-p"
                                aria-hidden="true"></i>
                         </a>
                     </li>
                     <li>
-                        <a href="#" class=" dri">
+                        <a href="https://dribbble.com/" class=" dri">
                             <i class="fa fa-dribbble"
                                aria-hidden="true"></i>
                         </a>
