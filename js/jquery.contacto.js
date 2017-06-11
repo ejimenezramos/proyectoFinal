@@ -3,7 +3,7 @@
  */
 /*DECLARACIÓN DE VARIABLES*/
 
-var patnombre = new RegExp("^[a-zA-Z]+(\\s*[a-zA-Z]*)*[a-zA-Z]+$");
+var patnombre = new RegExp("^[a-zA-ZÁáÉéÍíÓóÚú]+(\\s*[a-zA-Z]*)*[a-zA-Z]+$");
 var patemail = new RegExp("^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$");
 var camposVacios = [];
 var camposInvalidos = [];
