@@ -465,7 +465,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
     $("#tipoDireccion").on('change', function (event) {
-        if ($(this).val() == "0") {
+        if ($(this).val() == "seleccion") {
             $("#error" + event.target.id).html('Por favor, selecciona un tipo de vía de la lista');
 
             $("#direccion").attr('disabled', true);
