@@ -151,8 +151,10 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 
 		<div class="main-agileits">
 			<div class="form-w3agile">
-				{{mensaje}}
+
 				<h3>Login</h3>
+				<p class="has-warning">{{mensaje}}
+				{{intentoCompra}}</p>
 				<form action="index.php?pagina=login" method="post" id="formLogin">
 					<div class="key">
 						<i class="fa fa-user" aria-hidden="true"></i> <input type="text"

@@ -7,7 +7,10 @@ class mdlCompraRealizada extends padre  {
         if (getGet ( 'pagina' ) != self::PAGE) {
             return;
         }
-
+        if ($_SESSION['info'] != "logged") {
+            $_SESSION['intentoCompra']=true;
+            redirectTo ( 'index.php?pagina=login' );
+        }
 
 
         // Validamos
@@ -31,14 +34,12 @@ class mdlCompraRealizada extends padre  {
                 $_SESSION [self::PAGE] = $val->getOks ();
 //
                 $s=0;
-                $w="";
                 $id=getPost('id');
                 $cantidad=getPost('cantidad');
                 $fecha=date("Y,n,j");
                 $idUser=Usuarios::getUserId($_SESSION['usuarios']);
                 for($i=0; $i<count($id); $i++)
                 {
-                    $w+=Productos::searchPrecioDB($id[$i]);
                     $s+=Productos::searchPrecioDB($id[$i])*$cantidad[$i];
 
                 }
@@ -49,26 +50,13 @@ class mdlCompraRealizada extends padre  {
                     $po=Productos::searchPrecioDB($id[$i]);
                     $cant=$cantidad[$i];
                     $idProd=$id[$i];
-                    $insa=Productos::insertCompProdDB($ins, $idProd, $po, $cant);
-                    if($insa)
-                    {
-                        $asd="he hecho el insert ".$insa;
-                    }
+                    Productos::insertCompProdDB($ins, $idProd, $po, $cant);
                 }
-                echo "<script type=\"text/javascript\">alert(\" Usuario = $idUser, fecha= $fecha, precioTotal= $s\");</script>";
+//                echo "<script type=\"text/javascript\">alert(\" Usuario = $idUser, fecha= $fecha, precioTotal= $s\");</script>";
 
 
-                $asd="";
-                if($insa)
-                {
-                    $asd="he hecho el insert ".$insa;
-                }
-                //foreach($toValidate as $a)
-                //{
-                //    $s+=Productos::searchPrecioDB($a);
-                //}
 
-                $_SESSION['prueba']=$s."----".$id[0]."+++++++".$cantidad[0]."******".$w."=====".$fecha."---------".$idUser."-----".$asd;
+
 
 
             }

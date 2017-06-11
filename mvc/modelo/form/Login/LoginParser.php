@@ -56,10 +56,18 @@ class LoginParser
                     break;
                 case "mensaje":
                     if(isset($_SESSION['mens']))
-                        $str="Usuario o contrase�a incorrectos, por favor int�ntelo de nuevo. Si no est� registrado en nuestra p�gina, ".
+                        $str="Usuario o contraseña incorrectos, por favor inténtelo de nuevo. Si no está registrado en nuestra página, ".
                         "puede hacerlo pinchando el siguiente enlace: <a href='?pagina=register' class='forg'><u>Registrarse</u></a>";
                     Session::del('mens');
+
                     break;
+                case "intentoCompra":
+                    if(isset($_SESSION['intentoCompra'])){
+                        $str="Para realizar una compra es necesario Iniciar Sesión";
+                        Session::del('intentoCompra');
+                    }
+                    break;
+
 
             }
             $vista = str_replace('{{' . $tag . '}}', $str, $vista);
