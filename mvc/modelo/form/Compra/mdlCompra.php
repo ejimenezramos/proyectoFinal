@@ -64,47 +64,16 @@ class mdlCompra extends padre  {
                             $tab.="<td><input type='text' readonly='readonly' name='cantidad[]' value='".$vaq[$i]."'></td></tr>";
                         }else
                         {
-                            $tab.="<td>$vaq[$i]</td>";
+                            $tab.="<td><input type='text' readonly='readonly' name='nombre[]' value='".$vaq[$i]."'></td>";
                             $cont++;
                         }
                     }
                 }
 
-                //foreach($vaq as $a)
-                //{
-                //    if ($cont==0)
-                //    {
-                //        $tab.="<tr>";
-                //        $tab.="<td><input type='text' readonly='readonly' name='$a' value='".$a."'></td>";
-                //        $cont++;
-                //    }else
-                //    {
-                //        if ($cont==3)
-                //        {
-                //            $tab.="<td><input type='text' readonly='readonly' name='$a' value='".$a."'></td></tr>";
-                //            $cont=0;
-                //        }else
-                //        {
-                //            $tab.="<td>$a</td>";
-                //            $cont++;
-                //        }
-                //    }
-
-                //}
                 $tab.="</table>";
                 $_SESSION ['compra'] =$tab;
 
-               //Elena:
-                //esta lógica es de registro, te dejo el if para que lo cambies a tu gusto:
 
-                // $datos = Compra::insertDB ( $data );
-                /*if ($datos) {
-                    $_SESSION ['info'] = 'registed';
-                    $_SESSION['usuarios']=$usuario;
-                } else
-                    $_SESSION ['info'] = 'noRegisted';
-                // Cambiamos el paso
-                redirectTo ( 'index.php?pagina=home' );*/
             }
         }
     }

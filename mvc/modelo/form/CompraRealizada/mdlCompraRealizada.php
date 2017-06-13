@@ -7,7 +7,7 @@ class mdlCompraRealizada extends padre  {
         if (getGet ( 'pagina' ) != self::PAGE) {
             return;
         }
-        if ($_SESSION['info'] != "logged") {
+        if ($_SESSION['info'] != "logged" && $_SESSION['info'] != "registed") {
             $_SESSION['intentoCompra']=true;
             redirectTo ( 'index.php?pagina=login' );
         }
@@ -34,36 +34,54 @@ class mdlCompraRealizada extends padre  {
                 $_SESSION [self::PAGE] = $val->getOks ();
 //
                 $s=0;
+                $nombre=getPost('nombre');
                 $id=getPost('id');
                 $cantidad=getPost('cantidad');
                 $fecha=date("Y,n,j");
                 $idUser=Usuarios::getUserId($_SESSION['usuarios']);
-                for($i=0; $i<count($id); $i++)
+                $tipo="";
+
+
+                for($j=0; $j<count($id); $j++)
                 {
-                    $s+=Productos::searchPrecioDB($id[$i])*$cantidad[$i];
+                    $s+=Productos::searchPrecioDB($id[$j])*$cantidad[$j];
 
                 }
                 $ins=Productos::insertDB($idUser, $fecha, $s);
 
-                for($i=0; $i<count($id); $i++)
+                for ($i=0; $i<count($nombre); $i++)
                 {
-                    $po=Productos::searchPrecioDB($id[$i]);
-                    $cant=$cantidad[$i];
-                    $idProd=$id[$i];
-                    Productos::insertCompProdDB($ins, $idProd, $po, $cant);
+
+                    if (strpos($nombre[$i],"Pack")!==false)
+                    {
+                        $tipo="pack";
+                        echo "<script type=\"text/javascript\">alert(\" $tipo\");</script>";
+                        
+                            $po=Productos::searchPrecioDB($id[$i]);
+                            $cant=$cantidad[$i];
+                            $idProd=$id[$i];
+                            Productos::insertCompProdDB($ins, $idProd, $po, $cant, $tipo);
+                        
+                    }else
+                    {
+                        $tipo="producto";
+                            $po=Productos::searchPrecioDB($id[$i]);
+                            $cant=$cantidad[$i];
+                            $idProd=$id[$i];
+                            Productos::insertCompProdDB($ins, $idProd, $po, $cant, $tipo);
+                            echo "<script type=\"text/javascript\">alert(\" Tipo= $tipo, Idcomra= $ins, Cantidad= $cant, idProd=$idProd, Precio= $po\");</script>";
+                    }
                 }
+
+
+
+
 //                echo "<script type=\"text/javascript\">alert(\" Usuario = $idUser, fecha= $fecha, precioTotal= $s\");</script>";
-
-
-
-
-
 
             }
         }
     }
-    //Elena:
-    //Aqui estoy llamando a mensaje por que entiendo que sacarás la vista de mensaje o puedes crearte una vista con factura en plan, este es su pedido, en un plazo máximo de 24 horas le enviaremos un link para que realice el pago.
+
     public function onCargarVista($path) {
         if (getGet ( 'pagina' ) != self::PAGE) {
             return;

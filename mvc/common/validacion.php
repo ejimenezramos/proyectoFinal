@@ -81,7 +81,7 @@ class Validacion extends padre {
                 return ' *El email debe contener @ y .es/.com';
                 break;
             case 'duplicate':
-                return ' *El dni ya existe en la base de datos';
+                return ' *Este campo ya existe en la base de datos';
                 break;
             case 'dni':
                 return ' *El formato del dni deben ser 8 dígitos y una letra';

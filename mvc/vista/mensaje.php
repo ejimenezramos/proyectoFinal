@@ -140,7 +140,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     </div>
                     <div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
                         <ul class="nav navbar-nav ">
-                            <li><a href="?pagina=home" class="hyper "><span>Home</span></a></li>
+                            <li  class="active"><a href="?pagina=home" class="hyper "><span>Home</span></a></li>
                             <li>
                                 <a href="?pagina=productos" class="hyper"><span>Productos</span></a>
                             </li>
@@ -160,7 +160,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                     </span>
                                 </a>
                             </li>
-                            <li class="active"><a href="?pagina=contact" class="hyper"><span>Contáctanos</span></a></li>
+                            <li><a href="?pagina=contact" class="hyper"><span>Contáctanos</span></a></li>
                         </ul>
                     </div>
                 </nav>
@@ -189,8 +189,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         <div class="main-agileits">
             <div class="form-w3agile">
                 <h3>Formulario de Contacto</h3>
-                <p>{{nombre}}, su mensaje de contacto ha sido enviado. Nos pondremos en contacto con usted lo más rápido posible
-                atendiendo su petición. Gracias, de esta forma nos ayudas a crecer.</p>
+                <p>{{nombre}}{{olvido}}</p>
                 <br />
                 <a href="?pagina=home" class="hyper active"><span>Volver a inicio</span></a>
             </div>

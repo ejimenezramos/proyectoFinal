@@ -150,7 +150,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 		<div class="main-agileits">
 			<div class="form-w3agile">
 				<h3>Olvidé la constraseña</h3>
-				<form action="#" method="post" id="olvido">
+				<form action="index.php?pagina=olvido" method="post" id="olvido">
 					<div class="comentarios">
 						<p>Introduce tu email para reestablecer la contraseña</p>
 					</div>
@@ -162,7 +162,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 					<div class="has-warning">
 						<p id="erroremail"></p>
 					</div>
-					<input type="submit" value="Reestablecer">
+					<input type="submit" value="Reestablecer" name="olvido">
 				</form>
 			</div>
 		</div>

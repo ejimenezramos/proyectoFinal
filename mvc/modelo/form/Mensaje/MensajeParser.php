@@ -11,7 +11,21 @@
             $str = '';
             switch ($tag) {
                 case "nombre":
-                    $str=$_SESSION['contactUser'];
+                    if (isset($_SESSION['contactUser']))
+                    {
+                        $str=$_SESSION['contactUser'].", su mensaje de contacto ha sido enviado.
+                        Nos pondremos en contacto con usted lo más rápido posible atendiendo su petición. Gracias,
+                        de esta forma nos ayudas a crecer.";
+                        Session::del('contactUser');
+                    }
+                    break;
+                case "olvido":
+                    if(isset($_SESSION['olvidar']))
+                    {
+                        $str="Hemos enviado un email a su correo electrónico con los pasos que debe realizar para reestablecer
+                        su contraseña.";
+                        Session::del('olvidar');
+                    }
                     break;
                 case "login":
                     $str="<li><a href='?pagina=login'><i class='fa fa-user'

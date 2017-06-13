@@ -43,18 +43,18 @@ class Productos {
 		return $account_id;
 	}
 
-    public static function insertCompProdDB($ins, $idProd, $po, $cant) {
+    public static function insertCompProdDB($ins, $idProd, $po, $cant, $tipo) {
 		$database = medoo::getInstance ();
 		$database->openConnection ( unserialize ( MYSQL_CONFIG ) );
-		$database->insert("compras_productos", [
+		$datos=$database->insert("compras_productos", [
                                                 "Id_Compra" => $ins,
-                                                "Id_Producto" => $idProd,
+                                                "Id_Articulo" => $idProd,
                                                 "Precio" => $po,
-                                                "Cantidad"=>$cant
+                                                "Cantidad"=>$cant,
+                                                "Tipo"=>$tipo
                                             ]);
-        $account_id = $database->id();
 		$database->closeConnection ();
-		return $account_id;
+		return $datos;
 	}
 }
 
