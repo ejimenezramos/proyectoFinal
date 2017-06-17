@@ -7,10 +7,11 @@ class mdlCompraRealizada extends padre  {
         if (getGet ( 'pagina' ) != self::PAGE) {
             return;
         }
-        if ($_SESSION['info'] != "logged" && $_SESSION['info'] != "registed") {
-            $_SESSION['intentoCompra']=true;
-            redirectTo ( 'index.php?pagina=login' );
-        }
+       if (!isset($_SESSION['info']) || ($_SESSION['info']!= "logged" && $_SESSION['info']!="registed")){
+                $_SESSION['intentoCompra']=true;
+               redirectTo("index.php?pagina=login");
+
+       }
 
 
         // Validamos
@@ -39,8 +40,19 @@ class mdlCompraRealizada extends padre  {
                 $cantidad=getPost('cantidad');
                 $fecha=date("Y,n,j");
                 $idUser=Usuarios::getUserId($_SESSION['usuarios']);
-                $tipo="";
 
+//                for($j=0; $j<count($id); $j++)
+//                {
+//                    $stock=Productos::GetStockById($id[$j]);
+//                    $stock=$stock-$cantidad[$j];
+//                    Productos::modifyStock($stock,$id[$j]);
+//
+//                    if ($stock!=0)
+//                    {
+//                        echo "<script type=\"text/javascript\">alert(\" $stock\");</script>";
+//                    }
+//
+//                }
 
                 for($j=0; $j<count($id); $j++)
                 {
@@ -65,10 +77,16 @@ class mdlCompraRealizada extends padre  {
                     }else
                     {
                         $tipo="producto";
-                            $po=Productos::searchPrecioDB($id[$i]);
-                            $cant=$cantidad[$i];
-                            $idProd=$id[$i];
-                            Productos::insertCompProdDB($ins, $idProd, $po, $cant, $tipo);
+                        $po=Productos::searchPrecioDB($id[$i]);
+                        $cant=$cantidad[$i];
+                        $idProd=$id[$i];
+                        Productos::insertCompProdDB($ins, $idProd, $po, $cant, $tipo);
+                        if (Productos::GetStockById($id[$i])== 29)
+                        {
+                            echo "<script type=\"text/javascript\">alert(\"No queda Stock del artículo $nombre[$i], por favor, elimínelo del carrito\");</script>";
+                            redirectTo('index.php?pagina=compra');
+                        }
+
                             echo "<script type=\"text/javascript\">alert(\" Tipo= $tipo, Idcomra= $ins, Cantidad= $cant, idProd=$idProd, Precio= $po\");</script>";
                     }
                 }

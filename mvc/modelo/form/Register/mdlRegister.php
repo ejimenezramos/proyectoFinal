@@ -107,7 +107,7 @@ class mdlRegister extends padre  {
             'Direccion' => 'required',
             'Password' => 'required|alphanum_space',
 //          'Password2' => 'required',
-            'Email' => 'required|email'
+            'Email' => 'required|email|duplicateEmail'
         );
 
         $usuario = getPost ( 'Usuario' );
@@ -115,9 +115,12 @@ class mdlRegister extends padre  {
         $cp=getPost('CP');
         $tipoDir=getPost('tipoDireccion');
 
-        if (Usuarios::duplicateUsuario ( $usuario ) || Usuarios::duplicateEmail ( $email )) {
+        if (Usuarios::duplicateUsuario ( $usuario )) {
             $val->setExists ( true );
         }
+        if (Usuarios::duplicateEmail ( $email ))
+            $val->setEmail ( true );
+
 
         $val->addRules ( $rules );
         $val->run ( $toValidate );

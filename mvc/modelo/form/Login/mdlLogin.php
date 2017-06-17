@@ -6,9 +6,10 @@ class mdlLogin extends padre {
 	public function onGestionPagina() {
 		if (getGet ( 'pagina' ) != self::PAGE)
 			return;
-
-        if(isset($_SESSION['info']))
-            redirectTo ( 'index.php?pagina=home' );
+        if (isset($_SESSION['info'])) {
+            if ($_SESSION['info'] == 'logged' || $_SESSION['info'] == 'registed')
+                redirectTo('index.php?pagina=home');
+        }
 		$val = Validacion::getInstance ();
 		$toValidate = ($_POST);
 		$rules = array (
@@ -32,7 +33,6 @@ class mdlLogin extends padre {
 					if (password_verify ( $clave, $datos )){
 						$_SESSION ['info'] = 'logged';
                         $_SESSION['usuarios']=$usuario;
-                        // Cambiamos el paso
 						redirectTo ( 'index.php?pagina=home' );
 					}
 				} else {

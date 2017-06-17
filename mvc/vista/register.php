@@ -349,15 +349,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<div class="has-warning">
 						<p id="errorvalidacion"></p>
 					</div>
-					<div class="has-warning">
-						<p>{{errores}}</p>
-					</div>
-					<div class="has-warning">
-						<p>{{war-Usuario}}</p>
-					</div>
-					<div class="has-warning">
-						<p>{{errorRegistro}}</p>
-					</div>
+
 
 				</form>
 			</div>

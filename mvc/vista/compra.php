@@ -234,14 +234,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     Licencia
                 </a> ? <a class="cursor_pointer" data-toggle="modal"
                           data-target="#ModalDevoluciones">Devoluciones</a> ? <a class="cursor_pointer" data-toggle="modal"
-                                                                                 data-target="#ModalEnvioEntrega">Env�o y entrega</a>
+                                                                                 data-target="#ModalEnvioEntrega">Envío y entrega</a>
             </p>
             <p class="footer-company-name">Cereal Break &copy; 2017</p>
         </div>
         <div class="footer-center">
             <div>
                 <i class="fa fa-map-marker"></i>
-                <p><span>Paseo de la Castellana 10</span> Madrid, Espa�a</p>
+                <p><span>Paseo de la Castellana 10</span> Madrid, España</p>
             </div>
             <div>
                 <i class="fa fa-phone"></i>
@@ -254,7 +254,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         </div>
         <div class="footer-right">
             <p class="footer-company-about">
-                <span>Pasi?n por los cereales</span>
+                <span>Pasión por los cereales</span>
                 Disfruta de los mejores cereales del mundo en tu propia casa
             </p>
             <div class="footer-icons">
