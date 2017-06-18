@@ -93,7 +93,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 		</div>
 	</div>
 	<div class="container">
-		<h3>Licencia p�gina web Cereal-Break</h3>
+		<h3>Licencia p&aacute;gina web Cereal-Break</h3>
 		<main class="main_licencia">
 		<article class="color_fondo_licencia">
 			<p>Creative Commons Corporation (&quot;Creative Commons&quot;) is not a law
