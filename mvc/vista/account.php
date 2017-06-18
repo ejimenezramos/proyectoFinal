@@ -312,7 +312,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
            href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img
                 alt="Licencia Creative Commons" style="border-width: 0"
                 src="https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png"/></a>
-
+        <div style="padding-top:0.5rem">
+            <a href="http://jigsaw.w3.org/css-validator/check/referer"> <img
+                    style="border: 0; width: 88px; height: 31px"
+                    src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+                    alt="�CSS V�lido!" />
+            </a>
+        </div>
     </div>
 
     <div class="footer-center">
