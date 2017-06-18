@@ -21,6 +21,7 @@ class Productos {
         else
             return $datos="";
     }
+
     public static function searchCompras($id) {
         $database = medoo::getInstance();
         $database->openConnection(unserialize(MYSQL_CONFIG));
@@ -56,6 +57,58 @@ class Productos {
         $database->closeConnection();
         return $datos;
     }
+
+
+    public static function searchPrecioDBPacks($id) {
+        $database = medoo::getInstance();
+        $database->openConnection(unserialize(MYSQL_CONFIG));
+        $datos = $database->select('packs', 'precio', ["Id_Pack[=]"=>$id]);
+        $database->closeConnection();
+        if ($datos)
+            return $datos [0];
+        else
+            return $datos="";
+    }
+
+    public static function modifyStock($stock,$id) {
+        $database = medoo::getInstance();
+        $database->openConnection(unserialize(MYSQL_CONFIG));
+        $datos = $database->update('productos', ['Stock'=>$stock], ['Id_Producto' => $id]);
+        $database->closeConnection();
+        return $datos;
+    }
+
+    public static function modifyStockPack($stock,$id) {
+        $database = medoo::getInstance();
+        $database->openConnection(unserialize(MYSQL_CONFIG));
+        $datos = $database->update('packs', ['Stock'=>$stock], ['Id_Pack' => $id]);
+        $database->closeConnection();
+        return $datos;
+    }
+
+    public static function GetStockById($id) {
+        $database = medoo::getInstance();
+        $database->openConnection(unserialize(MYSQL_CONFIG));
+        $datos = $database->select('productos', 'Stock', ["Id_Producto[=]"=>$id]);
+        $database->closeConnection();
+        if ($datos)
+            return $datos [0];
+        else
+            return $datos="";
+    }
+
+    public static function GetStockByIdPacks($id) {
+        $database = medoo::getInstance();
+        $database->openConnection(unserialize(MYSQL_CONFIG));
+        $datos = $database->select('packs', 'Stock', ["Id_Pack[=]"=>$id]);
+        $database->closeConnection();
+        if ($datos)
+            return $datos [0];
+        else
+            return $datos="";
+    }
+
+
     public static function searchAllDB() {
         $database = medoo::getInstance();
         $database->openConnection(unserialize(MYSQL_CONFIG));
