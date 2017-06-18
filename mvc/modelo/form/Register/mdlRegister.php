@@ -99,7 +99,7 @@ class mdlRegister extends padre  {
             'Nombre' => 'required|alpha_space',
             'Apellidos' => 'required|alpha_space',
             'Fecha_Nac' => 'required',
-            'DNI' => 'required|dni',
+            'DNI' => 'required|dni|dniRep',
             'Comunidad' => 'required',
             'Provincia' => 'required',
             'Telefono' => 'required|tel',
@@ -107,17 +107,24 @@ class mdlRegister extends padre  {
             'Direccion' => 'required',
             'Password' => 'required|alphanum_space',
 //          'Password2' => 'required',
-            'Email' => 'required|email'
+            'Email' => 'required|email|duplicateEmail'
         );
 
         $usuario = getPost ( 'Usuario' );
         $email = getPost ( 'Email' );
         $cp=getPost('CP');
+        $dni=getPost('DNI');
         $tipoDir=getPost('tipoDireccion');
 
-        if (Usuarios::duplicateUsuario ( $usuario ) || Usuarios::duplicateEmail ( $email )) {
+        if (Usuarios::duplicateUsuario ( $usuario )) {
             $val->setExists ( true );
         }
+        if (Usuarios::duplicateEmail ( $email ))
+            $val->setEmail ( true );
+
+        if (Usuarios::duplicateDni( $dni ))
+            $val->setDniRep ( true );
+
 
         $val->addRules ( $rules );
         $val->run ( $toValidate );

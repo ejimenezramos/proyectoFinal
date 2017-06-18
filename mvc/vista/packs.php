@@ -13,7 +13,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta property="og:title" content="Vide" />
 <meta name="keywords"
-	content="Big store Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+	content="Big store Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
 Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
 function hideURLbar(){ window.scrollTo(0,1); } </script>
@@ -32,7 +32,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 <script type="text/javascript" src="js/easing.js"></script>
 <script type="text/javascript">
 	jQuery(document).ready(function($) {
-		$(".scroll").click(function(event){		
+		$(".scroll").click(function(event){
 			event.preventDefault();
 			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
 		});
@@ -64,7 +64,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 					var val = Math.random();
 					starbox.next().text(' '+val);
 					return val;
-					} 
+					}
 				})
 			});
 		});
@@ -77,7 +77,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 	<script type="text/javascript">
 		$(window).load(function(){
 			$(window).scroll(function() {
-				var wintop = $(window).scrollTop(), docheight = $('body').height(), winheight = $(window).height();	
+				var wintop = $(window).scrollTop(), docheight = $('body').height(), winheight = $(window).height();
 				var totalScroll = (wintop/(docheight-winheight))*100;
 				$(".KW_progressBar").css("width",totalScroll+"%");
 			});
@@ -250,12 +250,17 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 					class="cursor_pointer" data-toggle="modal"
 					data-target="#ModalEnvioEntrega">Env√≠o y entrega</a>
 			</p>
-
 			<a rel="license"
 				href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img
 				alt="Licencia Creative Commons" style="border-width: 0"
 				src="https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png" /></a>
-
+			<div style="padding-top: 0.5rem">
+				<a href="http://jigsaw.w3.org/css-validator/check/referer"> <img
+					style="border: 0; width: 88px; height: 31px"
+					src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+					alt="°CSS V·lido!" />
+				</a>
+			</div>
 		</div>
 
 		<div class="footer-center">
@@ -291,35 +296,20 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 			<div class="footer-icons">
 
 				<ul class="social-fo">
-					<li>
-						<a href="http://www.facebook.com" class=" face">
-							<i class="fa fa-facebook"
-							   aria-hidden="true"></i>
-						</a>
-					</li>
-					<li>
-						<a href="http://www.twitter.com" class=" twi">
-							<i class="fa fa-twitter"
-							   aria-hidden="true"></i>
-						</a>
-					</li>
-					<li>
-						<a href="http://www.pinterest.com" class=" pin">
-							<i class="fa fa-pinterest-p"
-							   aria-hidden="true"></i>
-						</a>
-					</li>
-					<li>
-						<a href="https://dribbble.com/" class=" dri">
-							<i class="fa fa-dribbble"
-							   aria-hidden="true"></i>
-						</a>
-					</li>
+					<li><a href="http://www.facebook.com" class=" face"><i
+							class="fa fa-facebook" aria-hidden="true"></i></a></li>
+					<li><a href="http://www.twitter.com" class=" twi"><i
+							class="fa fa-twitter" aria-hidden="true"></i></a></li>
+					<li><a href="#http://www.pinterest.com" class=" pin"><i
+							class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
+					<li><a href="https://dribbble.com/" class=" dri"><i
+							class="fa fa-dribbble" aria-hidden="true"></i></a></li>
 				</ul>
 			</div>
 
 		</div>
 	</footer>
+
 	<!-- //footer-->
 
 	<!-- smooth scrolling -->
@@ -330,9 +320,9 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 			containerID: 'toTop', // fading element id
 			containerHoverID: 'toTopHover', // fading element hover id
 			scrollSpeed: 1200,
-			easingType: 'linear' 
+			easingType: 'linear'
 			};
-		*/								
+		*/
 		$().UItoTop({ easingType: 'easeOutQuart' });
 		});
 	</script>
@@ -411,8 +401,8 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 							Cocoa-puffs, topping de Conguitos y Leche de vainilla</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-b"
-								data-id="1" data-name="Pack Chocolate"
-								data-summary="summary 1" data-price="7" data-quantity="1"
+								data-id="101" data-name="Pack Chocolate"
+								data-summary="summary 101" data-price="7" data-quantity="1"
 								data-image="images/pack_choco.png">Add to Cart</button>
 						</div>
 					</div>
@@ -451,7 +441,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 							Loops, topping de Schoko-Bons y Leche de color verde</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-b"
-								data-id="2" data-name="Pack Exotic" data-summary="summary 2"
+								data-id="102" data-name="Pack Exotic" data-summary="summary 102"
 								data-price="7.80" data-quantity="1"
 								data-image="images/pack_exotic.png">Add to Cart</button>
 						</div>
@@ -491,8 +481,8 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 							Cheerios, topping de sirope de Arce y Leche de color rosa</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-b"
-								data-id="3" data-name="Pack Healthy"
-								data-summary="summary 3" data-price="6.5" data-quantity="1"
+								data-id="103" data-name="Pack Healthy"
+								data-summary="summary 103" data-price="6.5" data-quantity="1"
 								data-image="images/pack_healthy.png">Add to Cart</button>
 						</div>
 					</div>
@@ -531,7 +521,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 							topping de sirope de Caramelo y Leche de color rosa</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-b"
-								data-id="4" data-name="Pack Sweety" data-summary="summary 4"
+								data-id="104" data-name="Pack Sweety" data-summary="summary 104"
 								data-price="6" data-quantity="1"
 								data-image="images/pack_sweety.png">Add to Cart</button>
 						</div>
@@ -572,8 +562,8 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 							Loops, topping de Sirope de Fresa y Leche de color rosa</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-b"
-								data-id="5" data-name="Pack Red Passion"
-								data-summary="summary 5" data-price="6" data-quantity="1"
+								data-id="105" data-name="Pack Red Passion"
+								data-summary="summary 105" data-price="6" data-quantity="1"
 								data-image="images/pack_passion.png">Add to Cart</button>
 						</div>
 					</div>
@@ -612,7 +602,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 							Charms, topping de galletas Oreo y Leche de color azul</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-b"
-								data-id="6" data-name="Pack Cookie" data-summary="summary 6"
+								data-id="106" data-name="Pack Cookie" data-summary="summary 106"
 								data-price="6" data-quantity="1"
 								data-image="images/pack_cookie.png">Add to Cart</button>
 						</div>
@@ -654,8 +644,8 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 							verde</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-b"
-								data-id="7" data-name="Pack Explosive"
-								data-summary="summary 7" data-price="6.50" data-quantity="1"
+								data-id="107" data-name="Pack Explosive"
+								data-summary="summary 107" data-price="6.50" data-quantity="1"
 								data-image="images/pack_explosives.png">Add to Cart</button>
 						</div>
 					</div>
@@ -695,8 +685,8 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 							avellanas</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-b"
-								data-id="8" data-name="Pack Fantasia"
-								data-summary="summary 8" data-price="7.50" data-quantity="1"
+								data-id="108" data-name="Pack Fantasia"
+								data-summary="summary 108" data-price="7.50" data-quantity="1"
 								data-image="images/pack_fantasia.png">Add to Cart</button>
 						</div>
 					</div>

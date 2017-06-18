@@ -175,12 +175,12 @@ function hideURLbar(){ window.scrollTo(0,1); }
 
 	<!-- product -->
 	<div class="modal fade" id="myModal1" tabindex="-1" role="dialog"
-		aria-labelledby="myModalLabel">
+		 aria-labelledby="myModalLabel">
 		<div class="modal-dialog" role="document">
 			<div class="modal-content modal-info">
 				<div class="modal-header">
 					<button type="button" class="close" data-dismiss="modal"
-						aria-label="Close">
+							aria-label="Close">
 						<span aria-hidden="true">&times;</span>
 					</button>
 				</div>
@@ -198,13 +198,12 @@ function hideURLbar(){ window.scrollTo(0,1); }
 							<div class="clearfix"></div>
 						</div>
 						<h4 class="quick">Descripci&oacute;n del producto</h4>
-						<p class="quick_desc">Disfruta de uno de nuestros deliciosos
-							cereales con sabor a cacahuete y miel.</p>
+						<p class="quick_desc">Disfruta de uno de nuestros deliciosos cereales con sabor a cacahuete y miel.</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-btn1 "
-								data-id="24" data-name="Cheerios" data-summary="summary 24"
-								data-price="3.00" data-quantity="1"
-								data-image="images/boxcheerios.png">Add to Cart</button>
+									data-id="2" data-name="Cheerios" data-summary="summary 2"
+									data-price="3.00" data-quantity="1"
+									data-image="images/boxcheerios.png">Add to Cart</button>
 						</div>
 					</div>
 					<div class="clearfix"></div>
@@ -214,12 +213,12 @@ function hideURLbar(){ window.scrollTo(0,1); }
 	</div>
 	<!-- product -->
 	<div class="modal fade" id="myModal2" tabindex="-1" role="dialog"
-		aria-labelledby="myModalLabel">
+		 aria-labelledby="myModalLabel">
 		<div class="modal-dialog" role="document">
 			<div class="modal-content modal-info">
 				<div class="modal-header">
 					<button type="button" class="close" data-dismiss="modal"
-						aria-label="Close">
+							aria-label="Close">
 						<span aria-hidden="true">&times;</span>
 					</button>
 				</div>
@@ -237,13 +236,12 @@ function hideURLbar(){ window.scrollTo(0,1); }
 							<div class="clearfix"></div>
 						</div>
 						<h4 class="quick">Descripci&oacute;n del producto</h4>
-						<p class="quick_desc">Nuestras deliciosas bocanadas de ma�z,
-							dulces y crujientes con mantequilla de cacahuete</p>
+						<p class="quick_desc">Nuestras deliciosas bocanadas de ma�z, dulces y crujientes con mantequilla de cacahuete</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-btn1 "
-								data-id="25" data-name="Reese´s Puffs"
-								data-summary="summary 25" data-price="4.50" data-quantity="1"
-								data-image="images/boxreeses.png">Add to Cart</button>
+									data-id="3" data-name="Reese´s Puffs" data-summary="summary 3"
+									data-price="4.50" data-quantity="1"
+									data-image="images/boxreeses.png">Add to Cart</button>
 						</div>
 					</div>
 					<div class="clearfix"></div>
@@ -253,12 +251,12 @@ function hideURLbar(){ window.scrollTo(0,1); }
 	</div>
 	<!-- product -->
 	<div class="modal fade" id="myModal3" tabindex="-1" role="dialog"
-		aria-labelledby="myModalLabel">
+		 aria-labelledby="myModalLabel">
 		<div class="modal-dialog" role="document">
 			<div class="modal-content modal-info">
 				<div class="modal-header">
 					<button type="button" class="close" data-dismiss="modal"
-						aria-label="Close">
+							aria-label="Close">
 						<span aria-hidden="true">&times;</span>
 					</button>
 				</div>
@@ -280,9 +278,9 @@ function hideURLbar(){ window.scrollTo(0,1); }
 							a canela</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-btn1 "
-								data-id="26" data-name="Cinnamon Crunch"
-								data-summary="summary 26" data-price="3.50" data-quantity="1"
-								data-image="images/boxcinnamon.png">Add to Cart</button>
+									data-id="4" data-name="Cinnamon Crunch" data-summary="summary 4"
+									data-price="3.50" data-quantity="1"
+									data-image="images/boxcinnamon.png">Add to Cart</button>
 						</div>
 					</div>
 					<div class="clearfix"></div>
@@ -292,12 +290,12 @@ function hideURLbar(){ window.scrollTo(0,1); }
 	</div>
 	<!-- product -->
 	<div class="modal fade" id="myModal4" tabindex="-1" role="dialog"
-		aria-labelledby="myModalLabel">
+		 aria-labelledby="myModalLabel">
 		<div class="modal-dialog" role="document">
 			<div class="modal-content modal-info">
 				<div class="modal-header">
 					<button type="button" class="close" data-dismiss="modal"
-						aria-label="Close">
+							aria-label="Close">
 						<span aria-hidden="true">&times;</span>
 					</button>
 				</div>
@@ -319,9 +317,9 @@ function hideURLbar(){ window.scrollTo(0,1); }
 							tu día</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-btn1 "
-								data-id="27" data-name="Froot Loops" data-summary="summary 27"
-								data-price="3.20" data-quantity="1"
-								data-image="images/boxfroot.png">Add to Cart</button>
+									data-id="1" data-name="Froot Loops" data-summary="summary 1"
+									data-price="3.20" data-quantity="1"
+									data-image="images/boxfroot.png">Add to Cart</button>
 						</div>
 					</div>
 					<div class="clearfix"></div>
@@ -331,12 +329,12 @@ function hideURLbar(){ window.scrollTo(0,1); }
 	</div>
 	<!-- product -->
 	<div class="modal fade" id="myModal5" tabindex="-1" role="dialog"
-		aria-labelledby="myModalLabel">
+		 aria-labelledby="myModalLabel">
 		<div class="modal-dialog" role="document">
 			<div class="modal-content modal-info">
 				<div class="modal-header">
 					<button type="button" class="close" data-dismiss="modal"
-						aria-label="Close">
+							aria-label="Close">
 						<span aria-hidden="true">&times;</span>
 					</button>
 				</div>
@@ -358,9 +356,9 @@ function hideURLbar(){ window.scrollTo(0,1); }
 							y descubre la magia de sus cinco nuevos amuletos de diamantes.</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-btn1 "
-								data-id="28" data-name="Lucky Charms" data-summary="summary 28"
-								data-price="4.75" data-quantity="1"
-								data-image="images/boxlucky.png">Add to Cart</button>
+									data-id="5" data-name="Lucky Charms" data-summary="summary 5"
+									data-price="4.75" data-quantity="1"
+									data-image="images/boxlucky.png">Add to Cart</button>
 						</div>
 					</div>
 					<div class="clearfix"></div>
@@ -370,12 +368,12 @@ function hideURLbar(){ window.scrollTo(0,1); }
 	</div>
 	<!-- product -->
 	<div class="modal fade" id="myModal6" tabindex="-1" role="dialog"
-		aria-labelledby="myModalLabel">
+		 aria-labelledby="myModalLabel">
 		<div class="modal-dialog" role="document">
 			<div class="modal-content modal-info">
 				<div class="modal-header">
 					<button type="button" class="close" data-dismiss="modal"
-						aria-label="Close">
+							aria-label="Close">
 						<span aria-hidden="true">&times;</span>
 					</button>
 				</div>
@@ -397,9 +395,9 @@ function hideURLbar(){ window.scrollTo(0,1); }
 							día</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-btn1 "
-								data-id="29" data-name="Trix" data-summary="summary 29"
-								data-price="4.50" data-quantity="1"
-								data-image="images/boxtrix.png">Add to Cart</button>
+									data-id="6" data-name="Trix" data-summary="summary 6"
+									data-price="4.50" data-quantity="1"
+									data-image="images/boxtrix.png">Add to Cart</button>
 						</div>
 					</div>
 					<div class="clearfix"></div>
@@ -409,12 +407,12 @@ function hideURLbar(){ window.scrollTo(0,1); }
 	</div>
 	<!-- product -->
 	<div class="modal fade" id="myModal7" tabindex="-1" role="dialog"
-		aria-labelledby="myModalLabel">
+		 aria-labelledby="myModalLabel">
 		<div class="modal-dialog" role="document">
 			<div class="modal-content modal-info">
 				<div class="modal-header">
 					<button type="button" class="close" data-dismiss="modal"
-						aria-label="Close">
+							aria-label="Close">
 						<span aria-hidden="true">&times;</span>
 					</button>
 				</div>
@@ -436,9 +434,9 @@ function hideURLbar(){ window.scrollTo(0,1); }
 							chocolatearán tu leche</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-btn1 "
-								data-id="30" data-name="Cocoa Puffs" data-summary="summary 30"
-								data-price="3.50" data-quantity="1"
-								data-image="images/boxcocoa.png">Add to Cart</button>
+									data-id="7" data-name="Cocoa Puffs" data-summary="summary 7"
+									data-price="3.50" data-quantity="1"
+									data-image="images/boxcocoa.png">Add to Cart</button>
 						</div>
 					</div>
 					<div class="clearfix"></div>
@@ -448,12 +446,12 @@ function hideURLbar(){ window.scrollTo(0,1); }
 	</div>
 	<!-- product -->
 	<div class="modal fade" id="myModal8" tabindex="-1" role="dialog"
-		aria-labelledby="myModalLabel">
+		 aria-labelledby="myModalLabel">
 		<div class="modal-dialog" role="document">
 			<div class="modal-content modal-info">
 				<div class="modal-header">
 					<button type="button" class="close" data-dismiss="modal"
-						aria-label="Close">
+							aria-label="Close">
 						<span aria-hidden="true">&times;</span>
 					</button>
 				</div>
@@ -474,9 +472,9 @@ function hideURLbar(){ window.scrollTo(0,1); }
 						<p class="quick_desc">Leche UHT Asturiana con colorante azul</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-btn1 "
-								data-id="31" data-name="Leche Azul" data-summary="summary 31"
-								data-price="0.80" data-quantity="1"
-								data-image="images/milkblue.png">Add to Cart</button>
+									data-id="8" data-name="Leche Azul" data-summary="summary 8"
+									data-price="0.80" data-quantity="1"
+									data-image="images/milkblue.png">Add to Cart</button>
 						</div>
 					</div>
 					<div class="clearfix"></div>
@@ -486,12 +484,12 @@ function hideURLbar(){ window.scrollTo(0,1); }
 	</div>
 	<!-- product -->
 	<div class="modal fade" id="myModal9" tabindex="-1" role="dialog"
-		aria-labelledby="myModalLabel">
+		 aria-labelledby="myModalLabel">
 		<div class="modal-dialog" role="document">
 			<div class="modal-content modal-info">
 				<div class="modal-header">
 					<button type="button" class="close" data-dismiss="modal"
-						aria-label="Close">
+							aria-label="Close">
 						<span aria-hidden="true">&times;</span>
 					</button>
 				</div>
@@ -512,9 +510,9 @@ function hideURLbar(){ window.scrollTo(0,1); }
 						<p class="quick_desc">Leche UHT Asturiana con colorante rosa</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-btn1 "
-								data-id="32" data-name="Leche Rosa" data-summary="summary 32"
-								data-price="0.80" data-quantity="1"
-								data-image="images/milkpink.png">Add to Cart</button>
+									data-id="9" data-name="Leche Rosa" data-summary="summary 9"
+									data-price="0.80" data-quantity="1" data-image="images/milkpink.png">Add
+								to Cart</button>
 						</div>
 					</div>
 					<div class="clearfix"></div>
@@ -524,12 +522,12 @@ function hideURLbar(){ window.scrollTo(0,1); }
 	</div>
 	<!-- product -->
 	<div class="modal fade" id="myModal10" tabindex="-1" role="dialog"
-		aria-labelledby="myModalLabel">
+		 aria-labelledby="myModalLabel">
 		<div class="modal-dialog" role="document">
 			<div class="modal-content modal-info">
 				<div class="modal-header">
 					<button type="button" class="close" data-dismiss="modal"
-						aria-label="Close">
+							aria-label="Close">
 						<span aria-hidden="true">&times;</span>
 					</button>
 				</div>
@@ -550,9 +548,9 @@ function hideURLbar(){ window.scrollTo(0,1); }
 						<p class="quick_desc">Leche UHT Asturiana con colorante verde</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-btn1 "
-								data-id="33" data-name="Leche Verde" data-summary="summary 33"
-								data-price="0.80" data-quantity="1"
-								data-image="images/milkgreen.png">Add to Cart</button>
+									data-id="10" data-name="Leche Verde" data-summary="summary 10"
+									data-price="0.80" data-quantity="1" data-image="images/milkgreen.png">Add
+								to Cart</button>
 						</div>
 					</div>
 					<div class="clearfix"></div>
@@ -562,12 +560,12 @@ function hideURLbar(){ window.scrollTo(0,1); }
 	</div>
 	<!-- product -->
 	<div class="modal fade" id="myModal11" tabindex="-1" role="dialog"
-		aria-labelledby="myModalLabel">
+		 aria-labelledby="myModalLabel">
 		<div class="modal-dialog" role="document">
 			<div class="modal-content modal-info">
 				<div class="modal-header">
 					<button type="button" class="close" data-dismiss="modal"
-						aria-label="Close">
+							aria-label="Close">
 						<span aria-hidden="true">&times;</span>
 					</button>
 				</div>
@@ -587,9 +585,9 @@ function hideURLbar(){ window.scrollTo(0,1); }
 						<p class="quick_desc">Leche UHT Asturiana con estracto de vainilla</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-btn1 "
-								data-id="34" data-name="Leche de Vainilla"
-								data-summary="summary 34" data-price="0.90" data-quantity="1"
-								data-image="images/milkvainilla.png">Add to Cart</button>
+									data-id="11" data-name="Leche de Vainilla" data-summary="summary 11"
+									data-price="0.90" data-quantity="1" data-image="images/milkvainilla.png">Add
+								to Cart</button>
 						</div>
 					</div>
 					<div class="clearfix"></div>
@@ -599,20 +597,19 @@ function hideURLbar(){ window.scrollTo(0,1); }
 	</div>
 	<!-- product -->
 	<div class="modal fade" id="myModal12" tabindex="-1" role="dialog"
-		aria-labelledby="myModalLabel">
+		 aria-labelledby="myModalLabel">
 		<div class="modal-dialog" role="document">
 			<div class="modal-content modal-info">
 				<div class="modal-header">
 					<button type="button" class="close" data-dismiss="modal"
-						aria-label="Close">
+							aria-label="Close">
 						<span aria-hidden="true">&times;</span>
 					</button>
 				</div>
 				<div class="modal-body modal-spa">
 					<div class="col-md-5 span-2">
 						<div class="item">
-							<img src="images/milksojaalmond.png" class="img-responsive"
-								alt="">
+							<img src="images/milksojaalmond.png" class="img-responsive" alt="">
 						</div>
 					</div>
 					<div class="col-md-7 span-1 ">
@@ -625,9 +622,9 @@ function hideURLbar(){ window.scrollTo(0,1); }
 						<p class="quick_desc">Leche de Soja con estractos de almendra</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-btn1 "
-								data-id="35" data-name="Leche de Avena y soja"
-								data-summary="summary 35" data-price="1.20" data-quantity="1"
-								data-image="images/milksojaalmond.png">Add to Cart</button>
+									data-id="12" data-name="Leche de Avena y soja" data-summary="summary 12"
+									data-price="1.20" data-quantity="1" data-image="images/milksojaalmond.png">Add
+								to Cart</button>
 						</div>
 					</div>
 					<div class="clearfix"></div>
@@ -637,12 +634,84 @@ function hideURLbar(){ window.scrollTo(0,1); }
 	</div>
 	<!-- product -->
 	<div class="modal fade" id="myModal13" tabindex="-1" role="dialog"
-		aria-labelledby="myModalLabel">
+		 aria-labelledby="myModalLabel">
 		<div class="modal-dialog" role="document">
 			<div class="modal-content modal-info">
 				<div class="modal-header">
 					<button type="button" class="close" data-dismiss="modal"
-						aria-label="Close">
+							aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body modal-spa">
+					<div class="col-md-5 span-2">
+						<div class="item">
+							<img src="images/topchocolate.png" class="img-responsive" alt="">
+						</div>
+					</div>
+					<div class="col-md-7 span-1 ">
+						<h3>Sirope chocolate</h3>
+						<div class="price_single">
+							<span class="reducedfrom"><del>1.80&euro;</span>
+							<div class="clearfix"></div>
+						</div>
+						<h4 class="quick">Descripci&oacute;n del producto</h4>
+						<p class="quick_desc">Sirope de chocolate original americano</p>
+						<div class="add-to">
+							<button class="btn btn-danger my-cart-btn my-cart-btn1 "
+									data-id="19" data-name="Sirope de Chocolate" data-summary="summary 19"
+									data-price="1.80" data-quantity="1" data-image="images/topchocolate.png">Add
+								to Cart</button>
+						</div>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal fade" id="myModal18" tabindex="-1" role="dialog"
+		 aria-labelledby="myModalLabel">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content modal-info">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal"
+							aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body modal-spa">
+					<div class="col-md-5 span-2">
+						<div class="item">
+							<img src="images/toparce.png" class="img-responsive" alt="">
+						</div>
+					</div>
+					<div class="col-md-7 span-1 ">
+						<h3>Sirope de Arce</h3>
+						<div class="price_single">
+							<span class="reducedfrom"><del>1.90&euro;</span>
+							<div class="clearfix"></div>
+						</div>
+						<h4 class="quick">Descripci&oacute;n del producto</h4>
+						<p class="quick_desc">Siropre de Arce Maple Joe</p>
+						<div class="add-to">
+							<button class="btn btn-danger my-cart-btn my-cart-btn1 "
+									data-id="21" data-name="Sirope Choco" data-summary="summary 21"
+									data-price="1.80" data-quantity="1" data-image="images/toparce.png">Add
+								to Cart</button>
+						</div>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal fade" id="myModal20" tabindex="-1" role="dialog"
+		 aria-labelledby="myModalLabel">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content modal-info">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal"
+							aria-label="Close">
 						<span aria-hidden="true">&times;</span>
 					</button>
 				</div>
@@ -655,17 +724,16 @@ function hideURLbar(){ window.scrollTo(0,1); }
 					<div class="col-md-7 span-1 ">
 						<h3>Kinder Bueno</h3>
 						<div class="price_single">
-							<span class="reducedfrom"><del>1.80&euro;</span>
+							<span class="reducedfrom"><del>1.90&euro;</span>
 							<div class="clearfix"></div>
 						</div>
 						<h4 class="quick">Descripci&oacute;n del producto</h4>
-						<p class="quick_desc">Paquete con unidades peque&ntilde;as de
-							kinder bueno</p>
+						<p class="quick_desc">Kinder Bueno auténtico sabor avellana</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-btn1 "
-								data-id="36" data-name="Kinder Bueno" data-summary="summary 36"
-								data-price="1.80" data-quantity="1"
-								data-image="images/packkinder.png">Add to Cart</button>
+									data-id="13" data-name="Kinder Bueno" data-summary="summary 13"
+									data-price="1.80" data-quantity="1" data-image="images/packkinder.png">Add
+								to Cart</button>
 						</div>
 					</div>
 					<div class="clearfix"></div>
@@ -673,15 +741,86 @@ function hideURLbar(){ window.scrollTo(0,1); }
 			</div>
 		</div>
 	</div>
-
-	<!-- product -->
-	<div class="modal fade" id="myModal14" tabindex="-1" role="dialog"
-		aria-labelledby="myModalLabel">
+	<div class="modal fade" id="myModal21" tabindex="-1" role="dialog"
+		 aria-labelledby="myModalLabel">
 		<div class="modal-dialog" role="document">
 			<div class="modal-content modal-info">
 				<div class="modal-header">
 					<button type="button" class="close" data-dismiss="modal"
-						aria-label="Close">
+							aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body modal-spa">
+					<div class="col-md-5 span-2">
+						<div class="item">
+							<img src="images/topcaramelo.png" class="img-responsive" alt="">
+						</div>
+					</div>
+					<div class="col-md-7 span-1 ">
+						<h3>Sirope de caramelo</h3>
+						<div class="price_single">
+							<span class="reducedfrom"><del>1.90&euro;</span>
+							<div class="clearfix"></div>
+						</div>
+						<h4 class="quick">Descripci&oacute;n del producto</h4>
+						<p class="quick_desc">Sirope con sabor a caramelo</p>
+						<div class="add-to">
+							<button class="btn btn-danger my-cart-btn my-cart-btn1 "
+									data-id="20" data-name="Sirope de Caramelo" data-summary="summary 20"
+									data-price="1.80" data-quantity="1" data-image="images/topcaramelo.png">Add
+								to Cart</button>
+						</div>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal fade" id="myModal22" tabindex="-1" role="dialog"
+		 aria-labelledby="myModalLabel">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content modal-info">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal"
+							aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body modal-spa">
+					<div class="col-md-5 span-2">
+						<div class="item">
+							<img src="images/siropefresa.png" class="img-responsive" alt="">
+						</div>
+					</div>
+					<div class="col-md-7 span-1 ">
+						<h3>Sirope de fresa</h3>
+						<div class="price_single">
+							<span class="reducedfrom"><del>1.90&euro;</span>
+							<div class="clearfix"></div>
+						</div>
+						<h4 class="quick">Descripci&oacute;n del producto</h4>
+						<p class="quick_desc">Sirope con sabor a fresa</p>
+						<div class="add-to">
+							<button class="btn btn-danger my-cart-btn my-cart-btn1 "
+									data-id="18" data-name="Top Fresa" data-summary="summary 18"
+									data-price="1.80" data-quantity="1" data-image="images/siropefresa.png">Add
+								to Cart</button>
+						</div>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- product -->
+	<div class="modal fade" id="myModal14" tabindex="-1" role="dialog"
+		 aria-labelledby="myModalLabel">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content modal-info">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal"
+							aria-label="Close">
 						<span aria-hidden="true">&times;</span>
 					</button>
 				</div>
@@ -698,13 +837,12 @@ function hideURLbar(){ window.scrollTo(0,1); }
 							<div class="clearfix"></div>
 						</div>
 						<h4 class="quick">Descripci&oacute;n del producto</h4>
-						<p class="quick_desc">Paquete con unidades peque&ntilde;as de
-							chips ahoy!</p>
+						<p class="quick_desc">Paquete con unidades peque&ntilde;as de chips ahoy!</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-btn1 "
-								data-id="37" data-name="Chips Ahoy" data-summary="summary 37"
-								data-price="1.80" data-quantity="1"
-								data-image="images/packchips.png">Add to Cart</button>
+									data-id="14" data-name="Chips Ahoy!" data-summary="summary 14"
+									data-price="1.80" data-quantity="1" data-image="images/packchips.png">Add
+								to Cart</button>
 						</div>
 					</div>
 					<div class="clearfix"></div>
@@ -715,12 +853,12 @@ function hideURLbar(){ window.scrollTo(0,1); }
 
 	<!-- product -->
 	<div class="modal fade" id="myModal15" tabindex="-1" role="dialog"
-		aria-labelledby="myModalLabel">
+		 aria-labelledby="myModalLabel">
 		<div class="modal-dialog" role="document">
 			<div class="modal-content modal-info">
 				<div class="modal-header">
 					<button type="button" class="close" data-dismiss="modal"
-						aria-label="Close">
+							aria-label="Close">
 						<span aria-hidden="true">&times;</span>
 					</button>
 				</div>
@@ -737,13 +875,12 @@ function hideURLbar(){ window.scrollTo(0,1); }
 							<div class="clearfix"></div>
 						</div>
 						<h4 class="quick">Descripci&oacute;n del producto</h4>
-						<p class="quick_desc">Paquete con unidades peque&ntilde;as de
-							Schoko-bons</p>
+						<p class="quick_desc">Paquete con unidades peque&ntilde;as de Schoko-bons</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-btn1 "
-								data-id="38" data-name="Kinder Schoko-Bons"
-								data-summary="summary 38" data-price="1.80" data-quantity="1"
-								data-image="images/of35.png">Add to Cart</button>
+									data-id="15" data-name="Kinder Schoko Bons!" data-summary="summary 15"
+									data-price="1.80" data-quantity="1" data-image="images/of35.png">Add
+								to Cart</button>
 						</div>
 					</div>
 					<div class="clearfix"></div>
@@ -754,12 +891,12 @@ function hideURLbar(){ window.scrollTo(0,1); }
 
 	<!-- product -->
 	<div class="modal fade" id="myModal16" tabindex="-1" role="dialog"
-		aria-labelledby="myModalLabel">
+		 aria-labelledby="myModalLabel">
 		<div class="modal-dialog" role="document">
 			<div class="modal-content modal-info">
 				<div class="modal-header">
 					<button type="button" class="close" data-dismiss="modal"
-						aria-label="Close">
+							aria-label="Close">
 						<span aria-hidden="true">&times;</span>
 					</button>
 				</div>
@@ -777,13 +914,12 @@ function hideURLbar(){ window.scrollTo(0,1); }
 							<div class="clearfix"></div>
 						</div>
 						<h4 class="quick">Descripci&oacute;n del producto</h4>
-						<p class="quick_desc">Paquete con unidades peque&ntilde;as de
-							oreos</p>
+						<p class="quick_desc">Paquete con unidades peque&ntilde;as de oreos</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-btn1 "
-								data-id="39" data-name="Oreo" data-summary="summary 39"
-								data-price="1.80" data-quantity="1"
-								data-image="images/packoreo.png">Add to Cart</button>
+									data-id="16" data-name="Oreo" data-summary="summary 16"
+									data-price="1.80" data-quantity="1" data-image="images/packoreo.png">Add
+								to Cart</button>
 						</div>
 					</div>
 					<div class="clearfix"></div>
@@ -793,12 +929,12 @@ function hideURLbar(){ window.scrollTo(0,1); }
 	</div>
 	<!-- product -->
 	<div class="modal fade" id="myModal17" tabindex="-1" role="dialog"
-		aria-labelledby="myModalLabel">
+		 aria-labelledby="myModalLabel">
 		<div class="modal-dialog" role="document">
 			<div class="modal-content modal-info">
 				<div class="modal-header">
 					<button type="button" class="close" data-dismiss="modal"
-						aria-label="Close">
+							aria-label="Close">
 						<span aria-hidden="true">&times;</span>
 					</button>
 				</div>
@@ -815,13 +951,12 @@ function hideURLbar(){ window.scrollTo(0,1); }
 							<div class="clearfix"></div>
 						</div>
 						<h4 class="quick">Descripci&oacute;n del producto:</h4>
-						<p class="quick_desc">Paquete con unidades peque&ntilde;as de
-							conguitos</p>
+						<p class="quick_desc">Paquete con unidades peque&ntilde;as de conguitos</p>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-btn1 "
-								data-id="40" data-name="Conguitos" data-summary="summary 40"
-								data-price="1.80" data-quantity="1"
-								data-image="images/packconguitos.png">Add to Cart</button>
+									data-id="17" data-name="Conguitos" data-summary="summary 17"
+									data-price="1.80" data-quantity="1" data-image="images/packconguitos.png">Add
+								to Cart</button>
 						</div>
 					</div>
 					<div class="clearfix"></div>
@@ -845,12 +980,17 @@ function hideURLbar(){ window.scrollTo(0,1); }
 					class="cursor_pointer" data-toggle="modal"
 					data-target="#ModalEnvioEntrega">Envío y entrega</a>
 			</p>
-
 			<a rel="license"
 				href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img
 				alt="Licencia Creative Commons" style="border-width: 0"
 				src="https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png" /></a>
-
+			<div style="padding-top: 0.5rem">
+				<a href="http://jigsaw.w3.org/css-validator/check/referer"> <img
+					style="border: 0; width: 88px; height: 31px"
+					src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+					alt="�CSS V�lido!" />
+				</a>
+			</div>
 		</div>
 
 		<div class="footer-center">
@@ -886,35 +1026,20 @@ function hideURLbar(){ window.scrollTo(0,1); }
 			<div class="footer-icons">
 
 				<ul class="social-fo">
-					<li>
-						<a href="http://www.facebook.com" class=" face">
-							<i class="fa fa-facebook"
-							   aria-hidden="true"></i>
-						</a>
-					</li>
-					<li>
-						<a href="http://www.twitter.com" class=" twi">
-							<i class="fa fa-twitter"
-							   aria-hidden="true"></i>
-						</a>
-					</li>
-					<li>
-						<a href="http://www.pinterest.com" class=" pin">
-							<i class="fa fa-pinterest-p"
-							   aria-hidden="true"></i>
-						</a>
-					</li>
-					<li>
-						<a href="https://dribbble.com/" class=" dri">
-							<i class="fa fa-dribbble"
-							   aria-hidden="true"></i>
-						</a>
-					</li>
+					<li><a href="http://www.facebook.com" class=" face"><i
+							class="fa fa-facebook" aria-hidden="true"></i></a></li>
+					<li><a href="http://www.twitter.com" class=" twi"><i
+							class="fa fa-twitter" aria-hidden="true"></i></a></li>
+					<li><a href="#http://www.pinterest.com" class=" pin"><i
+							class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
+					<li><a href="https://dribbble.com/" class=" dri"><i
+							class="fa fa-dribbble" aria-hidden="true"></i></a></li>
 				</ul>
 			</div>
 
 		</div>
 	</footer>
+
 
 	<!-- //footer-->
 

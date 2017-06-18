@@ -302,7 +302,7 @@ img.img-head {
 }
 
 .logo h1{
-    margin-top:0.5;
+    margin-top:0.5px;
     font-size: 4vw;
     color: #000;
 	display: inline-block;
@@ -375,7 +375,6 @@ img.img-head {
 	-webkit-user-select: none;
 	   -moz-user-select: none;
 	    -ms-user-select: none;
-	        user-select: none;
 	width: 35px;
 }
 

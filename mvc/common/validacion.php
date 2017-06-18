@@ -8,12 +8,20 @@ class Validacion extends padre {
     private $_oks = array(); // _oks['nombre'] =>'Luis', _oks['apellidos'] => "Sánchez Ruiz"
     private $_errorFoto = array(); //en este caso es array porque hay varias fotos
     private $_exists;
- private $_telfRepeat;
+    private $_email;
+    private $_dniRep;
+    private $_telfRepeat;
     public function setExists($dup) {
         $this->_exists = $dup;
     }
-      public function setTelfRepeat($rep) {
+    public function setEmail($dupi) {
+        $this->_email = $dupi;
+    }
+    public function setTelfRepeat($rep) {
         $this->_telfRepeat = $rep;
+    }
+    public function setDniRep($repDni) {
+        $this->_dniRep = $repDni;
     }
 
 
@@ -69,8 +77,7 @@ class Validacion extends padre {
             case 'alpha_space': return ' *Solo puede contener letras (a-z) y espacios en blanco';
                 break;
             case 'numeric':
-                return ' *Solo puede contener 3 dígitos'
-                        . '';
+                return ' *Solo puede contener 3 dígitos';
                 break;
             case 'foto' : return $this->_errorFoto;
                 break;
@@ -83,17 +90,23 @@ class Validacion extends padre {
             case 'duplicate':
                 return ' *Este campo ya existe en la base de datos';
                 break;
+            case 'duplicateEmail':
+                return 'El email ya existe';
+                break;
+            case 'dniRep':
+                return 'El DNI ya existe en la base de datos';
             case 'dni':
                 return ' *El formato del dni deben ser 8 dígitos y una letra';
                 break;
             case 'alphanum_space':
                 return ' *sólo admite caracteres alfanuméricos';
-                  case 'repeated':
+                break;
+            case 'repeated':
                 return ' *El teléfono 2 no puede sere igual que el uno';
-                      break;
-                    case 'tel':
+                break;
+            case 'tel':
                 return ' *El formato teléfono debe tener 9 números';
-                      break;
+                break;
                   
                   
         }
@@ -233,6 +246,19 @@ class Validacion extends padre {
         if ($this->_exists)
             $this->_setError($field, $value, 'duplicate');
     }
+
+    private function _validate_duplicateEmail($field, $value)
+    {
+        if ($this->_email)
+            $this->_setError($field, $value, 'duplicateEmail');
+    }
+
+    private function _validate_dniRep($field, $value)
+    {
+        if ($this->_dniRep)
+            $this->_setError($field, $value, 'dniRep');
+    }
+
      private function _validate_repeated($field, $value) {
         if ($this->_telfRepeat)
             $this->_setError($field, $value, 'repeated');

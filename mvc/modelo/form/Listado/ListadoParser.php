@@ -39,7 +39,7 @@ class ListadoParser {
 												</div>
 												<div class='add'>
 														<button class='btn btn-danger my-cart-btn my-cart-b'
-	                                						data-id='" .$productos['Foto']. "' data-name='" . $productos['Nombre_Prod'] . "' data-summary='summary" .$productos['Foto']. "'
+	                                						data-id='" .$productos['Id_Producto']. "' data-name='" . $productos['Nombre_Prod'] . "' data-summary='summary" .$productos['Id_Producto']. "'
 															data-price='" . $productos['Precio'] . "' data-quantity='1'
 															data-image='images/" .$productos['Foto']. ".png'>Add to Cart</button>
 												</div>
