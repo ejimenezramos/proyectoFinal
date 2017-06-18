@@ -196,7 +196,7 @@
                 '<table class="table table-hover table-responsive" id="' + idCartTable + '"></table>' +
                 '</div>' +
                 '<div class="modal-footer">' +
-                '<button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>' +
+                '<input type="button" class="btn btn-default" value="Cerrar" data-dismiss="modal">' +
                 '<input type="submit" value="Comprar" name="compra" class="btn btn-default" id="comprar">' +
                 '</div>' +
                 '</div>' +
@@ -260,6 +260,7 @@
                 '<td></td>' +
                 '<td><strong id="' + idGrandTotal + '">€</strong></td>' +
                 '<td></td>' +
+                '<td></td>' +
                 '</tr>'
                     : '<div class="alert alert-danger" role="alert" id="' + idEmptyCartMessage + '">El carrito está vacío</div>'
             );
@@ -269,10 +270,11 @@
                 $cartTable.append(
                     '<tr style="color: red">' +
                     '<td></td>' +
-                    '<td><strong>Total </strong></td>' +
                     '<td></td>' +
                     '<td></td>' +
-                    '<td><strong id="' + idDiscountPrice + '">€</strong></td>' +
+                    '<td></td>' +
+                    '<td></td>' +
+                    '<td></td>' +
                     '<td></td>' +
                     '</tr>'
                 );

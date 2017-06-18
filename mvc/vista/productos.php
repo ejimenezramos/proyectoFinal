@@ -158,7 +158,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<button class="btn btn-danger my-cart-btn my-cart-b"
 										data-id="2" data-name="Cheerios" data-summary="summary 2"
 										data-price="3.00" data-quantity="1"
-										data-image="images/boxcheerios.png">Add to Cart</button>
+										data-image="images/boxcheerios.png">Añadir al carro</button>
 							</div>
 						</div>
 					</div>
@@ -186,7 +186,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<button class="btn btn-danger my-cart-btn my-cart-b"
 										data-id="3" data-name="Reeses Puffs" data-summary="summary 3"
 										data-price="4.50" data-quantity="1"
-										data-image="images/boxreeses.png">Add to Cart</button>
+										data-image="images/boxreeses.png">Añadir al carro</button>
 							</div>
 						</div>
 					</div>
@@ -214,7 +214,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<button class="btn btn-danger my-cart-btn my-cart-b"
 										data-id="4" data-name="Cinnamon Crunch"
 										data-summary="summary 4" data-price="3.50" data-quantity="1"
-										data-image="images/boxcinnamon.png">Add to Cart</button>
+										data-image="images/boxcinnamon.png">Añadir al carro</button>
 							</div>
 						</div>
 					</div>
@@ -242,7 +242,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<button class="btn btn-danger my-cart-btn my-cart-b"
 										data-id="1" data-name="Froot Loops" data-summary="summary 1"
 										data-price="3.20" data-quantity="1"
-										data-image="images/boxfroot.png">Add to Cart</button>
+										data-image="images/boxfroot.png">Añadir al carro</button>
 							</div>
 						</div>
 					</div>
@@ -261,7 +261,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							</div>
 							<div class="mid-2">
 								<p>
-									<label>7.00€</label><em class="item_price">6.00€</em>
+									<label>7.00€</label><em class="item_price">4.75€</em>
 								</p>
 								<div class="block"></div>
 								<div class="clearfix"></div>
@@ -269,8 +269,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<div class="add">
 								<button class="btn btn-danger my-cart-btn my-cart-b"
 										data-id="5" data-name="Lucky Charms" data-summary="summary 5"
-										data-price="6.00" data-quantity="1"
-										data-image="images/boxlucky.png">Add to Cart</button>
+										data-price="4.75" data-quantity="1"
+										data-image="images/boxlucky.png">Añadir al carro</button>
 							</div>
 						</div>
 					</div>
@@ -298,7 +298,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<button class="btn btn-danger my-cart-btn my-cart-b"
 										data-id="6" data-name="Trix" data-summary="summary 6"
 										data-price="4.50" data-quantity="1"
-										data-image="images/boxtrix.png">Add to Cart</button>
+										data-image="images/boxtrix.png">Añadir al carro</button>
 							</div>
 						</div>
 					</div>
@@ -326,7 +326,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<button class="btn btn-danger my-cart-btn my-cart-b"
 										data-id="7" data-name="Cocoa Puffs" data-summary="summary 7"
 										data-price="3.50" data-quantity="1"
-										data-image="images/boxcocoa.png">Add to Cart</button>
+										data-image="images/boxcocoa.png">Añadir al carro</button>
 							</div>
 						</div>
 					</div>
@@ -356,7 +356,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<button class="btn btn-danger my-cart-btn my-cart-b"
 										data-id="8" data-name="Leche Azul" data-summary="summary 8"
 										data-price="0.80" data-quantity="1"
-										data-image="images/milkblue.png">Add to Cart</button>
+										data-image="images/milkblue.png">Añadir al carro</button>
 							</div>
 						</div>
 					</div>
@@ -384,7 +384,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<button class="btn btn-danger my-cart-btn my-cart-b"
 										data-id="9" data-name="Leche Rosa" data-summary="summary 9"
 										data-price="0.80" data-quantity="1"
-										data-image="images/milkpink.png">Add to Cart</button>
+										data-image="images/milkpink.png">Añadir al carro</button>
 							</div>
 						</div>
 					</div>
@@ -412,7 +412,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<button class="btn btn-danger my-cart-btn my-cart-b"
 										data-id="10" data-name="Leche Verde" data-summary="summary 10"
 										data-price="0.80" data-quantity="1"
-										data-image="images/milkgreen.png">Add to Cart</button>
+										data-image="images/milkgreen.png">Añadir al carro</button>
 							</div>
 						</div>
 					</div>
@@ -431,7 +431,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							</div>
 							<div class="mid-2">
 								<p>
-									<label>1.00€</label><em class="item_price">0.80€</em>
+									<label>1.00€</label><em class="item_price">0.90€</em>
 								</p>
 								<div class="block"></div>
 								<div class="clearfix"></div>
@@ -439,8 +439,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<div class="add">
 								<button class="btn btn-danger my-cart-btn my-cart-b"
 										data-id="11" data-name="Leche Vainilla"
-										data-summary="summary 11" data-price="0.80" data-quantity="1"
-										data-image="images/milkvainilla.png">Add to Cart</button>
+										data-summary="summary 11" data-price="0.90" data-quantity="1"
+										data-image="images/milkvainilla.png">Añadir al carro</button>
 							</div>
 						</div>
 					</div>
@@ -459,7 +459,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							</div>
 							<div class="mid-2">
 								<p>
-									<label>1.00€</label><em class="item_price">0.80€</em>
+									<label>1.00€</label><em class="item_price">1.20€</em>
 								</p>
 								<div class="block"></div>
 								<div class="clearfix"></div>
@@ -467,8 +467,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<div class="add">
 								<button class="btn btn-danger my-cart-btn my-cart-b"
 										data-id="12" data-name="Leche de Soja y Almendras"
-										data-summary="summary 12" data-price="0.80" data-quantity="1"
-										data-image="images/milksojaalmond.png">Add to Cart</button>
+										data-summary="summary 12" data-price="1.2" data-quantity="1"
+										data-image="images/milksojaalmond.png">Añadir al carro</button>
 							</div>
 						</div>
 					</div>
@@ -498,7 +498,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<button class="btn btn-danger my-cart-btn my-cart-b"
 										data-id="13" data-name="Kinder Bueno"
 										data-summary="summary 13" data-price="1.80" data-quantity="1"
-										data-image="images/packkinder.png">Add to Cart</button>
+										data-image="images/packkinder.png">Añadir al carro</button>
 							</div>
 						</div>
 					</div>
@@ -517,16 +517,16 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							</div>
 							<div class="mid-2">
 								<p>
-									<label>2.50€</label><em class="item_price">1.80€</em>
+									<label>2.50€</label><em class="item_price">1.90€</em>
 								</p>
 								<div class="block"></div>
 								<div class="clearfix"></div>
 							</div>
 							<div class="add">
 								<button class="btn btn-danger my-cart-btn my-cart-b"
-										data-id="20" data-name="topCaramelo"
-										data-summary="summary 20" data-price="1.80" data-quantity="1"
-										data-image="images/topcaramelo.png">Add to Cart</button>
+										data-id="20" data-name="Sirope de Caramelo"
+										data-summary="summary 20" data-price="1.90" data-quantity="1"
+										data-image="images/topcaramelo.png">Añadir al carro</button>
 							</div>
 						</div>
 					</div>
@@ -552,9 +552,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							</div>
 							<div class="add">
 								<button class="btn btn-danger my-cart-btn my-cart-b"
-										data-id="19" data-name="topChocolate"
+										data-id="19" data-name="Sirope de Chocolate"
 										data-summary="summary 19" data-price="1.80" data-quantity="1"
-										data-image="images/topchocolate.png">Add to Cart</button>
+										data-image="images/topchocolate.png">Añadir al carro</button>
 							</div>
 						</div>
 					</div>
@@ -582,7 +582,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<button class="btn btn-danger my-cart-btn my-cart-b"
 										data-id="21" data-name="Sirope de Arce"
 										data-summary="summary 21" data-price="1.90" data-quantity="1"
-										data-image="images/toparce.png">Add to Cart</button>
+										data-image="images/toparce.png">Añadir al carro</button>
 							</div>
 						</div>
 					</div>
@@ -610,7 +610,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<button class="btn btn-danger my-cart-btn my-cart-b"
 										data-id="18" data-name="Sirope de Fresa"
 										data-summary="summary 18" data-price="1.80" data-quantity="1"
-										data-image="images/siropefresa.png">Add to Cart</button>
+										data-image="images/siropefresa.png">Añadir al carro</button>
 							</div>
 						</div>
 					</div>
@@ -631,7 +631,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							</div>
 							<div class="mid-2">
 								<p>
-									<label>2.30€</label><em class="item_price">1.50€</em>
+									<label>2.30€</label><em class="item_price">1.80€</em>
 								</p>
 								<div class="block"></div>
 								<div class="clearfix"></div>
@@ -639,8 +639,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<div class="add">
 								<button class="btn btn-danger my-cart-btn my-cart-b"
 										data-id="14" data-name="topChips" data-summary="summary 14"
-										data-price="1.50" data-quantity="1"
-										data-image="images/packchips.png">Add to Cart</button>
+										data-price="1.80" data-quantity="1"
+										data-image="images/packchips.png">Añadir al carro</button>
 							</div>
 						</div>
 					</div>
@@ -659,7 +659,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							</div>
 							<div class="mid-2">
 								<p>
-									<label>3.00€</label><em class="item_price">2.80€</em>
+									<label>3.00€</label><em class="item_price">1.80€</em>
 								</p>
 								<div class="block"></div>
 								<div class="clearfix"></div>
@@ -667,8 +667,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<div class="add">
 								<button class="btn btn-danger my-cart-btn my-cart-b"
 										data-id="15" data-name="topShocko" data-summary="summary 15"
-										data-price="2.80" data-quantity="1"
-										data-image="images/packbons.png">Add to Cart</button>
+										data-price="1.80" data-quantity="1"
+										data-image="images/packbons.png">Añadir al carro</button>
 							</div>
 						</div>
 					</div>
@@ -696,7 +696,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<button class="btn btn-danger my-cart-btn my-cart-b"
 										data-id="16" data-name="Oreo" data-summary="summary 16"
 										data-price="1.80" data-quantity="1"
-										data-image="images/packoreo.png">Add to Cart</button>
+										data-image="images/packoreo.png">Añadir al carro</button>
 							</div>
 						</div>
 					</div>
@@ -715,7 +715,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							</div>
 							<div class="mid-2">
 								<p>
-									<label>1.90€</label><em class="item_price">1.60€</em>
+									<label>1.90€</label><em class="item_price">1.80€</em>
 								</p>
 								<div class="block"></div>
 								<div class="clearfix"></div>
@@ -723,8 +723,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<div class="add">
 								<button class="btn btn-danger my-cart-btn my-cart-b"
 										data-id="17" data-name="Conguitos" data-summary="summary 17"
-										data-price="1.60" data-quantity="1"
-										data-image="images/packconguitos.png">Add to Cart</button>
+										data-price="1.80" data-quantity="1"
+										data-image="images/packconguitos.png">Añadir al carro</button>
 							</div>
 						</div>
 					</div>
@@ -757,7 +757,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<a href="http://jigsaw.w3.org/css-validator/check/referer"> <img
 					style="border: 0; width: 88px; height: 31px"
 					src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
-					alt="�CSS V�lido!" />
+					alt="�CSS V�lido!" />
 				</a>
 			</div>
 		</div>
@@ -911,7 +911,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<button class="btn btn-danger my-cart-btn my-cart-btn1 "
 								data-id="2" data-name="Cheerios" data-summary="summary 2"
 								data-price="3.00" data-quantity="1"
-								data-image="images/boxcheerios.png">Add to Cart</button>
+								data-image="images/boxcheerios.png">Añadir al carro</button>
 					</div>
 				</div>
 				<div class="clearfix"></div>
@@ -949,7 +949,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<button class="btn btn-danger my-cart-btn my-cart-btn1 "
 								data-id="3" data-name="Reese´s Puffs" data-summary="summary 3"
 								data-price="4.50" data-quantity="1"
-								data-image="images/boxreeses.png">Add to Cart</button>
+								data-image="images/boxreeses.png">Añadir al carro</button>
 					</div>
 				</div>
 				<div class="clearfix"></div>
@@ -988,7 +988,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<button class="btn btn-danger my-cart-btn my-cart-btn1 "
 								data-id="4" data-name="Cinnamon Crunch" data-summary="summary 4"
 								data-price="3.50" data-quantity="1"
-								data-image="images/boxcinnamon.png">Add to Cart</button>
+								data-image="images/boxcinnamon.png">Añadir al carro</button>
 					</div>
 				</div>
 				<div class="clearfix"></div>
@@ -1027,7 +1027,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<button class="btn btn-danger my-cart-btn my-cart-btn1 "
 								data-id="1" data-name="Froot Loops" data-summary="summary 1"
 								data-price="3.20" data-quantity="1"
-								data-image="images/boxfroot.png">Add to Cart</button>
+								data-image="images/boxfroot.png">Añadir al carro</button>
 					</div>
 				</div>
 				<div class="clearfix"></div>
@@ -1066,7 +1066,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<button class="btn btn-danger my-cart-btn my-cart-btn1 "
 								data-id="5" data-name="Lucky Charms" data-summary="summary 5"
 								data-price="4.75" data-quantity="1"
-								data-image="images/boxlucky.png">Add to Cart</button>
+								data-image="images/boxlucky.png">Añadir al carro</button>
 					</div>
 				</div>
 				<div class="clearfix"></div>
@@ -1105,7 +1105,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<button class="btn btn-danger my-cart-btn my-cart-btn1 "
 								data-id="6" data-name="Trix" data-summary="summary 6"
 								data-price="4.50" data-quantity="1"
-								data-image="images/boxtrix.png">Add to Cart</button>
+								data-image="images/boxtrix.png">Añadir al carro</button>
 					</div>
 				</div>
 				<div class="clearfix"></div>
@@ -1144,7 +1144,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<button class="btn btn-danger my-cart-btn my-cart-btn1 "
 								data-id="7" data-name="Cocoa Puffs" data-summary="summary 7"
 								data-price="3.50" data-quantity="1"
-								data-image="images/boxcocoa.png">Add to Cart</button>
+								data-image="images/boxcocoa.png">Añadir al carro</button>
 					</div>
 				</div>
 				<div class="clearfix"></div>
@@ -1182,7 +1182,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<button class="btn btn-danger my-cart-btn my-cart-btn1 "
 								data-id="8" data-name="Leche Azul" data-summary="summary 8"
 								data-price="0.80" data-quantity="1"
-								data-image="images/milkblue.png">Add to Cart</button>
+								data-image="images/milkblue.png">Añadir al carro</button>
 					</div>
 				</div>
 				<div class="clearfix"></div>
@@ -1219,8 +1219,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<div class="add-to">
 						<button class="btn btn-danger my-cart-btn my-cart-btn1 "
 								data-id="9" data-name="Leche Rosa" data-summary="summary 9"
-								data-price="0.80" data-quantity="1" data-image="images/milkpink.png">Add
-							to Cart</button>
+								data-price="0.80" data-quantity="1" data-image="images/milkpink.png">
+                            Añadir al carro</button>
 					</div>
 				</div>
 				<div class="clearfix"></div>
@@ -1257,8 +1257,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<div class="add-to">
 						<button class="btn btn-danger my-cart-btn my-cart-btn1 "
 								data-id="10" data-name="Leche Verde" data-summary="summary 10"
-								data-price="0.80" data-quantity="1" data-image="images/milkgreen.png">Add
-							to Cart</button>
+								data-price="0.80" data-quantity="1" data-image="images/milkgreen.png">
+                            Añadir al carro</button>
 					</div>
 				</div>
 				<div class="clearfix"></div>
@@ -1294,8 +1294,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<div class="add-to">
 						<button class="btn btn-danger my-cart-btn my-cart-btn1 "
 								data-id="11" data-name="Leche de Vainilla" data-summary="summary 11"
-								data-price="0.90" data-quantity="1" data-image="images/milkvainilla.png">Add
-							to Cart</button>
+								data-price="0.90" data-quantity="1" data-image="images/milkvainilla.png">
+                            Añadir al carro</button>
 					</div>
 				</div>
 				<div class="clearfix"></div>
@@ -1331,8 +1331,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<div class="add-to">
 						<button class="btn btn-danger my-cart-btn my-cart-btn1 "
 								data-id="12" data-name="Leche de Avena y soja" data-summary="summary 12"
-								data-price="1.20" data-quantity="1" data-image="images/milksojaalmond.png">Add
-							to Cart</button>
+								data-price="1.20" data-quantity="1" data-image="images/milksojaalmond.png">
+                            Añadir al carro</button>
 					</div>
 				</div>
 				<div class="clearfix"></div>
@@ -1368,8 +1368,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<div class="add-to">
 						<button class="btn btn-danger my-cart-btn my-cart-btn1 "
 								data-id="19" data-name="Sirope de Chocolate" data-summary="summary 19"
-								data-price="1.80" data-quantity="1" data-image="images/topchocolate.png">Add
-							to Cart</button>
+								data-price="1.80" data-quantity="1" data-image="images/topchocolate.png">
+                            Añadir al carro</button>
 					</div>
 				</div>
 				<div class="clearfix"></div>
@@ -1404,8 +1404,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<div class="add-to">
 						<button class="btn btn-danger my-cart-btn my-cart-btn1 "
 								data-id="21" data-name="Sirope Choco" data-summary="summary 21"
-								data-price="1.80" data-quantity="1" data-image="images/toparce.png">Add
-							to Cart</button>
+								data-price="1.90" data-quantity="1" data-image="images/toparce.png">Añadir al carro</button>
 					</div>
 				</div>
 				<div class="clearfix"></div>
@@ -1440,8 +1439,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<div class="add-to">
 						<button class="btn btn-danger my-cart-btn my-cart-btn1 "
 								data-id="13" data-name="Kinder Bueno" data-summary="summary 13"
-								data-price="1.80" data-quantity="1" data-image="images/packkinder.png">Add
-							to Cart</button>
+								data-price="1.80" data-quantity="1" data-image="images/packkinder.png">Añadir al carro</button>
 					</div>
 				</div>
 				<div class="clearfix"></div>
@@ -1476,8 +1474,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<div class="add-to">
 						<button class="btn btn-danger my-cart-btn my-cart-btn1 "
 								data-id="20" data-name="Sirope de Caramelo" data-summary="summary 20"
-								data-price="1.80" data-quantity="1" data-image="images/topcaramelo.png">Add
-							to Cart</button>
+								data-price="1.90" data-quantity="1" data-image="images/topcaramelo.png">Añadir al carro</button>
 					</div>
 				</div>
 				<div class="clearfix"></div>
@@ -1512,8 +1509,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<div class="add-to">
 						<button class="btn btn-danger my-cart-btn my-cart-btn1 "
 								data-id="18" data-name="Top Fresa" data-summary="summary 18"
-								data-price="1.80" data-quantity="1" data-image="images/siropefresa.png">Add
-							to Cart</button>
+								data-price="1.80" data-quantity="1" data-image="images/siropefresa.png">Añadir al carro</button>
 					</div>
 				</div>
 				<div class="clearfix"></div>
@@ -1549,8 +1545,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<div class="add-to">
 						<button class="btn btn-danger my-cart-btn my-cart-btn1 "
 								data-id="14" data-name="Chips Ahoy!" data-summary="summary 14"
-								data-price="1.80" data-quantity="1" data-image="images/packchips.png">Add
-							to Cart</button>
+								data-price="1.80" data-quantity="1" data-image="images/packchips.png">
+                            Añadir al carro</button>
 					</div>
 				</div>
 				<div class="clearfix"></div>
@@ -1587,8 +1583,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<div class="add-to">
 						<button class="btn btn-danger my-cart-btn my-cart-btn1 "
 								data-id="15" data-name="Kinder Schoko Bons!" data-summary="summary 15"
-								data-price="1.80" data-quantity="1" data-image="images/of35.png">Add
-							to Cart</button>
+								data-price="1.80" data-quantity="1" data-image="images/of35.png">
+                            Añadir al carro</button>
 					</div>
 				</div>
 				<div class="clearfix"></div>
@@ -1626,8 +1622,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<div class="add-to">
 						<button class="btn btn-danger my-cart-btn my-cart-btn1 "
 								data-id="16" data-name="Oreo" data-summary="summary 16"
-								data-price="1.80" data-quantity="1" data-image="images/packoreo.png">Add
-							to Cart</button>
+								data-price="1.80" data-quantity="1" data-image="images/packoreo.png">
+                            Añadir al carro</button>
 					</div>
 				</div>
 				<div class="clearfix"></div>
@@ -1663,8 +1659,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<div class="add-to">
 						<button class="btn btn-danger my-cart-btn my-cart-btn1 "
 								data-id="17" data-name="Conguitos" data-summary="summary 17"
-								data-price="1.80" data-quantity="1" data-image="images/packconguitos.png">Add
-							to Cart</button>
+								data-price="1.80" data-quantity="1" data-image="images/packconguitos.png">
+                            Añadir al carro</button>
 					</div>
 				</div>
 				<div class="clearfix"></div>

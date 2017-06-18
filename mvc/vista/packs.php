@@ -258,7 +258,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 				<a href="http://jigsaw.w3.org/css-validator/check/referer"> <img
 					style="border: 0; width: 88px; height: 31px"
 					src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
-					alt="�CSS V�lido!" />
+					alt="�CSS V�lido!" />
 				</a>
 			</div>
 		</div>
@@ -393,7 +393,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 					<div class="col-md-7 span-1 ">
 						<h3>Pack Chocolate</h3>
 						<div class="price_single">
-							<span class="reducedfrom ">7.00&euro;</span>
+							<span class="reducedfrom ">6.50&euro;</span>
 							<div class="clearfix"></div>
 						</div>
 						<h4 class="quick">Descripci&oacute;n del producto</h4>
@@ -402,8 +402,8 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-b"
 								data-id="101" data-name="Pack Chocolate"
-								data-summary="summary 101" data-price="7" data-quantity="1"
-								data-image="images/pack_choco.png">Add to Cart</button>
+								data-summary="summary 101" data-price="6.50" data-quantity="1"
+								data-image="images/pack_choco.png">Añadir al carro</button>
 						</div>
 					</div>
 					<div class="clearfix"></div>
@@ -433,7 +433,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 					<div class="col-md-7 span-1 ">
 						<h3>Pack Exotic</h3>
 						<div class="price_single">
-							<span class="reducedfrom ">7.80&euro;</span>
+							<span class="reducedfrom ">6.50&euro;</span>
 							<div class="clearfix"></div>
 						</div>
 						<h4 class="quick">Descripci&oacute;n del producto</h4>
@@ -442,8 +442,8 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-b"
 								data-id="102" data-name="Pack Exotic" data-summary="summary 102"
-								data-price="7.80" data-quantity="1"
-								data-image="images/pack_exotic.png">Add to Cart</button>
+								data-price="6.50" data-quantity="1"
+								data-image="images/pack_exotic.png">Añadir al carro</button>
 						</div>
 					</div>
 					<div class="clearfix"></div>
@@ -482,8 +482,8 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-b"
 								data-id="103" data-name="Pack Healthy"
-								data-summary="summary 103" data-price="6.5" data-quantity="1"
-								data-image="images/pack_healthy.png">Add to Cart</button>
+								data-summary="summary 103" data-price="6.50" data-quantity="1"
+								data-image="images/pack_healthy.png">Añadir al carro</button>
 						</div>
 					</div>
 					<div class="clearfix"></div>
@@ -513,7 +513,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 					<div class="col-md-7 span-1 ">
 						<h3>Pack Sweety</h3>
 						<div class="price_single">
-							<span class="reducedfrom ">6.00&euro;</span>
+							<span class="reducedfrom ">6.50&euro;</span>
 							<div class="clearfix"></div>
 						</div>
 						<h4 class="quick">Descripci&oacute;n del producto</h4>
@@ -522,8 +522,8 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-b"
 								data-id="104" data-name="Pack Sweety" data-summary="summary 104"
-								data-price="6" data-quantity="1"
-								data-image="images/pack_sweety.png">Add to Cart</button>
+								data-price="6.50" data-quantity="1"
+								data-image="images/pack_sweety.png">Añadir al carro</button>
 						</div>
 					</div>
 					<div class="clearfix"></div>
@@ -554,7 +554,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 					<div class="col-md-7 span-1 ">
 						<h3>Pack Red Passion</h3>
 						<div class="price_single">
-							<span class="reducedfrom ">6.00&euro;</span>
+							<span class="reducedfrom ">6.50&euro;</span>
 							<div class="clearfix"></div>
 						</div>
 						<h4 class="quick">Descripci&oacute;n del producto</h4>
@@ -563,8 +563,8 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-b"
 								data-id="105" data-name="Pack Red Passion"
-								data-summary="summary 105" data-price="6" data-quantity="1"
-								data-image="images/pack_passion.png">Add to Cart</button>
+								data-summary="summary 105" data-price="6.50" data-quantity="1"
+								data-image="images/pack_passion.png">Añadir al carro</button>
 						</div>
 					</div>
 					<div class="clearfix"></div>
@@ -594,7 +594,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 					<div class="col-md-7 span-1 ">
 						<h3>Pack Cookie</h3>
 						<div class="price_single">
-							<span class="reducedfrom ">6.00&euro;</span>
+							<span class="reducedfrom ">6.50&euro;</span>
 							<div class="clearfix"></div>
 						</div>
 						<h4 class="quick">Descripci&oacute;n del producto</h4>
@@ -603,8 +603,8 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-b"
 								data-id="106" data-name="Pack Cookie" data-summary="summary 106"
-								data-price="6" data-quantity="1"
-								data-image="images/pack_cookie.png">Add to Cart</button>
+								data-price="6.50" data-quantity="1"
+								data-image="images/pack_cookie.png">Añadir al carro</button>
 						</div>
 					</div>
 					<div class="clearfix"></div>
@@ -646,7 +646,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 							<button class="btn btn-danger my-cart-btn my-cart-b"
 								data-id="107" data-name="Pack Explosive"
 								data-summary="summary 107" data-price="6.50" data-quantity="1"
-								data-image="images/pack_explosives.png">Add to Cart</button>
+								data-image="images/pack_explosives.png">Añadir al carro</button>
 						</div>
 					</div>
 					<div class="clearfix"></div>
@@ -676,7 +676,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 					<div class="col-md-7 span-1 ">
 						<h3>Pack Fantasia</h3>
 						<div class="price_single">
-							<span class="reducedfrom ">7.50&euro;</span>
+							<span class="reducedfrom ">6.50&euro;</span>
 							<div class="clearfix"></div>
 						</div>
 						<h4 class="quick">Descripci&oacute;n del producto</h4>
@@ -686,8 +686,8 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 						<div class="add-to">
 							<button class="btn btn-danger my-cart-btn my-cart-b"
 								data-id="108" data-name="Pack Fantasia"
-								data-summary="summary 108" data-price="7.50" data-quantity="1"
-								data-image="images/pack_fantasia.png">Add to Cart</button>
+								data-summary="summary 108" data-price="6.50" data-quantity="1"
+								data-image="images/pack_fantasia.png">Añadir al carro</button>
 						</div>
 					</div>
 					<div class="clearfix"></div>

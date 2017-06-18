@@ -81,7 +81,7 @@ class mdlCompraRealizada extends padre  {
                         $po=Productos::searchPrecioDBPacks($id[$i]);
                         $cant=$cantidad[$i];
                         $idProd=$id[$i];
-                        echo "<script type=\"text/javascript\">alert(\" Tipo= $tipo, Cantidad= $cant, idProd=$idProd, Precio= $po\");</script>";
+                       // echo "<script type=\"text/javascript\">alert(\" Tipo= $tipo, Cantidad= $cant, idProd=$idProd, Precio= $po\");</script>";
                         Productos::insertCompProdDB($ins, $idProd, $po, $cant, $tipo);
                         if (Productos::GetStockByIdPacks($id[$i])== 0)
                         {
