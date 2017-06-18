@@ -1689,7 +1689,7 @@ input[type="search"] {
 input[type="radio"],
 input[type="checkbox"] {
   margin: 4px 0 0;
-  margin-top: 1px \9;
+  margin-top: 1px;
   /* IE8-9 */
   line-height: normal;
 }
@@ -1756,7 +1756,6 @@ output {
 .form-control[readonly],
 fieldset[disabled] .form-control {
   cursor: not-allowed;
-  background-color: none;
   opacity: 1;
 }
 textarea.form-control {
@@ -2037,7 +2036,6 @@ select[multiple].input-lg {
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
-          user-select: none;
   background-image: none;
   border: 1px solid transparent;
   border-radius: 4px;
@@ -2065,7 +2063,6 @@ select[multiple].input-lg {
 .btn.disabled,
 .btn[disabled],
 fieldset[disabled] .btn {
-  pointer-events: none;
   cursor: not-allowed;
   filter: alpha(opacity=65);
   -webkit-box-shadow: none;
@@ -3105,7 +3102,6 @@ input[type="button"].btn-block {
   cursor: not-allowed;
   background-color: transparent;
   background-image: none;
-  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
 }
 .open > .dropdown-menu {
   display: block;
@@ -3414,7 +3410,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   line-height: 1;
   color: #555;
   text-align: center;
-  background-color: none;
   border: 1px solid #ccc;
   border-radius: 4px;
 }
@@ -3499,7 +3494,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav > li > a:hover,
 .nav > li > a:focus {
   text-decoration: none;
-  background-color: none;
 }
 .nav > li.disabled > a {
   color: #999;
@@ -4199,7 +4193,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .pagination > li > a:focus,
 .pagination > li > span:focus {
   color: #E74C3C;
-  background-color: none;
   border-color: #ddd;
 }
 .pagination > .active > a,
@@ -4275,7 +4268,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .pager li > a:hover,
 .pager li > a:focus {
   text-decoration: none;
-  background-color: none;
 }
 .pager .next > a,
 .pager .next > span {
@@ -4403,7 +4395,6 @@ a.list-group-item.active > .badge,
   padding: 30px;
   margin-bottom: 30px;
   color: inherit;
-  background-color: none;
 }
 .jumbotron h1,
 .jumbotron .h1 {
@@ -4534,14 +4525,11 @@ a.thumbnail.active {
 .alert-danger .alert-link {
   color: #843534;
 }
-@-webkit-keyframes progress-bar-stripes {
-  from {
-    background-position: 40px 0;
-  }
+
   to {
     background-position: 0 0;
   }
-}
+
 @keyframes progress-bar-stripes {
   from {
     background-position: 40px 0;
@@ -4613,7 +4601,6 @@ a.thumbnail.active {
 .media,
 .media-body {
   overflow: hidden;
-  zoom: 1;
 }
 .media,
 .media .media {
@@ -5509,19 +5496,12 @@ button.close {
   filter: alpha(opacity=50);
   opacity: .5;
 }
-.carousel-control.left {
-  background-image: -webkit-linear-gradient(left, color-stop(rgba(0, 0, 0, .5) 0%), color-stop(rgba(0, 0, 0, .0001) 100%));
-  background-image:         linear-gradient(to right, rgba(0, 0, 0, .5) 0%, rgba(0, 0, 0, .0001) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
-  background-repeat: repeat-x;
-}
+
 .carousel-control.right {
   right: 0;
   left: auto;
   background-image: -webkit-linear-gradient(left, color-stop(rgba(0, 0, 0, .0001) 0%), color-stop(rgba(0, 0, 0, .5) 100%));
   background-image:         linear-gradient(to right, rgba(0, 0, 0, .0001) 0%, rgba(0, 0, 0, .5) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
-  background-repeat: repeat-x;
 }
 .carousel-control:hover,
 .carousel-control:focus {
@@ -5580,7 +5560,7 @@ button.close {
   margin: 1px;
   text-indent: -999px;
   cursor: pointer;
-  background-color: #000 \9;
+  background-color: #000 ;
   background-color: rgba(0, 0, 0, 0);
   border: 1px solid #fff;
   border-radius: 10px;
@@ -5589,7 +5569,6 @@ button.close {
   width: 12px;
   height: 12px;
   margin: 0;
-  background-color: url(../images/pagenate.png) no-repeat 0px 0px;
 }
 .carousel-caption {
   position: absolute;
@@ -5694,7 +5673,6 @@ button.close {
   visibility: hidden;
 }
 .text-hide {
-  font: 0/0 a;
   color: transparent;
   text-shadow: none;
   background-color: transparent;
@@ -5707,9 +5685,7 @@ button.close {
 .affix {
   position: fixed;
 }
-@-ms-viewport {
-  width: device-width;
-}
+
 .visible-xs,
 .visible-sm,
 .visible-md,

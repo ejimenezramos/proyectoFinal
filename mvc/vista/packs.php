@@ -222,7 +222,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 				<div class="pack_tittle">
 					<h4>Pack Explosive</h4>
 				</div>
-			</div>zz
+			</div>
 			<div class="col-lg-3 col-md-4 col-xs-6 thumb">
 				<a class="thumbnail" data-toggle="modal" data-target="#myModal30"> <img
 					class="img-responsive" src="images/pack_fantasia.jpg" alt="">
@@ -250,12 +250,17 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 					class="cursor_pointer" data-toggle="modal"
 					data-target="#ModalEnvioEntrega">Env√≠o y entrega</a>
 			</p>
-
 			<a rel="license"
 				href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img
 				alt="Licencia Creative Commons" style="border-width: 0"
 				src="https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png" /></a>
-
+			<div style="padding-top: 0.5rem">
+				<a href="http://jigsaw.w3.org/css-validator/check/referer"> <img
+					style="border: 0; width: 88px; height: 31px"
+					src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+					alt="°CSS V·lido!" />
+				</a>
+			</div>
 		</div>
 
 		<div class="footer-center">
@@ -291,35 +296,20 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 			<div class="footer-icons">
 
 				<ul class="social-fo">
-					<li>
-						<a href="http://www.facebook.com" class=" face">
-							<i class="fa fa-facebook"
-							   aria-hidden="true"></i>
-						</a>
-					</li>
-					<li>
-						<a href="http://www.twitter.com" class=" twi">
-							<i class="fa fa-twitter"
-							   aria-hidden="true"></i>
-						</a>
-					</li>
-					<li>
-						<a href="http://www.pinterest.com" class=" pin">
-							<i class="fa fa-pinterest-p"
-							   aria-hidden="true"></i>
-						</a>
-					</li>
-					<li>
-						<a href="https://dribbble.com/" class=" dri">
-							<i class="fa fa-dribbble"
-							   aria-hidden="true"></i>
-						</a>
-					</li>
+					<li><a href="http://www.facebook.com" class=" face"><i
+							class="fa fa-facebook" aria-hidden="true"></i></a></li>
+					<li><a href="http://www.twitter.com" class=" twi"><i
+							class="fa fa-twitter" aria-hidden="true"></i></a></li>
+					<li><a href="#http://www.pinterest.com" class=" pin"><i
+							class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
+					<li><a href="https://dribbble.com/" class=" dri"><i
+							class="fa fa-dribbble" aria-hidden="true"></i></a></li>
 				</ul>
 			</div>
 
 		</div>
 	</footer>
+
 	<!-- //footer-->
 
 	<!-- smooth scrolling -->

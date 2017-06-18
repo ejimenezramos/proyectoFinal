@@ -198,67 +198,79 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <!-- //contact -->
     <!--footer Pablo 20/05/17: Nuevo footer-->
     <footer class="footer-distributed">
-        <div class="footer-left">
-            <h3>Cereal<span>Break</span></h3>
-            <p class="footer-links">
-                <a class="cursor_pointer"
-                   onclick="window.open('?pagina=licencia', 'Licencia', 'width=900, height=600')">
-                    Licencia
-                </a> 路 <a class="cursor_pointer" data-toggle="modal"
-                          data-target="#ModalDevoluciones">Devoluciones</a> 路 <a class="cursor_pointer" data-toggle="modal"
-                                                                                 data-target="#ModalEnvioEntrega">Env铆o y entrega</a>
-            </p>
-            <p class="footer-company-name">Cereal Break &copy; 2017</p>
-        </div>
-        <div class="footer-center">
-            <div>
-                <i class="fa fa-map-marker"></i>
-                <p><span>Paseo de la Castellana 10</span> Madrid, Espa帽a</p>
-            </div>
-            <div>
-                <i class="fa fa-phone"></i>
-                <p>+1 555 123456</p>
-            </div>
-            <div>
-                <i class="fa fa-envelope"></i>
-                <p><a href="mailto:support@company.com">support@cerealbreak.com</a></p>
-            </div>
-        </div>
-        <div class="footer-right">
-            <p class="footer-company-about">
-                <span>Pasi贸n por los cereales</span>
-                Disfruta de los mejores cereales del mundo en tu propia casa
-            </p>
-            <div class="footer-icons">
-                <ul class="social-fo">
-                    <li>
-                        <a href="http://www.facebook.com" class=" face">
-                            <i class="fa fa-facebook"
-                               aria-hidden="true"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="http://www.twitter.com" class=" twi">
-                            <i class="fa fa-twitter"
-                               aria-hidden="true"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="http://www.pinterest.com" class=" pin">
-                            <i class="fa fa-pinterest-p"
-                               aria-hidden="true"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://dribbble.com/" class=" dri">
-                            <i class="fa fa-dribbble"
-                               aria-hidden="true"></i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </footer>
+		<div class="footer-left">
+			<h3>
+				Cereal<span>Break</span>
+			</h3>
+
+			<p class="footer-links">
+				<a class="cursor_pointer"
+					onclick="window.open('?pagina=licencia', 'Licencia', 'width=900, height=600')">
+					Licencia</a> 路 <a class="cursor_pointer" data-toggle="modal"
+					data-target="#ModalDevoluciones">Devoluciones</a> 路 <a
+					class="cursor_pointer" data-toggle="modal"
+					data-target="#ModalEnvioEntrega">Env铆o y entrega</a>
+			</p>
+			<a rel="license"
+				href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img
+				alt="Licencia Creative Commons" style="border-width: 0"
+				src="https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png" /></a>
+			<div style="padding-top: 0.5rem">
+				<a href="http://jigsaw.w3.org/css-validator/check/referer"> <img
+					style="border: 0; width: 88px; height: 31px"
+					src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+					alt="SS V醠ido!" />
+				</a>
+			</div>
+		</div>
+
+		<div class="footer-center">
+
+			<div>
+				<i class="fa fa-map-marker"></i>
+				<p>
+					<span>Paseo de la Castellana 10</span> Madrid, Espa帽a
+				</p>
+			</div>
+
+			<div>
+				<i class="fa fa-phone"></i>
+				<p>+1 555 123456</p>
+			</div>
+
+			<div>
+				<i class="fa fa-envelope"></i>
+				<p>
+					<a href="mailto:support@company.com">support@cerealbreak.com</a>
+				</p>
+			</div>
+
+		</div>
+
+		<div class="footer-right">
+
+			<p class="footer-company-about">
+				<span>Pasi贸n por los cereales</span> Disfruta de los mejores
+				cereales del mundo en tu propia casa
+			</p>
+
+			<div class="footer-icons">
+
+				<ul class="social-fo">
+					<li><a href="http://www.facebook.com" class=" face"><i
+							class="fa fa-facebook" aria-hidden="true"></i></a></li>
+					<li><a href="http://www.twitter.com" class=" twi"><i
+							class="fa fa-twitter" aria-hidden="true"></i></a></li>
+					<li><a href="#http://www.pinterest.com" class=" pin"><i
+							class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
+					<li><a href="https://dribbble.com/" class=" dri"><i
+							class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+				</ul>
+			</div>
+
+		</div>
+	</footer>
+
     <!-- //footer-->
     <!-- tabs -->
     <script src="js/easyResponsiveTabs.js" type="text/javascript"></script>
