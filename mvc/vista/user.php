@@ -210,7 +210,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     <h3>Modificar mis datos</h3>
                     <form action="index.php?pagina=user" method="post" id="modificacion">
                         {{errores}}
-                        {{mod}}
+                        <div>
+                            <p style="color: chartreuse; font-weight: bold;">{{mod}}</p>
+                        </div>
+                        <br>
                         <label class="{{class-Nombre}}" for="nombre">Nombre</label>
                         <div class="key">
                             <i class="fa fa-user" aria-hidden="true"></i>
@@ -325,7 +328,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<a href="http://jigsaw.w3.org/css-validator/check/referer"> <img
 					style="border: 0; width: 88px; height: 31px"
 					src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
-					alt="¡CSS Válido!" />
+					alt="ï¿½CSS Vï¿½lido!" />
 				</a>
 			</div>
 		</div>

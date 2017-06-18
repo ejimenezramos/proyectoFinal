@@ -148,7 +148,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 
 <div class="container">
-    <div class="row center" style="margin-top: 4%">
+    <div class="row" style="margin-top: 4%; text-align: center">
 
         <div class="col-lg-6 col-md-6 col-xs-12 thumb">
             <a class="btn btn-danger my-cart-b" href="?pagina=user"><h3>Modifica tus datos</h3></a>
@@ -163,7 +163,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 
 <div class="container">
-    <h3 class="center" style="margin-top: 10%;color: #117A65;">Nuestras recomendaciones</h3>
+    <h3 style="margin-top: 10%;color: #117A65; text-align: center">Nuestras recomendaciones</h3>
 <div class=" con-w3l agileinf">
         <div class="col-md-3 pro-1">
             <div class="col-m">
