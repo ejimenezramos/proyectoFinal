@@ -54,48 +54,71 @@ class mdlCompraRealizada extends padre  {
 //
 //                }
 
-                for($j=0; $j<count($id); $j++)
+                for($j=0; $j<count($nombre); $j++)
                 {
-                    $s+=Productos::searchPrecioDB($id[$j])*$cantidad[$j];
+                    if (strpos($nombre[$j],"Pack")!==false)
+                    {
+                    $s=$s+(Productos::searchPrecioDBPacks($id[$j])*$cantidad[$j]);
+                    }else
+                    {
+                    $s=$s+(Productos::searchPrecioDB($id[$j])*$cantidad[$j]);
+                    }
 
                 }
                 $ins=Productos::insertDB($idUser, $fecha, $s);
 
                 for ($i=0; $i<count($nombre); $i++)
                 {
-
                     if (strpos($nombre[$i],"Pack")!==false)
                     {
-                        $tipo="pack";
-                        echo "<script type=\"text/javascript\">alert(\" $tipo\");</script>";
-                        
-                            $po=Productos::searchPrecioDB($id[$i]);
-                            $cant=$cantidad[$i];
-                            $idProd=$id[$i];
-                            Productos::insertCompProdDB($ins, $idProd, $po, $cant, $tipo);
-                        
+                        $tipo="Pack";
+                        $po=Productos::searchPrecioDBPacks($id[$i]);
+                        $cant=$cantidad[$i];
+                        $idProd=$id[$i];
+                        echo "<script type=\"text/javascript\">alert(\" Tipo= $tipo, Cantidad= $cant, idProd=$idProd, Precio= $po\");</script>";
+                        Productos::insertCompProdDB($ins, $idProd, $po, $cant, $tipo);
+                        if (Productos::GetStockByIdPacks($id[$i])== 0)
+                        {
+                            $_SESSION['compraMens']="No queda Stock del artículo $nombre[$i], por favor, elimínelo del carrito";
+                            redirectTo('index.php?pagina=compra');
+                        }elseif (Productos::GetStockByIdPacks($id[$i])<$cantidad[$i])
+                        {
+                            $stockOne=Productos::GetStockByIdPacks($id[$i]);
+                            $_SESSION['compraMens']="Sólo nos quedan $stockOne unidad/es en stock, por favor reduzca la cantidad a la adecuada";
+                            redirectTo('index.php?pagina=compra');
+                        }else
+                        {
+                            $stock=Productos::GetStockByIdPacks($id[$i]);
+                            $stock=$stock-$cantidad[$i];
+                            Productos::modifyStockPack($stock,$id[$i]);
+                        }
                     }else
                     {
-                        $tipo="producto";
+                        $tipo="Producto";
                         $po=Productos::searchPrecioDB($id[$i]);
                         $cant=$cantidad[$i];
                         $idProd=$id[$i];
                         Productos::insertCompProdDB($ins, $idProd, $po, $cant, $tipo);
-                        if (Productos::GetStockById($id[$i])== 29)
+                        if (Productos::GetStockById($id[$i])== 0)
                         {
-                            echo "<script type=\"text/javascript\">alert(\"No queda Stock del artículo $nombre[$i], por favor, elimínelo del carrito\");</script>";
+                            $_SESSION['compraMens']="No queda Stock del artículo $nombre[$i], por favor, elimínelo del carrito";
                             redirectTo('index.php?pagina=compra');
+                        }elseif (Productos::GetStockById($id[$i])<$cantidad[$i])
+                        {
+                            $stockOne=Productos::GetStockById($id[$i]);
+                            $_SESSION['compraMens']="Sólo nos quedan $stockOne unidad/es en stock, por favor reduzca la cantidad a la adecuada";
+                            redirectTo('index.php?pagina=compra');
+                        }else
+                        {
+                            $stock=Productos::GetStockById($id[$i]);
+                            $stock=$stock-$cantidad[$i];
+                            Productos::modifyStock($stock,$id[$i]);
                         }
 
-                            echo "<script type=\"text/javascript\">alert(\" Tipo= $tipo, Idcomra= $ins, Cantidad= $cant, idProd=$idProd, Precio= $po\");</script>";
+
+//                            echo "<script type=\"text/javascript\">alert(\" Tipo= $tipo, Idcomra= $ins, Cantidad= $cant, idProd=$idProd, Precio= $po\");</script>";
                     }
                 }
-
-
-
-
-//                echo "<script type=\"text/javascript\">alert(\" Usuario = $idUser, fecha= $fecha, precioTotal= $s\");</script>";
-
             }
         }
     }

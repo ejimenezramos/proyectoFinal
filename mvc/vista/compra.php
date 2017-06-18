@@ -208,6 +208,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             <h3>Confirmar tu compra</h3>
             <br />
             <div class="form-w3agil">
+                <p class="has-warning">{{compraMensaje}}</p>
                 <form action="?pagina=compraRealizada" method="post">
                     {{carrito}}
                     <button type="submit" name="compraRealizada" class="btn btn-default">Realizar pedido</button>

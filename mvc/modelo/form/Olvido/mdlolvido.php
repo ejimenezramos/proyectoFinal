@@ -8,6 +8,11 @@ class mdlOlvido extends padre {
     public function onGestionPagina() {
         if (self::PAGE != getGet('pagina', 'olvido'))
             return;
+        if(!is_null(getPost(self::PAGE)))
+        {
+            $_SESSION['olvidar']=true;
+            redirectTo('index.php?pagina=mensaje');
+        }
     }
 
     public function onCargarVista($path) {

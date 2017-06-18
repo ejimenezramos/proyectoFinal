@@ -9,6 +9,7 @@ class Validacion extends padre {
     private $_errorFoto = array(); //en este caso es array porque hay varias fotos
     private $_exists;
     private $_email;
+    private $_dniRep;
     private $_telfRepeat;
     public function setExists($dup) {
         $this->_exists = $dup;
@@ -16,8 +17,11 @@ class Validacion extends padre {
     public function setEmail($dupi) {
         $this->_email = $dupi;
     }
-      public function setTelfRepeat($rep) {
+    public function setTelfRepeat($rep) {
         $this->_telfRepeat = $rep;
+    }
+    public function setDniRep($repDni) {
+        $this->_dniRep = $repDni;
     }
 
 
@@ -88,6 +92,9 @@ class Validacion extends padre {
                 break;
             case 'duplicateEmail':
                 return 'El email ya existe';
+                break;
+            case 'dniRep':
+                return 'El DNI ya existe en la base de datos';
             case 'dni':
                 return ' *El formato del dni deben ser 8 dígitos y una letra';
                 break;
@@ -245,6 +252,13 @@ class Validacion extends padre {
         if ($this->_email)
             $this->_setError($field, $value, 'duplicateEmail');
     }
+
+    private function _validate_dniRep($field, $value)
+    {
+        if ($this->_dniRep)
+            $this->_setError($field, $value, 'dniRep');
+    }
+
      private function _validate_repeated($field, $value) {
         if ($this->_telfRepeat)
             $this->_setError($field, $value, 'repeated');

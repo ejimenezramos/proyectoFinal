@@ -240,7 +240,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							</div>
 							<div class="add">
 								<button class="btn btn-danger my-cart-btn my-cart-b"
-										data-id="1" data-name="Rice" data-summary="summary 1"
+										data-id="1" data-name="Froot Loops" data-summary="summary 1"
 										data-price="3.20" data-quantity="1"
 										data-image="images/boxfroot.png">Add to Cart</button>
 							</div>

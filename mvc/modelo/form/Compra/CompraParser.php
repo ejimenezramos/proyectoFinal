@@ -9,6 +9,12 @@ class CompraParser {
         foreach (getTagsVista($vista) as $tag) {
             $str = '';
             switch ($tag) {
+                case "compraMensaje":
+                    if (isset($_SESSION['compraMens'])) {
+                        $str = $_SESSION['compraMens'];
+                        Session::del('compraMens');
+                    }
+                    break;
                 case "login":
                     $str="<li><a href='?pagina=login'><i class='fa fa-user'
 							aria-hidden='true'></i>Login</a></li>";

@@ -21,21 +21,60 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="mdlCompra.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mvc/modelo/form/Compra/mdlCompra.php">
+      <file leaf-file-name="mensaje.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mvc/vista/mensaje.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="848">
-              <caret line="80" column="20" selection-start-line="80" selection-start-column="20" selection-end-line="80" selection-end-column="20" />
+            <state relative-caret-position="238">
+              <caret line="190" column="25" selection-start-line="190" selection-start-column="25" selection-end-line="190" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Usuarios.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mvc/exec/Usuarios.php">
+      <file leaf-file-name="MensajeParser.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mvc/modelo/form/Mensaje/MensajeParser.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="37" column="37" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
+            <state relative-caret-position="-51">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1497264214000" expanded="true" signature="1218:1308" ph="..." />
+                <marker date="1497264214000" expanded="true" signature="1242:1303" ph="..." />
+                <marker date="1497264214000" expanded="true" signature="1264:1294" ph="..." />
+                <marker date="1497264214000" expanded="true" signature="1342:1438" ph="..." />
+                <marker date="1497264214000" expanded="true" signature="1369:1433" ph="..." />
+                <marker date="1497264214000" expanded="true" signature="1391:1421" ph="..." />
+                <marker date="1497264214000" expanded="true" signature="1740:1843" ph="..." />
+                <marker date="1497264214000" expanded="true" signature="1763:1838" ph="..." />
+                <marker date="1497264214000" expanded="true" signature="1785:1815" ph="..." />
+                <marker date="1497264214000" expanded="true" signature="1891:1992" ph="..." />
+                <marker date="1497264214000" expanded="true" signature="1911:1987" ph="..." />
+                <marker date="1497264214000" expanded="true" signature="1940:1970" ph="..." />
+                <marker date="1497264214000" expanded="true" signature="2329:2432" ph="..." />
+                <marker date="1497264214000" expanded="true" signature="2352:2427" ph="..." />
+                <marker date="1497264214000" expanded="true" signature="2374:2404" ph="..." />
+                <marker date="1497264214000" expanded="true" signature="2480:2581" ph="..." />
+                <marker date="1497264214000" expanded="true" signature="2500:2576" ph="..." />
+                <marker date="1497264214000" expanded="true" signature="2529:2559" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="productos.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mvc/vista/productos.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="242" column="74" selection-start-line="242" selection-start-column="74" selection-end-line="242" selection-end-column="74" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mdlolvido.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mvc/modelo/form/Olvido/mdlolvido.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -44,28 +83,18 @@
       <file leaf-file-name="mdlUser.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mvc/modelo/form/User/mdlUser.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-408">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="170">
+              <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="41" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Productos.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mvc/exec/Productos.php">
+      <file leaf-file-name="olvido.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mvc/vista/olvido.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="27" column="64" selection-start-line="27" selection-start-column="64" selection-end-line="27" selection-end-column="64" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mdlCompraRealizada.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mvc/modelo/form/CompraRealizada/mdlCompraRealizada.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+            <state relative-caret-position="444">
+              <caret line="164" column="71" selection-start-line="164" selection-start-column="71" selection-end-line="164" selection-end-column="71" />
               <folding />
             </state>
           </provider>
@@ -87,9 +116,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/js/move-top.js" />
-        <option value="$PROJECT_DIR$/js/jquery-1.11.1.min.js" />
-        <option value="$PROJECT_DIR$/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/js/validaciones.js" />
         <option value="$PROJECT_DIR$/mvc/exec/Usuario.php" />
         <option value="$PROJECT_DIR$/mvc/modelo/form/Productos/mdlProductos.php" />
@@ -101,16 +127,13 @@
         <option value="$PROJECT_DIR$/mvc/modelo/form/Mensaje/mdlMensaje.php" />
         <option value="$PROJECT_DIR$/mvc/modelo/form/Mensaje/MensajeParser.php" />
         <option value="$PROJECT_DIR$/mvc/vista/factura.php" />
-        <option value="$PROJECT_DIR$/mvc/exec/Usuarios.php" />
         <option value="$PROJECT_DIR$/mvc/modelo/form/Compra/mdlCompra.php" />
         <option value="$PROJECT_DIR$/mvc/modelo/form/User/UserParser.php" />
         <option value="$PROJECT_DIR$/mvc/modelo/form/Aboutus/AboutusParser.php" />
         <option value="$PROJECT_DIR$/mvc/modelo/form/Contact/ContactParser.php" />
         <option value="$PROJECT_DIR$/mvc/modelo/form/Packs/PacksParser.php" />
         <option value="$PROJECT_DIR$/mvc/modelo/form/Productos/ProductosParser.php" />
-        <option value="$PROJECT_DIR$/mvc/modelo/form/Listado/ListadoParser.php" />
         <option value="$PROJECT_DIR$/mvc/modelo/form/User/mdlUser.php" />
-        <option value="$PROJECT_DIR$/js/jquery.mycart.js" />
         <option value="$PROJECT_DIR$/js/jquery.productos.js" />
         <option value="$PROJECT_DIR$/js/jquery.contacto.js" />
         <option value="$PROJECT_DIR$/js/jquery.login.js" />
@@ -120,24 +143,30 @@
         <option value="$PROJECT_DIR$/mvc/vista/home.php" />
         <option value="$PROJECT_DIR$/mvc/vista/mensaje.php" />
         <option value="$PROJECT_DIR$/mvc/vista/olvido.php" />
-        <option value="$PROJECT_DIR$/mvc/vista/packs.php" />
         <option value="$PROJECT_DIR$/mvc/vista/terminos.php" />
         <option value="$PROJECT_DIR$/mvc/vista/user.php" />
-        <option value="$PROJECT_DIR$/mvc/vista/productos.php" />
         <option value="$PROJECT_DIR$/mvc/vista/login.php" />
         <option value="$PROJECT_DIR$/mvc/modelo/form/Reestablecer/mdlReestablecer.php" />
         <option value="$PROJECT_DIR$/mvc/modelo/form/Reestablecer/ReestablecerParser.php" />
         <option value="$PROJECT_DIR$/mvc/modelo/form/Login/LoginParser.php" />
         <option value="$PROJECT_DIR$/mvc/modelo/form/CompraRealizada/CompraRealizadaParser.php" />
-        <option value="$PROJECT_DIR$/mvc/vista/compra.php" />
         <option value="$PROJECT_DIR$/mvc/vista/compraRealizada.php" />
         <option value="$PROJECT_DIR$/mvc/modelo/form/Login/mdlLogin.php" />
         <option value="$PROJECT_DIR$/mvc/vista/Listado.php" />
-        <option value="$PROJECT_DIR$/mvc/common/validacion.php" />
-        <option value="$PROJECT_DIR$/mvc/modelo/form/Register/mdlRegister.php" />
         <option value="$PROJECT_DIR$/mvc/vista/register.php" />
-        <option value="$PROJECT_DIR$/mvc/exec/Productos.php" />
+        <option value="$PROJECT_DIR$/mvc/modelo/form/Compra/CompraParser.php" />
+        <option value="$PROJECT_DIR$/mvc/vista/compra.php" />
+        <option value="$PROJECT_DIR$/mvc/exec/Usuarios.php" />
+        <option value="$PROJECT_DIR$/mvc/modelo/form/Register/mdlRegister.php" />
+        <option value="$PROJECT_DIR$/mvc/common/validacion.php" />
+        <option value="$PROJECT_DIR$/js/jquery.mycart.js" />
+        <option value="$PROJECT_DIR$/mvc/modelo/form/Listado/mdlListado.php" />
+        <option value="$PROJECT_DIR$/mvc/modelo/form/Listado/ListadoParser.php" />
+        <option value="$PROJECT_DIR$/mvc/vista/packs.php" />
         <option value="$PROJECT_DIR$/mvc/modelo/form/CompraRealizada/mdlCompraRealizada.php" />
+        <option value="$PROJECT_DIR$/mvc/exec/Productos.php" />
+        <option value="$PROJECT_DIR$/mvc/vista/productos.php" />
+        <option value="$PROJECT_DIR$/mvc/modelo/form/Olvido/mdlolvido.php" />
       </list>
     </option>
   </component>
@@ -706,24 +735,6 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="proyectoFinal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="proyectoFinal" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mvc" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="common" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -731,7 +742,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../proyectoFinal - copia (8)" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
@@ -873,12 +884,12 @@
       <workItem from="1496989800066" duration="11048000" />
       <workItem from="1497187052783" duration="1466000" />
       <workItem from="1497199507466" duration="5260000" />
-      <workItem from="1497448416300" duration="13668000" />
+      <workItem from="1497448416300" duration="25003000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="285030000" />
+    <option name="totallyTimeSpent" value="296365000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -919,27 +930,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/jstarbox.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/thumbnail-gallery.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/w3c.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -993,22 +983,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mvc/modelo/form/Listado/ListadoParser.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="90" column="26" selection-start-line="90" selection-start-column="26" selection-end-line="90" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mvc/modelo/form/Listado/mdlListado.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1086,22 +1060,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="30" column="29" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mvc/vista/olvido.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4267">
-          <caret line="251" column="25" selection-start-line="251" selection-start-column="25" selection-end-line="251" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mvc/vista/packs.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5372">
-          <caret line="316" column="25" selection-start-line="316" selection-start-column="25" selection-end-line="316" selection-end-column="25" />
           <folding />
         </state>
       </provider>
@@ -1203,6 +1161,232 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/vista/compraRealizada.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="232" column="118" selection-start-line="232" selection-start-column="118" selection-end-line="232" selection-end-column="118" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/vista/Listado.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="635" column="39" selection-start-line="635" selection-start-column="39" selection-end-line="635" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/vista/register.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="351" column="0" selection-start-line="351" selection-start-column="0" selection-end-line="351" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/modelo/form/Login/mdlLogin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/modelo/form/Compra/mdlCompra.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="848">
+          <caret line="80" column="20" selection-start-line="80" selection-start-column="20" selection-end-line="80" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/vista/compra.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="210" column="37" selection-start-line="210" selection-start-column="37" selection-end-line="210" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/modelo/form/Compra/CompraParser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+          <folding>
+            <marker date="1497744857497" expanded="true" signature="615:705" ph="..." />
+            <marker date="1497744857497" expanded="true" signature="639:700" ph="..." />
+            <marker date="1497744857497" expanded="true" signature="661:691" ph="..." />
+            <marker date="1497744857497" expanded="true" signature="739:835" ph="..." />
+            <marker date="1497744857497" expanded="true" signature="766:830" ph="..." />
+            <marker date="1497744857497" expanded="true" signature="788:818" ph="..." />
+            <marker date="1497744857497" expanded="true" signature="1139:1242" ph="..." />
+            <marker date="1497744857497" expanded="true" signature="1162:1237" ph="..." />
+            <marker date="1497744857497" expanded="true" signature="1184:1214" ph="..." />
+            <marker date="1497744857497" expanded="true" signature="1290:1391" ph="..." />
+            <marker date="1497744857497" expanded="true" signature="1310:1386" ph="..." />
+            <marker date="1497744857497" expanded="true" signature="1339:1369" ph="..." />
+            <marker date="1497744857497" expanded="true" signature="1793:1896" ph="..." />
+            <marker date="1497744857497" expanded="true" signature="1816:1891" ph="..." />
+            <marker date="1497744857497" expanded="true" signature="1838:1868" ph="..." />
+            <marker date="1497744857497" expanded="true" signature="1944:2045" ph="..." />
+            <marker date="1497744857497" expanded="true" signature="1964:2040" ph="..." />
+            <marker date="1497744857497" expanded="true" signature="1993:2023" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/common/validacion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="257" column="26" selection-start-line="257" selection-start-column="26" selection-end-line="257" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/modelo/form/Register/mdlRegister.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="125" column="37" selection-start-line="125" selection-start-column="37" selection-end-line="125" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/exec/Usuarios.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="73" column="29" selection-start-line="73" selection-start-column="29" selection-end-line="73" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery.mycart.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="403" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/modelo/form/Listado/ListadoParser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="478">
+          <caret line="35" column="56" selection-start-line="35" selection-start-column="56" selection-end-line="35" selection-end-column="56" />
+          <folding>
+            <marker date="1497750439832" expanded="true" signature="706:2013" ph="..." />
+            <marker date="1497750439832" expanded="true" signature="770:1998" ph="..." />
+            <marker date="1497750439832" expanded="true" signature="800:1982" ph="..." />
+            <marker date="1497750439832" expanded="true" signature="914:1045" ph="..." />
+            <marker date="1497750439832" expanded="true" signature="1076:1965" ph="..." />
+            <marker date="1497750439832" expanded="true" signature="1108:1241" ph="..." />
+            <marker date="1497750439832" expanded="true" signature="1127:1222" ph="..." />
+            <marker date="1497750439832" expanded="true" signature="1273:1490" ph="..." />
+            <marker date="1497750439832" expanded="true" signature="1291:1388" ph="..." />
+            <marker date="1497750439832" expanded="false" signature="1359:1365" ph="€" />
+            <marker date="1497750439832" expanded="true" signature="1520:1947" ph="..." />
+            <marker date="1497750439832" expanded="true" signature="1588:1928" ph="..." />
+            <marker date="1497750439832" expanded="true" signature="2267:2428" ph="..." />
+            <marker date="1497750439832" expanded="true" signature="2514:2604" ph="..." />
+            <marker date="1497750439832" expanded="true" signature="2538:2599" ph="..." />
+            <marker date="1497750439832" expanded="true" signature="2560:2590" ph="..." />
+            <marker date="1497750439832" expanded="true" signature="2638:2734" ph="..." />
+            <marker date="1497750439832" expanded="true" signature="2665:2729" ph="..." />
+            <marker date="1497750439832" expanded="true" signature="2687:2717" ph="..." />
+            <marker date="1497750439832" expanded="true" signature="3038:3141" ph="..." />
+            <marker date="1497750439832" expanded="true" signature="3061:3136" ph="..." />
+            <marker date="1497750439832" expanded="true" signature="3083:3113" ph="..." />
+            <marker date="1497750439832" expanded="true" signature="3189:3290" ph="..." />
+            <marker date="1497750439832" expanded="true" signature="3209:3285" ph="..." />
+            <marker date="1497750439832" expanded="true" signature="3238:3268" ph="..." />
+            <marker date="1497750439832" expanded="true" signature="3692:3795" ph="..." />
+            <marker date="1497750439832" expanded="true" signature="3715:3790" ph="..." />
+            <marker date="1497750439832" expanded="true" signature="3737:3767" ph="..." />
+            <marker date="1497750439832" expanded="true" signature="3843:3944" ph="..." />
+            <marker date="1497750439832" expanded="true" signature="3863:3939" ph="..." />
+            <marker date="1497750439832" expanded="true" signature="3892:3922" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/modelo/form/Listado/mdlListado.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/modelo/form/CompraRealizada/mdlCompraRealizada.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="90" column="57" selection-start-line="90" selection-start-column="57" selection-end-line="90" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/exec/Productos.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-279">
+          <caret line="70" column="27" selection-start-line="70" selection-start-column="27" selection-end-line="70" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/vista/productos.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="242" column="74" selection-start-line="242" selection-start-column="74" selection-end-line="242" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/vista/olvido.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="164" column="71" selection-start-line="164" selection-start-column="71" selection-end-line="164" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/vista/packs.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="413" column="42" selection-start-line="413" selection-start-column="42" selection-end-line="413" selection-end-column="42" />
+          <folding>
+            <element signature="e#7935#7943#0#HTML" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#12187#12194#0#HTML" expanded="true" />
+            <element signature="e#12560#12566#0#HTML" expanded="true" />
+            <element signature="e#12656#12664#0#HTML" expanded="true" />
+            <element signature="e#13544#13551#0#HTML" expanded="true" />
+            <element signature="e#13915#13921#0#HTML" expanded="true" />
+            <element signature="e#14011#14019#0#HTML" expanded="true" />
+            <element signature="e#14906#14913#0#HTML" expanded="true" />
+            <element signature="e#15279#15285#0#HTML" expanded="true" />
+            <element signature="e#15375#15383#0#HTML" expanded="true" />
+            <element signature="e#16269#16276#0#HTML" expanded="true" />
+            <element signature="e#16640#16646#0#HTML" expanded="true" />
+            <element signature="e#16736#16744#0#HTML" expanded="true" />
+            <element signature="e#17632#17639#0#HTML" expanded="true" />
+            <element signature="e#18009#18015#0#HTML" expanded="true" />
+            <element signature="e#18105#18113#0#HTML" expanded="true" />
+            <element signature="e#19005#19012#0#HTML" expanded="true" />
+            <element signature="e#19376#19382#0#HTML" expanded="true" />
+            <element signature="e#19472#19480#0#HTML" expanded="true" />
+            <element signature="e#20368#20375#0#HTML" expanded="true" />
+            <element signature="e#20754#20760#0#HTML" expanded="true" />
+            <element signature="e#20850#20858#0#HTML" expanded="true" />
+            <element signature="e#21771#21778#0#HTML" expanded="true" />
+            <element signature="e#22146#22152#0#HTML" expanded="true" />
+            <element signature="e#22242#22250#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mvc/vista/mensaje.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -1211,9 +1395,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/modelo/form/User/mdlUser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mvc/modelo/form/Mensaje/MensajeParser.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="-51">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <marker date="1497264214000" expanded="true" signature="1218:1308" ph="..." />
@@ -1238,106 +1430,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mvc/vista/compraRealizada.php">
+    <entry file="file://$PROJECT_DIR$/mvc/modelo/form/Olvido/mdlolvido.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="232" column="118" selection-start-line="232" selection-start-column="118" selection-end-line="232" selection-end-column="118" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mvc/vista/compra.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="698">
-          <caret line="236" column="118" selection-start-line="236" selection-start-column="118" selection-end-line="236" selection-end-column="118" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mvc/vista/productos.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-12591">
-          <caret line="196" column="71" selection-start-line="196" selection-start-column="66" selection-end-line="196" selection-end-column="71" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mvc/vista/Listado.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="635" column="39" selection-start-line="635" selection-start-column="39" selection-end-line="635" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mvc/modelo/form/Register/mdlRegister.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-11">
-          <caret line="121" column="26" selection-start-line="121" selection-start-column="26" selection-end-line="121" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mvc/vista/register.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="351" column="0" selection-start-line="351" selection-start-column="0" selection-end-line="351" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mvc/common/validacion.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2088">
-          <caret line="245" column="12" selection-start-line="245" selection-start-column="12" selection-end-line="245" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mvc/modelo/form/Login/mdlLogin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mvc/modelo/form/User/mdlUser.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-408">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mvc/exec/Usuarios.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="37" column="37" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mvc/exec/Productos.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="27" column="64" selection-start-line="27" selection-start-column="64" selection-end-line="27" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mvc/modelo/form/Compra/mdlCompra.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="848">
-          <caret line="80" column="20" selection-start-line="80" selection-start-column="20" selection-end-line="80" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mvc/modelo/form/CompraRealizada/mdlCompraRealizada.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+        <state relative-caret-position="170">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
           <folding />
         </state>
       </provider>

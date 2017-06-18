@@ -67,6 +67,16 @@ class Usuarios {
         return $datos;
 	}
 
+    public static function duplicateDni($dni) {
+        $database = medoo::getInstance ();
+        $database->openConnection ( unserialize ( MYSQL_CONFIG ) );
+        $datos = ($database->count ( 'usuarios', [
+                'DNI' => $dni
+            ] ) > 0) ? true : false;
+        $database->closeConnection ();
+        return $datos;
+    }
+
     //public static function modifyDB($data, $id) {
     //    $database = medoo::getInstance();
     //    $database->openConnection(unserialize(MYSQL_CONFIG));
