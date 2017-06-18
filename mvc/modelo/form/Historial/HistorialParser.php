@@ -21,7 +21,7 @@ class HistorialParser {
                         switch ($info) {
                             case "registed":
                                 $usuario = $_SESSION['usuarios'];
-                                $str = "<li><a href='?pagina=user'><i class='fa fa-user'
+                                $str = "<li><a href='?pagina=account'><i class='fa fa-user'
 							aria-hidden='true'></i>Mi cuenta: $usuario</a></li>";
                                 $str .= "<li><a href='index.php'><i class='fa fa-arrow-right'
 							aria-hidden='true'></i>Cerrar Sesión</a></li>";
@@ -32,7 +32,7 @@ class HistorialParser {
                                 break;
                             case "logged":
                                 $usuario = $_SESSION['usuarios'];
-                                $str = "<li><a href='?pagina=user'><i class='fa fa-user'
+                                $str = "<li><a href='?pagina=account'><i class='fa fa-user'
 							aria-hidden='true'></i>Mi cuenta: $usuario</a></li>";
                                 $str .= "<li><a href='index.php'><i class='fa fa-arrow-right'
 							aria-hidden='true'></i>Cerrar Sesión</a></li>";
@@ -47,29 +47,26 @@ class HistorialParser {
                     $datos=Productos::searchCompras($id);
                     $h="<div id='comprasRealizadas'>";
 $resul=$resul="<div id='comprasProd' type='hidden'>";
-                    if($datos){
-                    foreach ($datos as $data){
-                        $h.="<input type='hidden' id='compra[]' name='compra[]' value='".$data['Id_Compra'].":".$data['Id_Usuario'].":".$data['Fecha'].":".$data['Importe']."' >";
-                        $compraProducto=Productos::searchComprasProducto($data['Id_Compra']);
+                    if($datos) {
+                        foreach ($datos as $data) {
+                            $h .= "<input type='hidden' id='compra[]' name='compra[]' value='" . $data['Id_Compra'] . ":" . $data['Id_Usuario'] . ":" . $data['Fecha'] . ":" . $data['Importe'] . "' >";
+                            //$compraProducto=Productos::searchComprasProducto($data['Id_Compra']);
 
-                        foreach ($compraProducto as $productos) {
-                            if ($productos['Tipo'] == 'producto') {
-                                $consulprod = Productos::searchNombreProducto($productos['Id_Articulo']);
+                            /*foreach ($compraProducto as $productos) {
+                                if ($productos['Tipo'] == 'producto') {
+                                    $consulprod = Productos::searchNombreProducto($productos['Id_Articulo']);
 
-                                $resul .= "<input type='hidden' id='resul[]' name='resul[]' value='" . $consulprod;
-                            } else if($productos['Tipo'] == 'pack') {
-                                $consulpack = Productos::searchNombrePacks($productos['Id_Articulo']);
+                                    $resul .= "<input type='hidden' id='resul[]' name='resul[]' value='" . $consulprod;
+                                } else if($productos['Tipo'] == 'pack') {
+                                    $consulpack = Productos::searchNombrePacks($productos['Id_Articulo']);
 
-                                $resul .= "<input type='hidden' id='resul[]' name='resul[]' value='" . $consulpack;
+                                    $resul .= "<input type='hidden' id='resul[]' name='resul[]' value='" . $consulpack;
 
-                            }
+                                }
 
-                           $resul.=":".$productos['Cantidad'].":".$productos['Precio'].":".$productos['Id_Compra']."' >";
-                                                   }
+                               $resul.=":".$productos['Cantidad'].":".$productos['Precio'].":".$productos['Id_Compra']."' >";*/
+                        }
 
-
-
-                    }
                     $_SESSION['historialCompra']=$resul."</div>";
                     $_SESSION['historial']=$h."</div>";
                     $str.=$_SESSION['historial'];

@@ -87,7 +87,7 @@ class HomeParser {
                         }
 
                     }
-                    break;
+                break;
 			}
 			$vista = str_replace('{{' . $tag . '}}', $str, $vista);
 		}

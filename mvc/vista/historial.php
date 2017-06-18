@@ -7,7 +7,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE html>
 <html>
 <head>
-<title>Cereal-Break | Olvidé mi contraseña</title>
+<title>Cereal-Break | Historial de Pedidos</title>
 <!-- for-mobile-apps -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -95,10 +95,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 			</div>
 			<div class="head-t">
 				<ul class="card">
-					<li><a href="?pagina=login"><i class="fa fa-user"
-							aria-hidden="true"></i>Login</a></li>
-					<li><a href="?pagina=register"><i class="fa fa-arrow-right"
-							aria-hidden="true"></i>Registro</a></li>
+					{{login}}
 				</ul>
 			</div>
 			<div class="header-ri"></div>
@@ -137,10 +134,9 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 	<!--banner-->
 	<div class="banner-top">
 		<div class="container">
-			<h3>Olvidé mi contraseña</h3>
+			<h3>Historial de Pedidos</h3>
 			<h4>
-				<a href="?pagina=home">Home</a><label>/</label>Olvidé la
-				contraseña
+				<a href="?pagina=home">Home</a><label>/</label>Historial
 			</h4>
 			<div class="clearfix"></div>
 		</div>
@@ -148,13 +144,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 
 	<div class="container">
 		<div class="row">
-			<div  class="col-lg-2 col-md-4 col-xs-6 thumb">
-
-			</div>
-			<div class="col-lg-8 col-md-4 col-xs-6 thumb form-w3agile"><h3>Tu historial de pedidos</h3>
-
-			</div>
-			<div  class="col-lg-2 col-md-4 col-xs-6 thumb">
+			<div class="col-lg-12 col-md-12 col-xs-12 thumb form-w3agile"><h3>Tu historial de pedidos</h3>
 
 			</div>
 		</div>
@@ -164,15 +154,16 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 			<div id="comprasOculta">
 			{{compraRealizada}}
 			</div>
-			<div  class="col-lg-2 col-md-4 col-xs-6 thumb">
+			<div  class="col-lg-2 col-md-2 col-xs-2 thumb">
 
 			</div>
-			<div id="historialCompras" class="col-lg-8 col-md-4 col-xs-6 thumb">
+			<div id="historialCompras" class="col-lg-8 col-md-8 col-xs-8 thumb">
 
 			</div>
-			<div  class="col-lg-2 col-md-4 col-xs-6 thumb">
+			<div  class="col-lg-2 col-md-2 col-xs-2 thumb">
 
 			</div>
+
 
 		</div>
 	</div>

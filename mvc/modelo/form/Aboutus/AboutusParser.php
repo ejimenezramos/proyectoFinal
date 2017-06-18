@@ -26,7 +26,7 @@ class AboutusParser
                         switch ($info) {
                             case "registed":
                                 $usuario = $_SESSION['usuarios'];
-                                $str = "<li><a href='?pagina=user'><i class='fa fa-user'
+                                $str = "<li><a href='?pagina=account'><i class='fa fa-user'
 							aria-hidden='true'></i>Mi cuenta: $usuario</a></li>";
                                 $str .= "<li><a href='index.php'><i class='fa fa-arrow-right'
 							aria-hidden='true'></i>Cerrar Sesión</a></li>";
@@ -37,7 +37,7 @@ class AboutusParser
                                 break;
                             case "logged":
                                 $usuario = $_SESSION['usuarios'];
-                                $str = "<li><a href='?pagina=user'><i class='fa fa-user'
+                                $str = "<li><a href='?pagina=account'><i class='fa fa-user'
 							aria-hidden='true'></i>Mi cuenta: $usuario</a></li>";
                                 $str .= "<li><a href='index.php'><i class='fa fa-arrow-right'
 							aria-hidden='true'></i>Cerrar Sesión</a></li>";
