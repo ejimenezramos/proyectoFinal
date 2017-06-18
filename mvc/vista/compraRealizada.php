@@ -28,7 +28,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <link href="css/footer.css" rel='stylesheet' type='text/css' />
     <!-- js -->
     <script src="js/jquery-1.11.1.min.js"></script>
-    <script type="text/javascript" src="js/jquery.contacto.js"></script>
+    <script type="text/javascript" src="js/jquery.cookies.js"></script>
     <!-- //js -->
     <!-- start-smoth-scrolling -->
     <script type="text/javascript" src="js/move-top.js"></script>
@@ -96,7 +96,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <!---//End-rate---->
 
 </head>
-<body>
+<body id="bod">
     <!--Pablo 21/05/17: Barra de progreso-->
     <script type="text/javascript">
     $(window).load(function () {

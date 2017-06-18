@@ -33,7 +33,8 @@ class mdlCompra extends padre  {
                 $vad=implode(":", $vas);
                 $rest = substr($vad, 0, -1);
                 $vaq=explode(":", $rest);
-                $tab="<table class='table'><tr><td>Id Producto</td><td>Nombre</td><td>Cantidad</td></tr>";
+
+                $tab="<table id='tablaCompra' class='table'><tr><td>Id Producto</td><td>Nombre</td><td>Cantidad</td></tr>";
                 //foreach($vaq as $a)
                 //{
                 //    if ($cont==0)
@@ -54,21 +55,22 @@ class mdlCompra extends padre  {
                     if ($cont==0)
                     {
                         $tab.="<tr>";
-                        $tab.="<td><input type='text' readonly='readonly' name='id[]' value='".$vaq[$i]."'></td>";
+                        $tab.="<td><input type='text' readonly='readonly' id='id[]' name='id[]' value='".$vaq[$i]."'></td>";
                         $cont++;
                     }else
                     {
                         if ($cont==2)
                         {
                             $cont=0;
-                            $tab.="<td><input type='text' readonly='readonly' name='cantidad[]' value='".$vaq[$i]."'></td></tr>";
+                            $tab.="<td><input type='text' readonly='readonly' id='cantidad[]' name='cantidad[]' value='".$vaq[$i]."'></td></tr>";
                         }else
                         {
-                            $tab.="<td><input type='text' readonly='readonly' name='nombre[]' value='".$vaq[$i]."'></td>";
+                            $tab.="<td><input type='text' readonly='readonly' id='nombre[]' name='nombre[]' value='".$vaq[$i]."'></td>";
                             $cont++;
                         }
                     }
                 }
+
 
                 $tab.="</table>";
                 $_SESSION ['compra'] =$tab;

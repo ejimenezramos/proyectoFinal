@@ -7,7 +7,7 @@ class mdlCompraRealizada extends padre  {
         if (getGet ( 'pagina' ) != self::PAGE) {
             return;
         }
-        if ($_SESSION['info'] != "logged" && $_SESSION['info'] != "registed") {
+        if (!isset($_SESSION['info'])|| ($_SESSION['info'] != "logged" && $_SESSION['info'] != "registed")) {
             $_SESSION['intentoCompra']=true;
             redirectTo ( 'index.php?pagina=login' );
         }

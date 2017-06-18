@@ -21,7 +21,41 @@ class Productos {
         else
             return $datos="";
     }
-
+    public static function searchCompras($id) {
+        $database = medoo::getInstance();
+        $database->openConnection(unserialize(MYSQL_CONFIG));
+        $datos = $database->select('compras', '*',["Id_Usuario[=]"=>$id]);
+        $database->closeConnection();
+        return $datos;
+    }
+    public static function searchComprasProducto($id) {
+        $database = medoo::getInstance();
+        $database->openConnection(unserialize(MYSQL_CONFIG));
+        $datos = $database->select('compras_productos', '*',["Id_Compra[=]"=>$id]);
+        $database->closeConnection();
+        return $datos;
+    }
+    public static function searchNombrePacks($id) {
+        $database = medoo::getInstance();
+        $database->openConnection(unserialize(MYSQL_CONFIG));
+        $datos = $database->select('packs', 'Nombre_Pack',["Id_Pack[=]"=>$id]);
+        $database->closeConnection();
+        return $datos[0];
+    }
+    public static function searchNombreProducto($id) {
+        $database = medoo::getInstance();
+        $database->openConnection(unserialize(MYSQL_CONFIG));
+        $datos = $database->select('productos', 'Nombre_Prod',["Id_Producto[=]"=>$id]);
+        $database->closeConnection();
+        return $datos[0];
+    }
+    public static function searchProd($id) {
+        $database = medoo::getInstance();
+        $database->openConnection(unserialize(MYSQL_CONFIG));
+        $datos = $database->select('productos', 'Nombre_Producto',["Id_Compra[=]"=>$id]);
+        $database->closeConnection();
+        return $datos;
+    }
     public static function searchAllDB() {
         $database = medoo::getInstance();
         $database->openConnection(unserialize(MYSQL_CONFIG));
